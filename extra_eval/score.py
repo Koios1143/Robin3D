@@ -17,6 +17,10 @@
   an object, as GT-mask models do); ``"_iou25"`` also needs IoU >= 0.25. Both go through
   Beacon3D's ``evaluate_grounding.py``; QA goes through ``evaluate_qa.py`` with the GPT
   judge (``--qa_model``), chained to the any-overlap grounding.
+* Beacon3D 3RScan / MultiScan (and the ScanNet controls) on features rebuilt by
+  ``extra_eval/feats``: the same, with GT boxes from the rebuilt ``<domain>_gt_attributes.pt``
+  (benches ``beacon3d_3rscan``, ``beacon3d_multiscan``, ``beacon3d_scannet_rebuilt``,
+  ``beacon3d_scannet_rebuiltraw``).
 
 * checks: ScanRefer (val; Acc@0.25/0.5 as in Robin3D's ``calc_scanrefer_score``) and
   SQA3D (test; Robin3D's ``calc_sqa3d_score``), plus, for these two and ScanQA, the share of
@@ -195,8 +199,9 @@ def run_eval(name, cmd, beacon_root, bdir):
     return parse_printout(p.stdout)
 
 
-def map_to_gt(pred, prop_locs, gt_locs):
-    """First valid ``<OBJxxx>`` -> (proposal, GT object id of max box IoU, that IoU)."""
+def map_to_gt(pred, prop_locs, gt_locs, gt_ids=None):
+    """First valid ``<OBJxxx>`` -> (proposal, GT object id of max box IoU, that IoU).
+    ``gt_ids[k]`` is the object id of ``gt_locs[k]`` (default: the row index, as ScanNet)."""
     from utils.box_utils import box3d_iou, construct_bbox_corners
     prop = next((int(m.group(1)) for m in OBJ.finditer(pred) if int(m.group(1)) < len(prop_locs)), None)
     if prop is None:
@@ -204,31 +209,35 @@ def map_to_gt(pred, prop_locs, gt_locs):
     p = prop_locs[prop].tolist()
     pc = construct_bbox_corners(p[:3], p[3:])
     best, best_iou = None, 0.0
-    for gid, g in enumerate(gt_locs.tolist()):
+    for k, g in enumerate(gt_locs.tolist()):
         iou = box3d_iou(pc, construct_bbox_corners(g[:3], g[3:]))
         if iou > best_iou:
-            best, best_iou = gid, iou
+            best, best_iou = (gt_ids[k] if gt_ids is not None else k), iou
     return prop, best, float(best_iou)
 
 
-def score_beacon3d(pred_dir, out, beacon_root, qa_model, config):
+def score_beacon3d(pred_dir, out, beacon_root, qa_model, config, name="scannet"):
+    """``name`` = scannet (released features) or a rebuilt set (3rscan, multiscan,
+    scannet_rebuilt, scannet_rebuiltraw; see build_annos.rebuilt_sets)."""
     import torch
+    domain = name.split("_")[0]
     beacon_root = Path(beacon_root).resolve()
-    src = {t: json.load(open(beacon_root / "data" / "scannet" / f"scannet_{t}.json")) for t in ["grounding", "qa"]}
+    src = {t: json.load(open(beacon_root / "data" / domain / f"{domain}_{t}.json")) for t in ["grounding", "qa"]}
     preds = {}
     for task in src:
-        p = load_preds(pred_dir, f"beacon3d_scannet_{task}")
+        p = load_preds(pred_dir, f"beacon3d_{name}_{task}")
         if p is None:
             return None
         preds[task] = {int(x["qid"]): x for x in p}
         assert sorted(preds[task]) == list(range(len(src[task]))), f"{task}: {len(p)} vs {len(src[task])}"
-    prop_attrs = torch.load(config.val_file_dict["beacon3d_scannet_grounding"][4], map_location="cpu")
-    gt_attrs = torch.load(config.val_file_dict["beacon3d_scannet_grounding"][6], map_location="cpu")
+    prop_attrs = torch.load(config.val_file_dict[f"beacon3d_{name}_grounding"][4], map_location="cpu")
+    gt_attrs = torch.load(config.val_file_dict[f"beacon3d_{name}_grounding"][6], map_location="cpu")
     res = {"qa_judge": qa_model}
     mapped = []
     for i, s in enumerate(src["grounding"]):
-        scene = s["scan_id"]
-        prop, gid, iou = map_to_gt(preds["grounding"][i]["pred"], prop_attrs[scene]["locs"], gt_attrs[scene]["locs"])
+        scene = preds["grounding"][i]["scene_id"]  # the feature files' scene id (alias)
+        prop, gid, iou = map_to_gt(preds["grounding"][i]["pred"], prop_attrs[scene]["locs"],
+                                   gt_attrs[scene]["locs"], gt_attrs[scene].get("ids"))
         mapped.append((prop, gid, iou))
     res["grounding_no_obj_token"] = sum(m[0] is None for m in mapped)
     for tag, thr in VARIANTS.items():
@@ -240,18 +249,18 @@ def score_beacon3d(pred_dir, out, beacon_root, qa_model, config):
         json.dump(infer, open(out / f"infer_grounding{tag}.json", "w"), indent=1)
         res[f"grounding{tag}"] = run_eval(
             f"grounding{tag}", [sys.executable, str(HERE / "beacon3d" / "beacon_grounding_shim.py"),
-                                "--infer", str(out / f"infer_grounding{tag}.json"), "--domain", "scannet"],
+                                "--infer", str(out / f"infer_grounding{tag}.json"), "--domain", domain],
             beacon_root, out)
     infer = [{"question_id": s["question_id"], "scene_id": s["scene_id"], "question": s["question"],
               "pred": preds["qa"][i]["pred"], "answers": s["answers"]} for i, s in enumerate(src["qa"])]
     path = out / "infer_qa.json"
     json.dump(infer, open(path, "w"), indent=1)
     if not os.environ.get("OPENAI_API_KEY"):
-        print("[beacon3d_scannet] qa: OPENAI_API_KEY unset, GPT-judged evaluation skipped")
+        print(f"[beacon3d_{name}] qa: OPENAI_API_KEY unset, GPT-judged evaluation skipped")
         return res
     processed = out / "infer_qa_processed.json"
     processed.unlink(missing_ok=True)  # evaluate_qa.py silently reuses an existing one
-    res["qa"] = run_eval("qa", [sys.executable, "evaluate_qa.py", "--infer", str(path), "--domain", "scannet",
+    res["qa"] = run_eval("qa", [sys.executable, "evaluate_qa.py", "--infer", str(path), "--domain", domain,
                                 "--model", qa_model, "--output", str(processed),
                                 "--grounding", str(out / "infer_grounding_processed.json")], beacon_root, out)
     return res
@@ -282,8 +291,8 @@ def main():
         out.mkdir(parents=True, exist_ok=True)
         if bench == "real3dqa":
             res = score_real3dqa(args.pred_dir, out, args.name)
-        elif bench == "beacon3d_scannet":
-            res = score_beacon3d(args.pred_dir, out, args.beacon_root, args.qa_model, config)
+        elif bench.startswith("beacon3d_"):
+            res = score_beacon3d(args.pred_dir, out, args.beacon_root, args.qa_model, config, bench[len("beacon3d_"):])
         elif bench == "checks":
             res = score_checks(args.pred_dir, args.released_dir, config)
         elif bench == "scanqa":

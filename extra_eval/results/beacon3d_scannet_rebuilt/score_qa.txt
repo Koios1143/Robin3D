@@ -1,0 +1,19 @@
+Scores saved to extra_eval/results/beacon3d_scannet_rebuilt/infer_qa_processed.json
+Finish processing inference results: EM = 49.35 | EM-R = 53.94 | GPT-Score = 54.83
+
+Scores:
+case: 54.83
+object: 14.29
+
+class: 38.96
+appearance: 55.71
+geometry: 55.54
+spatial: 51.72
+existence: 64.08
+functionality: 66.67
+
+Chain analysis:
+[w/o extra] four types: 26.40, 16.15, 26.40, 31.06
+[overall] four types: 25.71, 17.66, 29.00, 27.62
+R1 (higher better): 34.21
+R2 (lower better): 53.01

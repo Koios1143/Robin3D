@@ -1,0 +1,594 @@
+{
+ "scene0025_00": {
+  "box_iou_rowwise": 0.2857024669647217,
+  "matched_box_iou": 0.9670758247375488,
+  "matched>=0.9": 140,
+  "mask3d_feats": {
+   "matched_cos": 0.9485,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.4525,
+   "cos>0.99": 0.0
+  },
+  "mask3d_feat_pos": {
+   "matched_cos": 0.9812,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.7717,
+   "cos>0.99": 0.2867
+  },
+  "uni3d_feats": {
+   "matched_cos": 0.9943,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.4864,
+   "cos>0.99": 0.2733
+  },
+  "videofeats": {
+   "matched_cos": 0.9983,
+   "rows": 142,
+   "only_mine": 3,
+   "only_released": 3,
+   "mean_cos": 0.6964,
+   "cos>0.99": 0.2887
+  }
+ },
+ "scene0046_00": {
+  "box_iou_rowwise": 0.19690293073654175,
+  "matched_box_iou": 0.9115963578224182,
+  "matched>=0.9": 130,
+  "mask3d_feats": {
+   "matched_cos": 0.9477,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.324,
+   "cos>0.99": 0.0
+  },
+  "mask3d_feat_pos": {
+   "matched_cos": 0.9812,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.7297,
+   "cos>0.99": 0.1867
+  },
+  "uni3d_feats": {
+   "matched_cos": 0.9893,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.4235,
+   "cos>0.99": 0.1667
+  },
+  "videofeats": {
+   "matched_cos": 0.9986,
+   "rows": 127,
+   "only_mine": 10,
+   "only_released": 8,
+   "mean_cos": 0.5799,
+   "cos>0.99": 0.2283
+  }
+ },
+ "scene0050_00": {
+  "box_iou_rowwise": 0.6133317947387695,
+  "matched_box_iou": 0.9999971389770508,
+  "matched>=0.9": 150,
+  "mask3d_feats": {
+   "matched_cos": 0.9396,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.671,
+   "cos>0.99": 0.0
+  },
+  "mask3d_feat_pos": {
+   "matched_cos": 0.9738,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.8592,
+   "cos>0.99": 0.6067
+  },
+  "uni3d_feats": {
+   "matched_cos": 0.9997,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.7147,
+   "cos>0.99": 0.6
+  },
+  "videofeats": {
+   "matched_cos": 0.9983,
+   "rows": 149,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.7931,
+   "cos>0.99": 0.5906
+  }
+ },
+ "scene0144_00": {
+  "box_iou_rowwise": 0.1576148420572281,
+  "matched_box_iou": 0.9233736395835876,
+  "matched>=0.9": 124,
+  "mask3d_feats": {
+   "matched_cos": 0.9654,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.3877,
+   "cos>0.99": 0.0
+  },
+  "mask3d_feat_pos": {
+   "matched_cos": 0.9852,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.7021,
+   "cos>0.99": 0.16
+  },
+  "uni3d_feats": {
+   "matched_cos": 0.9923,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.4061,
+   "cos>0.99": 0.12
+  },
+  "videofeats": {
+   "matched_cos": 0.9984,
+   "rows": 142,
+   "only_mine": 4,
+   "only_released": 4,
+   "mean_cos": 0.6207,
+   "cos>0.99": 0.1549
+  }
+ },
+ "scene0164_00": {
+  "box_iou_rowwise": 0.20858551561832428,
+  "matched_box_iou": 0.9367303252220154,
+  "matched>=0.9": 137,
+  "mask3d_feats": {
+   "matched_cos": 0.9744,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.4172,
+   "cos>0.99": 0.0
+  },
+  "mask3d_feat_pos": {
+   "matched_cos": 0.9839,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.7195,
+   "cos>0.99": 0.2067
+  },
+  "uni3d_feats": {
+   "matched_cos": 0.9682,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.4086,
+   "cos>0.99": 0.1733
+  },
+  "videofeats": {
+   "matched_cos": 0.9987,
+   "rows": 142,
+   "only_mine": 4,
+   "only_released": 4,
+   "mean_cos": 0.652,
+   "cos>0.99": 0.2183
+  }
+ },
+ "scene0378_00": {
+  "box_iou_rowwise": 0.21093671023845673,
+  "matched_box_iou": 0.9685781598091125,
+  "matched>=0.9": 139,
+  "mask3d_feats": {
+   "matched_cos": 0.9514,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.4404,
+   "cos>0.99": 0.0
+  },
+  "mask3d_feat_pos": {
+   "matched_cos": 0.9664,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.7208,
+   "cos>0.99": 0.2
+  },
+  "uni3d_feats": {
+   "matched_cos": 0.9951,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.4264,
+   "cos>0.99": 0.2067
+  },
+  "videofeats": {
+   "matched_cos": 0.9991,
+   "rows": 141,
+   "only_mine": 4,
+   "only_released": 4,
+   "mean_cos": 0.635,
+   "cos>0.99": 0.2057
+  }
+ },
+ "scene0426_00": {
+  "box_iou_rowwise": 0.3232000768184662,
+  "matched_box_iou": 0.9630812406539917,
+  "matched>=0.9": 139,
+  "mask3d_feats": {
+   "matched_cos": 0.9701,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.4608,
+   "cos>0.99": 0.0
+  },
+  "mask3d_feat_pos": {
+   "matched_cos": 0.9874,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.7643,
+   "cos>0.99": 0.3133
+  },
+  "uni3d_feats": {
+   "matched_cos": 0.9991,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.5337,
+   "cos>0.99": 0.3067
+  },
+  "videofeats": {
+   "matched_cos": 0.9992,
+   "rows": 141,
+   "only_mine": 4,
+   "only_released": 5,
+   "mean_cos": 0.7239,
+   "cos>0.99": 0.3333
+  }
+ },
+ "scene0458_01": {
+  "box_iou_rowwise": 0.7773157954216003,
+  "matched_box_iou": 0.9999986886978149,
+  "matched>=0.9": 150,
+  "mask3d_feats": {
+   "matched_cos": 0.9727,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.8273,
+   "cos>0.99": 0.0
+  },
+  "mask3d_feat_pos": {
+   "matched_cos": 0.9855,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.9205,
+   "cos>0.99": 0.7733
+  },
+  "uni3d_feats": {
+   "matched_cos": 0.999,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.8424,
+   "cos>0.99": 0.7733
+  },
+  "videofeats": {
+   "matched_cos": 0.9993,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.9185,
+   "cos>0.99": 0.7867
+  }
+ },
+ "scene0518_00": {
+  "box_iou_rowwise": 0.27810972929000854,
+  "matched_box_iou": 0.990016758441925,
+  "matched>=0.9": 148,
+  "mask3d_feats": {
+   "matched_cos": 0.9476,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.494,
+   "cos>0.99": 0.0
+  },
+  "mask3d_feat_pos": {
+   "matched_cos": 0.9713,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.7667,
+   "cos>0.99": 0.2533
+  },
+  "uni3d_feats": {
+   "matched_cos": 0.9971,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.4653,
+   "cos>0.99": 0.2667
+  },
+  "videofeats": {
+   "matched_cos": 0.9972,
+   "rows": 140,
+   "only_mine": 6,
+   "only_released": 4,
+   "mean_cos": 0.6528,
+   "cos>0.99": 0.2929
+  }
+ },
+ "scene0568_02": {
+  "box_iou_rowwise": 0.4478757679462433,
+  "matched_box_iou": 0.979573667049408,
+  "matched>=0.9": 146,
+  "mask3d_feats": {
+   "matched_cos": 0.9603,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.551,
+   "cos>0.99": 0.0
+  },
+  "mask3d_feat_pos": {
+   "matched_cos": 0.9809,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.8091,
+   "cos>0.99": 0.44
+  },
+  "uni3d_feats": {
+   "matched_cos": 0.9972,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.6064,
+   "cos>0.99": 0.4333
+  },
+  "videofeats": {
+   "matched_cos": 0.9985,
+   "rows": 141,
+   "only_mine": 3,
+   "only_released": 3,
+   "mean_cos": 0.7288,
+   "cos>0.99": 0.4397
+  }
+ },
+ "scene0591_02": {
+  "box_iou_rowwise": 0.17703275382518768,
+  "matched_box_iou": 0.9378581643104553,
+  "matched>=0.9": 132,
+  "mask3d_feats": {
+   "matched_cos": 0.9327,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.3805,
+   "cos>0.99": 0.0
+  },
+  "mask3d_feat_pos": {
+   "matched_cos": 0.9655,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.7069,
+   "cos>0.99": 0.1733
+  },
+  "uni3d_feats": {
+   "matched_cos": 0.9795,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.4012,
+   "cos>0.99": 0.16
+  },
+  "videofeats": {
+   "matched_cos": 0.9986,
+   "rows": 147,
+   "only_mine": 1,
+   "only_released": 1,
+   "mean_cos": 0.6149,
+   "cos>0.99": 0.1701
+  }
+ },
+ "scene0593_00": {
+  "box_iou_rowwise": 0.35758522152900696,
+  "matched_box_iou": 0.9780228734016418,
+  "matched>=0.9": 145,
+  "mask3d_feats": {
+   "matched_cos": 0.9637,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.4875,
+   "cos>0.99": 0.0
+  },
+  "mask3d_feat_pos": {
+   "matched_cos": 0.9835,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.7736,
+   "cos>0.99": 0.3467
+  },
+  "uni3d_feats": {
+   "matched_cos": 0.9956,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.5466,
+   "cos>0.99": 0.3467
+  },
+  "videofeats": {
+   "matched_cos": 0.9983,
+   "rows": 141,
+   "only_mine": 5,
+   "only_released": 4,
+   "mean_cos": 0.7125,
+   "cos>0.99": 0.3617
+  }
+ },
+ "scene0616_00": {
+  "box_iou_rowwise": 0.6571767926216125,
+  "matched_box_iou": 0.995491623878479,
+  "matched>=0.9": 148,
+  "mask3d_feats": {
+   "matched_cos": 0.897,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.7814,
+   "cos>0.99": 0.0
+  },
+  "mask3d_feat_pos": {
+   "matched_cos": 0.9506,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.889,
+   "cos>0.99": 0.6533
+  },
+  "uni3d_feats": {
+   "matched_cos": 0.9971,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.7479,
+   "cos>0.99": 0.6467
+  },
+  "videofeats": {
+   "matched_cos": 0.9991,
+   "rows": 139,
+   "only_mine": 5,
+   "only_released": 3,
+   "mean_cos": 0.8555,
+   "cos>0.99": 0.6835
+  }
+ },
+ "scene0697_01": {
+  "box_iou_rowwise": 0.9599981904029846,
+  "matched_box_iou": 0.9999980926513672,
+  "matched>=0.9": 150,
+  "mask3d_feats": {
+   "matched_cos": 0.9762,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.9595,
+   "cos>0.99": 0.0
+  },
+  "mask3d_feat_pos": {
+   "matched_cos": 0.9941,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.9823,
+   "cos>0.99": 0.96
+  },
+  "uni3d_feats": {
+   "matched_cos": 0.9986,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.9692,
+   "cos>0.99": 0.96
+  },
+  "videofeats": {
+   "matched_cos": 0.9965,
+   "rows": 147,
+   "only_mine": 1,
+   "only_released": 1,
+   "mean_cos": 0.9881,
+   "cos>0.99": 0.9252
+  }
+ },
+ "scene0699_00": {
+  "box_iou_rowwise": 0.4470326602458954,
+  "matched_box_iou": 0.9980534911155701,
+  "matched>=0.9": 149,
+  "mask3d_feats": {
+   "matched_cos": 0.9604,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.5741,
+   "cos>0.99": 0.0
+  },
+  "mask3d_feat_pos": {
+   "matched_cos": 0.9803,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.8014,
+   "cos>0.99": 0.4667
+  },
+  "uni3d_feats": {
+   "matched_cos": 0.9973,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.6001,
+   "cos>0.99": 0.4467
+  },
+  "videofeats": {
+   "matched_cos": 0.9991,
+   "rows": 137,
+   "only_mine": 6,
+   "only_released": 7,
+   "mean_cos": 0.7484,
+   "cos>0.99": 0.4891
+  }
+ },
+ "scene0700_00": {
+  "box_iou_rowwise": 0.8670341968536377,
+  "matched_box_iou": 0.9994357228279114,
+  "matched>=0.9": 150,
+  "mask3d_feats": {
+   "matched_cos": 0.9508,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.8934,
+   "cos>0.99": 0.0
+  },
+  "mask3d_feat_pos": {
+   "matched_cos": 0.9763,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.9595,
+   "cos>0.99": 0.8667
+  },
+  "uni3d_feats": {
+   "matched_cos": 0.9973,
+   "rows": 150,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.9038,
+   "cos>0.99": 0.8667
+  },
+  "videofeats": {
+   "matched_cos": 0.999,
+   "rows": 147,
+   "only_mine": 0,
+   "only_released": 0,
+   "mean_cos": 0.929,
+   "cos>0.99": 0.8639
+  }
+ }
+}

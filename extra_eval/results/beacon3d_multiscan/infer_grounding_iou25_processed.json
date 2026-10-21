@@ -1,0 +1,7685 @@
+[
+  {
+    "obj_id": "scene_00114_00-19",
+    "text": [
+      "bottle",
+      "the bottle closest to the refrigerator"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-19",
+    "text": [
+      "bottle",
+      "the bottle closest to the mop"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-19",
+    "text": [
+      "bottle",
+      "the bottle closest to the gray towel"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-22",
+    "text": [
+      "bottle",
+      "yellow bottle",
+      "the yellow bottle farthest from the refrigerator"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-22",
+    "text": [
+      "bottle",
+      "yellow bottle",
+      "the yellow bottle closest to the rice cooker"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-22",
+    "text": [
+      "bottle",
+      "yellow bottle",
+      "the yellow bottle closest to the cutting board"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-21",
+    "text": [
+      "bottle",
+      "dark blue bottle"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-21",
+    "text": [
+      "bottle",
+      "dark blue bottle",
+      "dark blue bottle on the windowsill"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-21",
+    "text": [
+      "bottle",
+      "dark blue bottle",
+      "dark blue bottle closest to the window"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-37",
+    "text": [
+      "water bottle",
+      "the water bottle near the kettle"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-37",
+    "text": [
+      "water bottle",
+      "the water bottle far from window"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-37",
+    "text": [
+      "water bottle",
+      "the water bottle on the cabinet"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-23",
+    "text": [
+      "bottles",
+      "the closely adjacent bottles",
+      "the bottle in the middle of the three closely adjacent bottles"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-23",
+    "text": [
+      "bottles",
+      "the blue and white striped bottle",
+      "the blue and white striped bottle next to the deep blue bottle"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-23",
+    "text": [
+      "bottles",
+      "the blue and white striped bottle",
+      "the blue and white striped bottle closest to the cutting board"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-20",
+    "text": [
+      "bottle",
+      "yellow bottle",
+      "the yellow bottle closest to the refrigerator"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-20",
+    "text": [
+      "bottle",
+      "yellow bottle",
+      "the yellow bottle closest to the mop"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-20",
+    "text": [
+      "bottle",
+      "yellow bottle",
+      "the yellow bottle farthest from the cutting board"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-39",
+    "text": [
+      "plastic bag",
+      "black plastic bag"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-39",
+    "text": [
+      "plastic bag",
+      "black plastic bag",
+      "black plastic bag on the floor"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-39",
+    "text": [
+      "plastic bag",
+      "black plastic bag",
+      "black plastic bag closest to the trash bin"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-41",
+    "text": [
+      "paper bag",
+      "brown paper bag",
+      "brown big paper bag"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-geometry-appearance"
+    ],
+    "correct": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-41",
+    "text": [
+      "paper bag",
+      "brown paper bag",
+      "brown paper bag on the floor"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-41",
+    "text": [
+      "paper bag",
+      "paper bag next to the plastic bag"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-43",
+    "text": [
+      "paper bag",
+      "the paper bag closest to the kettle"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-43",
+    "text": [
+      "paper bag",
+      "the paper bag closest to the stove"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-43",
+    "text": [
+      "paper bag",
+      "the paper bag on the cabinet"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-50",
+    "text": [
+      "pot cover",
+      "pot cover on the commode"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-50",
+    "text": [
+      "pot cover",
+      "pot cover opposite the sink"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-50",
+    "text": [
+      "pot cover",
+      "pot cover farthest from the mop"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-51",
+    "text": [
+      "trash bin lid",
+      "the trash bin lid next to the trash bin"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-51",
+    "text": [
+      "trash bin lid",
+      "the trash bin lid closest to the refrigerator"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-51",
+    "text": [
+      "trash bin lid",
+      "the trash bin lid closest to the mop"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-28",
+    "text": [
+      "cabinet",
+      "a cabinet with a kettle"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-28",
+    "text": [
+      "cabinet",
+      "the cabinet closest to the trash bin"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-28",
+    "text": [
+      "cabinet",
+      "the cabinet closest to the trash bin lid"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-25",
+    "text": [
+      "wall cabinet",
+      "the wall cabinet closest to the yellow towel"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-25",
+    "text": [
+      "wall cabinet",
+      "the wall cabinet closest to the stove"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-25",
+    "text": [
+      "wall cabinet",
+      "the wall cabinet closest to the microwave"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-30",
+    "text": [
+      "wall cabinet",
+      "the wall cabinet closest to the refrigerator"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-30",
+    "text": [
+      "wall cabinet",
+      "the wall cabinet closest to the door"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-30",
+    "text": [
+      "wall cabinet",
+      "the wall cabinet closest to the mop"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-27",
+    "text": [
+      "cabinet",
+      "cabinet under the sink"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-27",
+    "text": [
+      "cabinet",
+      "cabinet under the steel ball"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-27",
+    "text": [
+      "cabinet",
+      "cabinet closest to the water faucet"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-24",
+    "text": [
+      "water faucet",
+      "the water faucet next to the steel ball"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-24",
+    "text": [
+      "water faucet",
+      "the water faucet next to the sink"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-24",
+    "text": [
+      "water faucet",
+      "the water faucet closest to the window"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-36",
+    "text": [
+      "kettle",
+      "black kettle"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-36",
+    "text": [
+      "kettle",
+      "kettle closest to the stove"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-36",
+    "text": [
+      "kettle",
+      "kettle opposite the trash can"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-26",
+    "text": [
+      "microwave",
+      "the microwave above the stove"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-26",
+    "text": [
+      "microwave",
+      "the microwave closest to the kettle"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-26",
+    "text": [
+      "microwave",
+      "the microwave closest to the rice cooker"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-49",
+    "text": [
+      "cutting board",
+      "the cutting board closest to the rice maker"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-49",
+    "text": [
+      "cutting board",
+      "the cutting board closest to the microwave"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-49",
+    "text": [
+      "cutting board",
+      "the cutting board farthest from the refrigerator"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-48",
+    "text": [
+      "cutting board",
+      "the cutting board closest to the sink"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-48",
+    "text": [
+      "cutting board",
+      "the cutting board farthest from the rice cooker"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-48",
+    "text": [
+      "cutting board",
+      "the cutting board closest to the steel ball"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-45",
+    "text": [
+      "towel",
+      "white towel"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-45",
+    "text": [
+      "towel",
+      "the towel closest to the mop"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-45",
+    "text": [
+      "towel",
+      "the towel closest to the fridge"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-47",
+    "text": [
+      "towel",
+      "yellow towel"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-47",
+    "text": [
+      "towel",
+      "the towel closest to the stove"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-47",
+    "text": [
+      "towel",
+      "the towel closest to the microwave"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-34",
+    "text": [
+      "steel ball",
+      "the steel ball next to the water faucet"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-34",
+    "text": [
+      "steel ball",
+      "the steel ball above the sink"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-34",
+    "text": [
+      "steel ball",
+      "the steel ball closest to the refrigerator"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-14",
+    "text": [
+      "window",
+      "the window next to the door"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-14",
+    "text": [
+      "window",
+      "the window closest to the mop"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-14",
+    "text": [
+      "window",
+      "the window farthest from the rice cooker"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-17",
+    "text": [
+      "window",
+      "the window closest to the sink"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-17",
+    "text": [
+      "window",
+      "the window closest to the steel ball"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-17",
+    "text": [
+      "window",
+      "the window closest to the yellow towel"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-13",
+    "text": [
+      "door",
+      "white door"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-13",
+    "text": [
+      "door",
+      "door closest to the refrigerator"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-13",
+    "text": [
+      "door",
+      "open door"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-44",
+    "text": [
+      "box",
+      "the box closest to the sink"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-44",
+    "text": [
+      "box",
+      "the box closest to the steel ball"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-44",
+    "text": [
+      "box",
+      "the box closest to the faucet"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-42",
+    "text": [
+      "box",
+      "the box closest to the kettle"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-42",
+    "text": [
+      "box",
+      "the box farthest from the mop"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-42",
+    "text": [
+      "box",
+      "the box closest to the stove"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-40",
+    "text": [
+      "box",
+      "the box next to the black plastic bag"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-40",
+    "text": [
+      "box",
+      "the box closest to the trash bin lid"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-40",
+    "text": [
+      "box",
+      "the box closest to the door"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-16",
+    "text": [
+      "mop",
+      "the mop closest to the trash bin"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-16",
+    "text": [
+      "mop",
+      "the mop next to the refrigerator"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-16",
+    "text": [
+      "mop",
+      "the mop closest to the sink"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-33",
+    "text": [
+      "sink",
+      "the sink closest to the steel ball"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-33",
+    "text": [
+      "sink",
+      "the sink closest to the water faucet"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-33",
+    "text": [
+      "sink",
+      "the sink in front of window"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-29",
+    "text": [
+      "range",
+      "range under the microwave"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-29",
+    "text": [
+      "range",
+      "range on the floor"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-29",
+    "text": [
+      "range",
+      "the range closest to the kettle"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-38",
+    "text": [
+      "trash bin",
+      "large trash bin"
+    ],
+    "tag": [
+      "class",
+      "class-geometry"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-38",
+    "text": [
+      "trash bin",
+      "the trash bin opposite the sink"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-38",
+    "text": [
+      "trash bin",
+      "white trash bin"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-46",
+    "text": [
+      "light",
+      "the light on the ceiling"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-46",
+    "text": [
+      "light",
+      "the white light"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-46",
+    "text": [
+      "light",
+      "the light above the large trash bin"
+    ],
+    "tag": [
+      "class",
+      "class-geometry-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-31",
+    "text": [
+      "refrigerator",
+      "mop next to the refrigerator"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-31",
+    "text": [
+      "refrigerator",
+      "refrigerator next to the windowsill"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-31",
+    "text": [
+      "refrigerator",
+      "refrigerator next to the window"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-35",
+    "text": [
+      "rice maker",
+      "the rice maker closest to the stove"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-35",
+    "text": [
+      "rice maker",
+      "the rice maker in the corner of the room"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00114_00-35",
+    "text": [
+      "rice maker",
+      "the rice maker closest to the cutting board"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-37",
+    "text": [
+      "clothes",
+      "clothes on the chair",
+      "the clothes on the chair closest to the monitor"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-37",
+    "text": [
+      "clothes",
+      "clothes on the chair",
+      "the clothes on the chair closest to the mouse"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-37",
+    "text": [
+      "clothes",
+      "clothes on the chair",
+      "the clothes on the chair closest to the bed"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-42",
+    "text": [
+      "clothes",
+      "clothes on the chair in the middle of the doorframe"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-42",
+    "text": [
+      "clothes",
+      "clothes on the chair",
+      "clothes on the chair under the beam"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-42",
+    "text": [
+      "clothes",
+      "clothes on the chair",
+      "the dark grey clothes"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-40",
+    "text": [
+      "curtain",
+      "curtain next to the radiator shell"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-40",
+    "text": [
+      "curtain",
+      "the curtain closer to calendar"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-40",
+    "text": [
+      "curtain",
+      "the curtain right next to the wall cabinet"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-41",
+    "text": [
+      "curtain",
+      "curtain",
+      "the curtain furthest from the radiator shell"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-41",
+    "text": [
+      "curtain",
+      "curtain",
+      "the curtain closest to the monitor"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-41",
+    "text": [
+      "curtain",
+      "the curtain next to the cabinet",
+      "the curtain next to the cabinet filled with clothes"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-16",
+    "text": [
+      "the clock",
+      "the clock on the wall",
+      "the clock on the wall above the tv"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-16",
+    "text": [
+      "the clock",
+      "the clock next to the calendar"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-16",
+    "text": [
+      "the clock",
+      "the clock with a blue frame"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-15",
+    "text": [
+      "cabinet",
+      "wall cabinet",
+      "the wall cabinet closest to the clock"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-15",
+    "text": [
+      "cabinet",
+      "wall cabinet",
+      "the wall cabinet closest to the calendar"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-15",
+    "text": [
+      "cabinet",
+      "wall cabinet",
+      "the wall cabinet above the radiator shell"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-14",
+    "text": [
+      "cabinet",
+      "nightstand",
+      "the nightstand closest to the tv"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-14",
+    "text": [
+      "cabinet",
+      "nightstand",
+      "the nightstand closest to the tv box"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class"
+    ],
+    "correct": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-14",
+    "text": [
+      "cabinet",
+      "nightstand",
+      "the nightstand right next to the radiator shell"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-6",
+    "text": [
+      "cabinet",
+      "the cabinet closest to the monitor"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-6",
+    "text": [
+      "cabinet",
+      "the cabinet closest to the keyboard"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-6",
+    "text": [
+      "cabinet",
+      "the cabinet closest to the mouse"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-11",
+    "text": [
+      "cabinet",
+      "the cabinet under the tv"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-11",
+    "text": [
+      "cabinet",
+      "the cabinet with the remote control"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-11",
+    "text": [
+      "cabinet",
+      "the cabinet under the tv box"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-23",
+    "text": [
+      "cabinet",
+      "nightstand",
+      "the nightstand closest to the door"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-23",
+    "text": [
+      "cabinet",
+      "nightstand",
+      "the nightstand closest to the bed"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-23",
+    "text": [
+      "cabinet",
+      "nightstand",
+      "the nightstand closest to the bag"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-33",
+    "text": [
+      "radiator shell",
+      "rectangular radiator shell"
+    ],
+    "tag": [
+      "class",
+      "class-geometry"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-33",
+    "text": [
+      "radiator shell",
+      "radiator shell under the wall cabinet"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-33",
+    "text": [
+      "radiator shell",
+      "orange-yellow radiator shell"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-13",
+    "text": [
+      "box",
+      "white box"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-13",
+    "text": [
+      "box",
+      "the box closest to the tv"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-13",
+    "text": [
+      "box",
+      "the box closest to the door"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-30",
+    "text": [
+      "box",
+      "light brown box"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-30",
+    "text": [
+      "box",
+      "the box under the small desk"
+    ],
+    "tag": [
+      "class",
+      "class-geometry-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-30",
+    "text": [
+      "box",
+      "the box farthest from the tv"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-34",
+    "text": [
+      "chairs",
+      "chair with a pillow"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-34",
+    "text": [
+      "chairs",
+      "chair right next to the radiator shell"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-34",
+    "text": [
+      "chairs",
+      "chair closest to the clock"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-38",
+    "text": [
+      "chair",
+      "the chair right next to the bed"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-38",
+    "text": [
+      "chair",
+      "the chair placed at the corner between the small desk and the end of the bed"
+    ],
+    "tag": [
+      "class",
+      "class-geometry-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-38",
+    "text": [
+      "chair",
+      "the chair closest to the keyboard"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-39",
+    "text": [
+      "chair",
+      "the chair between the door frames"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-39",
+    "text": [
+      "chair",
+      "the chair with clothes on it",
+      "the chair closest to the radiator shell with clothes on it"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-39",
+    "text": [
+      "chair",
+      "the chair right below the beam"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-31",
+    "text": [
+      "pillow",
+      "white and blue striped pillow",
+      "the white and blue striped pillow on the bed"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-31",
+    "text": [
+      "pillow",
+      "pillow with white and blue stripes",
+      "the pillow with white and blue stripes next to the bag"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-31",
+    "text": [
+      "pillow",
+      "pillow with white and blue stripes",
+      "the pillow with white and blue stripes right next to the head of the bed"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-19",
+    "text": [
+      "pillow",
+      "red and white striped pillow"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-19",
+    "text": [
+      "pillow",
+      "the pillow closest to the telephone"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-19",
+    "text": [
+      "pillow",
+      "the pillow closest to the door"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-36",
+    "text": [
+      "pillow",
+      "the pillow closest to the monitor"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-36",
+    "text": [
+      "pillow",
+      "the pillow closest to the mouse"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-36",
+    "text": [
+      "pillow",
+      "the pillow closest to the keyboard"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-35",
+    "text": [
+      "pillow",
+      "the pillow closest to the radiator shell"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-35",
+    "text": [
+      "pillow",
+      "the pillow closest to the calendar"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-35",
+    "text": [
+      "pillow",
+      "the pillow closest to the clock"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-47",
+    "text": [
+      "table",
+      "desk",
+      "the desk closest to the window"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-47",
+    "text": [
+      "table",
+      "desk",
+      "the desk on the balcony"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-47",
+    "text": [
+      "table",
+      "desk",
+      "the desk closest to the chair",
+      "the desk closest to the black chair"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-29",
+    "text": [
+      "desk",
+      "desk right next to the bed"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-29",
+    "text": [
+      "desk",
+      "desk with a mouse on it"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-29",
+    "text": [
+      "desk",
+      "desk with a monitor on it"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-26",
+    "text": [
+      "speaker",
+      "light yellow speaker"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-26",
+    "text": [
+      "speaker",
+      "speaker on the desk",
+      "speaker on the small desk"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-geometry-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-26",
+    "text": [
+      "speaker",
+      "speaker next to the keyboard"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-21",
+    "text": [
+      "quilt",
+      "the quilt farthest from the keyboard"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-21",
+    "text": [
+      "quilt",
+      "the quilt farthest from the monitor"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-21",
+    "text": [
+      "quilt",
+      "the quilt closest to the bag"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-20",
+    "text": [
+      "quilt",
+      "light blue quilt",
+      "the light blue quilt at the end of the bed"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-20",
+    "text": [
+      "quilt",
+      "light blue quilt",
+      "the light blue quilt closest to the speaker"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-20",
+    "text": [
+      "quilt",
+      "light blue quilt",
+      "the light blue quilt closest to the keyboard"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-28",
+    "text": [
+      "mouse",
+      "mouse next to the keyboard"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-28",
+    "text": [
+      "mouse",
+      "mouse next to the monitor"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-28",
+    "text": [
+      "mouse",
+      "mouse next to the speaker"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-25",
+    "text": [
+      "monitor",
+      "monitor next to the mouse"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-25",
+    "text": [
+      "monitor",
+      "monitor next to the keyboard"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-25",
+    "text": [
+      "monitor",
+      "monitor next to the bed"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-9",
+    "text": [
+      "tv",
+      "the tv below the calendar diagonally"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-9",
+    "text": [
+      "tv",
+      "the black tv"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-9",
+    "text": [
+      "tv",
+      "the tv next to the tv box"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-4",
+    "text": [
+      "door",
+      "the door next to the telephone"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-4",
+    "text": [
+      "door",
+      "yellow door"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-4",
+    "text": [
+      "door",
+      "the door next to the box",
+      "the door next to the white box"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-24",
+    "text": [
+      "telephone",
+      "telephone on the nightstand"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-24",
+    "text": [
+      "telephone",
+      "telephone next to the door"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-24",
+    "text": [
+      "telephone",
+      "black telephone"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-12",
+    "text": [
+      "tv box",
+      "the tv box next to the tv"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-12",
+    "text": [
+      "tv box",
+      "the light gray tv box"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-12",
+    "text": [
+      "tv box",
+      "the rectangular tv box"
+    ],
+    "tag": [
+      "class",
+      "class-geometry"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-49",
+    "text": [
+      "window",
+      "the window next to the chair",
+      "the window next to the black chair"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-49",
+    "text": [
+      "window",
+      "the window above the wall",
+      "the window above the orange-yellow wall"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-49",
+    "text": [
+      "window",
+      "the glass window"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-18",
+    "text": [
+      "bed",
+      "bed with a bag"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-18",
+    "text": [
+      "bed",
+      "bed with a quilt"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-18",
+    "text": [
+      "bed",
+      "bed next to the monitor"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-17",
+    "text": [
+      "calendar",
+      "calendar right next to the clock"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-17",
+    "text": [
+      "calendar",
+      "calendar hanging on the wall"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-17",
+    "text": [
+      "calendar",
+      "rectangular calendar"
+    ],
+    "tag": [
+      "class",
+      "class-geometry"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-27",
+    "text": [
+      "keyboard",
+      "keyboard next to the mouse"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-27",
+    "text": [
+      "keyboard",
+      "black keyboard"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-27",
+    "text": [
+      "keyboard",
+      "keyboard next to the monitor"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-32",
+    "text": [
+      "bag",
+      "green bag"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-32",
+    "text": [
+      "bag",
+      "bag on the bed"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00105_06-32",
+    "text": [
+      "bag",
+      "bag next to the quilt",
+      "bag next to the striped quilt"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-13",
+    "text": [
+      "chair",
+      "chair with pillows",
+      "chair with four pillows"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-13",
+    "text": [
+      "chair",
+      "chair next to an empty chair"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-13",
+    "text": [
+      "chair",
+      "chair with pillows",
+      "chair with a yellow pillow"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-12",
+    "text": [
+      "chair",
+      "the chair furthest from the speaker",
+      "the chair furthest from the speaker with no pillow on it"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-12",
+    "text": [
+      "chair",
+      "the chair with no pillow"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-12",
+    "text": [
+      "chair",
+      "the chair closest to the window",
+      "the chair closest to the small window"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-geometry-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-15",
+    "text": [
+      "chair",
+      "the chair closest to the suitcase",
+      "the chair closest to the green suitcase"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-15",
+    "text": [
+      "chair",
+      "the chair closest to the wood fence"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-15",
+    "text": [
+      "chair",
+      "the chair closest to the painting",
+      "the chair closest to the blue painting"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-20",
+    "text": [
+      "speaker",
+      "speaker",
+      "speaker on the table"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-20",
+    "text": [
+      "speaker",
+      "speaker",
+      "the black speaker"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-20",
+    "text": [
+      "speaker",
+      "speaker",
+      "the round speaker"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-geometry"
+    ],
+    "correct": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-24",
+    "text": [
+      "box",
+      "suitcase",
+      "green suitcase"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-24",
+    "text": [
+      "box",
+      "suitcase",
+      "green suitcase",
+      "green suitcase next to the couch"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-appearance",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-24",
+    "text": [
+      "box",
+      "suitcase",
+      "green suitcase",
+      "green suitcase furthest from the window"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-appearance",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-23",
+    "text": [
+      "box",
+      "suitcase",
+      "black suitcase",
+      "black suitcase right next to the pillar"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-appearance",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-23",
+    "text": [
+      "box",
+      "suitcase",
+      "black suitcase",
+      "black suitcase farthest from the windowsill"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-23",
+    "text": [
+      "box",
+      "suitcase",
+      "black suitcase",
+      "black suitcase closest to the speaker"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-appearance",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-21",
+    "text": [
+      "box",
+      "suitcase",
+      "the suitcase on the table"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-21",
+    "text": [
+      "box",
+      "suitcase",
+      "the flat suitcase"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-21",
+    "text": [
+      "box",
+      "suitcase",
+      "black suitcase",
+      "the black suitcase farthest from the speaker"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-22",
+    "text": [
+      "box",
+      "suitcase",
+      "silver-white suitcase"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-22",
+    "text": [
+      "box",
+      "suitcase",
+      "silver-white suitcase",
+      "the silver-white suitcase opposite the tv"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-22",
+    "text": [
+      "box",
+      "suitcase",
+      "silver-white suitcase",
+      "the silver-white suitcase closest to the pillar"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-32",
+    "text": [
+      "sofa cushion",
+      "the sofa cushion furthest from the window"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-32",
+    "text": [
+      "sofa cushion",
+      "the sofa cushion closest to the painting",
+      "the sofa cushion closest to the blue painting"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-32",
+    "text": [
+      "sofa cushion",
+      "the sofa cushion furthest from the windowsill"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-29",
+    "text": [
+      "sofa cushion",
+      "the sofa cushion closest to the windowsill"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-29",
+    "text": [
+      "sofa cushion",
+      "the sofa cushion closest to the window",
+      "the sofa cushion closest to the large window"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-geometry-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-29",
+    "text": [
+      "sofa cushion",
+      "the sofa cushion farthest from the speaker"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-10",
+    "text": [
+      "tv",
+      "black tv"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-10",
+    "text": [
+      "tv",
+      "tv hanging on the tv stand"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-10",
+    "text": [
+      "tv",
+      "tv opposite the suitcase",
+      "tv opposite the silver suitcase"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-4",
+    "text": [
+      "fence",
+      "wood fence",
+      "natural colored wood fence"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-4",
+    "text": [
+      "fence",
+      "wood fence",
+      "wood fence next to the pillar"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-4",
+    "text": [
+      "fence",
+      "wood fence",
+      "wood fence behind the sofa"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-19",
+    "text": [
+      "table",
+      "the table with the speaker"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-19",
+    "text": [
+      "table",
+      "the table farthest from the windowsill"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-19",
+    "text": [
+      "table",
+      "the table farthest from the window"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-18",
+    "text": [
+      "table",
+      "the table closest to the wood fence"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-18",
+    "text": [
+      "table",
+      "the table with the suitcase on it"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-18",
+    "text": [
+      "table",
+      "the table closest to the windowsill"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-27",
+    "text": [
+      "pillow",
+      "the yellow pillow",
+      "the yellow pillow on the sofa",
+      "the yellow pillow on the sofa closest to the windowsill"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-27",
+    "text": [
+      "pillow",
+      "the yellow pillow",
+      "the yellow pillow on the sofa",
+      "the yellow pillow on the sofa farthest from the speaker"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-27",
+    "text": [
+      "pillow",
+      "the yellow pillow",
+      "the yellow pillow on the sofa",
+      "the yellow pillow on the sofa closest to the window",
+      "the yellow pillow on the sofa closest to the large window"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance",
+      "class-spatial-appearance",
+      "class-spatial-geometry-appearance"
+    ],
+    "correct": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-36",
+    "text": [
+      "pillow",
+      "yellow pillow",
+      "the yellow pillow on the chair",
+      "the yellow pillow on the chair closest to the window",
+      "the first yellow pillow on the chair closest to the window"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "appearance-class-spatial",
+      "class-spatial-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-36",
+    "text": [
+      "pillow",
+      "yellow pillow",
+      "the yellow pillow on the chair",
+      "the yellow pillow on the chair farthest from the speaker",
+      "the first yellow pillow on the chair farthest from the speaker"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "appearance-class-spatial",
+      "class-spatial-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-36",
+    "text": [
+      "pillow",
+      "yellow pillow",
+      "the yellow pillow on the chair",
+      "the yellow pillow on the chair closest to the windowsill",
+      "the first yellow pillow on the chair closest to the windowsill"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance",
+      "class-spatial-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-30",
+    "text": [
+      "pillow",
+      "pure black pillow",
+      "the pure black pillow closest to the pillar"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-30",
+    "text": [
+      "pillow",
+      "pure black pillow",
+      "the pure black pillow closest to the wood fence"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-30",
+    "text": [
+      "pillow",
+      "pure black pillow",
+      "the pure black pillow on the couch"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-37",
+    "text": [
+      "pillow",
+      "the pillow on the chair",
+      "the pillow on the chair furthest from the backpack",
+      "the second pillow from the top on the chair furthest from the backpack",
+      "the second pillow from the top on the chair furthest from the big backpack"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-spatial",
+      "class-spatial",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-37",
+    "text": [
+      "pillow",
+      "the pillow on the chair",
+      "the pillow on the chair furthest from the speaker",
+      "the second pillow from the top on the chair furthest from the speaker"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-spatial",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-37",
+    "text": [
+      "pillow",
+      "the pillow on the chair",
+      "the pillow on the chair closest to the windowsill",
+      "the second pillow from the top on the chair closest to the windowsill"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-spatial",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-46",
+    "text": [
+      "pillow",
+      "the pillow on the chair",
+      "the pillow on the chair closest to the suitcase.",
+      "the outermost pillow on the chair closest to the suitcase.",
+      "the outermost pillow on the chair closest to the green suitcase"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-spatial",
+      "class-spatial",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-46",
+    "text": [
+      "pillow",
+      "the pillow on the chair",
+      "the pillow on the chair closest to the small backpack",
+      "the outermost pillow on the chair closest to the small backpack"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-geometry-spatial",
+      "class-geometry-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-46",
+    "text": [
+      "pillow",
+      "the pillow on the chair",
+      "the pillow on the chair closest to the painting",
+      "the outermost pillow on the chair closest to the painting",
+      "the outermost pillow on the chair closest to the blue painting"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-spatial",
+      "class-spatial",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-17",
+    "text": [
+      "sofa",
+      "sofa with a backpack"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-17",
+    "text": [
+      "sofa",
+      "the sofa closest to the speaker"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-17",
+    "text": [
+      "sofa",
+      "the sofa closest to the suitcase",
+      "the sofa closest to the green suitcase"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-16",
+    "text": [
+      "sofa",
+      "a sofa without a backpack"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-16",
+    "text": [
+      "sofa",
+      "a sofa with two pillows"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-16",
+    "text": [
+      "sofa",
+      "the sofa closest to the window"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-44",
+    "text": [
+      "picture",
+      "painting",
+      "the painting closest to the windowsill"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-44",
+    "text": [
+      "picture",
+      "painting",
+      "the painting closest to the window"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-44",
+    "text": [
+      "picture",
+      "painting",
+      "the painting furthest from the speaker"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-9",
+    "text": [
+      "picture",
+      "painting",
+      "blue painting"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-9",
+    "text": [
+      "picture",
+      "painting",
+      "blue painting",
+      "the blue painting farthest from the window"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-appearance",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-9",
+    "text": [
+      "picture",
+      "painting",
+      "blue painting",
+      "the blue painting closest to the suitcase",
+      "the blue painting closest to the green suitcase"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-appearance",
+      "class-spatial",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-8",
+    "text": [
+      "picture",
+      "painting",
+      "the painting closest to the chair",
+      "the painting closest to the chair with two pillows"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-8",
+    "text": [
+      "picture",
+      "painting",
+      "the painting closest to the table",
+      "the painting closest to the table with a speaker"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-8",
+    "text": [
+      "picture",
+      "painting",
+      "the painting closest to the speaker"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-26",
+    "text": [
+      "bag",
+      "backpack",
+      "the smallest backpack"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-geometry"
+    ],
+    "correct": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-26",
+    "text": [
+      "bag",
+      "backpack ",
+      "the smallest backpack",
+      "the smallest backpack on the couch"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-geometry",
+      "class-geometry-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-26",
+    "text": [
+      "bag",
+      "backpack",
+      "the backpack farthest from the pillar"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-25",
+    "text": [
+      "bag",
+      "backpack",
+      "the backpack closest to the suitcase",
+      "the backpack closest to the silver suitcase"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial",
+      "class-geometry-spatial"
+    ],
+    "correct": [
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-25",
+    "text": [
+      "bag",
+      "backpack",
+      "the backpack on the couch",
+      "the biggest backpack on the couch"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial",
+      "class-geometry-spatial"
+    ],
+    "correct": [
+      1,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-25",
+    "text": [
+      "bag",
+      "backpack",
+      "the backpack closest to the windowsill"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-6",
+    "text": [
+      "cabinet",
+      "tv cabinet",
+      "a tv cabinet with a tv mounted on it"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-6",
+    "text": [
+      "cabinet",
+      "tv cabinet",
+      "a tv cabinet next to the wall",
+      "a tv cabinet right next to the largest wall"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-spatial",
+      "class-geometry-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-6",
+    "text": [
+      "cabinet",
+      "tv cabinet",
+      "a golden tv cabinet"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-42",
+    "text": [
+      "window",
+      "the largest window"
+    ],
+    "tag": [
+      "class",
+      "class-geometry"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-42",
+    "text": [
+      "window",
+      "the window closest to the painting",
+      "the window closest to the striped painting"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00109_00-42",
+    "text": [
+      "window",
+      "the window closest to the chair",
+      "the window closest to the chair with a yellow pillow"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-1",
+    "text": [
+      "cabinet",
+      "the cabinet next to the mirror"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-1",
+    "text": [
+      "cabinet",
+      "the cabinet closest to the colorful box"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-1",
+    "text": [
+      "cabinet",
+      "the cabinet next to the orange chair"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-17",
+    "text": [
+      "cabinet",
+      "a cabinet with a basket"
+    ],
+    "tag": [
+      "class",
+      "class"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-17",
+    "text": [
+      "cabinet",
+      "yellow cabinet",
+      "a yellow cabinet right next to a chair",
+      "a yellow cabinet right next to a blue chair"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-17",
+    "text": [
+      "cabinet",
+      "yellow cabinet",
+      "a yellow cabinet closest to the bed"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-22",
+    "text": [
+      "cabinet",
+      "a cabinet with a clock"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-22",
+    "text": [
+      "cabinet",
+      "the cabinet farthest from the curtain"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-22",
+    "text": [
+      "cabinet",
+      "the cabinet farthest from the window"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-40",
+    "text": [
+      "cabinet",
+      "the cabinet closest to the curtain"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-40",
+    "text": [
+      "cabinet",
+      "the cabinet with white drawers"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-40",
+    "text": [
+      "cabinet",
+      "the cabinet with white drawers",
+      "the cabinet with white drawers closest to the window"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-19",
+    "text": [
+      "commode",
+      "yellow commode",
+      "yellow short commode"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-geometry-appearance"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-19",
+    "text": [
+      "commode",
+      "short commode",
+      "yellow short commode",
+      "the yellow short commode farthest from the window"
+    ],
+    "tag": [
+      "class",
+      "class-geometry",
+      "class-geometry-appearance",
+      "class-geometry-spatial-appearance"
+    ],
+    "correct": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-19",
+    "text": [
+      "commode",
+      "short commode",
+      "yellow short commode",
+      "the yellow short commode farthest from the woodcarving"
+    ],
+    "tag": [
+      "class",
+      "class-geometry",
+      "class-geometry-appearance",
+      "appearance-class-geometry-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-37",
+    "text": [
+      "pillow",
+      "the pillow closest to the basket"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-37",
+    "text": [
+      "pillow",
+      "the pillow on the chair",
+      "the pillow on the chair opposite the door"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-37",
+    "text": [
+      "pillow",
+      "the pillow on the chair",
+      "the pillow on the chair with pink and yellow patterns"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-32",
+    "text": [
+      "pillow",
+      "the pillow closest to the mirror"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-32",
+    "text": [
+      "pillow",
+      "the pillow closest to the monitor"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-32",
+    "text": [
+      "pillow",
+      "the pillow closest to the paper"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-39",
+    "text": [
+      "pillow",
+      "a pillow with a blue dot pattern on a white background"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-39",
+    "text": [
+      "pillow",
+      "the pillow on the bed"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-39",
+    "text": [
+      "pillow",
+      "the pillow closest to the curtain"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-18",
+    "text": [
+      "basket",
+      "rectangular basket"
+    ],
+    "tag": [
+      "class",
+      "class-geometry"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-18",
+    "text": [
+      "basket",
+      "yellow basket"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-18",
+    "text": [
+      "basket",
+      "basket near the bed"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-10",
+    "text": [
+      "chair",
+      "the chair closest to the windowsill"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-10",
+    "text": [
+      "chair",
+      "the chair closest to the window"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-10",
+    "text": [
+      "chair",
+      "the chair closest to the curtain"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-38",
+    "text": [
+      "chair",
+      "the chair closest to the bed"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-38",
+    "text": [
+      "chair",
+      "the chair closest to the basket"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-38",
+    "text": [
+      "chair",
+      "blue chair",
+      "the blue chair farthest from the paper"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-33",
+    "text": [
+      "chair",
+      "the chair closest to the pc"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-33",
+    "text": [
+      "chair",
+      "the chair closest to the paper"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-33",
+    "text": [
+      "chair",
+      "the chair right next to the desk"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-29",
+    "text": [
+      "suitcase",
+      "the suitcase closest to the window"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-29",
+    "text": [
+      "suitcase",
+      "the suitcase closest to the curtain box"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-29",
+    "text": [
+      "suitcase",
+      "the suitcase farthest from the door"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-36",
+    "text": [
+      "box",
+      "the box closest to the bed"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-36",
+    "text": [
+      "box",
+      "the box closest to the door"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-36",
+    "text": [
+      "box",
+      "the box closest to the monitor"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-26",
+    "text": [
+      "box",
+      "suitcase",
+      "black suitcase",
+      "the black suitcase directly below the colorful box"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-appearance",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-26",
+    "text": [
+      "box",
+      "suitcase",
+      "black suitcase",
+      "the black suitcase closest to the mirror"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-26",
+    "text": [
+      "box",
+      "suitcase",
+      "black suitcase",
+      "the black suitcase closest to the personal computer"
+    ],
+    "tag": [
+      "class",
+      "class",
+      "class-appearance",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-25",
+    "text": [
+      "suitcase",
+      "suitcase closest to the mirror"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-25",
+    "text": [
+      "suitcase",
+      "suitcase closest to the clock"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-25",
+    "text": [
+      "suitcase",
+      "red suitcase",
+      "red suitcase farthest from the window"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-30",
+    "text": [
+      "boxes",
+      "colorful boxes"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-30",
+    "text": [
+      "boxes",
+      "colorful boxes",
+      "the colorful boxes on top of the black suitcase"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-30",
+    "text": [
+      "boxes",
+      "colorful boxes",
+      "the colorful boxes beside the wall"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-31",
+    "text": [
+      "box",
+      "white box"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-31",
+    "text": [
+      "box",
+      "white box",
+      "the white box closest to the mirror"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-31",
+    "text": [
+      "box",
+      "white box",
+      "the white box closest to the curtain box"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "class-spatial-appearance"
+    ],
+    "correct": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-5",
+    "text": [
+      "table",
+      "the table closest to the curtain box"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-5",
+    "text": [
+      "table",
+      "the table closest to the window"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-5",
+    "text": [
+      "table",
+      "the table furthest from the pen"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-35",
+    "text": [
+      "desk",
+      "the desk with a monitor"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-35",
+    "text": [
+      "desk",
+      "the desk with paper"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-35",
+    "text": [
+      "desk",
+      "the desk farthest from the window"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-3",
+    "text": [
+      "mirror",
+      "the mirror closest to the monitor"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-3",
+    "text": [
+      "mirror",
+      "the mirror closest to the computer"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-3",
+    "text": [
+      "mirror",
+      "the mirror opposite the bed"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-12",
+    "text": [
+      "bed",
+      "a bed with pillows on it"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-12",
+    "text": [
+      "bed",
+      "a bed with a white headboard"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-12",
+    "text": [
+      "bed",
+      "a bed below the curtain"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-42",
+    "text": [
+      "windowsill",
+      "the windowsill beside the window"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-42",
+    "text": [
+      "windowsill",
+      "the windowsill closest to the curtain"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-42",
+    "text": [
+      "windowsill",
+      "the windowsill above the woodcarving"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-8",
+    "text": [
+      "paper",
+      "white paper"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-8",
+    "text": [
+      "paper",
+      "paper under the pen"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-8",
+    "text": [
+      "paper",
+      "the paper closest to the monitor"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-21",
+    "text": [
+      "clock",
+      "white clock"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-21",
+    "text": [
+      "clock",
+      "the clock hanging on the cabinet",
+      "the clock hanging on the largest cabinet"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-geometry-spatial"
+    ],
+    "correct": [
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-21",
+    "text": [
+      "clock",
+      "the clock closest to the door"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-4",
+    "text": [
+      "telephone",
+      "the telephone closest to the mirror"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-4",
+    "text": [
+      "telephone",
+      "the telephone farthest from the door"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-4",
+    "text": [
+      "telephone",
+      "the telephone farthest from the personal computer"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-34",
+    "text": [
+      "cellphone",
+      "white cellphone"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-34",
+    "text": [
+      "cellphone",
+      "cellphone next to the monitor"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-34",
+    "text": [
+      "cellphone",
+      "cellphone closest to the mirror"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-13",
+    "text": [
+      "window",
+      "window next to the windowsill"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-13",
+    "text": [
+      "window",
+      "window opposite the door"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-13",
+    "text": [
+      "window",
+      "window next to the curtain"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-20",
+    "text": [
+      "door",
+      "yellow door"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-20",
+    "text": [
+      "door",
+      "the door closest to the clock"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-20",
+    "text": [
+      "door",
+      "the door closest to the basket"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-9",
+    "text": [
+      "monitor",
+      "black monitor"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-9",
+    "text": [
+      "monitor",
+      "monitor next to paper"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-9",
+    "text": [
+      "monitor",
+      "monitor on the desk"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-14",
+    "text": [
+      "curtain",
+      "the curtain closest to the windowsill"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-14",
+    "text": [
+      "curtain",
+      "the curtain closest to the window"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-14",
+    "text": [
+      "bed",
+      "the curtain farthest from the door"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-41",
+    "text": [
+      "woodcarving",
+      "woodcarving under the windowsill"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-41",
+    "text": [
+      "woodcarving",
+      "woodcarving closest to the window"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-41",
+    "text": [
+      "woodcarving",
+      "woodcarving closest to the curtain"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-6",
+    "text": [
+      "pc",
+      "the pc closest to the cellphone"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-6",
+    "text": [
+      "pc",
+      "the pc closest to the monitor"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00106_05-6",
+    "text": [
+      "pc",
+      "the pc closest to the mirror"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-20",
+    "text": [
+      "toilet paper",
+      "white toilet paper"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-20",
+    "text": [
+      "toilet paper",
+      "toilet paper placed inside the wall cabinet"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-20",
+    "text": [
+      "toilet paper",
+      "the toilet paper closest to the stove"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-30",
+    "text": [
+      "pot",
+      "the pot in the sink"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-30",
+    "text": [
+      "pot",
+      "the pot next to the sponge"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-30",
+    "text": [
+      "pot",
+      "the pot closest to the books"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-23",
+    "text": [
+      "pot",
+      "pot on the stove",
+      "on the stove, the large pot"
+    ],
+    "tag": [
+      "class",
+      "class-spatial",
+      "class-geometry-spatial"
+    ],
+    "correct": [
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-23",
+    "text": [
+      "pot",
+      "large pot",
+      "the large pot nearest to the trash bin"
+    ],
+    "tag": [
+      "class",
+      "class-geometry",
+      "class-geometry-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-23",
+    "text": [
+      "pot",
+      "large pot",
+      "the large pot nearest to the cutting board"
+    ],
+    "tag": [
+      "class",
+      "class-geometry",
+      "class-geometry-spatial"
+    ],
+    "correct": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-24",
+    "text": [
+      "pot",
+      "black pot"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-24",
+    "text": [
+      "pot",
+      "the pot closest to the trash bin"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-24",
+    "text": [
+      "pot",
+      "the small pot above the stove"
+    ],
+    "tag": [
+      "class",
+      "class-geometry-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-35",
+    "text": [
+      "bottle",
+      "the bottle closest to the toilet paper"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-35",
+    "text": [
+      "bottle",
+      "the bottle with the orange cap"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-35",
+    "text": [
+      "bottle",
+      "the bottle closest to the trash can"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-31",
+    "text": [
+      "bottles",
+      "white bottle"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-31",
+    "text": [
+      "bottles",
+      "the bottle closest to the refrigerator"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-31",
+    "text": [
+      "bottles",
+      "the bottle closest to the book"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-33",
+    "text": [
+      "sponge",
+      "the sponge next to the sink"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-33",
+    "text": [
+      "sponge",
+      "yellow sponge"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-33",
+    "text": [
+      "sponge",
+      "the sponge near a pot"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-15",
+    "text": [
+      "wall cabinet",
+      "the wall cabinet right above the sink"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-15",
+    "text": [
+      "wall cabinet",
+      "the wall cabinet closest to the books"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-15",
+    "text": [
+      "wall cabinet",
+      "the wall cabinet above the kettle"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-18",
+    "text": [
+      "cabinet",
+      "the cabinet with the cutting board"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-18",
+    "text": [
+      "cabinet",
+      "the cabinet closest to the bifold door"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-18",
+    "text": [
+      "cabinet",
+      "the cabinet closest to the trash bin"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-19",
+    "text": [
+      "cabinet",
+      "the cabinet under the rice maker"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-19",
+    "text": [
+      "cabinet",
+      "the cabinet with a sponge"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-19",
+    "text": [
+      "cabinet",
+      "the cabinet with a sink"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-13",
+    "text": [
+      "wall cabinet",
+      "the wall cabinet with the range hood hanging"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-13",
+    "text": [
+      "wall cabinet",
+      "the wall cabinet containing toilet paper"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-13",
+    "text": [
+      "wall cabinet",
+      "the wall cabinet closest to the cutting board"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-22",
+    "text": [
+      "kettle",
+      "the kettle in front of rice cooker"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-22",
+    "text": [
+      "kettle",
+      "the kettle next to the sink"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-22",
+    "text": [
+      "kettle",
+      "kettle in white and black"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-38",
+    "text": [
+      "trash bin",
+      "trash bin under the cutting board"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-38",
+    "text": [
+      "trash bin",
+      "trash bin closest to the stove"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-38",
+    "text": [
+      "trash bin",
+      "gray trash bin"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-32",
+    "text": [
+      "cutting board",
+      "light wood color cutting board"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-32",
+    "text": [
+      "cutting board",
+      "the cutting board closest to the bifold door"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-32",
+    "text": [
+      "cutting board",
+      "the cutting board closest to the toilet paper"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-10",
+    "text": [
+      "box",
+      "the box closest to the refrigerator"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-10",
+    "text": [
+      "box",
+      "the box under the table"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-10",
+    "text": [
+      "box",
+      "the box next to the black suitcase"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-9",
+    "text": [
+      "suitcase",
+      "yellow polka dot suitcase"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-9",
+    "text": [
+      "suitcase",
+      "the suitcase under the table"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-9",
+    "text": [
+      "suitcase",
+      "the suitcase furthest from the rice cooker"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-36",
+    "text": [
+      "suitcase",
+      "black suitcase"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-36",
+    "text": [
+      "suitcase",
+      "the suitcase closest to the sink"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-36",
+    "text": [
+      "suitcase",
+      "black suitcase",
+      "the black suitcase next to the refrigerator"
+    ],
+    "tag": [
+      "class",
+      "class-appearance",
+      "appearance-class-spatial"
+    ],
+    "correct": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-37",
+    "text": [
+      "stove",
+      "white stove"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-37",
+    "text": [
+      "stove",
+      "the stove next to the trash can"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-37",
+    "text": [
+      "stove",
+      "the stove closest to the cutting board"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-5",
+    "text": [
+      "the bifold door",
+      "the white bifold door"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-5",
+    "text": [
+      "the bifold door",
+      "the bifold door on the floor"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-5",
+    "text": [
+      "the bifold door",
+      "the bifold door next to the white object"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-16",
+    "text": [
+      "books",
+      "books on top of the refrigerator"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-16",
+    "text": [
+      "books",
+      "books closest to the ceiling"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-16",
+    "text": [
+      "books",
+      "colorful books"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-34",
+    "text": [
+      "water faucet",
+      "the water faucet above the sink"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-34",
+    "text": [
+      "water faucet",
+      "the water faucet next to the sponge"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-34",
+    "text": [
+      "water faucet",
+      "the water faucet near kettle"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-17",
+    "text": [
+      "refrigerator",
+      "white refrigerator"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-17",
+    "text": [
+      "refrigerator",
+      "refrigerator under the book"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-17",
+    "text": [
+      "refrigerator",
+      "refrigerator next to the black suitcase"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-14",
+    "text": [
+      "range hood\n",
+      "white range hood"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-14",
+    "text": [
+      "range hood",
+      "range hood above the stove"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-14",
+    "text": [
+      "range hood",
+      "range hood closest to the cutting board"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-29",
+    "text": [
+      "sink",
+      "sink under the water faucet"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-29",
+    "text": [
+      "sink",
+      "sink next to the kettle"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-29",
+    "text": [
+      "sink",
+      "sink closest to the refrigerator"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-8",
+    "text": [
+      "table",
+      "the table next to the black suitcase"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-8",
+    "text": [
+      "table",
+      "the table closest to the refrigerator"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-8",
+    "text": [
+      "table",
+      "the table next to the chair"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      1,
+      1
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-21",
+    "text": [
+      "rice cooker",
+      "white rice cooker"
+    ],
+    "tag": [
+      "class",
+      "class-appearance"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-21",
+    "text": [
+      "rice cooker",
+      "rice cooker next to the kettle"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  },
+  {
+    "obj_id": "scene_00116_03-21",
+    "text": [
+      "rice cooker",
+      "rice cooker closest to the sponge"
+    ],
+    "tag": [
+      "class",
+      "class-spatial"
+    ],
+    "correct": [
+      0,
+      0
+    ]
+  }
+]

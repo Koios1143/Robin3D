@@ -1,0 +1,8066 @@
+[
+ {
+  "item_id": "scene_00114_00_19_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ049>.",
+  "pred_proposal": 49,
+  "pred_object_id": 20,
+  "pred_iou": 0.778,
+  "target_id": [
+   19
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_19_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ049>.",
+  "pred_proposal": 49,
+  "pred_object_id": 20,
+  "pred_iou": 0.778,
+  "target_id": [
+   22,
+   23,
+   20,
+   21,
+   19
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_19_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ049>.",
+  "pred_proposal": 49,
+  "pred_object_id": 20,
+  "pred_iou": 0.778,
+  "target_id": [
+   19
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_19_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ049>.",
+  "pred_proposal": 49,
+  "pred_object_id": 20,
+  "pred_iou": 0.778,
+  "target_id": [
+   19
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_22_chain_1_0_class-appearance-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ049>.",
+  "pred_proposal": 49,
+  "pred_object_id": 20,
+  "pred_iou": 0.778,
+  "target_id": [
+   22
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_22_chain_1_1_class-appearance",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ049>.",
+  "pred_proposal": 49,
+  "pred_object_id": 20,
+  "pred_iou": 0.778,
+  "target_id": [
+   22,
+   20
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_22_chain_2_0_class-spatial-appearance",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ029>.",
+  "pred_proposal": 29,
+  "pred_object_id": 36,
+  "pred_iou": 0.8685,
+  "target_id": [
+   22
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_22_chain_3_0_class-spatial-appearance",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ049>.",
+  "pred_proposal": 49,
+  "pred_object_id": 20,
+  "pred_iou": 0.778,
+  "target_id": [
+   22
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_21_chain_1_0_class-appearance",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ049>.",
+  "pred_proposal": 49,
+  "pred_object_id": 20,
+  "pred_iou": 0.778,
+  "target_id": [
+   21
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_21_chain_2_0_class-appearance-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ049>.",
+  "pred_proposal": 49,
+  "pred_object_id": 20,
+  "pred_iou": 0.778,
+  "target_id": [
+   21
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_21_chain_3_0_class-appearance-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ049>.",
+  "pred_proposal": 49,
+  "pred_object_id": 20,
+  "pred_iou": 0.778,
+  "target_id": [
+   21
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_37_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ029>.",
+  "pred_proposal": 29,
+  "pred_object_id": 36,
+  "pred_iou": 0.8685,
+  "target_id": [
+   37
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_37_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ049>.",
+  "pred_proposal": 49,
+  "pred_object_id": 20,
+  "pred_iou": 0.778,
+  "target_id": [
+   37
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_37_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 41,
+  "pred_iou": 0.9522,
+  "target_id": [
+   37
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_37_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ049>.",
+  "pred_proposal": 49,
+  "pred_object_id": 20,
+  "pred_iou": 0.778,
+  "target_id": [
+   37
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_23_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ049>.",
+  "pred_proposal": 49,
+  "pred_object_id": 20,
+  "pred_iou": 0.778,
+  "target_id": [
+   23
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_23_chain_1_1_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ049>.",
+  "pred_proposal": 49,
+  "pred_object_id": 20,
+  "pred_iou": 0.778,
+  "target_id": [
+   22,
+   23,
+   21
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_23_chain_1_2_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 17,
+  "pred_iou": 0.6457,
+  "target_id": [
+   22,
+   23,
+   20,
+   37,
+   21,
+   19
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_23_chain_2_0_class-spatial-appearance",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ049>.",
+  "pred_proposal": 49,
+  "pred_object_id": 20,
+  "pred_iou": 0.778,
+  "target_id": [
+   23
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_23_chain_2_1_class-appearance",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ049>.",
+  "pred_proposal": 49,
+  "pred_object_id": 20,
+  "pred_iou": 0.778,
+  "target_id": [
+   23
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_23_chain_3_0_class-spatial-appearance",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ049>.",
+  "pred_proposal": 49,
+  "pred_object_id": 20,
+  "pred_iou": 0.778,
+  "target_id": [
+   23
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_20_chain_1_0_class-appearance-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ049>.",
+  "pred_proposal": 49,
+  "pred_object_id": 20,
+  "pred_iou": 0.778,
+  "target_id": [
+   20
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_20_chain_2_0_class-appearance-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ049>.",
+  "pred_proposal": 49,
+  "pred_object_id": 20,
+  "pred_iou": 0.778,
+  "target_id": [
+   20
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_20_chain_3_0_class-appearance-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ049>.",
+  "pred_proposal": 49,
+  "pred_object_id": 20,
+  "pred_iou": 0.778,
+  "target_id": [
+   20
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_39_chain_1_0_class-appearance",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 41,
+  "pred_iou": 0.9522,
+  "target_id": [
+   39
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_39_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 41,
+  "pred_iou": 0.9522,
+  "target_id": [
+   39
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_39_chain_2_0_class-appearance-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ026>.",
+  "pred_proposal": 26,
+  "pred_object_id": 39,
+  "pred_iou": 0.8634,
+  "target_id": [
+   39
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_39_chain_3_0_class-appearance-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 41,
+  "pred_iou": 0.9522,
+  "target_id": [
+   39
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_41_chain_1_0_class-appearance-geometry",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 41,
+  "pred_iou": 0.9522,
+  "target_id": [
+   41
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_41_chain_1_1_class-appearance",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 41,
+  "pred_iou": 0.9522,
+  "target_id": [
+   41,
+   43
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_41_chain_1_2_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 41,
+  "pred_iou": 0.9522,
+  "target_id": [
+   41,
+   43
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_41_chain_2_0_class-appearance-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 41,
+  "pred_iou": 0.9522,
+  "target_id": [
+   41
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_41_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 41,
+  "pred_iou": 0.9522,
+  "target_id": [
+   41
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_43_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 41,
+  "pred_iou": 0.9522,
+  "target_id": [
+   43
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_43_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 41,
+  "pred_iou": 0.9522,
+  "target_id": [
+   43
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_43_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 41,
+  "pred_iou": 0.9522,
+  "target_id": [
+   43
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_50_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 29,
+  "pred_iou": 0.965,
+  "target_id": [
+   50
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_50_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 29,
+  "pred_iou": 0.965,
+  "target_id": [
+   50
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_50_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 29,
+  "pred_iou": 0.965,
+  "target_id": [
+   50
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_50_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ017>.",
+  "pred_proposal": 17,
+  "pred_object_id": 26,
+  "pred_iou": 0.3244,
+  "target_id": [
+   50
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_51_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ031>.",
+  "pred_proposal": 31,
+  "pred_object_id": 38,
+  "pred_iou": 0.8728,
+  "target_id": [
+   51
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_51_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ031>.",
+  "pred_proposal": 31,
+  "pred_object_id": 38,
+  "pred_iou": 0.8728,
+  "target_id": [
+   51
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_51_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 27,
+  "pred_iou": 0.0334,
+  "target_id": [
+   51
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_51_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ031>.",
+  "pred_proposal": 31,
+  "pred_object_id": 38,
+  "pred_iou": 0.8728,
+  "target_id": [
+   51
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_28_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ035>.",
+  "pred_proposal": 35,
+  "pred_object_id": 35,
+  "pred_iou": 0.8002,
+  "target_id": [
+   28
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_28_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 25,
+  "pred_iou": 0.4624,
+  "target_id": [
+   27,
+   28
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_28_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ018>.",
+  "pred_proposal": 18,
+  "pred_object_id": 28,
+  "pred_iou": 0.4936,
+  "target_id": [
+   28
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_28_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ018>.",
+  "pred_proposal": 18,
+  "pred_object_id": 28,
+  "pred_iou": 0.4936,
+  "target_id": [
+   28
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_25_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 25,
+  "pred_iou": 0.1841,
+  "target_id": [
+   25
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_25_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 25,
+  "pred_iou": 0.4624,
+  "target_id": [
+   30,
+   25
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_25_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 25,
+  "pred_iou": 0.1841,
+  "target_id": [
+   25
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_25_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 25,
+  "pred_iou": 0.4624,
+  "target_id": [
+   25
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_30_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ013>.",
+  "pred_proposal": 13,
+  "pred_object_id": 27,
+  "pred_iou": 0.3887,
+  "target_id": [
+   30
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_30_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 25,
+  "pred_iou": 0.1841,
+  "target_id": [
+   30
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_30_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 25,
+  "pred_iou": 0.1841,
+  "target_id": [
+   30
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_27_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ013>.",
+  "pred_proposal": 13,
+  "pred_object_id": 27,
+  "pred_iou": 0.3887,
+  "target_id": [
+   27
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_27_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ018>.",
+  "pred_proposal": 18,
+  "pred_object_id": 28,
+  "pred_iou": 0.4936,
+  "target_id": [
+   27
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_27_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 25,
+  "pred_iou": 0.1841,
+  "target_id": [
+   27
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_24_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ000>.",
+  "pred_proposal": 0,
+  "pred_object_id": 33,
+  "pred_iou": 0.5469,
+  "target_id": [
+   24
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_24_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ000>.",
+  "pred_proposal": 0,
+  "pred_object_id": 33,
+  "pred_iou": 0.5469,
+  "target_id": [
+   24
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_24_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ000>.",
+  "pred_proposal": 0,
+  "pred_object_id": 33,
+  "pred_iou": 0.5469,
+  "target_id": [
+   24
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_24_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ000>.",
+  "pred_proposal": 0,
+  "pred_object_id": 33,
+  "pred_iou": 0.5469,
+  "target_id": [
+   24
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_36_chain_1_0_class-appearance",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 29,
+  "pred_iou": 0.965,
+  "target_id": [
+   36
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_36_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ035>.",
+  "pred_proposal": 35,
+  "pred_object_id": 35,
+  "pred_iou": 0.8002,
+  "target_id": [
+   36
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_36_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ029>.",
+  "pred_proposal": 29,
+  "pred_object_id": 36,
+  "pred_iou": 0.8685,
+  "target_id": [
+   36
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_36_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ035>.",
+  "pred_proposal": 35,
+  "pred_object_id": 35,
+  "pred_iou": 0.8002,
+  "target_id": [
+   36
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_26_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ017>.",
+  "pred_proposal": 17,
+  "pred_object_id": 26,
+  "pred_iou": 0.3244,
+  "target_id": [
+   26
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_26_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ017>.",
+  "pred_proposal": 17,
+  "pred_object_id": 26,
+  "pred_iou": 0.3244,
+  "target_id": [
+   26
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_26_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ017>.",
+  "pred_proposal": 17,
+  "pred_object_id": 26,
+  "pred_iou": 0.3244,
+  "target_id": [
+   26
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_26_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ017>.",
+  "pred_proposal": 17,
+  "pred_object_id": 26,
+  "pred_iou": 0.3244,
+  "target_id": [
+   26
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_49_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ075>.",
+  "pred_proposal": 75,
+  "pred_object_id": 47,
+  "pred_iou": 0.8976,
+  "target_id": [
+   49
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_49_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ052>.",
+  "pred_proposal": 52,
+  "pred_object_id": 48,
+  "pred_iou": 0.137,
+  "target_id": [
+   49,
+   48
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_49_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ052>.",
+  "pred_proposal": 52,
+  "pred_object_id": 48,
+  "pred_iou": 0.137,
+  "target_id": [
+   49
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_49_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ052>.",
+  "pred_proposal": 52,
+  "pred_object_id": 48,
+  "pred_iou": 0.137,
+  "target_id": [
+   49
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_48_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ052>.",
+  "pred_proposal": 52,
+  "pred_object_id": 48,
+  "pred_iou": 0.137,
+  "target_id": [
+   48
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_48_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ019>.",
+  "pred_proposal": 19,
+  "pred_object_id": 14,
+  "pred_iou": 0.3442,
+  "target_id": [
+   48
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_48_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ052>.",
+  "pred_proposal": 52,
+  "pred_object_id": 48,
+  "pred_iou": 0.137,
+  "target_id": [
+   48
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_45_chain_1_0_class-appearance",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ075>.",
+  "pred_proposal": 75,
+  "pred_object_id": 47,
+  "pred_iou": 0.8976,
+  "target_id": [
+   45
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_45_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ075>.",
+  "pred_proposal": 75,
+  "pred_object_id": 47,
+  "pred_iou": 0.8976,
+  "target_id": [
+   47,
+   45
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_45_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ075>.",
+  "pred_proposal": 75,
+  "pred_object_id": 47,
+  "pred_iou": 0.8976,
+  "target_id": [
+   45
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_45_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ075>.",
+  "pred_proposal": 75,
+  "pred_object_id": 47,
+  "pred_iou": 0.8976,
+  "target_id": [
+   45
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_47_chain_1_0_class-appearance",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ075>.",
+  "pred_proposal": 75,
+  "pred_object_id": 47,
+  "pred_iou": 0.8976,
+  "target_id": [
+   47
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_47_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ075>.",
+  "pred_proposal": 75,
+  "pred_object_id": 47,
+  "pred_iou": 0.8976,
+  "target_id": [
+   47
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_47_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ075>.",
+  "pred_proposal": 75,
+  "pred_object_id": 47,
+  "pred_iou": 0.8976,
+  "target_id": [
+   47
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_34_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ000>.",
+  "pred_proposal": 0,
+  "pred_object_id": 33,
+  "pred_iou": 0.5469,
+  "target_id": [
+   34
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_34_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 29,
+  "pred_iou": 0.965,
+  "target_id": [
+   34
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_34_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ000>.",
+  "pred_proposal": 0,
+  "pred_object_id": 33,
+  "pred_iou": 0.5469,
+  "target_id": [
+   34
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_34_chain_3_0_spatial-class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 27,
+  "pred_iou": 0.0334,
+  "target_id": [
+   34
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_14_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 17,
+  "pred_iou": 0.6457,
+  "target_id": [
+   14
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_14_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 17,
+  "pred_iou": 0.6457,
+  "target_id": [
+   14,
+   17
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_14_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 17,
+  "pred_iou": 0.6457,
+  "target_id": [
+   14
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_14_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 17,
+  "pred_iou": 0.6457,
+  "target_id": [
+   14
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_17_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 17,
+  "pred_iou": 0.6457,
+  "target_id": [
+   17
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_17_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 17,
+  "pred_iou": 0.6457,
+  "target_id": [
+   17
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_17_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 17,
+  "pred_iou": 0.6457,
+  "target_id": [
+   17
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_13_chain_1_0_class-appearance",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ014>.",
+  "pred_proposal": 14,
+  "pred_object_id": 13,
+  "pred_iou": 0.7,
+  "target_id": [
+   13
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_13_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ014>.",
+  "pred_proposal": 14,
+  "pred_object_id": 13,
+  "pred_iou": 0.7,
+  "target_id": [
+   13
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_13_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ014>.",
+  "pred_proposal": 14,
+  "pred_object_id": 13,
+  "pred_iou": 0.7,
+  "target_id": [
+   13
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_13_chain_3_0_class-appearance",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ014>.",
+  "pred_proposal": 14,
+  "pred_object_id": 13,
+  "pred_iou": 0.7,
+  "target_id": [
+   13
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_44_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ005>.",
+  "pred_proposal": 5,
+  "pred_object_id": 29,
+  "pred_iou": 0.0226,
+  "target_id": [
+   44
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_44_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ017>.",
+  "pred_proposal": 17,
+  "pred_object_id": 26,
+  "pred_iou": 0.3244,
+  "target_id": [
+   42,
+   44,
+   40
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_44_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 27,
+  "pred_iou": 0.0334,
+  "target_id": [
+   44
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_44_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ013>.",
+  "pred_proposal": 13,
+  "pred_object_id": 27,
+  "pred_iou": 0.3887,
+  "target_id": [
+   44
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_42_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ035>.",
+  "pred_proposal": 35,
+  "pred_object_id": 35,
+  "pred_iou": 0.8002,
+  "target_id": [
+   42
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_42_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ017>.",
+  "pred_proposal": 17,
+  "pred_object_id": 26,
+  "pred_iou": 0.3244,
+  "target_id": [
+   42
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_42_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ005>.",
+  "pred_proposal": 5,
+  "pred_object_id": 29,
+  "pred_iou": 0.0226,
+  "target_id": [
+   42
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_40_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 41,
+  "pred_iou": 0.9522,
+  "target_id": [
+   40
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_40_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 27,
+  "pred_iou": 0.0334,
+  "target_id": [
+   40
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_40_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 41,
+  "pred_iou": 0.9522,
+  "target_id": [
+   40
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_16_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 27,
+  "pred_iou": 0.0334,
+  "target_id": [
+   16
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_16_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 27,
+  "pred_iou": 0.0334,
+  "target_id": [
+   16
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_16_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 27,
+  "pred_iou": 0.0334,
+  "target_id": [
+   16
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_16_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 27,
+  "pred_iou": 0.0334,
+  "target_id": [
+   16
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_33_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ000>.",
+  "pred_proposal": 0,
+  "pred_object_id": 33,
+  "pred_iou": 0.5469,
+  "target_id": [
+   33
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_33_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ000>.",
+  "pred_proposal": 0,
+  "pred_object_id": 33,
+  "pred_iou": 0.5469,
+  "target_id": [
+   33
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_33_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ000>.",
+  "pred_proposal": 0,
+  "pred_object_id": 33,
+  "pred_iou": 0.5469,
+  "target_id": [
+   33
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_33_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ000>.",
+  "pred_proposal": 0,
+  "pred_object_id": 33,
+  "pred_iou": 0.5469,
+  "target_id": [
+   33
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_29_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 27,
+  "pred_iou": 0.0334,
+  "target_id": [
+   29
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_29_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 29,
+  "pred_iou": 0.965,
+  "target_id": [
+   29
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_29_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 29,
+  "pred_iou": 0.965,
+  "target_id": [
+   29
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_29_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 29,
+  "pred_iou": 0.965,
+  "target_id": [
+   29
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_38_chain_1_0_class-geometry",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ031>.",
+  "pred_proposal": 31,
+  "pred_object_id": 38,
+  "pred_iou": 0.8728,
+  "target_id": [
+   38
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_38_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ031>.",
+  "pred_proposal": 31,
+  "pred_object_id": 38,
+  "pred_iou": 0.8728,
+  "target_id": [
+   38
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_38_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ031>.",
+  "pred_proposal": 31,
+  "pred_object_id": 38,
+  "pred_iou": 0.8728,
+  "target_id": [
+   38
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_38_chain_3_0_class-appearance",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ031>.",
+  "pred_proposal": 31,
+  "pred_object_id": 38,
+  "pred_iou": 0.8728,
+  "target_id": [
+   38
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_46_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 17,
+  "pred_iou": 0.6457,
+  "target_id": [
+   46
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_46_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 17,
+  "pred_iou": 0.6457,
+  "target_id": [
+   46
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_46_chain_2_0_appearance-class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 17,
+  "pred_iou": 0.6457,
+  "target_id": [
+   46
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_46_chain_3_0_class-spatial-geometry",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ031>.",
+  "pred_proposal": 31,
+  "pred_object_id": 38,
+  "pred_iou": 0.8728,
+  "target_id": [
+   46
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_31_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 27,
+  "pred_iou": 0.0334,
+  "target_id": [
+   31
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_31_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ015>.",
+  "pred_proposal": 15,
+  "pred_object_id": 31,
+  "pred_iou": 0.7037,
+  "target_id": [
+   31
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_31_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ015>.",
+  "pred_proposal": 15,
+  "pred_object_id": 31,
+  "pred_iou": 0.7037,
+  "target_id": [
+   31
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_31_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ015>.",
+  "pred_proposal": 15,
+  "pred_object_id": 31,
+  "pred_iou": 0.7037,
+  "target_id": [
+   31
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_35_chain_1_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ029>.",
+  "pred_proposal": 29,
+  "pred_object_id": 36,
+  "pred_iou": 0.8685,
+  "target_id": [
+   35
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00114_00_35_chain_1_1_class",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ035>.",
+  "pred_proposal": 35,
+  "pred_object_id": 35,
+  "pred_iou": 0.8002,
+  "target_id": [
+   35
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_35_chain_2_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ035>.",
+  "pred_proposal": 35,
+  "pred_object_id": 35,
+  "pred_iou": 0.8002,
+  "target_id": [
+   35
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00114_00_35_chain_3_0_class-spatial",
+  "scan_id": "scene_00114_00",
+  "pred": "<OBJ029>.",
+  "pred_proposal": 29,
+  "pred_object_id": 36,
+  "pred_iou": 0.8685,
+  "target_id": [
+   35
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_37_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 38,
+  "pred_iou": 0.9182,
+  "target_id": [
+   37
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_37_chain_1_1_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 38,
+  "pred_iou": 0.9182,
+  "target_id": [
+   37,
+   42
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_37_chain_1_2_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ031>.",
+  "pred_proposal": 31,
+  "pred_object_id": 6,
+  "pred_iou": 0.4848,
+  "target_id": [
+   37,
+   42
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_37_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 38,
+  "pred_iou": 0.9182,
+  "target_id": [
+   37
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_37_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 38,
+  "pred_iou": 0.9182,
+  "target_id": [
+   37
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_42_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 38,
+  "pred_iou": 0.9182,
+  "target_id": [
+   42
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_42_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ011>.",
+  "pred_proposal": 11,
+  "pred_object_id": 34,
+  "pred_iou": 0.9685,
+  "target_id": [
+   42
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_42_chain_3_0_class-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 39,
+  "pred_iou": 0.7995,
+  "target_id": [
+   42
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_40_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 40,
+  "pred_iou": 0.1443,
+  "target_id": [
+   40
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_40_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ013>.",
+  "pred_proposal": 13,
+  "pred_object_id": 41,
+  "pred_iou": 0.5144,
+  "target_id": [
+   40,
+   41
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_40_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ013>.",
+  "pred_proposal": 13,
+  "pred_object_id": 41,
+  "pred_iou": 0.5144,
+  "target_id": [
+   40
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_40_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ013>.",
+  "pred_proposal": 13,
+  "pred_object_id": 41,
+  "pred_iou": 0.5144,
+  "target_id": [
+   40
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_41_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ013>.",
+  "pred_proposal": 13,
+  "pred_object_id": 41,
+  "pred_iou": 0.5144,
+  "target_id": [
+   41
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_41_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ013>.",
+  "pred_proposal": 13,
+  "pred_object_id": 41,
+  "pred_iou": 0.5144,
+  "target_id": [
+   41
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_41_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ013>.",
+  "pred_proposal": 13,
+  "pred_object_id": 41,
+  "pred_iou": 0.5144,
+  "target_id": [
+   41
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_41_chain_3_1_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ013>.",
+  "pred_proposal": 13,
+  "pred_object_id": 41,
+  "pred_iou": 0.5144,
+  "target_id": [
+   41,
+   40
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_16_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 9,
+  "pred_iou": 0.4452,
+  "target_id": [
+   16
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_16_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ109>.",
+  "pred_proposal": 109,
+  "pred_object_id": 16,
+  "pred_iou": 0.1943,
+  "target_id": [
+   16
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_16_chain_1_2_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ109>.",
+  "pred_proposal": 109,
+  "pred_object_id": 16,
+  "pred_iou": 0.1943,
+  "target_id": [
+   16
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_16_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ109>.",
+  "pred_proposal": 109,
+  "pred_object_id": 16,
+  "pred_iou": 0.1943,
+  "target_id": [
+   16
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_16_chain_3_0_class-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 9,
+  "pred_iou": 0.4452,
+  "target_id": [
+   16
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_15_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ031>.",
+  "pred_proposal": 31,
+  "pred_object_id": 6,
+  "pred_iou": 0.4848,
+  "target_id": [
+   15
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_15_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ031>.",
+  "pred_proposal": 31,
+  "pred_object_id": 6,
+  "pred_iou": 0.4848,
+  "target_id": [
+   15
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_15_chain_1_2_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ031>.",
+  "pred_proposal": 31,
+  "pred_object_id": 6,
+  "pred_iou": 0.4848,
+  "target_id": [
+   6,
+   23,
+   14,
+   11,
+   15
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_15_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ031>.",
+  "pred_proposal": 31,
+  "pred_object_id": 6,
+  "pred_iou": 0.4848,
+  "target_id": [
+   15
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_15_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ031>.",
+  "pred_proposal": 31,
+  "pred_object_id": 6,
+  "pred_iou": 0.4848,
+  "target_id": [
+   15
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_14_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ087>.",
+  "pred_proposal": 87,
+  "pred_object_id": 14,
+  "pred_iou": 0.8028,
+  "target_id": [
+   14
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_14_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ039>.",
+  "pred_proposal": 39,
+  "pred_object_id": 23,
+  "pred_iou": 0.8617,
+  "target_id": [
+   23,
+   14
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_14_chain_2_0_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ087>.",
+  "pred_proposal": 87,
+  "pred_object_id": 14,
+  "pred_iou": 0.8028,
+  "target_id": [
+   14
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_14_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ039>.",
+  "pred_proposal": 39,
+  "pred_object_id": 23,
+  "pred_iou": 0.8617,
+  "target_id": [
+   14
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_6_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ031>.",
+  "pred_proposal": 31,
+  "pred_object_id": 6,
+  "pred_iou": 0.4848,
+  "target_id": [
+   6
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_6_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ031>.",
+  "pred_proposal": 31,
+  "pred_object_id": 6,
+  "pred_iou": 0.4848,
+  "target_id": [
+   6
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_6_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ031>.",
+  "pred_proposal": 31,
+  "pred_object_id": 6,
+  "pred_iou": 0.4848,
+  "target_id": [
+   6
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_11_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ014>.",
+  "pred_proposal": 14,
+  "pred_object_id": 11,
+  "pred_iou": 0.7119,
+  "target_id": [
+   11
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_11_chain_2_0_class-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ031>.",
+  "pred_proposal": 31,
+  "pred_object_id": 6,
+  "pred_iou": 0.4848,
+  "target_id": [
+   11
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_11_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ014>.",
+  "pred_proposal": 14,
+  "pred_object_id": 11,
+  "pred_iou": 0.7119,
+  "target_id": [
+   11
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_23_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ039>.",
+  "pred_proposal": 39,
+  "pred_object_id": 23,
+  "pred_iou": 0.8617,
+  "target_id": [
+   23
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_23_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ039>.",
+  "pred_proposal": 39,
+  "pred_object_id": 23,
+  "pred_iou": 0.8617,
+  "target_id": [
+   23
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_23_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ039>.",
+  "pred_proposal": 39,
+  "pred_object_id": 23,
+  "pred_iou": 0.8617,
+  "target_id": [
+   23
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_33_chain_1_0_class-geometry",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ030>.",
+  "pred_proposal": 30,
+  "pred_object_id": 47,
+  "pred_iou": 0.2094,
+  "target_id": [
+   33
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_33_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ030>.",
+  "pred_proposal": 30,
+  "pred_object_id": 47,
+  "pred_iou": 0.2094,
+  "target_id": [
+   33
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_33_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ030>.",
+  "pred_proposal": 30,
+  "pred_object_id": 47,
+  "pred_iou": 0.2094,
+  "target_id": [
+   33
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_33_chain_3_0_appearance-class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ013>.",
+  "pred_proposal": 13,
+  "pred_object_id": 41,
+  "pred_iou": 0.5144,
+  "target_id": [
+   33
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_13_chain_1_0_class-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ047>.",
+  "pred_proposal": 47,
+  "pred_object_id": 49,
+  "pred_iou": 0.037,
+  "target_id": [
+   13
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_13_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ047>.",
+  "pred_proposal": 47,
+  "pred_object_id": 49,
+  "pred_iou": 0.037,
+  "target_id": [
+   30,
+   13
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_13_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ087>.",
+  "pred_proposal": 87,
+  "pred_object_id": 14,
+  "pred_iou": 0.8028,
+  "target_id": [
+   13
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_13_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ047>.",
+  "pred_proposal": 47,
+  "pred_object_id": 49,
+  "pred_iou": 0.037,
+  "target_id": [
+   13
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_30_chain_1_0_class-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ047>.",
+  "pred_proposal": 47,
+  "pred_object_id": 49,
+  "pred_iou": 0.037,
+  "target_id": [
+   30
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_30_chain_2_0_class-spatial-geometry",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ065>.",
+  "pred_proposal": 65,
+  "pred_object_id": 14,
+  "pred_iou": 0.0941,
+  "target_id": [
+   30
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_30_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ047>.",
+  "pred_proposal": 47,
+  "pred_object_id": 49,
+  "pred_iou": 0.037,
+  "target_id": [
+   30
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_34_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 38,
+  "pred_iou": 0.9182,
+  "target_id": [
+   34
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_34_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 38,
+  "pred_iou": 0.9182,
+  "target_id": [
+   34,
+   39,
+   38,
+   44,
+   45
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_34_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 39,
+  "pred_iou": 0.7995,
+  "target_id": [
+   34
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_34_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 45,
+  "pred_iou": 0.0304,
+  "target_id": [
+   34
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_38_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 38,
+  "pred_iou": 0.9182,
+  "target_id": [
+   38
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_38_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 38,
+  "pred_iou": 0.9182,
+  "target_id": [
+   45,
+   44,
+   38,
+   39,
+   34
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_38_chain_2_0_class-spatial-geometry",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 38,
+  "pred_iou": 0.9182,
+  "target_id": [
+   38
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_38_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 45,
+  "pred_iou": 0.0304,
+  "target_id": [
+   38
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_39_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 39,
+  "pred_iou": 0.7995,
+  "target_id": [
+   39
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_39_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 39,
+  "pred_iou": 0.7995,
+  "target_id": [
+   39
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_39_chain_2_1_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 38,
+  "pred_iou": 0.9182,
+  "target_id": [
+   38,
+   39
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_39_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 45,
+  "pred_iou": 0.0304,
+  "target_id": [
+   39
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_31_chain_1_0_class-appearance-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ012>.",
+  "pred_proposal": 12,
+  "pred_object_id": 20,
+  "pred_iou": 0.5394,
+  "target_id": [
+   31
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_31_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ012>.",
+  "pred_proposal": 12,
+  "pred_object_id": 20,
+  "pred_iou": 0.5394,
+  "target_id": [
+   31,
+   35
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_31_chain_1_2_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ012>.",
+  "pred_proposal": 12,
+  "pred_object_id": 20,
+  "pred_iou": 0.5394,
+  "target_id": [
+   36,
+   31,
+   35,
+   19
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_31_chain_2_0_class-spatial-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ012>.",
+  "pred_proposal": 12,
+  "pred_object_id": 20,
+  "pred_iou": 0.5394,
+  "target_id": [
+   31
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_31_chain_2_1_class-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ012>.",
+  "pred_proposal": 12,
+  "pred_object_id": 20,
+  "pred_iou": 0.5394,
+  "target_id": [
+   31,
+   35
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_31_chain_3_0_class-spatial-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ012>.",
+  "pred_proposal": 12,
+  "pred_object_id": 20,
+  "pred_iou": 0.5394,
+  "target_id": [
+   31
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_19_chain_1_0_class-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ005>.",
+  "pred_proposal": 5,
+  "pred_object_id": 31,
+  "pred_iou": 0.4198,
+  "target_id": [
+   19
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_19_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ012>.",
+  "pred_proposal": 12,
+  "pred_object_id": 20,
+  "pred_iou": 0.5394,
+  "target_id": [
+   19
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_19_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ005>.",
+  "pred_proposal": 5,
+  "pred_object_id": 31,
+  "pred_iou": 0.4198,
+  "target_id": [
+   19
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_36_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ012>.",
+  "pred_proposal": 12,
+  "pred_object_id": 20,
+  "pred_iou": 0.5394,
+  "target_id": [
+   36
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_36_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ012>.",
+  "pred_proposal": 12,
+  "pred_object_id": 20,
+  "pred_iou": 0.5394,
+  "target_id": [
+   36
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_36_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ012>.",
+  "pred_proposal": 12,
+  "pred_object_id": 20,
+  "pred_iou": 0.5394,
+  "target_id": [
+   36
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_35_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ005>.",
+  "pred_proposal": 5,
+  "pred_object_id": 31,
+  "pred_iou": 0.4198,
+  "target_id": [
+   35
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_35_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ005>.",
+  "pred_proposal": 5,
+  "pred_object_id": 31,
+  "pred_iou": 0.4198,
+  "target_id": [
+   35
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_35_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ005>.",
+  "pred_proposal": 5,
+  "pred_object_id": 31,
+  "pred_iou": 0.4198,
+  "target_id": [
+   35
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_47_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ030>.",
+  "pred_proposal": 30,
+  "pred_object_id": 47,
+  "pred_iou": 0.2094,
+  "target_id": [
+   47
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_47_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ030>.",
+  "pred_proposal": 30,
+  "pred_object_id": 47,
+  "pred_iou": 0.2094,
+  "target_id": [
+   29,
+   47
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_47_chain_1_2_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ034>.",
+  "pred_proposal": 34,
+  "pred_object_id": 46,
+  "pred_iou": 0.0163,
+  "target_id": [
+   29,
+   47
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_47_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ030>.",
+  "pred_proposal": 30,
+  "pred_object_id": 47,
+  "pred_iou": 0.2094,
+  "target_id": [
+   47
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_47_chain_3_0_class-spatial-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ030>.",
+  "pred_proposal": 30,
+  "pred_object_id": 47,
+  "pred_iou": 0.2094,
+  "target_id": [
+   47
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_47_chain_3_1_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ030>.",
+  "pred_proposal": 30,
+  "pred_object_id": 47,
+  "pred_iou": 0.2094,
+  "target_id": [
+   29,
+   47
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_29_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ039>.",
+  "pred_proposal": 39,
+  "pred_object_id": 23,
+  "pred_iou": 0.8617,
+  "target_id": [
+   29
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_29_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ030>.",
+  "pred_proposal": 30,
+  "pred_object_id": 47,
+  "pred_iou": 0.2094,
+  "target_id": [
+   29
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_29_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ014>.",
+  "pred_proposal": 14,
+  "pred_object_id": 11,
+  "pred_iou": 0.7119,
+  "target_id": [
+   29
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_26_chain_1_0_class-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 9,
+  "pred_iou": 0.4452,
+  "target_id": [
+   26
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_26_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 9,
+  "pred_iou": 0.4452,
+  "target_id": [
+   26
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_26_chain_2_0_class-spatial-geometry",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 9,
+  "pred_iou": 0.4452,
+  "target_id": [
+   26
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_26_chain_2_1_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 9,
+  "pred_iou": 0.4452,
+  "target_id": [
+   26
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_26_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ018>.",
+  "pred_proposal": 18,
+  "pred_object_id": 25,
+  "pred_iou": 0.2249,
+  "target_id": [
+   26
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_21_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ005>.",
+  "pred_proposal": 5,
+  "pred_object_id": 31,
+  "pred_iou": 0.4198,
+  "target_id": [
+   21
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_21_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ017>.",
+  "pred_proposal": 17,
+  "pred_object_id": 18,
+  "pred_iou": 0.6719,
+  "target_id": [
+   22,
+   21,
+   20
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_21_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ005>.",
+  "pred_proposal": 5,
+  "pred_object_id": 31,
+  "pred_iou": 0.4198,
+  "target_id": [
+   21
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_21_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ037>.",
+  "pred_proposal": 37,
+  "pred_object_id": 37,
+  "pred_iou": 0.8817,
+  "target_id": [
+   21
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_20_chain_1_0_class-spatial-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ017>.",
+  "pred_proposal": 17,
+  "pred_object_id": 18,
+  "pred_iou": 0.6719,
+  "target_id": [
+   20
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_20_chain_1_1_class-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ017>.",
+  "pred_proposal": 17,
+  "pred_object_id": 18,
+  "pred_iou": 0.6719,
+  "target_id": [
+   20
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_20_chain_2_0_class-spatial-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ012>.",
+  "pred_proposal": 12,
+  "pred_object_id": 20,
+  "pred_iou": 0.5394,
+  "target_id": [
+   20
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_20_chain_3_0_appearance-class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ012>.",
+  "pred_proposal": 12,
+  "pred_object_id": 20,
+  "pred_iou": 0.5394,
+  "target_id": [
+   20
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_28_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 45,
+  "pred_iou": 0.0304,
+  "target_id": [
+   28
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_28_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "mouse.",
+  "pred_proposal": null,
+  "pred_object_id": null,
+  "pred_iou": 0.0,
+  "target_id": [
+   28
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_28_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 9,
+  "pred_iou": 0.4452,
+  "target_id": [
+   28
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_28_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 9,
+  "pred_iou": 0.4452,
+  "target_id": [
+   28
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_25_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ018>.",
+  "pred_proposal": 18,
+  "pred_object_id": 25,
+  "pred_iou": 0.2249,
+  "target_id": [
+   25
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_25_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ018>.",
+  "pred_proposal": 18,
+  "pred_object_id": 25,
+  "pred_iou": 0.2249,
+  "target_id": [
+   25
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_25_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ018>.",
+  "pred_proposal": 18,
+  "pred_object_id": 25,
+  "pred_iou": 0.2249,
+  "target_id": [
+   25
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_25_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ018>.",
+  "pred_proposal": 18,
+  "pred_object_id": 25,
+  "pred_iou": 0.2249,
+  "target_id": [
+   25
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_9_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 9,
+  "pred_iou": 0.4452,
+  "target_id": [
+   9
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_9_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 9,
+  "pred_iou": 0.4452,
+  "target_id": [
+   9
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_9_chain_2_0_class-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 9,
+  "pred_iou": 0.4452,
+  "target_id": [
+   9
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_9_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 9,
+  "pred_iou": 0.4452,
+  "target_id": [
+   9
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_4_chain_1_0_class-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 4,
+  "pred_iou": 0.4921,
+  "target_id": [
+   4
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_4_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 4,
+  "pred_iou": 0.4921,
+  "target_id": [
+   4
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_4_chain_2_0_class-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 4,
+  "pred_iou": 0.4921,
+  "target_id": [
+   4
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_4_chain_3_0_class-spatial-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 4,
+  "pred_iou": 0.4921,
+  "target_id": [
+   4
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_4_chain_3_1_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 4,
+  "pred_iou": 0.4921,
+  "target_id": [
+   4
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_24_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 9,
+  "pred_iou": 0.4452,
+  "target_id": [
+   24
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_24_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 9,
+  "pred_iou": 0.4452,
+  "target_id": [
+   24
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_24_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 9,
+  "pred_iou": 0.4452,
+  "target_id": [
+   24
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_24_chain_3_0_class-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 9,
+  "pred_iou": 0.4452,
+  "target_id": [
+   24
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_12_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ014>.",
+  "pred_proposal": 14,
+  "pred_object_id": 11,
+  "pred_iou": 0.7119,
+  "target_id": [
+   12
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_12_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 9,
+  "pred_iou": 0.4452,
+  "target_id": [
+   12
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_12_chain_2_0_class-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 9,
+  "pred_iou": 0.4452,
+  "target_id": [
+   12
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_12_chain_3_0_class-geometry",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ014>.",
+  "pred_proposal": 14,
+  "pred_object_id": 11,
+  "pred_iou": 0.7119,
+  "target_id": [
+   12
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_49_chain_1_0_class-spatial-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ026>.",
+  "pred_proposal": 26,
+  "pred_object_id": 49,
+  "pred_iou": 0.0655,
+  "target_id": [
+   49
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_49_chain_1_1_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ026>.",
+  "pred_proposal": 26,
+  "pred_object_id": 49,
+  "pred_iou": 0.0655,
+  "target_id": [
+   49
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_49_chain_1_2_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ026>.",
+  "pred_proposal": 26,
+  "pred_object_id": 49,
+  "pred_iou": 0.0655,
+  "target_id": [
+   49
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_49_chain_2_0_class-spatial-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ019>.",
+  "pred_proposal": 19,
+  "pred_object_id": 49,
+  "pred_iou": 0.0875,
+  "target_id": [
+   49
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_49_chain_2_1_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ026>.",
+  "pred_proposal": 26,
+  "pred_object_id": 49,
+  "pred_iou": 0.0655,
+  "target_id": [
+   49
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_49_chain_3_0_class-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ026>.",
+  "pred_proposal": 26,
+  "pred_object_id": 49,
+  "pred_iou": 0.0655,
+  "target_id": [
+   49
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_18_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ017>.",
+  "pred_proposal": 17,
+  "pred_object_id": 18,
+  "pred_iou": 0.6719,
+  "target_id": [
+   18
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_18_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ017>.",
+  "pred_proposal": 17,
+  "pred_object_id": 18,
+  "pred_iou": 0.6719,
+  "target_id": [
+   18
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_18_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ017>.",
+  "pred_proposal": 17,
+  "pred_object_id": 18,
+  "pred_iou": 0.6719,
+  "target_id": [
+   18
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_18_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ017>.",
+  "pred_proposal": 17,
+  "pred_object_id": 18,
+  "pred_iou": 0.6719,
+  "target_id": [
+   18
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00105_06_17_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ039>.",
+  "pred_proposal": 39,
+  "pred_object_id": 23,
+  "pred_iou": 0.8617,
+  "target_id": [
+   17
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_17_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ039>.",
+  "pred_proposal": 39,
+  "pred_object_id": 23,
+  "pred_iou": 0.8617,
+  "target_id": [
+   17
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_17_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "2023.",
+  "pred_proposal": null,
+  "pred_object_id": null,
+  "pred_iou": 0.0,
+  "target_id": [
+   17
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_17_chain_3_0_class-geometry",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 9,
+  "pred_iou": 0.4452,
+  "target_id": [
+   17
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_27_chain_1_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 38,
+  "pred_iou": 0.9182,
+  "target_id": [
+   27
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_27_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ031>.",
+  "pred_proposal": 31,
+  "pred_object_id": 6,
+  "pred_iou": 0.4848,
+  "target_id": [
+   27
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_27_chain_2_0_class-appearance",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ023>.",
+  "pred_proposal": 23,
+  "pred_object_id": 45,
+  "pred_iou": 0.5245,
+  "target_id": [
+   27
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_27_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 9,
+  "pred_iou": 0.4452,
+  "target_id": [
+   27
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_32_chain_1_0_appearance-class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ043>.",
+  "pred_proposal": 43,
+  "pred_object_id": 51,
+  "pred_iou": 0.0064,
+  "target_id": [
+   32
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_32_chain_1_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ043>.",
+  "pred_proposal": 43,
+  "pred_object_id": 51,
+  "pred_iou": 0.0064,
+  "target_id": [
+   32
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_32_chain_2_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ037>.",
+  "pred_proposal": 37,
+  "pred_object_id": 37,
+  "pred_iou": 0.8817,
+  "target_id": [
+   32
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_32_chain_3_0_class-spatial",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ043>.",
+  "pred_proposal": 43,
+  "pred_object_id": 51,
+  "pred_iou": 0.0064,
+  "target_id": [
+   32
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00105_06_32_chain_3_1_class",
+  "scan_id": "scene_00105_06",
+  "pred": "<OBJ037>.",
+  "pred_proposal": 37,
+  "pred_object_id": 37,
+  "pred_iou": 0.8817,
+  "target_id": [
+   32
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_13_chain_1_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 14,
+  "pred_iou": 0.9443,
+  "target_id": [
+   13
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_13_chain_1_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 14,
+  "pred_iou": 0.9443,
+  "target_id": [
+   15,
+   14,
+   13
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_13_chain_1_2_class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 14,
+  "pred_iou": 0.9443,
+  "target_id": [
+   12,
+   15,
+   14,
+   13
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_13_chain_2_0_spatial-class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 12,
+  "pred_iou": 0.8464,
+  "target_id": [
+   13
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_13_chain_3_0_class-appearance-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 14,
+  "pred_iou": 0.9443,
+  "target_id": [
+   13
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_12_chain_1_0_spatial-class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 12,
+  "pred_iou": 0.8464,
+  "target_id": [
+   12
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_12_chain_1_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 12,
+  "pred_iou": 0.8464,
+  "target_id": [
+   12,
+   13
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_12_chain_2_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 14,
+  "pred_iou": 0.9443,
+  "target_id": [
+   12
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_12_chain_3_0_class-spatial-geometry",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 14,
+  "pred_iou": 0.9443,
+  "target_id": [
+   12
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_12_chain_3_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 12,
+  "pred_iou": 0.8464,
+  "target_id": [
+   12,
+   13
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_15_chain_1_0_class-spatial-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ013>.",
+  "pred_proposal": 13,
+  "pred_object_id": 13,
+  "pred_iou": 0.9731,
+  "target_id": [
+   15
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_15_chain_1_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 12,
+  "pred_iou": 0.8464,
+  "target_id": [
+   15
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_15_chain_2_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 14,
+  "pred_iou": 0.9443,
+  "target_id": [
+   15
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_15_chain_3_0_class-spatial-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 12,
+  "pred_iou": 0.8464,
+  "target_id": [
+   15
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_15_chain_3_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 14,
+  "pred_iou": 0.9443,
+  "target_id": [
+   15,
+   14,
+   13,
+   12
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_20_chain_1_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ007>.",
+  "pred_proposal": 7,
+  "pred_object_id": 19,
+  "pred_iou": 0.961,
+  "target_id": [
+   20
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_20_chain_1_1_class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ042>.",
+  "pred_proposal": 42,
+  "pred_object_id": 6,
+  "pred_iou": 0.0954,
+  "target_id": [
+   20
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_20_chain_2_0_appearance-class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 20,
+  "pred_iou": 0.8639,
+  "target_id": [
+   20
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_20_chain_3_0_class-geometry",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 20,
+  "pred_iou": 0.8639,
+  "target_id": [
+   20
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_24_chain_1_0_class-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ024>.",
+  "pred_proposal": 24,
+  "pred_object_id": 24,
+  "pred_iou": 0.9532,
+  "target_id": [
+   24
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_24_chain_1_1_class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ024>.",
+  "pred_proposal": 24,
+  "pred_object_id": 24,
+  "pred_iou": 0.9532,
+  "target_id": [
+   24,
+   23,
+   21,
+   22
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_24_chain_1_2_class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ024>.",
+  "pred_proposal": 24,
+  "pred_object_id": 24,
+  "pred_iou": 0.9532,
+  "target_id": [
+   24,
+   22,
+   21,
+   23
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_24_chain_2_0_class-spatial-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ024>.",
+  "pred_proposal": 24,
+  "pred_object_id": 24,
+  "pred_iou": 0.9532,
+  "target_id": [
+   24
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_24_chain_3_0_spatial-class-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ024>.",
+  "pred_proposal": 24,
+  "pred_object_id": 24,
+  "pred_iou": 0.9532,
+  "target_id": [
+   24
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_23_chain_1_0_class-spatial-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ073>.",
+  "pred_proposal": 73,
+  "pred_object_id": 23,
+  "pred_iou": 0.8656,
+  "target_id": [
+   23
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_23_chain_1_1_class-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 16,
+  "pred_iou": 0.341,
+  "target_id": [
+   23,
+   21
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_23_chain_2_0_class-appearance-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   23
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_23_chain_3_0_class-spatial-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ073>.",
+  "pred_proposal": 73,
+  "pred_object_id": 23,
+  "pred_iou": 0.8656,
+  "target_id": [
+   23
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_21_chain_1_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ024>.",
+  "pred_proposal": 24,
+  "pred_object_id": 24,
+  "pred_iou": 0.9532,
+  "target_id": [
+   21
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_21_chain_2_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ024>.",
+  "pred_proposal": 24,
+  "pred_object_id": 24,
+  "pred_iou": 0.9532,
+  "target_id": [
+   21
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_21_chain_3_0_class-appearance-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   21
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_22_chain_1_0_class-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ024>.",
+  "pred_proposal": 24,
+  "pred_object_id": 24,
+  "pred_iou": 0.9532,
+  "target_id": [
+   22
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_22_chain_2_0_class-appearance-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ013>.",
+  "pred_proposal": 13,
+  "pred_object_id": 13,
+  "pred_iou": 0.9731,
+  "target_id": [
+   23
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_22_chain_3_0_class-appearance-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ013>.",
+  "pred_proposal": 13,
+  "pred_object_id": 13,
+  "pred_iou": 0.9731,
+  "target_id": [
+   22
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_32_chain_1_0_spatial-class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 14,
+  "pred_iou": 0.9443,
+  "target_id": [
+   32
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_32_chain_1_1_class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 27,
+  "pred_iou": 0.9346,
+  "target_id": [
+   32,
+   31,
+   29,
+   28
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_32_chain_2_0_class-spatial-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ013>.",
+  "pred_proposal": 13,
+  "pred_object_id": 13,
+  "pred_iou": 0.9731,
+  "target_id": [
+   32
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_32_chain_2_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 14,
+  "pred_iou": 0.9443,
+  "target_id": [
+   32,
+   29
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_32_chain_3_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 14,
+  "pred_iou": 0.9443,
+  "target_id": [
+   32
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_29_chain_1_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 12,
+  "pred_iou": 0.8464,
+  "target_id": [
+   29
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_29_chain_2_0_class-spatial-geometry",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 14,
+  "pred_iou": 0.9443,
+  "target_id": [
+   29
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_29_chain_2_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 12,
+  "pred_iou": 0.8464,
+  "target_id": [
+   29
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_29_chain_3_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 14,
+  "pred_iou": 0.9443,
+  "target_id": [
+   29
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_10_chain_1_0_class-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "tv.",
+  "pred_proposal": null,
+  "pred_object_id": null,
+  "pred_iou": 0.0,
+  "target_id": [
+   10
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_10_chain_1_1_class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ000>.",
+  "pred_proposal": 0,
+  "pred_object_id": 41,
+  "pred_iou": 0.332,
+  "target_id": [
+   10
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_10_chain_2_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 9,
+  "pred_iou": 0.9593,
+  "target_id": [
+   10
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_10_chain_3_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 9,
+  "pred_iou": 0.9593,
+  "target_id": [
+   10
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_10_chain_3_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 16,
+  "pred_iou": 0.341,
+  "target_id": [
+   10
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_4_chain_1_0_class-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 16,
+  "pred_iou": 0.341,
+  "target_id": [
+   4
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_4_chain_1_1_class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 16,
+  "pred_iou": 0.341,
+  "target_id": [
+   4
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_4_chain_1_2_class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 16,
+  "pred_iou": 0.341,
+  "target_id": [
+   4
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_4_chain_2_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 16,
+  "pred_iou": 0.341,
+  "target_id": [
+   4
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_4_chain_3_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 16,
+  "pred_iou": 0.341,
+  "target_id": [
+   4
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_19_chain_1_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ014>.",
+  "pred_proposal": 14,
+  "pred_object_id": 19,
+  "pred_iou": 0.9816,
+  "target_id": [
+   19
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_19_chain_1_1_class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ014>.",
+  "pred_proposal": 14,
+  "pred_object_id": 19,
+  "pred_iou": 0.9816,
+  "target_id": [
+   19,
+   18
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_19_chain_2_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ007>.",
+  "pred_proposal": 7,
+  "pred_object_id": 19,
+  "pred_iou": 0.961,
+  "target_id": [
+   19
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_19_chain_3_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ014>.",
+  "pred_proposal": 14,
+  "pred_object_id": 19,
+  "pred_iou": 0.9816,
+  "target_id": [
+   19
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_18_chain_1_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ014>.",
+  "pred_proposal": 14,
+  "pred_object_id": 19,
+  "pred_iou": 0.9816,
+  "target_id": [
+   18
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_18_chain_2_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ021>.",
+  "pred_proposal": 21,
+  "pred_object_id": 18,
+  "pred_iou": 0.6885,
+  "target_id": [
+   18
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_18_chain_3_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ014>.",
+  "pred_proposal": 14,
+  "pred_object_id": 19,
+  "pred_iou": 0.9816,
+  "target_id": [
+   18
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_27_chain_1_0_class-appearance-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 27,
+  "pred_iou": 0.9346,
+  "target_id": [
+   27
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_27_chain_1_1_class-appearance-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 27,
+  "pred_iou": 0.9346,
+  "target_id": [
+   48,
+   33,
+   45,
+   27
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_27_chain_1_2_class-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 27,
+  "pred_iou": 0.9346,
+  "target_id": [
+   33,
+   48,
+   45,
+   27,
+   38,
+   36
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_27_chain_1_3_class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 27,
+  "pred_iou": 0.9346,
+  "target_id": [
+   45,
+   35,
+   38,
+   30,
+   48,
+   50,
+   33,
+   36,
+   34,
+   46,
+   27,
+   47,
+   37,
+   49
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_27_chain_2_0_class-appearance-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 27,
+  "pred_iou": 0.9346,
+  "target_id": [
+   27
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_27_chain_3_0_class-appearance-spatial-geometry",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 27,
+  "pred_iou": 0.9346,
+  "target_id": [
+   27
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_27_chain_3_1_class-appearance-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 27,
+  "pred_iou": 0.9346,
+  "target_id": [
+   27
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_36_chain_1_0_class-appearance-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   36
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_36_chain_1_1_class-appearance-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   36,
+   38
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_36_chain_1_2_class-spatial-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   36,
+   38
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_36_chain_1_3_class-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 27,
+  "pred_iou": 0.9346,
+  "target_id": [
+   36,
+   33,
+   48,
+   38,
+   45,
+   27
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_36_chain_2_0_class-appearance-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   36
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_36_chain_2_1_class-appearance-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   36,
+   38
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_36_chain_3_0_class-appearance-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 27,
+  "pred_iou": 0.9346,
+  "target_id": [
+   36
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_36_chain_3_1_class-appearance-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   36,
+   38
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_30_chain_1_0_class-appearance-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ011>.",
+  "pred_proposal": 11,
+  "pred_object_id": 34,
+  "pred_iou": 0.6178,
+  "target_id": [
+   30
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_30_chain_1_1_class-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ011>.",
+  "pred_proposal": 11,
+  "pred_object_id": 34,
+  "pred_iou": 0.6178,
+  "target_id": [
+   30,
+   50
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_30_chain_2_0_class-appearance-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ011>.",
+  "pred_proposal": 11,
+  "pred_object_id": 34,
+  "pred_iou": 0.6178,
+  "target_id": [
+   30
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_30_chain_3_0_class-appearance-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ011>.",
+  "pred_proposal": 11,
+  "pred_object_id": 34,
+  "pred_iou": 0.6178,
+  "target_id": [
+   30
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_37_chain_1_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   37
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_37_chain_1_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   37
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_37_chain_1_2_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   37,
+   36,
+   50,
+   38
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_37_chain_1_3_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   34,
+   36,
+   50,
+   38,
+   35,
+   46,
+   47,
+   37
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_37_chain_2_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   37
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_37_chain_2_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   37,
+   50,
+   36,
+   38
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_37_chain_3_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ017>.",
+  "pred_proposal": 17,
+  "pred_object_id": 36,
+  "pred_iou": 0.3693,
+  "target_id": [
+   37
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_37_chain_3_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   37,
+   50,
+   36,
+   38
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_46_chain_1_0_class-spatial-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   46
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_46_chain_1_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   46
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_46_chain_1_2_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   46,
+   47
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_46_chain_2_0_class-spatial-geometry",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   46
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_46_chain_2_1_class-spatial-geometry",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   46,
+   47
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_46_chain_3_0_class-spatial-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   46
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_46_chain_3_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   46,
+   34
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_46_chain_3_2_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 46,
+  "pred_iou": 0.7168,
+  "target_id": [
+   34,
+   36,
+   50,
+   38,
+   35,
+   46,
+   47,
+   37
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_17_chain_1_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 16,
+  "pred_iou": 0.341,
+  "target_id": [
+   17
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_17_chain_1_1_class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 16,
+  "pred_iou": 0.341,
+  "target_id": [
+   16,
+   17
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_17_chain_2_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 16,
+  "pred_iou": 0.341,
+  "target_id": [
+   17
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_17_chain_3_0_class-spatial-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 16,
+  "pred_iou": 0.341,
+  "target_id": [
+   17
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_17_chain_3_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 16,
+  "pred_iou": 0.341,
+  "target_id": [
+   16,
+   17
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_16_chain_1_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 16,
+  "pred_iou": 0.341,
+  "target_id": [
+   16
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_16_chain_2_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 16,
+  "pred_iou": 0.341,
+  "target_id": [
+   16
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_16_chain_3_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 16,
+  "pred_iou": 0.341,
+  "target_id": [
+   16
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_44_chain_1_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 9,
+  "pred_iou": 0.9593,
+  "target_id": [
+   44
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_44_chain_1_1_class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 9,
+  "pred_iou": 0.9593,
+  "target_id": [
+   44,
+   8,
+   9
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_44_chain_1_2_class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 9,
+  "pred_iou": 0.9593,
+  "target_id": [
+   44,
+   8,
+   9
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_44_chain_2_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 9,
+  "pred_iou": 0.9593,
+  "target_id": [
+   44
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_44_chain_3_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 9,
+  "pred_iou": 0.9593,
+  "target_id": [
+   44
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_9_chain_1_0_class-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 9,
+  "pred_iou": 0.9593,
+  "target_id": [
+   9
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_9_chain_2_0_class-spatial-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 9,
+  "pred_iou": 0.9593,
+  "target_id": [
+   9
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_9_chain_3_0_class-spatial-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 9,
+  "pred_iou": 0.9593,
+  "target_id": [
+   9
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_9_chain_3_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 9,
+  "pred_iou": 0.9593,
+  "target_id": [
+   9
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_8_chain_1_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 9,
+  "pred_iou": 0.9593,
+  "target_id": [
+   8
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_8_chain_1_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 9,
+  "pred_iou": 0.9593,
+  "target_id": [
+   8
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_8_chain_2_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 9,
+  "pred_iou": 0.9593,
+  "target_id": [
+   8
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_8_chain_2_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 9,
+  "pred_iou": 0.9593,
+  "target_id": [
+   8,
+   9,
+   44
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_8_chain_3_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ002>.",
+  "pred_proposal": 2,
+  "pred_object_id": 9,
+  "pred_iou": 0.9593,
+  "target_id": [
+   8
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_26_chain_1_0_geometry-class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 25,
+  "pred_iou": 0.6195,
+  "target_id": [
+   26
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_26_chain_1_1_class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 25,
+  "pred_iou": 0.6195,
+  "target_id": [
+   26
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_26_chain_1_2_class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 25,
+  "pred_iou": 0.6195,
+  "target_id": [
+   26,
+   25
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_26_chain_2_0_class-spatial-geometry",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 25,
+  "pred_iou": 0.6195,
+  "target_id": [
+   26
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_26_chain_2_2_class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 25,
+  "pred_iou": 0.6195,
+  "target_id": [
+   26,
+   25
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_26_chain_3_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 25,
+  "pred_iou": 0.6195,
+  "target_id": [
+   26
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_25_chain_1_0_geometry-class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 25,
+  "pred_iou": 0.6195,
+  "target_id": [
+   25
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_25_chain_1_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 25,
+  "pred_iou": 0.6195,
+  "target_id": [
+   26,
+   25
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_25_chain_2_0_class-spatial-geometry",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 25,
+  "pred_iou": 0.6195,
+  "target_id": [
+   25
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_25_chain_2_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 16,
+  "pred_iou": 0.341,
+  "target_id": [
+   26,
+   25
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_25_chain_3_0_spatial-class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 16,
+  "pred_iou": 0.341,
+  "target_id": [
+   25
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_6_chain_1_0_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ007>.",
+  "pred_proposal": 7,
+  "pred_object_id": 19,
+  "pred_iou": 0.961,
+  "target_id": [
+   6
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_6_chain_1_1_class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ007>.",
+  "pred_proposal": 7,
+  "pred_object_id": 19,
+  "pred_iou": 0.961,
+  "target_id": [
+   6
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_6_chain_1_2_class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ013>.",
+  "pred_proposal": 13,
+  "pred_object_id": 13,
+  "pred_iou": 0.9731,
+  "target_id": [
+   6
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_6_chain_2_0_spatial-class-geometry",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 16,
+  "pred_iou": 0.341,
+  "target_id": [
+   6
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_6_chain_2_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ042>.",
+  "pred_proposal": 42,
+  "pred_object_id": 6,
+  "pred_iou": 0.0954,
+  "target_id": [
+   6
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_6_chain_3_0_class-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ007>.",
+  "pred_proposal": 7,
+  "pred_object_id": 19,
+  "pred_iou": 0.961,
+  "target_id": [
+   6
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00109_00_42_chain_1_0_geometry-class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ016>.",
+  "pred_proposal": 16,
+  "pred_object_id": 42,
+  "pred_iou": 0.3869,
+  "target_id": [
+   42
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_42_chain_1_1_class",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ016>.",
+  "pred_proposal": 16,
+  "pred_object_id": 42,
+  "pred_iou": 0.3869,
+  "target_id": [
+   42,
+   40
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_42_chain_2_0_class-spatial-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ016>.",
+  "pred_proposal": 16,
+  "pred_object_id": 42,
+  "pred_iou": 0.3869,
+  "target_id": [
+   42
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_42_chain_2_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ016>.",
+  "pred_proposal": 16,
+  "pred_object_id": 42,
+  "pred_iou": 0.3869,
+  "target_id": [
+   42
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_42_chain_3_0_class-spatial-appearance",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ016>.",
+  "pred_proposal": 16,
+  "pred_object_id": 42,
+  "pred_iou": 0.3869,
+  "target_id": [
+   42
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00109_00_42_chain_3_1_class-spatial",
+  "scan_id": "scene_00109_00",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 14,
+  "pred_iou": 0.9443,
+  "target_id": [
+   42,
+   40
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_1_chain_1_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ011>.",
+  "pred_proposal": 11,
+  "pred_object_id": 1,
+  "pred_iou": 0.6933,
+  "target_id": [
+   1
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_1_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ011>.",
+  "pred_proposal": 11,
+  "pred_object_id": 1,
+  "pred_iou": 0.6933,
+  "target_id": [
+   40,
+   19,
+   1,
+   17,
+   22
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_1_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ011>.",
+  "pred_proposal": 11,
+  "pred_object_id": 1,
+  "pred_iou": 0.6933,
+  "target_id": [
+   1
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_1_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ019>.",
+  "pred_proposal": 19,
+  "pred_object_id": 1,
+  "pred_iou": 0.0514,
+  "target_id": [
+   1
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_17_chain_1_0_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ011>.",
+  "pred_proposal": 11,
+  "pred_object_id": 1,
+  "pred_iou": 0.6933,
+  "target_id": [
+   17
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_17_chain_2_0_class-spatial-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ035>.",
+  "pred_proposal": 35,
+  "pred_object_id": 17,
+  "pred_iou": 0.5947,
+  "target_id": [
+   17
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_17_chain_2_1_class-appearance-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ019>.",
+  "pred_proposal": 19,
+  "pred_object_id": 1,
+  "pred_iou": 0.0514,
+  "target_id": [
+   17
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_17_chain_2_2_class-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ011>.",
+  "pred_proposal": 11,
+  "pred_object_id": 1,
+  "pred_iou": 0.6933,
+  "target_id": [
+   19,
+   1,
+   17,
+   22
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_17_chain_3_0_class-spatial-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ011>.",
+  "pred_proposal": 11,
+  "pred_object_id": 1,
+  "pred_iou": 0.6933,
+  "target_id": [
+   17
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_22_chain_1_0_class-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ011>.",
+  "pred_proposal": 11,
+  "pred_object_id": 1,
+  "pred_iou": 0.6933,
+  "target_id": [
+   22
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_22_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ011>.",
+  "pred_proposal": 11,
+  "pred_object_id": 1,
+  "pred_iou": 0.6933,
+  "target_id": [
+   22
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_22_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ011>.",
+  "pred_proposal": 11,
+  "pred_object_id": 1,
+  "pred_iou": 0.6933,
+  "target_id": [
+   22
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_40_chain_1_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ030>.",
+  "pred_proposal": 30,
+  "pred_object_id": 1,
+  "pred_iou": 0.0902,
+  "target_id": [
+   40
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_40_chain_2_0_class-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ011>.",
+  "pred_proposal": 11,
+  "pred_object_id": 1,
+  "pred_iou": 0.6933,
+  "target_id": [
+   40
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_40_chain_3_0_class-spatial-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ030>.",
+  "pred_proposal": 30,
+  "pred_object_id": 1,
+  "pred_iou": 0.0902,
+  "target_id": [
+   40
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_19_chain_1_0_class-appearance-geometry",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 10,
+  "pred_iou": 0.9046,
+  "target_id": [
+   19
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_19_chain_1_1_class-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 10,
+  "pred_iou": 0.9046,
+  "target_id": [
+   19,
+   1,
+   17,
+   22
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_19_chain_1_2_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 10,
+  "pred_iou": 0.9046,
+  "target_id": [
+   40,
+   19,
+   1,
+   17,
+   22
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_19_chain_2_0_class-appearance-geometry-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 10,
+  "pred_iou": 0.9046,
+  "target_id": [
+   19
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_19_chain_2_2_class-geometry",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 10,
+  "pred_iou": 0.9046,
+  "target_id": [
+   40,
+   19
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_19_chain_3_0_class-geometry-spatial-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 10,
+  "pred_iou": 0.9046,
+  "target_id": [
+   19
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_37_chain_1_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ029>.",
+  "pred_proposal": 29,
+  "pred_object_id": 39,
+  "pred_iou": 0.5832,
+  "target_id": [
+   37
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_37_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ029>.",
+  "pred_proposal": 29,
+  "pred_object_id": 39,
+  "pred_iou": 0.5832,
+  "target_id": [
+   32,
+   37,
+   39
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_37_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ036>.",
+  "pred_proposal": 36,
+  "pred_object_id": 32,
+  "pred_iou": 0.7336,
+  "target_id": [
+   37
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_37_chain_2_1_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ036>.",
+  "pred_proposal": 36,
+  "pred_object_id": 32,
+  "pred_iou": 0.7336,
+  "target_id": [
+   37,
+   32
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_37_chain_3_0_class-appearance-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ036>.",
+  "pred_proposal": 36,
+  "pred_object_id": 32,
+  "pred_iou": 0.7336,
+  "target_id": [
+   37
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_32_chain_1_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ036>.",
+  "pred_proposal": 36,
+  "pred_object_id": 32,
+  "pred_iou": 0.7336,
+  "target_id": [
+   32
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_32_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ036>.",
+  "pred_proposal": 36,
+  "pred_object_id": 32,
+  "pred_iou": 0.7336,
+  "target_id": [
+   32
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_32_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ036>.",
+  "pred_proposal": 36,
+  "pred_object_id": 32,
+  "pred_iou": 0.7336,
+  "target_id": [
+   32
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_39_chain_1_0_class-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ029>.",
+  "pred_proposal": 29,
+  "pred_object_id": 39,
+  "pred_iou": 0.5832,
+  "target_id": [
+   39
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_39_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ029>.",
+  "pred_proposal": 29,
+  "pred_object_id": 39,
+  "pred_iou": 0.5832,
+  "target_id": [
+   39
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_39_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ029>.",
+  "pred_proposal": 29,
+  "pred_object_id": 39,
+  "pred_iou": 0.5832,
+  "target_id": [
+   39
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_18_chain_1_0_class-geometry",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ022>.",
+  "pred_proposal": 22,
+  "pred_object_id": 36,
+  "pred_iou": 0.7629,
+  "target_id": [
+   18
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_18_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ022>.",
+  "pred_proposal": 22,
+  "pred_object_id": 36,
+  "pred_iou": 0.7629,
+  "target_id": [
+   18
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_18_chain_2_0_class-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ013>.",
+  "pred_proposal": 13,
+  "pred_object_id": 17,
+  "pred_iou": 0.2966,
+  "target_id": [
+   18
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_18_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ038>.",
+  "pred_proposal": 38,
+  "pred_object_id": 40,
+  "pred_iou": 0.445,
+  "target_id": [
+   18
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_10_chain_1_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 10,
+  "pred_iou": 0.9046,
+  "target_id": [
+   10
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_10_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 38,
+  "pred_iou": 0.7789,
+  "target_id": [
+   10
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_10_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 10,
+  "pred_iou": 0.9046,
+  "target_id": [
+   10
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_10_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 38,
+  "pred_iou": 0.7789,
+  "target_id": [
+   10
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_38_chain_1_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 38,
+  "pred_iou": 0.7789,
+  "target_id": [
+   38
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_38_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 38,
+  "pred_iou": 0.7789,
+  "target_id": [
+   38
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_38_chain_3_0_class-appearance-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 33,
+  "pred_iou": 0.9154,
+  "target_id": [
+   38
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_38_chain_3_1_class-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 38,
+  "pred_iou": 0.7789,
+  "target_id": [
+   33,
+   38
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_33_chain_1_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 33,
+  "pred_iou": 0.9154,
+  "target_id": [
+   33
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_33_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 38,
+  "pred_iou": 0.7789,
+  "target_id": [
+   33
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_33_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 33,
+  "pred_iou": 0.9154,
+  "target_id": [
+   33
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_29_chain_1_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ022>.",
+  "pred_proposal": 22,
+  "pred_object_id": 36,
+  "pred_iou": 0.7629,
+  "target_id": [
+   29
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_29_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ022>.",
+  "pred_proposal": 22,
+  "pred_object_id": 36,
+  "pred_iou": 0.7629,
+  "target_id": [
+   27,
+   26,
+   28,
+   29,
+   25
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_29_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ022>.",
+  "pred_proposal": 22,
+  "pred_object_id": 36,
+  "pred_iou": 0.7629,
+  "target_id": [
+   29
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_29_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ022>.",
+  "pred_proposal": 22,
+  "pred_object_id": 36,
+  "pred_iou": 0.7629,
+  "target_id": [
+   29
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_36_chain_1_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ038>.",
+  "pred_proposal": 38,
+  "pred_object_id": 40,
+  "pred_iou": 0.445,
+  "target_id": [
+   36
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_36_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ022>.",
+  "pred_proposal": 22,
+  "pred_object_id": 36,
+  "pred_iou": 0.7629,
+  "target_id": [
+   30,
+   36,
+   31
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_36_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ022>.",
+  "pred_proposal": 22,
+  "pred_object_id": 36,
+  "pred_iou": 0.7629,
+  "target_id": [
+   36
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_36_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ022>.",
+  "pred_proposal": 22,
+  "pred_object_id": 36,
+  "pred_iou": 0.7629,
+  "target_id": [
+   36
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_26_chain_1_0_class-spatial-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ013>.",
+  "pred_proposal": 13,
+  "pred_object_id": 17,
+  "pred_iou": 0.2966,
+  "target_id": [
+   26
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_26_chain_1_1_class-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 10,
+  "pred_iou": 0.9046,
+  "target_id": [
+   26,
+   28,
+   29
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_26_chain_2_0_class-appearance-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 10,
+  "pred_iou": 0.9046,
+  "target_id": [
+   26
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_26_chain_3_0_class-spatial-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ082>.",
+  "pred_proposal": 82,
+  "pred_object_id": 5,
+  "pred_iou": 0.2024,
+  "target_id": [
+   26
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_25_chain_1_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 10,
+  "pred_iou": 0.9046,
+  "target_id": [
+   25
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_25_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 10,
+  "pred_iou": 0.9046,
+  "target_id": [
+   25
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_25_chain_3_0_class-spatial-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 10,
+  "pred_iou": 0.9046,
+  "target_id": [
+   25
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_25_chain_3_1_class-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 10,
+  "pred_iou": 0.9046,
+  "target_id": [
+   27
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_30_chain_1_0_class-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ013>.",
+  "pred_proposal": 13,
+  "pred_object_id": 17,
+  "pred_iou": 0.2966,
+  "target_id": [
+   30
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_30_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ022>.",
+  "pred_proposal": 22,
+  "pred_object_id": 36,
+  "pred_iou": 0.7629,
+  "target_id": [
+   30,
+   36,
+   31
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_30_chain_2_0_class-appearance-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ047>.",
+  "pred_proposal": 47,
+  "pred_object_id": 31,
+  "pred_iou": 0.2278,
+  "target_id": [
+   30
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_30_chain_3_0_class-appearance-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ028>.",
+  "pred_proposal": 28,
+  "pred_object_id": 22,
+  "pred_iou": 0.0494,
+  "target_id": [
+   30
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_31_chain_1_0_class-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ022>.",
+  "pred_proposal": 22,
+  "pred_object_id": 36,
+  "pred_iou": 0.7629,
+  "target_id": [
+   31
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_31_chain_2_0_class-spatial-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ047>.",
+  "pred_proposal": 47,
+  "pred_object_id": 31,
+  "pred_iou": 0.2278,
+  "target_id": [
+   31
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_31_chain_3_0_class-appearance-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ039>.",
+  "pred_proposal": 39,
+  "pred_object_id": 40,
+  "pred_iou": 0.3028,
+  "target_id": [
+   31
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_5_chain_1_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 35,
+  "pred_iou": 0.9377,
+  "target_id": [
+   5
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_5_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ026>.",
+  "pred_proposal": 26,
+  "pred_object_id": 5,
+  "pred_iou": 0.7286,
+  "target_id": [
+   5
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_5_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 35,
+  "pred_iou": 0.9377,
+  "target_id": [
+   5
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_5_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 35,
+  "pred_iou": 0.9377,
+  "target_id": [
+   5
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_35_chain_1_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 35,
+  "pred_iou": 0.9377,
+  "target_id": [
+   35
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_35_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 35,
+  "pred_iou": 0.9377,
+  "target_id": [
+   35
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_35_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 35,
+  "pred_iou": 0.9377,
+  "target_id": [
+   35
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_35_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 35,
+  "pred_iou": 0.9377,
+  "target_id": [
+   35
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_3_chain_1_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 3,
+  "pred_iou": 0.7085,
+  "target_id": [
+   3
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_3_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 3,
+  "pred_iou": 0.7085,
+  "target_id": [
+   3
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_3_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 3,
+  "pred_iou": 0.7085,
+  "target_id": [
+   3
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_3_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 3,
+  "pred_iou": 0.7085,
+  "target_id": [
+   3
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_12_chain_1_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ007>.",
+  "pred_proposal": 7,
+  "pred_object_id": 12,
+  "pred_iou": 0.5735,
+  "target_id": [
+   12
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_12_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ007>.",
+  "pred_proposal": 7,
+  "pred_object_id": 12,
+  "pred_iou": 0.5735,
+  "target_id": [
+   12
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_12_chain_2_0_class-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ007>.",
+  "pred_proposal": 7,
+  "pred_object_id": 12,
+  "pred_iou": 0.5735,
+  "target_id": [
+   12
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_12_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ007>.",
+  "pred_proposal": 7,
+  "pred_object_id": 12,
+  "pred_iou": 0.5735,
+  "target_id": [
+   12
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_42_chain_1_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ012>.",
+  "pred_proposal": 12,
+  "pred_object_id": 16,
+  "pred_iou": 0.06,
+  "target_id": [
+   42
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_42_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ012>.",
+  "pred_proposal": 12,
+  "pred_object_id": 16,
+  "pred_iou": 0.06,
+  "target_id": [
+   42
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_42_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ012>.",
+  "pred_proposal": 12,
+  "pred_object_id": 16,
+  "pred_iou": 0.06,
+  "target_id": [
+   42
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_42_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ012>.",
+  "pred_proposal": 12,
+  "pred_object_id": 16,
+  "pred_iou": 0.06,
+  "target_id": [
+   42
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_8_chain_1_0_class-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ022>.",
+  "pred_proposal": 22,
+  "pred_object_id": 36,
+  "pred_iou": 0.7629,
+  "target_id": [
+   8
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_8_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ022>.",
+  "pred_proposal": 22,
+  "pred_object_id": 36,
+  "pred_iou": 0.7629,
+  "target_id": [
+   8
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_8_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ016>.",
+  "pred_proposal": 16,
+  "pred_object_id": 11,
+  "pred_iou": 0.0083,
+  "target_id": [
+   8
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_8_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ033>.",
+  "pred_proposal": 33,
+  "pred_object_id": 22,
+  "pred_iou": 0.0071,
+  "target_id": [
+   8
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_21_chain_1_0_class-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 24,
+  "pred_iou": 0.4957,
+  "target_id": [
+   21
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_21_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 24,
+  "pred_iou": 0.4957,
+  "target_id": [
+   21
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_21_chain_2_0_class-spatial-geometry",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ069>.",
+  "pred_proposal": 69,
+  "pred_object_id": 21,
+  "pred_iou": 0.7995,
+  "target_id": [
+   21
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_21_chain_2_1_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ069>.",
+  "pred_proposal": 69,
+  "pred_object_id": 21,
+  "pred_iou": 0.7995,
+  "target_id": [
+   21
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_21_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 24,
+  "pred_iou": 0.4957,
+  "target_id": [
+   21
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_4_chain_1_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 3,
+  "pred_iou": 0.7085,
+  "target_id": [
+   4
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_4_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 10,
+  "pred_iou": 0.9046,
+  "target_id": [
+   4
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_4_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 10,
+  "pred_iou": 0.9046,
+  "target_id": [
+   4
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_4_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 10,
+  "pred_iou": 0.9046,
+  "target_id": [
+   4
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_34_chain_1_0_appearance-class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 10,
+  "pred_iou": 0.9046,
+  "target_id": [
+   34
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_34_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ014>.",
+  "pred_proposal": 14,
+  "pred_object_id": 9,
+  "pred_iou": 0.6607,
+  "target_id": [
+   34
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_34_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ014>.",
+  "pred_proposal": 14,
+  "pred_object_id": 9,
+  "pred_iou": 0.6607,
+  "target_id": [
+   34
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_34_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ014>.",
+  "pred_proposal": 14,
+  "pred_object_id": 9,
+  "pred_iou": 0.6607,
+  "target_id": [
+   34
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_13_chain_1_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ031>.",
+  "pred_proposal": 31,
+  "pred_object_id": 42,
+  "pred_iou": 0.6107,
+  "target_id": [
+   13
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_13_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 3,
+  "pred_iou": 0.7085,
+  "target_id": [
+   13
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_13_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 3,
+  "pred_iou": 0.7085,
+  "target_id": [
+   13
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_13_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ021>.",
+  "pred_proposal": 21,
+  "pred_object_id": 42,
+  "pred_iou": 0.2545,
+  "target_id": [
+   13
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_20_chain_1_0_class-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ000>.",
+  "pred_proposal": 0,
+  "pred_object_id": 20,
+  "pred_iou": 0.2472,
+  "target_id": [
+   20
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_20_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ000>.",
+  "pred_proposal": 0,
+  "pred_object_id": 20,
+  "pred_iou": 0.2472,
+  "target_id": [
+   20
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_20_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ000>.",
+  "pred_proposal": 0,
+  "pred_object_id": 20,
+  "pred_iou": 0.2472,
+  "target_id": [
+   20
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_20_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ000>.",
+  "pred_proposal": 0,
+  "pred_object_id": 20,
+  "pred_iou": 0.2472,
+  "target_id": [
+   20
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_9_chain_1_0_class-appearance",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ014>.",
+  "pred_proposal": 14,
+  "pred_object_id": 9,
+  "pred_iou": 0.6607,
+  "target_id": [
+   9
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_9_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ014>.",
+  "pred_proposal": 14,
+  "pred_object_id": 9,
+  "pred_iou": 0.6607,
+  "target_id": [
+   9
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_9_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ014>.",
+  "pred_proposal": 14,
+  "pred_object_id": 9,
+  "pred_iou": 0.6607,
+  "target_id": [
+   9
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_9_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ014>.",
+  "pred_proposal": 14,
+  "pred_object_id": 9,
+  "pred_iou": 0.6607,
+  "target_id": [
+   9
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00106_05_14_chain_1_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ024>.",
+  "pred_proposal": 24,
+  "pred_object_id": 22,
+  "pred_iou": 0.0671,
+  "target_id": [
+   14
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_14_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ042>.",
+  "pred_proposal": 42,
+  "pred_object_id": 22,
+  "pred_iou": 0.0671,
+  "target_id": [
+   14
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_14_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ024>.",
+  "pred_proposal": 24,
+  "pred_object_id": 22,
+  "pred_iou": 0.0671,
+  "target_id": [
+   14
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_14_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ042>.",
+  "pred_proposal": 42,
+  "pred_object_id": 22,
+  "pred_iou": 0.0671,
+  "target_id": [
+   14
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_41_chain_1_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ012>.",
+  "pred_proposal": 12,
+  "pred_object_id": 16,
+  "pred_iou": 0.06,
+  "target_id": [
+   41
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_41_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ013>.",
+  "pred_proposal": 13,
+  "pred_object_id": 17,
+  "pred_iou": 0.2966,
+  "target_id": [
+   41
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_41_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ030>.",
+  "pred_proposal": 30,
+  "pred_object_id": 1,
+  "pred_iou": 0.0902,
+  "target_id": [
+   41
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_41_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 42,
+  "pred_iou": 0.0981,
+  "target_id": [
+   41
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_6_chain_1_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 35,
+  "pred_iou": 0.9377,
+  "target_id": [
+   6
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_6_chain_1_1_class",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 35,
+  "pred_iou": 0.9377,
+  "target_id": [
+   6
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_6_chain_2_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 35,
+  "pred_iou": 0.9377,
+  "target_id": [
+   6
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00106_05_6_chain_3_0_class-spatial",
+  "scan_id": "scene_00106_05",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 35,
+  "pred_iou": 0.9377,
+  "target_id": [
+   6
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_20_chain_1_0_class-appearance",
+  "scan_id": "scene_00116_03",
+  "pred": "paper towel roll.",
+  "pred_proposal": null,
+  "pred_object_id": null,
+  "pred_iou": 0.0,
+  "target_id": [
+   20
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_20_chain_1_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 38,
+  "pred_iou": 0.9138,
+  "target_id": [
+   20
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_20_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 18,
+  "pred_iou": 0.2865,
+  "target_id": [
+   20
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_20_chain_3_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 18,
+  "pred_iou": 0.2865,
+  "target_id": [
+   20
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_30_chain_1_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 29,
+  "pred_iou": 0.4856,
+  "target_id": [
+   30
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_30_chain_1_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 29,
+  "pred_iou": 0.4856,
+  "target_id": [
+   30,
+   24,
+   23
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_30_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 29,
+  "pred_iou": 0.4856,
+  "target_id": [
+   30
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_30_chain_3_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ021>.",
+  "pred_proposal": 21,
+  "pred_object_id": 23,
+  "pred_iou": 0.3364,
+  "target_id": [
+   30
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_23_chain_1_0_class-geometry-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ021>.",
+  "pred_proposal": 21,
+  "pred_object_id": 23,
+  "pred_iou": 0.3364,
+  "target_id": [
+   23
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_23_chain_1_1_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ021>.",
+  "pred_proposal": 21,
+  "pred_object_id": 23,
+  "pred_iou": 0.3364,
+  "target_id": [
+   23,
+   24
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_23_chain_2_0_class-geometry-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 29,
+  "pred_iou": 0.4856,
+  "target_id": [
+   23
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_23_chain_2_1_class-geometry",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ020>.",
+  "pred_proposal": 20,
+  "pred_object_id": 37,
+  "pred_iou": 0.702,
+  "target_id": [
+   23
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_23_chain_3_0_class-spatial-geometry",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ021>.",
+  "pred_proposal": 21,
+  "pred_object_id": 23,
+  "pred_iou": 0.3364,
+  "target_id": [
+   23
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_24_chain_1_0_class-appearance",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ021>.",
+  "pred_proposal": 21,
+  "pred_object_id": 23,
+  "pred_iou": 0.3364,
+  "target_id": [
+   24
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_24_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 29,
+  "pred_iou": 0.4856,
+  "target_id": [
+   24
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_24_chain_3_0_class-geometry-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ021>.",
+  "pred_proposal": 21,
+  "pred_object_id": 23,
+  "pred_iou": 0.3364,
+  "target_id": [
+   24
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_35_chain_1_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ051>.",
+  "pred_proposal": 51,
+  "pred_object_id": 29,
+  "pred_iou": 0.0024,
+  "target_id": [
+   35
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_35_chain_1_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 29,
+  "pred_iou": 0.4856,
+  "target_id": [
+   31,
+   35
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_35_chain_2_0_class-appearance",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ051>.",
+  "pred_proposal": 51,
+  "pred_object_id": 29,
+  "pred_iou": 0.0024,
+  "target_id": [
+   35
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_35_chain_3_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ051>.",
+  "pred_proposal": 51,
+  "pred_object_id": 29,
+  "pred_iou": 0.0024,
+  "target_id": [
+   35
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_31_chain_1_0_class-appearance",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ087>.",
+  "pred_proposal": 87,
+  "pred_object_id": 31,
+  "pred_iou": 0.5515,
+  "target_id": [
+   31
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_31_chain_1_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ017>.",
+  "pred_proposal": 17,
+  "pred_object_id": 19,
+  "pred_iou": 0.3816,
+  "target_id": [
+   31,
+   35
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_31_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ087>.",
+  "pred_proposal": 87,
+  "pred_object_id": 31,
+  "pred_iou": 0.5515,
+  "target_id": [
+   31
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_31_chain_3_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ087>.",
+  "pred_proposal": 87,
+  "pred_object_id": 31,
+  "pred_iou": 0.5515,
+  "target_id": [
+   31
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_33_chain_1_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 29,
+  "pred_iou": 0.4856,
+  "target_id": [
+   33
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_33_chain_1_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 29,
+  "pred_iou": 0.4856,
+  "target_id": [
+   33
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_33_chain_2_0_class-appearance",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 29,
+  "pred_iou": 0.4856,
+  "target_id": [
+   33
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_33_chain_3_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 29,
+  "pred_iou": 0.4856,
+  "target_id": [
+   33
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_15_chain_1_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 15,
+  "pred_iou": 0.3338,
+  "target_id": [
+   15
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_15_chain_1_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 15,
+  "pred_iou": 0.3338,
+  "target_id": [
+   13,
+   15
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_15_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 15,
+  "pred_iou": 0.3338,
+  "target_id": [
+   15
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_15_chain_3_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ009>.",
+  "pred_proposal": 9,
+  "pred_object_id": 15,
+  "pred_iou": 0.3338,
+  "target_id": [
+   15
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_18_chain_1_0_class-appearance",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ022>.",
+  "pred_proposal": 22,
+  "pred_object_id": 13,
+  "pred_iou": 0.7095,
+  "target_id": [
+   18
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_18_chain_1_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ027>.",
+  "pred_proposal": 27,
+  "pred_object_id": 17,
+  "pred_iou": 0.2414,
+  "target_id": [
+   18,
+   19
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_18_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 18,
+  "pred_iou": 0.2865,
+  "target_id": [
+   18
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_18_chain_3_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 18,
+  "pred_iou": 0.2865,
+  "target_id": [
+   18
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_19_chain_1_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 18,
+  "pred_iou": 0.2865,
+  "target_id": [
+   19
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_19_chain_2_0_class-appearance",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 18,
+  "pred_iou": 0.2865,
+  "target_id": [
+   19
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_19_chain_3_0_class-appearance",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ011>.",
+  "pred_proposal": 11,
+  "pred_object_id": 19,
+  "pred_iou": 0.215,
+  "target_id": [
+   19
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_13_chain_1_0_class-appearance",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 18,
+  "pred_iou": 0.2865,
+  "target_id": [
+   13
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_13_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 18,
+  "pred_iou": 0.2865,
+  "target_id": [
+   13
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_13_chain_3_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 18,
+  "pred_iou": 0.2865,
+  "target_id": [
+   13
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_22_chain_1_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ076>.",
+  "pred_proposal": 76,
+  "pred_object_id": 22,
+  "pred_iou": 0.6586,
+  "target_id": [
+   22
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_22_chain_1_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ021>.",
+  "pred_proposal": 21,
+  "pred_object_id": 23,
+  "pred_iou": 0.3364,
+  "target_id": [
+   22
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_22_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ076>.",
+  "pred_proposal": 76,
+  "pred_object_id": 22,
+  "pred_iou": 0.6586,
+  "target_id": [
+   22
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_22_chain_3_0_class-appearance",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ021>.",
+  "pred_proposal": 21,
+  "pred_object_id": 23,
+  "pred_iou": 0.3364,
+  "target_id": [
+   22
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_38_chain_1_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 38,
+  "pred_iou": 0.9138,
+  "target_id": [
+   38
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_38_chain_1_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 38,
+  "pred_iou": 0.9138,
+  "target_id": [
+   38
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_38_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 38,
+  "pred_iou": 0.9138,
+  "target_id": [
+   38
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_38_chain_3_0_class-appearance",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ001>.",
+  "pred_proposal": 1,
+  "pred_object_id": 38,
+  "pred_iou": 0.9138,
+  "target_id": [
+   38
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_32_chain_1_0_class-appearance",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 18,
+  "pred_iou": 0.2865,
+  "target_id": [
+   32
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_32_chain_1_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 29,
+  "pred_iou": 0.4856,
+  "target_id": [
+   32
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_32_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ006>.",
+  "pred_proposal": 6,
+  "pred_object_id": 18,
+  "pred_iou": 0.2865,
+  "target_id": [
+   32
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_32_chain_3_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 29,
+  "pred_iou": 0.4856,
+  "target_id": [
+   32
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_10_chain_1_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ000>.",
+  "pred_proposal": 0,
+  "pred_object_id": 9,
+  "pred_iou": 0.4713,
+  "target_id": [
+   10
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_10_chain_1_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ000>.",
+  "pred_proposal": 0,
+  "pred_object_id": 9,
+  "pred_iou": 0.4713,
+  "target_id": [
+   10
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_10_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 8,
+  "pred_iou": 0.9394,
+  "target_id": [
+   10
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_10_chain_3_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ000>.",
+  "pred_proposal": 0,
+  "pred_object_id": 9,
+  "pred_iou": 0.4713,
+  "target_id": [
+   10
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_9_chain_1_0_class-appearance",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ000>.",
+  "pred_proposal": 0,
+  "pred_object_id": 9,
+  "pred_iou": 0.4713,
+  "target_id": [
+   9
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_9_chain_1_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ018>.",
+  "pred_proposal": 18,
+  "pred_object_id": 36,
+  "pred_iou": 0.9146,
+  "target_id": [
+   9,
+   36
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_9_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ018>.",
+  "pred_proposal": 18,
+  "pred_object_id": 36,
+  "pred_iou": 0.9146,
+  "target_id": [
+   9
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_9_chain_3_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ018>.",
+  "pred_proposal": 18,
+  "pred_object_id": 36,
+  "pred_iou": 0.9146,
+  "target_id": [
+   9
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_36_chain_1_0_class-appearance",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ018>.",
+  "pred_proposal": 18,
+  "pred_object_id": 36,
+  "pred_iou": 0.9146,
+  "target_id": [
+   36
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_36_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ018>.",
+  "pred_proposal": 18,
+  "pred_object_id": 36,
+  "pred_iou": 0.9146,
+  "target_id": [
+   36
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_36_chain_3_0_class-spatial-appearance",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ018>.",
+  "pred_proposal": 18,
+  "pred_object_id": 36,
+  "pred_iou": 0.9146,
+  "target_id": [
+   36
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_37_chain_1_0_class-appearance",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ020>.",
+  "pred_proposal": 20,
+  "pred_object_id": 37,
+  "pred_iou": 0.702,
+  "target_id": [
+   37
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_37_chain_1_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ020>.",
+  "pred_proposal": 20,
+  "pred_object_id": 37,
+  "pred_iou": 0.702,
+  "target_id": [
+   37
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_37_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ020>.",
+  "pred_proposal": 20,
+  "pred_object_id": 37,
+  "pred_iou": 0.702,
+  "target_id": [
+   37
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_37_chain_3_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ020>.",
+  "pred_proposal": 20,
+  "pred_object_id": 37,
+  "pred_iou": 0.702,
+  "target_id": [
+   37
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_5_chain_1_0_class-appearance",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 5,
+  "pred_iou": 0.4794,
+  "target_id": [
+   5
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_5_chain_1_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 5,
+  "pred_iou": 0.4794,
+  "target_id": [
+   5
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_5_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 5,
+  "pred_iou": 0.4794,
+  "target_id": [
+   5
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_5_chain_3_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ008>.",
+  "pred_proposal": 8,
+  "pred_object_id": 5,
+  "pred_iou": 0.4794,
+  "target_id": [
+   5
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_16_chain_1_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 17,
+  "pred_iou": 0.6746,
+  "target_id": [
+   16
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_16_chain_1_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ026>.",
+  "pred_proposal": 26,
+  "pred_object_id": 13,
+  "pred_iou": 0.333,
+  "target_id": [
+   16
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_16_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ026>.",
+  "pred_proposal": 26,
+  "pred_object_id": 13,
+  "pred_iou": 0.333,
+  "target_id": [
+   16
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_16_chain_3_0_class-appearance",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ026>.",
+  "pred_proposal": 26,
+  "pred_object_id": 13,
+  "pred_iou": 0.333,
+  "target_id": [
+   16
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_34_chain_1_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 29,
+  "pred_iou": 0.4856,
+  "target_id": [
+   34
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_34_chain_1_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 29,
+  "pred_iou": 0.4856,
+  "target_id": [
+   34
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_34_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 29,
+  "pred_iou": 0.4856,
+  "target_id": [
+   34
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_34_chain_3_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 29,
+  "pred_iou": 0.4856,
+  "target_id": [
+   34
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_17_chain_1_0_class-appearance",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 17,
+  "pred_iou": 0.6746,
+  "target_id": [
+   17
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_17_chain_1_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 17,
+  "pred_iou": 0.6746,
+  "target_id": [
+   17
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_17_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 17,
+  "pred_iou": 0.6746,
+  "target_id": [
+   17
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_17_chain_3_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ010>.",
+  "pred_proposal": 10,
+  "pred_object_id": 17,
+  "pred_iou": 0.6746,
+  "target_id": [
+   17
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_14_chain_1_0_class-appearance",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ016>.",
+  "pred_proposal": 16,
+  "pred_object_id": 37,
+  "pred_iou": 0.4279,
+  "target_id": [
+   14
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_14_chain_1_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ020>.",
+  "pred_proposal": 20,
+  "pred_object_id": 37,
+  "pred_iou": 0.702,
+  "target_id": [
+   14
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_14_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ016>.",
+  "pred_proposal": 16,
+  "pred_object_id": 37,
+  "pred_iou": 0.4279,
+  "target_id": [
+   14
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_14_chain_2_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ020>.",
+  "pred_proposal": 20,
+  "pred_object_id": 37,
+  "pred_iou": 0.702,
+  "target_id": [
+   14
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_14_chain_3_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 29,
+  "pred_iou": 0.4856,
+  "target_id": [
+   14
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_29_chain_1_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 29,
+  "pred_iou": 0.4856,
+  "target_id": [
+   29
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_29_chain_1_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 29,
+  "pred_iou": 0.4856,
+  "target_id": [
+   29
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_29_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 29,
+  "pred_iou": 0.4856,
+  "target_id": [
+   29
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_29_chain_3_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ004>.",
+  "pred_proposal": 4,
+  "pred_object_id": 29,
+  "pred_iou": 0.4856,
+  "target_id": [
+   29
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_8_chain_1_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 8,
+  "pred_iou": 0.9394,
+  "target_id": [
+   8
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_8_chain_1_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 8,
+  "pred_iou": 0.9394,
+  "target_id": [
+   8
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_8_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 8,
+  "pred_iou": 0.9394,
+  "target_id": [
+   8
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_8_chain_3_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ003>.",
+  "pred_proposal": 3,
+  "pred_object_id": 8,
+  "pred_iou": 0.9394,
+  "target_id": [
+   8
+  ],
+  "correct": true
+ },
+ {
+  "item_id": "scene_00116_03_21_chain_1_0_class-appearance",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ020>.",
+  "pred_proposal": 20,
+  "pred_object_id": 37,
+  "pred_iou": 0.702,
+  "target_id": [
+   21
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_21_chain_1_1_class",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ020>.",
+  "pred_proposal": 20,
+  "pred_object_id": 37,
+  "pred_iou": 0.702,
+  "target_id": [
+   21
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_21_chain_2_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ076>.",
+  "pred_proposal": 76,
+  "pred_object_id": 22,
+  "pred_iou": 0.6586,
+  "target_id": [
+   21
+  ],
+  "correct": false
+ },
+ {
+  "item_id": "scene_00116_03_21_chain_3_0_class-spatial",
+  "scan_id": "scene_00116_03",
+  "pred": "<OBJ020>.",
+  "pred_proposal": 20,
+  "pred_object_id": 37,
+  "pred_iou": 0.702,
+  "target_id": [
+   21
+  ],
+  "correct": false
+ }
+]

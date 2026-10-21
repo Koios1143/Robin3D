@@ -2,7 +2,8 @@
 
 Evaluation of the **released Robin3D checkpoint** (`ckpt_for_robin3d_final_performance/ckpt_01.pth`
 from the authors' Google Drive) on benchmarks the paper does not report: **ScanQA** (with EM),
-**Real-3DQA** and **Beacon3D (ScanNet)**. No training; the model, features and prompts are the
+**Real-3DQA** and **Beacon3D** (ScanNet with the released features; 3RScan / MultiScan with
+features rebuilt the same way). No training; the model, ScanNet features and prompts are the
 authors' own.
 
 ## Run
@@ -65,5 +66,60 @@ variant also needs IoU >= 0.25). 2 of 1611 answers had no `<OBJxxx>` (counted wr
 QA per type: class 36.94, appearance 56.38, geometry 57.44, spatial 50.66, existence 65.00,
 functionality 66.67; EM 49.44, EM-R 54.11; R1 36.59, R2 51.18.
 
-3RScan / MultiScan are not evaluated: Robin3D needs Mask3D query features and DINOv2 multi-view
-image features per proposal, and those scenes have no released features (nor RGB frames here).
+## Beacon3D 3RScan / MultiScan (rebuilt features)
+
+Robin3D's inputs per object are three features of a Mask3D proposal, and the authors only
+released them for ScanNet. `extra_eval/feats/` rebuilds them from the raw 3RScan / MultiScan
+scans (mesh, superpoints, RGB-D frames, camera poses), following the released pipeline:
+
+1. **Mask3D** (`scannet200_val.ckpt`, the official ScanNet200 test setting: 150 queries,
+   top-750, DBSCAN 0.95), cut to the 150 best instances; each keeps the query feature
+   (`decoder_norm` output) and query positional embedding of the query it came from
+   (`mask3d_infer.py`, forward hooks, Mask3D unmodified).
+2. **Uni3D-g** over each proposal's points (`uni3d.py`, same encoder as Chat-Scene).
+3. **DINOv2-giant multi-view features** with the rule of Chat-Scene's `scannet_videofeat.py`
+   (project the points into each frame with a depth check, convex hull of the proposal's
+   visible points, mean patch token in its box, area-weighted over frames). 3RScan / MultiScan
+   frames are rotated upright (from the camera pose) before DINOv2, since ScanNet's are.
+
+Scenes are put in SceneVerse's axis-aligned frame (the Beacon3D object ids):
+- 3RScan: exact vertex match with the raw mesh; official superpoints; every 5th `sequence.zip` frame.
+- MultiScan: the raw mesh shifted; ScanNet Segmentator superpoints on the mesh; every 40th
+  video frame, with ARKit poses mapped into the mesh frame.
+- Poses were checked by projecting coloured vertices into the images.
+A predicted proposal is mapped to the GT object of highest box IoU, as for ScanNet.
+
+```bash
+bash extra_eval/feats/run_prepare.sh       # CPU: scene packages (SCANNET_CHECK=1 adds the 16 ScanNet scenes)
+bash extra_eval/feats/run_feats.sh         # GPU: Mask3D + Uni3D + DINOv2 (DOMAINS="scannet 3rscan multiscan")
+VAL_TAG="beacon3d_3rscan_grounding#beacon3d_3rscan_qa#beacon3d_multiscan_grounding#beacon3d_multiscan_qa" \
+  bash extra_eval/run_extra_eval.sh        # with FEATS_WORK set
+PREDS_DIR=outputs/<ts> BENCHES=beacon3d_3rscan,beacon3d_multiscan bash extra_eval/score.sh
+```
+
+**Check on ScanNet.** The same pipeline was run on the 16 Beacon3D ScanNet scenes and
+compared with the released files (`results/feature_check/`). Proposals were paired by box IoU,
+and the cosines below are over the paired proposals.
+
+| Mask3D input | paired box IoU | feat / pos / Uni3D / DINOv2 cosine |
+|---|---|---|
+| raw ScanNet coordinates (as the authors ran it) | 0.97 (142/150 >= 0.9) | 0.954 / 0.978 / 0.994 / 0.999 |
+| axis-aligned coordinates (as 3RScan / MultiScan get) | 0.68 (69/150 >= 0.9) | 0.729 / 0.748 / 0.970 / 0.998 |
+
+Robin3D on Beacon3D ScanNet with these rebuilt features stays close to the released-feature result:
+
+| ScanNet features | grounding case / obj | QA case / obj |
+|---|---|---|
+| released | 62.73 / 45.97 | 55.00 / 14.29 |
+| rebuilt, Mask3D on raw coordinates | 62.80 / 45.45 | 55.48 / 13.77 |
+| rebuilt, Mask3D on axis-aligned coordinates | 61.90 / 43.38 | 54.83 / 14.29 |
+
+**Results** (grounding with any-overlap mapping; IoU >= 0.25 in brackets; QA judge gpt-4o-mini):
+
+| Beacon3D | grounding case / obj | QA case / obj | QA EM / EM-R |
+|---|---|---|---|
+| 3RScan (9 scans, 1267 / 816) | **37.04 / 23.90** (34.51 / 22.79) | **53.52 / 13.97** | 49.75 / 53.68 |
+| MultiScan (5 scans, 657 / 477) | **40.33 / 26.42** (35.46 / 22.64) | **37.74 / 5.03** | 34.17 / 37.53 |
+
+`<OBJxxx>` was missing in 1 / 4 grounding answers (counted wrong). 2D coverage is lower on
+3RScan (100-144 of 150 proposals seen in a frame; short Tango sequences) than on ScanNet / MultiScan (~145).

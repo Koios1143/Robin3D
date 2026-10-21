@@ -1,0 +1,16 @@
+Finish processing inference results, results saved to extra_eval/results/beacon3d_scannet_rebuiltraw/infer_grounding_iou25_processed.json
+
+Scores:
+case:
+[overall]: 60.31
+[class]: 60.31
+[appearance]: 61.35
+[geometry]: 52.05
+[spatial]: 56.67
+[functionality]: 11.11
+
+chain: 54.11
+object: 43.38
+
+Chain analysis:
+four types: 54.11, 18.87, 2.86, 24.16

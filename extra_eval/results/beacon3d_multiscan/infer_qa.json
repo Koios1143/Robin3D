@@ -1,0 +1,4295 @@
+[
+ {
+  "question_id": "scene_00114_00_19_0_class_1",
+  "scene_id": "scene_00114_00",
+  "question": "What's under the bottle closest to the refrigerator?",
+  "pred": "Dishwasher.",
+  "answers": [
+   "Windowsill"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_19_1_spatial_0",
+  "scene_id": "scene_00114_00",
+  "question": "What direction is the bottle closest to the mop from the gray towel?",
+  "pred": "Left.",
+  "answers": [
+   "Beside"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_19_2_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a window next to the bottle closest to the gray towel?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_22_0_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a kettle next to 'the yellow bottle farthest from the refrigerator'",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_22_1_geometry_1",
+  "scene_id": "scene_00114_00",
+  "question": "Which is bigger, 'the yellow bottle closest to the rice cooker' or the steel ball",
+  "pred": "Steel ball.",
+  "answers": [
+   "Yellow bottle"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_22_2_spatial_0",
+  "scene_id": "scene_00114_00",
+  "question": "Is 'the yellow bottle closest to the cutting board' very close to the refrigerator",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_21_0_class_0",
+  "scene_id": "scene_00114_00",
+  "question": "What is under the 'dark blue bottle'?",
+  "pred": "Sink.",
+  "answers": [
+   "windowsill"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_21_1_spatial_0",
+  "scene_id": "scene_00114_00",
+  "question": "In which direction of the window is the 'dark blue bottle on the windowsill'?",
+  "pred": "To right of window.",
+  "answers": [
+   "beside"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_21_2_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a plastic bag next to the 'dark blue bottle' closest to the window?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_37_0_appearance_1",
+  "scene_id": "scene_00114_00",
+  "question": "What color is 'the water bottle near the kettle'?",
+  "pred": "Green.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_37_1_spatial_0",
+  "scene_id": "scene_00114_00",
+  "question": "Is 'the water bottle on the cabinet' close to window?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_37_2_spatial_0",
+  "scene_id": "scene_00114_00",
+  "question": "Where is 'the water bottle far from window'?",
+  "pred": "On kitchen counter.",
+  "answers": [
+   "On the cabinet"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_23_0_class_1",
+  "scene_id": "scene_00114_00",
+  "question": "What's below 'The bottle in the middle of the three closely adjacent bottles'",
+  "pred": "Window.",
+  "answers": [
+   "Windowsill"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_23_1_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a refrigerator next to 'The blue and white striped bottle next to the deep blue bottle'",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_23_2_spatial_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is 'The blue and white striped bottle closest to the cutting board' far from the rice cooker",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_20_0_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Are there other bottles around 'The yellow bottle closest to the refrigerator'?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_20_1_spatial_1",
+  "scene_id": "scene_00114_00",
+  "question": "Where is 'The yellow bottle closest to the mop' located?",
+  "pred": "On kitchen counter.",
+  "answers": [
+   "On the windowsill above the sink"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_20_2_spatial_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is 'The yellow bottle farthest from the cutting board' on top of the refrigerator?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_39_0_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a kettle next to the 'Black plastic bag'",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_39_1_spatial_0",
+  "scene_id": "scene_00114_00",
+  "question": "What direction on the floor is the 'Black plastic bag' from the trash bin",
+  "pred": "On floor in front of trash bin.",
+  "answers": [
+   "Beside"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_39_2_class_0",
+  "scene_id": "scene_00114_00",
+  "question": "What is under the 'Black plastic bag' closest to the trash bin",
+  "pred": "Kitchen cabinet.",
+  "answers": [
+   "Floor"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_41_0_spatial_0",
+  "scene_id": "scene_00114_00",
+  "question": "What is the position of the 'brown big paper bag' on the floor",
+  "pred": "On floor in front of refrigerator.",
+  "answers": [
+   "on top"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_41_1_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a trash bin next to the 'brown paper bag on the floor'?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_41_2_appearance_0",
+  "scene_id": "scene_00114_00",
+  "question": "What color is the 'paper bag next to the plastic bag'?",
+  "pred": "Brown.",
+  "answers": [
+   "brown"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_43_0_appearance_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is 'the paper bag closest to the kettle' red?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_43_1_spatial_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is 'the paper bag closest to the stove' on the floor?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_43_2_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a mop next to 'the paper bag closest to the stove'?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_50_0_appearance_0",
+  "scene_id": "scene_00114_00",
+  "question": "What color is the 'pot cover on the commode'",
+  "pred": "White.",
+  "answers": [
+   "Silver"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_50_1_class_0",
+  "scene_id": "scene_00114_00",
+  "question": "What's under the 'pot cover opposite the sink'",
+  "pred": "Kitchen counter.",
+  "answers": [
+   "Commode"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_50_2_existence_0",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a refrigerator next to the 'pot cover farthest from the mop'",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_51_0_appearance_1",
+  "scene_id": "scene_00114_00",
+  "question": "What color is 'the trash bin lid next to the trash bin'?",
+  "pred": "Black.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_51_1_spatial_0",
+  "scene_id": "scene_00114_00",
+  "question": "Where is 'the trash bin lid closest to the refrigerator' relative to the trash bin",
+  "pred": "To right of refrigerator.",
+  "answers": [
+   "next to"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_51_2_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a door next to 'the trash bin lid closest to the mop'",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_28_0_appearance_1",
+  "scene_id": "scene_00114_00",
+  "question": "What color is the 'cabinet with a kettle'?",
+  "pred": "White.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_28_1_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a sink on the 'cabinet closest to the trash bin'?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_28_2_spatial_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is the 'cabinet closest to the trash bin lid' next to the door?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_25_0_appearance_1",
+  "scene_id": "scene_00114_00",
+  "question": "What color is the 'wall cabinet closest to the yellow towel'",
+  "pred": "White.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_25_1_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a trash bin under the 'wall cabinet closest to the yellow towel'",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_25_2_spatial_1",
+  "scene_id": "scene_00114_00",
+  "question": "What is the direction of the 'wall cabinet closest to the microwave' from the cutting board",
+  "pred": "Right.",
+  "answers": [
+   "Above"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_30_0_appearance_1",
+  "scene_id": "scene_00114_00",
+  "question": "What color is the 'wall cabinet closest to the refrigerator'",
+  "pred": "White.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_30_1_spatial_1",
+  "scene_id": "scene_00114_00",
+  "question": "What is the position of the 'wall cabinet closest to the door' relative to the refrigerator",
+  "pred": "Above refrigerator.",
+  "answers": [
+   "Above"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_30_2_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a stove next to the 'wall cabinet closest to the mop'",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_27_0_spatial_0",
+  "scene_id": "scene_00114_00",
+  "question": "What direction is the 'cabinet under the sink' from the steel ball",
+  "pred": "To right of steel ball.",
+  "answers": [
+   "below"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_27_1_appearance_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is the 'cabinet under the steel ball' blue",
+  "pred": "Yes.",
+  "answers": [
+   "No."
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_27_2_existence_0",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a steel ball on the 'cabinet closest to the water faucet'",
+  "pred": "No.",
+  "answers": [
+   "Yes."
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_24_0_appearance_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is 'The water faucet next to the steel ball' colorful?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_24_1_spatial_0",
+  "scene_id": "scene_00114_00",
+  "question": "Where is 'The water faucet next to the sink' relative to the steel ball",
+  "pred": "To right of dishwasher.",
+  "answers": [
+   "Next to"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_24_2_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is the floor below 'The water faucet closest to the window'?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_36_0_spatial_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is the 'black kettle' under the microwave?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_36_1_appearance_0",
+  "scene_id": "scene_00114_00",
+  "question": "What color is the 'kettle closest to the stove'?",
+  "pred": "Silver.",
+  "answers": [
+   "Black"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_36_2_class_1",
+  "scene_id": "scene_00114_00",
+  "question": "What is under the 'kettle opposite the trash can'?",
+  "pred": "Silver sink.",
+  "answers": [
+   "cabinet"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_26_0_appearance_1",
+  "scene_id": "scene_00114_00",
+  "question": "Does the microwave above the stove have a star pattern?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_26_1_spatial_0",
+  "scene_id": "scene_00114_00",
+  "question": "In what direction of the stove is the microwave closest to the kettle?",
+  "pred": "Right.",
+  "answers": [
+   "Directly above"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_26_2_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a mop next to the microwave closest to the rice cooker?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_49_0_class_1",
+  "scene_id": "scene_00114_00",
+  "question": "What's under the 'cutting board closest to the rice maker'",
+  "pred": "Dish rack.",
+  "answers": [
+   "Cabinet"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_49_1_spatial_1",
+  "scene_id": "scene_00114_00",
+  "question": "What's beside the 'cutting board closest to the microwave' on the direction of the yellow towel",
+  "pred": "Refrigerator.",
+  "answers": [
+   "beside"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_49_2_existence_0",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a rice maker beside the 'cutting board farthest from the refrigerator'",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_48_0_appearance_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is the cutting board closest to the sink green?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_48_1_class_1",
+  "scene_id": "scene_00114_00",
+  "question": "What is under the cutting board farthest from the rice cooker?",
+  "pred": "Dishwasher.",
+  "answers": [
+   "Cabinet"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_48_2_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a cover on the cutting board closest to the steel ball?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_45_0_spatial_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is the 'white towel' on the floor",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_45_1_appearance_0",
+  "scene_id": "scene_00114_00",
+  "question": "What color is the 'towel closest to the mop'",
+  "pred": "Yellow.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_45_2_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a door next to the 'towel closest to the fridge' ",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_47_0_spatial_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is the 'yellow towel' on the floor",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_47_1_appearance_0",
+  "scene_id": "scene_00114_00",
+  "question": "What color is the towel closest to the stove",
+  "pred": "Brown.",
+  "answers": [
+   "Yellow"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_47_2_spatial_1",
+  "scene_id": "scene_00114_00",
+  "question": "Where is the towel closest to the microwave relative to the cutting board",
+  "pred": "On handle attached to front of dishwasher.",
+  "answers": [
+   "Beside"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_34_0_appearance_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is the 'steel ball next to the water faucet' black?",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_34_1_spatial_0",
+  "scene_id": "scene_00114_00",
+  "question": "What is the direction of the 'steel ball above the sink' relative to the water faucet?",
+  "pred": "Above.",
+  "answers": [
+   "Beside"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_34_2_class_0",
+  "scene_id": "scene_00114_00",
+  "question": "What is under 'the steel ball closest to the refrigerator'?",
+  "pred": "Kitchen cabinet.",
+  "answers": [
+   "Sink"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_14_0_appearance_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is the 'window next to the door' blue?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_14_1_spatial_0",
+  "scene_id": "scene_00114_00",
+  "question": "What direction from the door is 'the window closest to the mop'?",
+  "pred": "Right.",
+  "answers": [
+   "Beside"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_14_2_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a microwave next to 'the window farthest from the rice cooker'?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_17_0_appearance_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is the window closest to the sink red?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_17_1_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a microwave next to the window closest to the steel ball?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_17_2_spatial_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is the window closest to the yellow towel opposite the door?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_13_0_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a window next to the 'White door'",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_13_1_appearance_0",
+  "scene_id": "scene_00114_00",
+  "question": "What color is the 'Door closest to the refrigerator'",
+  "pred": "Door that is closest to refrigerator has beige color.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_13_2_spatial_1",
+  "scene_id": "scene_00114_00",
+  "question": "In what direction of the stove is the 'Open door'",
+  "pred": "Right side of stove.",
+  "answers": [
+   "Opposite"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_44_0_appearance_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is the box closest to the sink blue?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_44_1_class_1",
+  "scene_id": "scene_00114_00",
+  "question": "What is under the box closest to the steel ball?",
+  "pred": "White kitchen cabinet.",
+  "answers": [
+   "Cabinet"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_44_2_spatial_0",
+  "scene_id": "scene_00114_00",
+  "question": "Where is the box closest to the faucet in relation to the sink?",
+  "pred": "To right of sink.",
+  "answers": [
+   "Beside"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_42_0_appearance_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is the 'box closest to the kettle' blue?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_42_1_class_1",
+  "scene_id": "scene_00114_00",
+  "question": "What is under the 'box farthest from the mop'?",
+  "pred": "White dishwasher.",
+  "answers": [
+   "cabinet"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_42_2_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a steel ball on top of the 'box closest to the stove'?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_40_0_class_1",
+  "scene_id": "scene_00114_00",
+  "question": "What is under 'the box next to the black plastic bag'",
+  "pred": "Tall white refrigerator.",
+  "answers": [
+   "Floor"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_40_1_spatial_0",
+  "scene_id": "scene_00114_00",
+  "question": "What direction is 'the box closest to the trash bin lid' from the black trash bag",
+  "pred": "Right.",
+  "answers": [
+   "Beside"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_40_2_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a kettle on 'the box closest to the door'",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_16_0_appearance_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is the 'mop closest to the trash bin' blue",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_16_1_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a door next to the 'mop next to the refrigerator'",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_16_2_spatial_1",
+  "scene_id": "scene_00114_00",
+  "question": "What is the position of 'the mop closest to the sink' relative to the stove",
+  "pred": "To right of stove.",
+  "answers": [
+   "Opposite"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_33_0_class_0",
+  "scene_id": "scene_00114_00",
+  "question": "What is 'the sink closest to the steel ball' in front of?",
+  "pred": "Dishwasher.",
+  "answers": [
+   "Window"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_33_1_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a rice cooker next to 'The sink closest to the water faucet'",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_33_2_appearance_1",
+  "scene_id": "scene_00114_00",
+  "question": "What color is the object in 'the sink in front of window'?",
+  "pred": "Silver.",
+  "answers": [
+   "Green"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_29_0_appearance_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is the 'range under the microwave' pink?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_29_1_spatial_0",
+  "scene_id": "scene_00114_00",
+  "question": "In what direction of the microwave is 'the range on the floor'?",
+  "pred": "To right of microwave.",
+  "answers": [
+   "Below"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_29_2_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a box above 'the range closest to the kettle'?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_38_0_appearance_0",
+  "scene_id": "scene_00114_00",
+  "question": "What color is the large trash bin?",
+  "pred": "Grey.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_38_1_geometry_0",
+  "scene_id": "scene_00114_00",
+  "question": "Is the white trash bin a small one or a large one?",
+  "pred": "Large.",
+  "answers": [
+   "Large"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_38_2_spatial_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is the white trash bin close to cutting board?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_46_0_appearance_0",
+  "scene_id": "scene_00114_00",
+  "question": "Is 'The light on the ceiling' white?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_46_1_spatial_0",
+  "scene_id": "scene_00114_00",
+  "question": "Where is the white light located?",
+  "pred": "Above stove.",
+  "answers": [
+   "On the ceiling"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_46_2_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a steel ball next to 'The light above the large trash bin'?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_31_0_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a stove opposite the 'mop next to the refrigerator'",
+  "pred": "Yes.",
+  "answers": [
+   "No."
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_31_1_appearance_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is the 'refrigerator next to the windowsill' red?",
+  "pred": "Yes.",
+  "answers": [
+   "No."
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_31_2_class_1",
+  "scene_id": "scene_00114_00",
+  "question": "What is under the 'refrigerator next to the window'\n",
+  "pred": "Silver dishwasher.",
+  "answers": [
+   "floor"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_35_0_appearance_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is 'the rice maker closest to the stove' red?",
+  "pred": "Yes.",
+  "answers": [
+   "No."
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_35_1_class_1",
+  "scene_id": "scene_00114_00",
+  "question": "What is under 'the rice maker in the corner of the room'?",
+  "pred": "Kitchen cabinets.",
+  "answers": [
+   "cabinet"
+  ]
+ },
+ {
+  "question_id": "scene_00114_00_35_2_existence_1",
+  "scene_id": "scene_00114_00",
+  "question": "Is there a refrigerator next to 'the rice maker closest to the cutting board'?",
+  "pred": "Yes.",
+  "answers": [
+   "No."
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_37_0_spatial_0",
+  "scene_id": "scene_00105_06",
+  "question": "Is the 'clothes on the chair closest to the monitor' near the bed?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_37_1_appearance_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is the 'clothes on the chair closest to the mouse' black?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_37_2_existence_0",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a monitor next to the 'clothes on the chair closest to the bed'?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_42_0_appearance_0",
+  "scene_id": "scene_00105_06",
+  "question": "What color are the 'Clothes on the chair in the middle of the doorframe'",
+  "pred": "Clothes on chair have blue red white color.",
+  "answers": [
+   "Dark grey"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_42_1_spatial_1",
+  "scene_id": "scene_00105_06",
+  "question": "Are the 'Clothes on the chair under the beam' very close to the door",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_42_2_spatial_1",
+  "scene_id": "scene_00105_06",
+  "question": "Are the 'Dark grey clothes' on the chair",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_40_0_appearance_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is the 'curtain next to the radiator shell' red",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_40_1_existence_0",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a radiator shell next to 'the curtain closer to calendar'",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_40_2_geometry_1",
+  "scene_id": "scene_00105_06",
+  "question": "Between the 'curtain right next to the wall cabinet' and the door, which is taller",
+  "pred": "Door.",
+  "answers": [
+   "curtain"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_41_0_appearance_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is 'The curtain furthest from the radiator shell' red?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_41_1_geometry_1",
+  "scene_id": "scene_00105_06",
+  "question": "Which is taller, 'The curtain closest to the monitor' or the radiator shell?",
+  "pred": "Curtain.",
+  "answers": [
+   "curtain"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_41_2_spatial_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is 'The curtain next to the cabinet filled with clothes' far from the TV?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_16_0_appearance_0",
+  "scene_id": "scene_00105_06",
+  "question": "What color is the frame of the 'clock on the wall above the TV'?",
+  "pred": "White.",
+  "answers": [
+   "Blue"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_16_1_spatial_0",
+  "scene_id": "scene_00105_06",
+  "question": "In what direction from the TV is the 'clock next to the calendar'?",
+  "pred": "10 o'clock.",
+  "answers": [
+   "Above"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_16_2_existence_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a bed opposite to the 'clock with a blue frame'?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_15_0_appearance_1",
+  "scene_id": "scene_00105_06",
+  "question": "What color is the 'wall cabinet closest to the clock'?",
+  "pred": "Brown.",
+  "answers": [
+   "Orange"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_15_1_spatial_0",
+  "scene_id": "scene_00105_06",
+  "question": "What is the position of the 'wall cabinet closest to the calendar' in relation to the radiator shell?",
+  "pred": "Left.",
+  "answers": [
+   "Above"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_15_2_existence_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a curtain beside the 'wall cabinet above the radiator shell'?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_14_0_spatial_0",
+  "scene_id": "scene_00105_06",
+  "question": "Is 'The nightstand closest to the tv' right next to the radiator shell",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_14_1_geometry_1",
+  "scene_id": "scene_00105_06",
+  "question": "Compared to the chair, which is taller, 'The nightstand closest to the tv box'?",
+  "pred": "Nightstand.",
+  "answers": [
+   "Chair"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_14_2_appearance_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is 'The nightstand right next to the radiator shell' red?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_6_0_spatial_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is the 'cabinet closest to the monitor' right next to the small desk?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_6_1_class_1",
+  "scene_id": "scene_00105_06",
+  "question": "What's under the 'cabinet closest to the keyboard'?",
+  "pred": "Tv stand.",
+  "answers": [
+   "Floor"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_6_2_existence_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a telephone on top of the 'cabinet closest to the mouse'?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_11_0_appearance_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is the cabinet under the TV white?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_11_1_spatial_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is the cabinet with the remote control right next to the white box?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_11_2_appearance_1",
+  "scene_id": "scene_00105_06",
+  "question": "What material is the cabinet under the tv box made of?",
+  "pred": "Wooden.",
+  "answers": [
+   "Wood"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_23_0_appearance_0",
+  "scene_id": "scene_00105_06",
+  "question": "Is 'The nightstand closest to the door' mahogany colored?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_23_1_class_1",
+  "scene_id": "scene_00105_06",
+  "question": "What is under 'The nightstand closest to the bed'?",
+  "pred": "Mini fridge.",
+  "answers": [
+   "floor"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_23_2_existence_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a green plant next to 'The nightstand closest to the bag'?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_33_0_appearance_0",
+  "scene_id": "scene_00105_06",
+  "question": "What color is the 'rectangular radiator shell'?",
+  "pred": "White.",
+  "answers": [
+   "Orange-yellow"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_33_1_existence_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a bed next to the 'radiator shell under the wall cabinet'?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_33_2_geometry_1",
+  "scene_id": "scene_00105_06",
+  "question": "Who is taller, the 'orange-yellow radiator shell' or the nightstand right next to it?",
+  "pred": "Nightstand.",
+  "answers": [
+   "Radiator shell"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_13_0_existence_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is there anything inside the 'white box'?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_13_1_appearance_0",
+  "scene_id": "scene_00105_06",
+  "question": "Is the 'box closest to the TV' pink?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_13_2_geometry_1",
+  "scene_id": "scene_00105_06",
+  "question": "Which is bigger, the 'box closest to the door' or the bag?",
+  "pred": "Tv.",
+  "answers": [
+   "box"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_30_0_spatial_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is the 'light brown box' right next to the radiator shell",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_30_1_appearance_0",
+  "scene_id": "scene_00105_06",
+  "question": "What color is the 'box under the small desk'",
+  "pred": "Brown.",
+  "answers": [
+   "light brown"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_30_2_spatial_0",
+  "scene_id": "scene_00105_06",
+  "question": "What's under the 'box farthest from the TV'",
+  "pred": "Shelf.",
+  "answers": [
+   "under the small desk"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_34_0_appearance_1",
+  "scene_id": "scene_00105_06",
+  "question": "What color is the 'Chair with a pillow'?",
+  "pred": "Grey and green.",
+  "answers": [
+   "Blue"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_34_1_class_0",
+  "scene_id": "scene_00105_06",
+  "question": "What item is on the 'Chair right next to the radiator shell'?",
+  "pred": "Clothes.",
+  "answers": [
+   "Pillow"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_34_2_spatial_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is the 'Chair closest to the clock' right next to the TV?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_38_0_class_1",
+  "scene_id": "scene_00105_06",
+  "question": "What is placed on 'The chair right next to the bed'",
+  "pred": "Clothes.",
+  "answers": [
+   "Clothes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_38_1_appearance_1",
+  "scene_id": "scene_00105_06",
+  "question": "What color is 'The chair placed at the corner between the small desk and the end of the bed'",
+  "pred": "Blue and green.",
+  "answers": [
+   "Blue"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_38_2_spatial_1",
+  "scene_id": "scene_00105_06",
+  "question": "Which is closer to 'The chair closest to the keyboard', door or TV",
+  "pred": "Tv.",
+  "answers": [
+   "TV"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_39_0_class_0",
+  "scene_id": "scene_00105_06",
+  "question": "What is on the 'The chair between the door frames'",
+  "pred": "Chair.",
+  "answers": [
+   "Clothes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_39_1_appearance_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is 'The chair closest to the radiator shell with clothes on it' pink?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_39_2_spatial_0",
+  "scene_id": "scene_00105_06",
+  "question": "Is 'The chair right below the beam' close to the door frame?",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_31_0_existence_0",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a bag next to the 'white and blue striped pillow on the bed'?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_31_1_class_1",
+  "scene_id": "scene_00105_06",
+  "question": "What's under the 'pillow with white and blue stripes next to the bag'?",
+  "pred": "Pillow.",
+  "answers": [
+   "Bed"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_31_2_geometry_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is the 'pillow with white and blue stripes right next to the head of the bed' square?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_19_0_existence_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a bag next to the red and white striped pillow?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes."
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_19_1_appearance_0",
+  "scene_id": "scene_00105_06",
+  "question": "Is the pillow closest to the telephone blue?",
+  "pred": "No.",
+  "answers": [
+   "No."
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_19_2_class_1",
+  "scene_id": "scene_00105_06",
+  "question": "What is the pillow closest to the door placed on?",
+  "pred": "Bed.",
+  "answers": [
+   "bed"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_36_0_existence_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a quilt beside the pillow closest to the monitor",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_36_1_spatial_1",
+  "scene_id": "scene_00105_06",
+  "question": "What is the direction of the pillow closest to the mouse in relation to the TV",
+  "pred": "Left.",
+  "answers": [
+   "Opposite"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_36_2_class_1",
+  "scene_id": "scene_00105_06",
+  "question": "What is under the pillow closest to the keyboard",
+  "pred": "Pillow.",
+  "answers": [
+   "bed"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_35_0_appearance_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is the pillow closest to the radiator shell pink?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_35_1_existence_0",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a radiator shell near the pillow closest to the calendar?",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_35_2_class_1",
+  "scene_id": "scene_00105_06",
+  "question": "What's under the pillow closest to the clock?",
+  "pred": "Pillow.",
+  "answers": [
+   "chair"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_47_0_appearance_1",
+  "scene_id": "scene_00105_06",
+  "question": "What color is 'the desk closest to the window'?",
+  "pred": "Brown desk.",
+  "answers": [
+   "Yellow"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_47_1_spatial_1",
+  "scene_id": "scene_00105_06",
+  "question": "Which is closer to the door frame, 'the desk on the balcony' or the window?",
+  "pred": "Desk on balcony.",
+  "answers": [
+   "desk"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_47_2_existence_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a telephone on 'the desk closest to the black chair'?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_29_0_appearance_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is the 'Desk right next to the bed' blue?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_29_1_spatial_0",
+  "scene_id": "scene_00105_06",
+  "question": "What is the position of the 'Desk with a mouse on it' relative to the monitor?",
+  "pred": "To left of monitor.",
+  "answers": [
+   "Below"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_29_2_spatial_1",
+  "scene_id": "scene_00105_06",
+  "question": "Which is farther from the TV, the 'Desk with a monitor on it' or the TV box?",
+  "pred": "Desk with monitor on it.",
+  "answers": [
+   "Desk with a monitor on it"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_26_0_class_0",
+  "scene_id": "scene_00105_06",
+  "question": "What's under 'Light yellow speaker'",
+  "pred": "Tv stand.",
+  "answers": [
+   "Small desk"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_26_1_existence_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a mouse next to 'Speaker on the small desk'",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_26_2_appearance_0",
+  "scene_id": "scene_00105_06",
+  "question": "Is 'Speaker next to the keyboard' black",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_21_0_class_1",
+  "scene_id": "scene_00105_06",
+  "question": "What's under 'The quilt farthest from the keyboard'",
+  "pred": "Bed.",
+  "answers": [
+   "bed"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_21_1_existence_0",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a bag next to 'The quilt farthest from the monitor'",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_21_2_appearance_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is 'The quilt closest to the bag' patterned",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_20_0_class_1",
+  "scene_id": "scene_00105_06",
+  "question": "What's under 'The light blue quilt at the end of the bed'",
+  "pred": "Blanket.",
+  "answers": [
+   "Quilt"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_20_1_spatial_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is 'The light blue quilt closest to the speaker' placed on a chair",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_20_2_existence_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a bag next to 'The light blue quilt closest to the keyboard'",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_28_0_spatial_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is the 'Mouse next to the keyboard' next to the monitor",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_28_1_geometry_1",
+  "scene_id": "scene_00105_06",
+  "question": "Which is bigger, the 'Mouse next to the monitor' or the speaker",
+  "pred": "Speaker.",
+  "answers": [
+   "Speaker"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_28_2_appearance_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is the 'Mouse next to the speaker' red",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_25_0_appearance_1",
+  "scene_id": "scene_00105_06",
+  "question": "What color is the screen of the 'monitor next to the mouse'?",
+  "pred": "Black.",
+  "answers": [
+   "Black"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_25_1_spatial_0",
+  "scene_id": "scene_00105_06",
+  "question": "Is the 'monitor next to the keyboard' close to the bed?",
+  "pred": "No.",
+  "answers": [
+   "Close"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_25_2_class_1",
+  "scene_id": "scene_00105_06",
+  "question": "What is under the 'monitor next to the bed'?",
+  "pred": "Tv stand.",
+  "answers": [
+   "desk"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_9_0_appearance_0",
+  "scene_id": "scene_00105_06",
+  "question": "What color is the 'TV below the calendar diagonally'",
+  "pred": "Black.",
+  "answers": [
+   "Black"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_9_1_existence_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a window opposite the 'black TV'",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_9_2_class_1",
+  "scene_id": "scene_00105_06",
+  "question": "What is under the 'TV next to the TV box'",
+  "pred": "Shelf.",
+  "answers": [
+   "Cabinet"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_4_0_spatial_0",
+  "scene_id": "scene_00105_06",
+  "question": "Is the 'door next to the telephone' close to the white box",
+  "pred": "No.",
+  "answers": [
+   "Close"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_4_1_existence_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a clock above the 'yellow door'",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_4_2_appearance_0",
+  "scene_id": "scene_00105_06",
+  "question": "What color is the 'door next to the white box'",
+  "pred": "Brown.",
+  "answers": [
+   "Yellow"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_24_0_appearance_0",
+  "scene_id": "scene_00105_06",
+  "question": "What color is the 'Telephone on the nightstand'?",
+  "pred": "White.",
+  "answers": [
+   "Black"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_24_1_class_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a small desk under the 'Telephone next to the door'?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_24_2_spatial_0",
+  "scene_id": "scene_00105_06",
+  "question": "Is the 'Black telephone' close to the door?",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_12_0_appearance_0",
+  "scene_id": "scene_00105_06",
+  "question": "Is the 'TV box next to the TV' red?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_12_1_geometry_0",
+  "scene_id": "scene_00105_06",
+  "question": "Is the 'light gray TV box' rectangular?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_12_2_class_1",
+  "scene_id": "scene_00105_06",
+  "question": "What is under the 'rectangular TV box'?",
+  "pred": "Shelf.",
+  "answers": [
+   "cabinet"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_49_0_appearance_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is the frame of the 'window next to the black chair' pink?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_49_1_spatial_0",
+  "scene_id": "scene_00105_06",
+  "question": "Is the 'window above the orange-yellow wall' next to the black chair?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_49_2_geometry_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is the 'glass window' opened or closed?",
+  "pred": "Open.",
+  "answers": [
+   "Closed"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_18_0_appearance_1",
+  "scene_id": "scene_00105_06",
+  "question": "What color is the 'Bed with a bag'?",
+  "pred": "Green.",
+  "answers": [
+   "Brown"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_18_1_existence_0",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a bag on the 'Bed with a quilt'?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes."
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_18_2_spatial_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is the 'Bed next to the monitor' right next to the wall cabinet?",
+  "pred": "No.",
+  "answers": [
+   "No."
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_17_0_appearance_1",
+  "scene_id": "scene_00105_06",
+  "question": "Does the 'Calendar right next to the clock' have a large tree pattern?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_17_1_geometry_0",
+  "scene_id": "scene_00105_06",
+  "question": "What shape is the 'Calendar hanging on the wall'?",
+  "pred": "Rectangular.",
+  "answers": [
+   "Rectangular"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_17_2_spatial_0",
+  "scene_id": "scene_00105_06",
+  "question": "Is the 'Rectangular calendar' right next to the clock?",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_27_0_appearance_0",
+  "scene_id": "scene_00105_06",
+  "question": "What color is the 'keyboard next to the mouse'?",
+  "pred": "No.",
+  "answers": [
+   "Black"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_27_1_existence_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a telephone next to the 'black keyboard'?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_27_2_class_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a desk under the 'keyboard next to the monitor'?",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_32_0_geometry_1",
+  "scene_id": "scene_00105_06",
+  "question": "Which is smaller when comparing the 'green bag' with the red and white striped pillow",
+  "pred": "Red and white pillow.",
+  "answers": [
+   "bag"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_32_1_appearance_0",
+  "scene_id": "scene_00105_06",
+  "question": "What color is the 'bag on the bed'",
+  "pred": "Pink.",
+  "answers": [
+   "green"
+  ]
+ },
+ {
+  "question_id": "scene_00105_06_32_2_existence_1",
+  "scene_id": "scene_00105_06",
+  "question": "Is there a pillow right next to the 'bag next to the striped quilt'",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_13_0_appearance_1",
+  "scene_id": "scene_00109_00",
+  "question": "What color is the \"Chair with four pillows\"?",
+  "pred": "Dark grey.",
+  "answers": [
+   "Grey"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_13_1_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is the \"Chair next to an empty chair\" right next to the windowsill?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_13_2_existence_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is there a suitcase next to the \"Chair with a yellow pillow\"?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_12_0_existence_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is there a couch next to the chair furthest from the speaker with no pillow on it",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_12_1_appearance_1",
+  "scene_id": "scene_00109_00",
+  "question": "What color is the chair with no pillow",
+  "pred": "Blue.",
+  "answers": [
+   "Grey"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_12_2_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is the chair closest to the small window right next to the TV",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_15_0_appearance_1",
+  "scene_id": "scene_00109_00",
+  "question": "What color is 'the chair closest to the green suitcase'",
+  "pred": "Blue.",
+  "answers": [
+   "Gray"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_15_1_geometry_1",
+  "scene_id": "scene_00109_00",
+  "question": "Which is bigger, 'the chair closest to the wood fence' or the green suitcase",
+  "pred": "Chair.",
+  "answers": [
+   "Chair"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_15_2_existence_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is there a TV next to 'the chair closest to the blue painting'",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_20_0_appearance_0",
+  "scene_id": "scene_00109_00",
+  "question": "What color is the 'Speaker on the table'",
+  "pred": "Black.",
+  "answers": [
+   "Black"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_20_1_spatial_0",
+  "scene_id": "scene_00109_00",
+  "question": "What shape is the 'black speaker'",
+  "pred": "Round.",
+  "answers": [
+   "Round"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_20_2_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is the 'round speaker' right next to the wood fence",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_24_0_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is the 'green suitcase' upright?",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_24_1_existence_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is there a TV next to the 'green suitcase next to the couch'?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_24_2_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "Which is closer to the speaker, the 'green suitcase furthest from the window' or the blue painting?",
+  "pred": "Blue painting.",
+  "answers": [
+   "green suitcase"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_23_0_existence_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is there another suitcase next to the 'Black suitcase right next to the pillar'",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_23_1_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is the 'Black suitcase farthest from the windowsill' close to the tv",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_23_2_geometry_1",
+  "scene_id": "scene_00109_00",
+  "question": "Which is smaller, the 'Black suitcase closest to the speaker' or the silver-white suitcase next to it",
+  "pred": "Black suitcase.",
+  "answers": [
+   "Black suitcase"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_21_0_appearance_0",
+  "scene_id": "scene_00109_00",
+  "question": "Is the 'suitcase on the table' blue?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_21_1_class_0",
+  "scene_id": "scene_00109_00",
+  "question": "What is under 'the flat suitcase'?",
+  "pred": "Tan couch.",
+  "answers": [
+   "Table"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_21_2_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "Which is closer to the TV, the 'black suitcase farthest from the speaker' or the wood fence?",
+  "pred": "Wooden fence.",
+  "answers": [
+   "Suitcase"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_22_0_existence_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is there any other suitcase next to the 'silver-white suitcase'?",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_22_1_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is the 'silver-white suitcase' opposite the TV right next to a green suitcase?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_22_2_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "Which is a bit farther from the TV stand, the 'silver-white suitcase' closest to the pillar or the speaker?",
+  "pred": "Pillow.",
+  "answers": [
+   "Silver-white suitcase"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_32_0_existence_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is there a silver-white suitcase next to the sofa cushion that is furthest from the window?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_32_1_appearance_1",
+  "scene_id": "scene_00109_00",
+  "question": "What color is the sofa cushion closest to the blue painting?",
+  "pred": "Black and brown.",
+  "answers": [
+   "Grey"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_32_2_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is the sofa cushion furthest from the windowsill close to the wood fence?",
+  "pred": "Closest to wood fence.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_29_0_existence_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is there a suitcase next to the 'sofa cushion closest to the windowsill'",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_29_1_appearance_1",
+  "scene_id": "scene_00109_00",
+  "question": "What color is the 'sofa cushion closest to the large window'",
+  "pred": "Black.",
+  "answers": [
+   "Gray"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_29_2_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is the 'sofa cushion farthest from the speaker' right next to a pillow",
+  "pred": "Farthest from speaker.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_10_0_appearance_1",
+  "scene_id": "scene_00109_00",
+  "question": "Does the 'black TV' have an image pattern?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_10_1_appearance_0",
+  "scene_id": "scene_00109_00",
+  "question": "What color is the 'TV hanging on the TV stand'?",
+  "pred": "Black.",
+  "answers": [
+   "Black"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_10_2_spatial_0",
+  "scene_id": "scene_00109_00",
+  "question": "Is the 'TV opposite the silver suitcase' hanging above the TV stand?",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_4_0_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "The natural colored wood fence and the windowsill, which is closer to the speaker?",
+  "pred": "Fence.",
+  "answers": [
+   "The natural colored wood fence"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_4_1_existence_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is there a window next to 'the wood fence next to the pillar'?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_4_2_appearance_0",
+  "scene_id": "scene_00109_00",
+  "question": "What color is 'the wood fence behind the sofa'?",
+  "pred": "Brown.",
+  "answers": [
+   "Natural colored"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_19_0_appearance_1",
+  "scene_id": "scene_00109_00",
+  "question": "What color is 'the table with the speaker'?",
+  "pred": "Brown.",
+  "answers": [
+   "Yellow"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_19_1_existence_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is there a suitcase on 'the table farthest from the windowsill'?",
+  "pred": "No.",
+  "answers": [
+   "No."
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_19_2_class_0",
+  "scene_id": "scene_00109_00",
+  "question": "What is on 'the table farthest from the window'?",
+  "pred": "Lots of stuff.",
+  "answers": [
+   "speaker"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_18_0_appearance_1",
+  "scene_id": "scene_00109_00",
+  "question": "What color is the 'table closest to the wood fence'?",
+  "pred": "Brown.",
+  "answers": [
+   "Yellow"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_18_1_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is the 'table with the suitcase on it' right next to the wall?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_18_2_class_0",
+  "scene_id": "scene_00109_00",
+  "question": "What item is on the 'table closest to the windowsill'?",
+  "pred": "Lime green pillow.",
+  "answers": [
+   "suitcase"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_27_0_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is the 'yellow pillow on the sofa closest to the windowsill' close to the wood fence",
+  "pred": "Yes.",
+  "answers": [
+   "Yes."
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_27_1_existence_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is there a painting next to the 'yellow pillow on the sofa farthest from the speaker'",
+  "pred": "Yes.",
+  "answers": [
+   "No."
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_27_2_geometry_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is the 'yellow pillow on the sofa closest to the windowsill' rectangular?",
+  "pred": "No.",
+  "answers": [
+   "No."
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_36_0_spatial_0",
+  "scene_id": "scene_00109_00",
+  "question": "What is the direction of 'the first yellow pillow on the chair closest to the window' relative to the windowsill",
+  "pred": "Forward.",
+  "answers": [
+   "Beside"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_36_1_geometry_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is 'the first yellow pillow on the chair farthest from the speaker' square?",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_36_2_existence_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is there a TV next to 'the first yellow pillow on the chair farthest from the speaker'?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_30_0_class_0",
+  "scene_id": "scene_00109_00",
+  "question": "What's under 'The pure black pillow closest to the pillar'",
+  "pred": "2 pillows.",
+  "answers": [
+   "Couch"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_30_1_existence_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is there a suitcase near 'The pure black pillow closest to the wood fence'?",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_30_2_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is 'The pure black pillow on the couch' close to the TV?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_37_0_appearance_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is the 'The second pillow from the top on the chair furthest from the big backpack' blue?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_37_1_geometry_1",
+  "scene_id": "scene_00109_00",
+  "question": "Which is smaller, the 'The second pillow from the top on the chair furthest from the speaker' or the green suitcase?",
+  "pred": "Pillow.",
+  "answers": [
+   "Pillow"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_37_2_existence_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is there another chair next to 'The second pillow from the top on the chair closest to the windowsill'?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_46_0_appearance_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is there a bird pattern on 'The outermost pillow on the chair closest to the green suitcase'",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_46_1_geometry_1",
+  "scene_id": "scene_00109_00",
+  "question": "What shape is 'The outermost pillow on the chair closest to the small backpack'",
+  "pred": "Square.",
+  "answers": [
+   "Rectangular"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_46_2_spatial_0",
+  "scene_id": "scene_00109_00",
+  "question": "Is there a green suitcase next to 'The outermost pillow on the chair closest to the blue painting'",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_17_0_appearance_1",
+  "scene_id": "scene_00109_00",
+  "question": "What color is the sofa with a backpack",
+  "pred": "Cream.",
+  "answers": [
+   "Light brown"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_17_1_existence_0",
+  "scene_id": "scene_00109_00",
+  "question": "Is there a backpack on the sofa closest to the speaker",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_17_2_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is the sofa closest to the green suitcase under the windowsill",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_16_0_existence_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is there a speaker next to the 'sofa without a backpack'?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_16_1_appearance_1",
+  "scene_id": "scene_00109_00",
+  "question": "What color is the 'sofa with two pillows'?",
+  "pred": "Beige.",
+  "answers": [
+   "Gray"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_16_2_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is the 'sofa closest to the window' near the wood fence?",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_44_0_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is 'The painting closest to the windowsill' very close to the sofa with the yellow cushions",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_44_1_appearance_1",
+  "scene_id": "scene_00109_00",
+  "question": "What color is the frame of 'The painting closest to the window'",
+  "pred": "White.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_44_2_existence_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is there a TV next to 'The painting furthest from the speaker'",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_9_0_appearance_1",
+  "scene_id": "scene_00109_00",
+  "question": "What color is the frame of the 'blue painting'",
+  "pred": "White.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_9_1_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is 'the blue painting farthest from the window' very close to the speaker",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_9_2_existence_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is there another painting next to 'the blue painting closest to the green suitcase'",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_8_0_existence_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is there a TV next to the painting closest to the chair with two pillows",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_8_1_geometry_1",
+  "scene_id": "scene_00109_00",
+  "question": "Which is bigger, the painting closest to the table with a speaker or the green suitcase",
+  "pred": "Painting.",
+  "answers": [
+   "Painting"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_8_2_appearance_1",
+  "scene_id": "scene_00109_00",
+  "question": "What color is the frame of the painting closest to the speaker",
+  "pred": "White.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_26_0_appearance_1",
+  "scene_id": "scene_00109_00",
+  "question": "What color is 'the smallest backpack'",
+  "pred": "Black.",
+  "answers": [
+   "Black"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_26_1_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "What is the position of 'the smallest backpack on the couch' relative to the speaker",
+  "pred": "On left side of couch.",
+  "answers": [
+   "Opposite"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_26_2_class_0",
+  "scene_id": "scene_00109_00",
+  "question": "What is under 'the backpack farthest from the pillar'",
+  "pred": "Couch.",
+  "answers": [
+   "couch"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_25_0_appearance_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is the backpack closest to the silver suitcase blue?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_25_1_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is the biggest backpack on the couch right next to the gray and white striped cushion?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_25_2_class_0",
+  "scene_id": "scene_00109_00",
+  "question": "What is below the backpack closest to the windowsill?",
+  "pred": "Pillow.",
+  "answers": [
+   "Couch"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_6_0_appearance_0",
+  "scene_id": "scene_00109_00",
+  "question": "Is the tv cabinet with a TV mounted on it golden in color?",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_6_1_geometry_1",
+  "scene_id": "scene_00109_00",
+  "question": "Between the tv cabinet right next to the largest wall and the blue painting, which is taller?",
+  "pred": "Tv cabinet.",
+  "answers": [
+   "The tv cabinet right next to the largest wall"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_6_2_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "Is the golden tv cabinet right next to the wood fence?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_42_0_spatial_1",
+  "scene_id": "scene_00109_00",
+  "question": "Which is further from the TV, 'The largest window' or the speaker?",
+  "pred": "Window.",
+  "answers": [
+   "The largest window"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_42_1_existence_0",
+  "scene_id": "scene_00109_00",
+  "question": "Is there a chair next to 'the window closest to the striped painting'?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00109_00_42_2_appearance_1",
+  "scene_id": "scene_00109_00",
+  "question": "Does 'the window closest to the chair with a yellow pillow' have a flower pattern on it?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_1_0_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a suitcase on the cabinet next to the mirror",
+  "pred": "No.",
+  "answers": [
+   "Yes."
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_1_1_appearance_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is the cabinet closest to the colorful box black?",
+  "pred": "Yes.",
+  "answers": [
+   "No."
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_1_2_spatial_1",
+  "scene_id": "scene_00106_05",
+  "question": "What direction is the cabinet next to the orange chair in relation to the bed",
+  "pred": "Left.",
+  "answers": [
+   "Opposite"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_17_0_appearance_0",
+  "scene_id": "scene_00106_05",
+  "question": "What color is the cabinet with a basket?",
+  "pred": "Brown.",
+  "answers": [
+   "Yellow"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_17_1_class_1",
+  "scene_id": "scene_00106_05",
+  "question": "What is under the yellow cabinet right next to a blue chair?",
+  "pred": "Desk.",
+  "answers": [
+   "Floor"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_17_2_existence_0",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a basket on the yellow cabinet closest to the bed?",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_22_0_appearance_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is the cabinet with a clock blue?",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_22_1_spatial_1",
+  "scene_id": "scene_00106_05",
+  "question": "What direction is the cabinet that is farthest from the curtain relative to the curtain box?",
+  "pred": "Left.",
+  "answers": [
+   "Opposite"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_22_2_class_1",
+  "scene_id": "scene_00106_05",
+  "question": "What is under the cabinet that is farthest from the window?",
+  "pred": "Dresser.",
+  "answers": [
+   "Floor"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_40_0_appearance_0",
+  "scene_id": "scene_00106_05",
+  "question": "What's the color of the drawers of the 'cabinet closest to the curtain'",
+  "pred": "Brown.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_40_1_spatial_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is the 'cabinet with white drawers' right next to the bed",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_40_2_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a door next to the 'cabinet with white drawers closest to the window'",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_19_0_spatial_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is the 'Yellow short commode' right next to the door",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_19_1_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there another commode next to 'The yellow short commode farthest from the window'",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_19_2_geometry_1",
+  "scene_id": "scene_00106_05",
+  "question": "Which is taller, 'The yellow short commode farthest from the woodcarving' or the bed",
+  "pred": "Bed.",
+  "answers": [
+   "Yellow short commode"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_37_0_appearance_0",
+  "scene_id": "scene_00106_05",
+  "question": "Does the 'pillow closest to the basket' have a pattern",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_37_1_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a box next to the 'pillow on the chair opposite the door'",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_37_2_geometry_1",
+  "scene_id": "scene_00106_05",
+  "question": "Which is bigger, the 'pillow on the chair with pink and yellow patterns' or the clock",
+  "pred": "Pillow on chair with pink and yellow patterns.",
+  "answers": [
+   "Pillow"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_32_0_appearance_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is the pillow closest to the mirror blue?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_32_1_class_1",
+  "scene_id": "scene_00106_05",
+  "question": "What's under the pillow closest to the monitor?",
+  "pred": "White bed.",
+  "answers": [
+   "chair"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_32_2_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a chair under the pillow closest to the paper?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_39_0_spatial_0",
+  "scene_id": "scene_00106_05",
+  "question": "In which direction is the 'pillow with a blue dot pattern on a white background' from the curtain",
+  "pred": "At head of bed.",
+  "answers": [
+   "below"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_39_1_appearance_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is the 'pillow on the bed' red?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_39_2_class_0",
+  "scene_id": "scene_00106_05",
+  "question": "What is below the 'pillow closest to the curtain'?",
+  "pred": "Bed.",
+  "answers": [
+   "bed"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_18_0_appearance_0",
+  "scene_id": "scene_00106_05",
+  "question": "What color is the rectangular basket?",
+  "pred": "Brown.",
+  "answers": [
+   "Yellow"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_18_1_existence_0",
+  "scene_id": "scene_00106_05",
+  "question": "What shape is the yellow basket?",
+  "pred": "Oval.",
+  "answers": [
+   "Rectangular"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_18_2_class_1",
+  "scene_id": "scene_00106_05",
+  "question": "What is under the 'Basket near the bed'?",
+  "pred": "Desk.",
+  "answers": [
+   "Cabinet"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_10_0_appearance_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is the chair closest to the windowsill black?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_10_1_spatial_1",
+  "scene_id": "scene_00106_05",
+  "question": "What position is the chair closest to the window in relation to the woodcarving?",
+  "pred": "To left of woodcarving.",
+  "answers": [
+   "Beside"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_10_2_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a door next to the chair closest to the curtain?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_38_0_class_1",
+  "scene_id": "scene_00106_05",
+  "question": "What's on 'The chair closest to the bed'",
+  "pred": "Desk.",
+  "answers": [
+   "pillow"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_38_1_appearance_0",
+  "scene_id": "scene_00106_05",
+  "question": "What color is 'The chair closest to the basket'",
+  "pred": "Green.",
+  "answers": [
+   "Blue"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_38_2_spatial_0",
+  "scene_id": "scene_00106_05",
+  "question": "In what direction of the bed is 'The blue chair farthest from the paper'",
+  "pred": "At foot of bed.",
+  "answers": [
+   "beside"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_33_0_class_1",
+  "scene_id": "scene_00106_05",
+  "question": "What is on the chair closest to the pc",
+  "pred": "White pillow.",
+  "answers": [
+   "pillow"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_33_1_spatial_0",
+  "scene_id": "scene_00106_05",
+  "question": "Is the chair closest to the paper right next to the desk",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_33_2_appearance_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is the chair right next to the desk purely black",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_29_0_appearance_1",
+  "scene_id": "scene_00106_05",
+  "question": "What color is the 'suitcase closest to the window'?",
+  "pred": "No.",
+  "answers": [
+   "Black"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_29_1_spatial_1",
+  "scene_id": "scene_00106_05",
+  "question": "What direction from the bed is the 'suitcase closest to the curtain box' located?",
+  "pred": "To bed's right.",
+  "answers": [
+   "Opposite"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_29_2_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a telephone on top of the 'suitcase farthest from the door'?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_36_0_appearance_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is 'The box closest to the bed' black?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_36_1_class_1",
+  "scene_id": "scene_00106_05",
+  "question": "What's under 'The box closest to the door'?",
+  "pred": "Desk.",
+  "answers": [
+   "floor"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_36_2_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a table next to 'The box closest to the monitor'?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_26_0_appearance_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a red heart pattern on the 'Black suitcase directly below the colorful box'?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_26_1_spatial_0",
+  "scene_id": "scene_00106_05",
+  "question": "What is the direction of the 'Black suitcase closest to the mirror' relative to the colorful box?",
+  "pred": "Right.",
+  "answers": [
+   "Below"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_26_2_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a cabinet under the 'Black suitcase closest to the personal computer'?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_25_0_appearance_0",
+  "scene_id": "scene_00106_05",
+  "question": "What color is the suitcase closest to the mirror?",
+  "pred": "Brown.",
+  "answers": [
+   "Red"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_25_1_class_1",
+  "scene_id": "scene_00106_05",
+  "question": "What is underneath the suitcase closest to the clock?",
+  "pred": "Dresser.",
+  "answers": [
+   "Cabinet"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_25_2_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a basket next to the red suitcase farthest from the window?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_30_0_class_0",
+  "scene_id": "scene_00106_05",
+  "question": "What is under the 'colorful boxes'",
+  "pred": "Brown desk.",
+  "answers": [
+   "suitcase"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_30_1_spatial_0",
+  "scene_id": "scene_00106_05",
+  "question": "In which direction of the wall is the 'colorful boxes' on top of the black suitcase",
+  "pred": "Right.",
+  "answers": [
+   "beside"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_30_2_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a pillow on top of the 'colorful boxes' beside the wall",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_31_0_spatial_1",
+  "scene_id": "scene_00106_05",
+  "question": "What is the position of the 'White box' relative to the red suitcase",
+  "pred": "To right of red suitcase.",
+  "answers": [
+   "On top"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_31_1_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a pc next to the 'White box' closest to the mirror",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_31_2_spatial_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is the 'White box' closest to the curtain box next to the door",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_5_0_appearance_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is the table closest to the curtain box black?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_5_1_spatial_1",
+  "scene_id": "scene_00106_05",
+  "question": "What direction is the table closest to the window from the bed?",
+  "pred": "To bed's right.",
+  "answers": [
+   "Opposite"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_5_2_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a curtain on the table furthest from the pen?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_35_0_spatial_1",
+  "scene_id": "scene_00106_05",
+  "question": "What's the direction of the pen relative to 'the desk with a monitor'?",
+  "pred": "Northeast of desk.",
+  "answers": [
+   "Below"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_35_1_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a pillow on 'the desk with paper'?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_35_2_class_1",
+  "scene_id": "scene_00106_05",
+  "question": "What's under 'the desk farthest from the window'?",
+  "pred": "Cabinet.",
+  "answers": [
+   "Floor"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_3_0_appearance_1",
+  "scene_id": "scene_00106_05",
+  "question": "Does the 'mirror closest to the monitor' have a frame?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_3_1_spatial_1",
+  "scene_id": "scene_00106_05",
+  "question": "What is the position of the 'mirror closest to the computer' relative to the basket",
+  "pred": "Left side of basket.",
+  "answers": [
+   "opposite"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_3_2_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a telephone next to the 'mirror closest to the monitor'?",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_12_0_spatial_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is the 'bed with pillows on it' right next to the curtain?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_12_1_spatial_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is the 'bed with a white headboard' close to the mirror?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_12_2_appearance_0",
+  "scene_id": "scene_00106_05",
+  "question": "What color is the headboard of the 'bed below the curtain'?",
+  "pred": "Light brown.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_42_0_spatial_1",
+  "scene_id": "scene_00106_05",
+  "question": "What is the direction of 'the windowsill beside the window' from the door",
+  "pred": "Right.",
+  "answers": [
+   "Opposite"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_42_1_class_0",
+  "scene_id": "scene_00106_05",
+  "question": "What is under 'the windowsill closest to the curtain'",
+  "pred": "Brown desk.",
+  "answers": [
+   "woodcarving"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_42_2_appearance_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is 'the windowsill above the woodcarving' pink",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_8_0_spatial_0",
+  "scene_id": "scene_00106_05",
+  "question": "The position of the 'white paper' related to the pen?",
+  "pred": "On desk.",
+  "answers": [
+   "under"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_8_1_appearance_0",
+  "scene_id": "scene_00106_05",
+  "question": "What color is the 'paper under the pen'?",
+  "pred": "White.",
+  "answers": [
+   "white"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_8_2_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a bed next to the 'paper closest to the monitor'?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_21_0_class_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a bed next to the 'White clock'",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_21_1_appearance_0",
+  "scene_id": "scene_00106_05",
+  "question": "What color is 'the clock hanging on the largest cabinet'",
+  "pred": "White.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_21_2_spatial_1",
+  "scene_id": "scene_00106_05",
+  "question": "In what direction of the window is 'the clock closest to the door'",
+  "pred": "Up.",
+  "answers": [
+   "Opposite"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_4_0_appearance_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is the 'telephone closest to the mirror' yellow?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_4_1_spatial_0",
+  "scene_id": "scene_00106_05",
+  "question": "What direction from the mirror is the 'telephone farthest from the door'?",
+  "pred": "Right.",
+  "answers": [
+   "Beside"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_4_2_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a window beside the 'telephone farthest from the personal computer'?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_34_0_spatial_0",
+  "scene_id": "scene_00106_05",
+  "question": "Where is the 'White cellphone' in relation to the monitor",
+  "pred": "To right of monitor.",
+  "answers": [
+   "Next to"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_34_1_appearance_0",
+  "scene_id": "scene_00106_05",
+  "question": "What color is the 'cellphone next to the monitor'",
+  "pred": "Black.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_34_2_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a bed next to the 'cellphone closest to the mirror'",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_13_0_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there paper next to the window by the windowsill?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_13_1_class_0",
+  "scene_id": "scene_00106_05",
+  "question": "What is under the window opposite the door?",
+  "pred": "Brown desk.",
+  "answers": [
+   "windowsill"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_13_2_spatial_1",
+  "scene_id": "scene_00106_05",
+  "question": "What direction from the door is the window next to the curtain?",
+  "pred": "To right of door.",
+  "answers": [
+   "opposite"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_20_0_spatial_1",
+  "scene_id": "scene_00106_05",
+  "question": "What is the position of the 'yellow door' relative to the window",
+  "pred": "To right of window.",
+  "answers": [
+   "Opposite"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_20_1_appearance_0",
+  "scene_id": "scene_00106_05",
+  "question": "What is the color of 'the door closest to the clock'",
+  "pred": "Brown.",
+  "answers": [
+   "Yellow"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_20_2_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a telephone next to 'the door closest to the basket'",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_9_0_class_0",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a cabinet under the 'Black monitor'?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_9_1_appearance_0",
+  "scene_id": "scene_00106_05",
+  "question": "What color is the 'Monitor next to paper'?",
+  "pred": "Black.",
+  "answers": [
+   "Black"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_9_2_spatial_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is the 'Monitor on the desk' right next to the bed?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_14_0_appearance_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is 'The curtain closest to the windowsill' yellow?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_14_1_spatial_0",
+  "scene_id": "scene_00106_05",
+  "question": "What direction is 'The curtain closest to the window' from the windowsill?",
+  "pred": "Left.",
+  "answers": [
+   "Besides"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_14_2_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a clock beside 'The curtain farthest from the door'?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_41_0_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a telephone on the woodcarving under the windowsill",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_41_1_spatial_0",
+  "scene_id": "scene_00106_05",
+  "question": "What direction of the windowsill is the woodcarving closest to the window",
+  "pred": "Left.",
+  "answers": [
+   "below"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_41_2_appearance_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is the woodcarving closest to the curtain blue",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_6_0_appearance_1",
+  "scene_id": "scene_00106_05",
+  "question": "What color is the 'PC closest to the cellphone'",
+  "pred": "Brown.",
+  "answers": [
+   "Black"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_6_1_class_1",
+  "scene_id": "scene_00106_05",
+  "question": "What's under the 'PC closest to the monitor'",
+  "pred": "Desk.",
+  "answers": [
+   "Floor"
+  ]
+ },
+ {
+  "question_id": "scene_00106_05_6_2_existence_1",
+  "scene_id": "scene_00106_05",
+  "question": "Is there a curtain next to the 'PC closest to the mirror'",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_20_0_spatial_0",
+  "scene_id": "scene_00116_03",
+  "question": "What is the position of the 'White toilet paper' in the wall cabinet",
+  "pred": "To right of kitchen cabinets.",
+  "answers": [
+   "inside"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_20_1_appearance_0",
+  "scene_id": "scene_00116_03",
+  "question": "What color is the toilet paper placed inside the wall cabinet",
+  "pred": "No.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_20_2_existence_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is there a door opposite the 'toilet paper closest to the stove'",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_30_0_spatial_0",
+  "scene_id": "scene_00116_03",
+  "question": "Is 'the pot in the sink' close to the sponge",
+  "pred": "Yes.",
+  "answers": [
+   "yes"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_30_1_spatial_0",
+  "scene_id": "scene_00116_03",
+  "question": "Where is 'the pot next to the sponge'?",
+  "pred": "On stove.",
+  "answers": [
+   "In the sink"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_30_2_existence_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is there a range hood above 'the pot closest to the books'",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_23_0_appearance_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is 'the large pot on the stove' in red color?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_23_1_class_0",
+  "scene_id": "scene_00116_03",
+  "question": "What's under 'the large pot nearest to the trash bin'?",
+  "pred": "Kitchen counter.",
+  "answers": [
+   "Stove"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_23_2_existence_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is there a door next to 'the large pot nearest to the cutting board'?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_24_0_class_0",
+  "scene_id": "scene_00116_03",
+  "question": "What's under the 'Black pot'",
+  "pred": "White stove.",
+  "answers": [
+   "Stove"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_24_1_appearance_0",
+  "scene_id": "scene_00116_03",
+  "question": "What color is 'The pot closest to the trash bin'",
+  "pred": "Silver.",
+  "answers": [
+   "Black"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_24_2_existence_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is there a sink next to 'The small pot above the stove'",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_35_0_appearance_0",
+  "scene_id": "scene_00116_03",
+  "question": "What color is the cap of 'the bottle closest to the toilet paper'?",
+  "pred": "No.",
+  "answers": [
+   "Orange"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_35_1_spatial_1",
+  "scene_id": "scene_00116_03",
+  "question": "What's under 'the bottle with the orange cap'?",
+  "pred": "Sink.",
+  "answers": [
+   "cabinet"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_35_2_existence_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is there a cutting board next to 'the bottle closest to the trash can'?",
+  "pred": "No.",
+  "answers": [
+   "Yes."
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_31_0_existence_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is there a door next to the 'White bottle'?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_31_1_appearance_0",
+  "scene_id": "scene_00116_03",
+  "question": "What color is 'The bottle closest to the refrigerator'?",
+  "pred": "White.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_31_2_class_1",
+  "scene_id": "scene_00116_03",
+  "question": "What is under 'The bottle closest to the book'?",
+  "pred": "Sink.",
+  "answers": [
+   "cabinet"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_33_0_appearance_0",
+  "scene_id": "scene_00116_03",
+  "question": "What color is the 'sponge next to the sink'",
+  "pred": "Green.",
+  "answers": [
+   "Yellow"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_33_1_spatial_0",
+  "scene_id": "scene_00116_03",
+  "question": "Where is the yellow sponge in relation to the sink?",
+  "pred": "To right of sink.",
+  "answers": [
+   "Next to"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_33_2_existence_0",
+  "scene_id": "scene_00116_03",
+  "question": "Is there a pot near the yellow sponge?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_15_0_appearance_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is 'The wall cabinet right above the sink' red?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_15_1_spatial_0",
+  "scene_id": "scene_00116_03",
+  "question": "In what direction from the sink is 'The wall cabinet closest to the books'?",
+  "pred": "Right.",
+  "answers": [
+   "Directly above"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_15_2_existence_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is there toilet paper inside 'The wall cabinet above the kettle'?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_18_0_appearance_1",
+  "scene_id": "scene_00116_03",
+  "question": "What color is the 'cabinet with the cutting board'?",
+  "pred": "Brown.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_18_1_spatial_0",
+  "scene_id": "scene_00116_03",
+  "question": "Which side of the trash bin is the 'cabinet closest to the bifold door' located?",
+  "pred": "Right side of trash can.",
+  "answers": [
+   "beside"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_18_2_existence_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is there a refrigerator next to the 'cabinet closest to the trash bin'?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_19_0_appearance_1",
+  "scene_id": "scene_00116_03",
+  "question": "What color is the 'cabinet under the rice maker'?",
+  "pred": "White.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_19_1_spatial_1",
+  "scene_id": "scene_00116_03",
+  "question": "In which direction of the bifold door is 'the cabinet with a sponge'?",
+  "pred": "Left.",
+  "answers": [
+   "Opposite"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_19_2_existence_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is there a chair next to 'the cabinet with a sink'?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_13_0_appearance_1",
+  "scene_id": "scene_00116_03",
+  "question": "What color is 'The wall cabinet with the range hood hanging'",
+  "pred": "White.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_13_1_spatial_1",
+  "scene_id": "scene_00116_03",
+  "question": "What direction is 'The wall cabinet containing toilet paper' relative to the stove",
+  "pred": "Right.",
+  "answers": [
+   "Directly above"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_13_2_existence_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is there a refrigerator next to 'The wall cabinet closest to the cutting board'",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_22_0_spatial_1",
+  "scene_id": "scene_00116_03",
+  "question": "Consider the kettle in white and black, is it closer to rice maker or sink?",
+  "pred": "Sink.",
+  "answers": [
+   "Sink"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_22_1_appearance_0",
+  "scene_id": "scene_00116_03",
+  "question": "What color is 'the kettle next to the sink'?",
+  "pred": "Silver.",
+  "answers": [
+   "White and black"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_22_2_class_1",
+  "scene_id": "scene_00116_03",
+  "question": "What is above 'the kettle in front of rice maker'?",
+  "pred": "White kitchen cabinets.",
+  "answers": [
+   "Wall cabinet"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_38_0_appearance_0",
+  "scene_id": "scene_00116_03",
+  "question": "What color is the 'trash bin under the cutting board'",
+  "pred": "Red trash can.",
+  "answers": [
+   "Gray"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_38_1_existence_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is there a table next to the 'trash bin closest to the stove'",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_38_2_spatial_0",
+  "scene_id": "scene_00116_03",
+  "question": "Where is the 'gray trash bin' in relation to the stove",
+  "pred": "To left of stove.",
+  "answers": [
+   "Beside"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_32_0_class_1",
+  "scene_id": "scene_00116_03",
+  "question": "What is under the 'Light wood color cutting board'",
+  "pred": "Rectangular brown table.",
+  "answers": [
+   "Cabinet"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_32_1_appearance_0",
+  "scene_id": "scene_00116_03",
+  "question": "What color is the 'cutting board closest to the bifold door'",
+  "pred": "Brown.",
+  "answers": [
+   "Light wood color"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_32_2_spatial_0",
+  "scene_id": "scene_00116_03",
+  "question": "In what direction from the toilet paper is the 'cutting board closest to the toilet paper'",
+  "pred": "No.",
+  "answers": [
+   "Below"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_10_0_appearance_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is 'the box closest to the refrigerator' red?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_10_1_existence_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is there a pot next to 'the box under the table'?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_10_2_spatial_0",
+  "scene_id": "scene_00116_03",
+  "question": "What is the position of 'the box next to the black suitcase' in relation to the table?",
+  "pred": "Pulls out from table.",
+  "answers": [
+   "Under"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_9_0_spatial_0",
+  "scene_id": "scene_00116_03",
+  "question": "Where is the yellow polka dot suitcase in relation to the table?",
+  "pred": "Right side of table.",
+  "answers": [
+   "underneath"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_9_1_appearance_0",
+  "scene_id": "scene_00116_03",
+  "question": "Does 'The suitcase under the table' have a bird pattern on it",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_9_2_class_0",
+  "scene_id": "scene_00116_03",
+  "question": "What is on top of 'the suitcase furthest from the rice cooker'",
+  "pred": "Black rectangular object.",
+  "answers": [
+   "table"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_36_0_spatial_0",
+  "scene_id": "scene_00116_03",
+  "question": "Where is the 'black suitcase' in relation to the refrigerator?",
+  "pred": "Right side of refrigerator.",
+  "answers": [
+   "Beside"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_36_1_appearance_0",
+  "scene_id": "scene_00116_03",
+  "question": "Is 'the suitcase closest to the sink' pink?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_36_2_existence_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is there a book on 'the suitcase closest to the sink'?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_37_0_existence_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is there a pot on the 'White stove'",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_37_1_appearance_0",
+  "scene_id": "scene_00116_03",
+  "question": "What color is the 'stove next to the trash can'",
+  "pred": "White.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_37_2_existence_0",
+  "scene_id": "scene_00116_03",
+  "question": "Is there a trash can near 'the stove closest to the cutting board'?",
+  "pred": "Yes.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_5_0_spatial_0",
+  "scene_id": "scene_00116_03",
+  "question": "In which direction of the floor is the 'white bifold door'?",
+  "pred": "Left of refrigerator.",
+  "answers": [
+   "Above"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_5_1_appearance_1",
+  "scene_id": "scene_00116_03",
+  "question": "What color is 'the bifold door on the floor'?",
+  "pred": "White.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_5_2_existence_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is there a sponge on 'the bifold door next to the white object'?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_16_0_existence_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is there a kettle next to the 'Books on top of the refrigerator'",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_16_1_class_0",
+  "scene_id": "scene_00116_03",
+  "question": "What is under the 'Books closest to the ceiling'",
+  "pred": "Rectangular brown table.",
+  "answers": [
+   "refrigerator"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_16_2_appearance_1",
+  "scene_id": "scene_00116_03",
+  "question": "Consider the books on top of the refrigerator, are they the same color as the suitcase below?",
+  "pred": "No.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_34_0_spatial_0",
+  "scene_id": "scene_00116_03",
+  "question": "Where is 'The water faucet above the sink' relative to the sponge",
+  "pred": "To right of sponge.",
+  "answers": [
+   "next to"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_34_1_appearance_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is 'The water faucet next to the sponge' in the same color with the sponge?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_34_2_geometry_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is 'the water faucet near kettle' taller or shorter than the kettle?",
+  "pred": "Shorter.",
+  "answers": [
+   "Shorter"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_17_0_spatial_0",
+  "scene_id": "scene_00116_03",
+  "question": "Where is the 'white refrigerator' in relation to the book",
+  "pred": "To right of kitchen cabinets.",
+  "answers": [
+   "Underneath"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_17_1_appearance_0",
+  "scene_id": "scene_00116_03",
+  "question": "What color is the 'refrigerator under the book'",
+  "pred": "White.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_17_2_existence_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is there a door next to the 'refrigerator next to the black suitcase'",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_14_0_spatial_0",
+  "scene_id": "scene_00116_03",
+  "question": "Where is the 'White range hood' relative to the stove?",
+  "pred": "To left of stove.",
+  "answers": [
+   "Above"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_14_1_appearance_0",
+  "scene_id": "scene_00116_03",
+  "question": "What color is the 'range hood above the stove'?",
+  "pred": "Black.",
+  "answers": [
+   "White"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_14_2_existence_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is there a sink next to the 'range hood closest to the cutting board'?",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_29_0_appearance_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is the 'sink under the water faucet' red",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_29_1_spatial_0",
+  "scene_id": "scene_00116_03",
+  "question": "What is the position of the 'sink next to the kettle' in relation to the water faucet",
+  "pred": "In front of water faucet.",
+  "answers": [
+   "below"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_29_2_existence_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is there a stove next to the 'sink closest to the refrigerator'\n",
+  "pred": "Yes.",
+  "answers": [
+   "No"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_8_0_existence_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is there a door opposite the table next to the black suitcase?",
+  "pred": "No.",
+  "answers": [
+   "No."
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_8_1_spatial_0",
+  "scene_id": "scene_00116_03",
+  "question": "What is the position of the table closest to the refrigerator relative to the chair?",
+  "pred": "Left side of refrigerator.",
+  "answers": [
+   "Beside"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_8_2_appearance_1",
+  "scene_id": "scene_00116_03",
+  "question": "Is the table next to the chair blue?",
+  "pred": "No.",
+  "answers": [
+   "No."
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_21_0_spatial_0",
+  "scene_id": "scene_00116_03",
+  "question": "Where is the 'white rice cooker' located in relation to the kettle",
+  "pred": "To left of kettle.",
+  "answers": [
+   "Beside"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_21_1_appearance_0",
+  "scene_id": "scene_00116_03",
+  "question": "Is the 'rice cooker next to the kettle' white?",
+  "pred": "No.",
+  "answers": [
+   "Yes"
+  ]
+ },
+ {
+  "question_id": "scene_00116_03_21_2_class_1",
+  "scene_id": "scene_00116_03",
+  "question": "What is under the 'rice cooker closest to the sponge'?",
+  "pred": "Kitchen cabinets.",
+  "answers": [
+   "Cabinet"
+  ]
+ }
+]

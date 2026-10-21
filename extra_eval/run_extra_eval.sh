@@ -11,6 +11,8 @@
 #   LLAMA          Vicuna-7B v1.5, HF id or local path                (default lmsys/vicuna-7b-v1.5)
 #   CKPT           released checkpoint      (default $ROBIN3D_DATA/ckpt_for_robin3d_final_performance/ckpt_01.pth)
 #   REAL3DQA_DIR   Real-3DQA <split>.jsonl files (HF Oliver-Ma/Real-3DQA)
+#   FEATS_WORK     extra_eval/feats work dir; when set, the Beacon3D sets on rebuilt features
+#                  are registered too (VAL_TAG="beacon3d_3rscan_grounding#..." to run them)
 #   OUT            output dir                                         (default outputs/extra_eval_<timestamp>)
 #   NGPU           GPUs for torchrun                                  (default: all visible)
 #   BATCH_SIZE     per-GPU batch size                                 (default 8)
@@ -28,10 +30,14 @@ CKPT="${CKPT:-$DATA/ckpt_for_robin3d_final_performance/ckpt_01.pth}"
 [ -f "$CKPT" ] || { echo "no checkpoint at $CKPT"; exit 1; }   # train.py would silently use random weights
 REAL3DQA="real3dqa_debiased_test#real3dqa_rotation_0#real3dqa_rotation_90#real3dqa_rotation_180#real3dqa_rotation_270"
 VAL_TAG="${VAL_TAG:-check_scanrefer#scanqa#sqa3d_test#$REAL3DQA#beacon3d_scannet_grounding#beacon3d_scannet_qa}"
+REBUILT_ARGS=()
+if [ -n "${FEATS_WORK:-}" ]; then  # Beacon3D on features rebuilt by extra_eval/feats
+  REBUILT_ARGS=(--rebuilt_dir "$FEATS_WORK/robin3d_inputs" --packages_dir "$FEATS_WORK/packages")
+fi
 OUT="${OUT:-outputs/extra_eval_$(date +%Y%m%d_%H%M%S)}"
 mkdir -p "$OUT"
 $ENV/bin/python extra_eval/build_annos.py --robin3d_data "$DATA" --llama "$LLAMA" \
-    --real3dqa_dir "${REAL3DQA_DIR:?set REAL3DQA_DIR}" || exit 1
+    --real3dqa_dir "${REAL3DQA_DIR:?set REAL3DQA_DIR}" "${REBUILT_ARGS[@]}" || exit 1
 echo "output_dir=$OUT val_tag=$VAL_TAG ckpt=$CKPT ngpu=$NGPU"
 # Model options = scripts/eval.sh (the released checkpoint's stage-2 run).
 $ENV/bin/torchrun --nproc_per_node="$NGPU" --master_port=$MASTER_PORT tasks/train.py scripts/extra_eval_config.py \

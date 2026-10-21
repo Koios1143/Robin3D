@@ -121,5 +121,207 @@
    "R1 (higher better)": 36.59,
    "R2 (lower better)": 51.18
   }
+ },
+ "beacon3d_scannet_rebuilt": {
+  "pred_dir": "outputs/rebuilt_20261021_141918",
+  "qa_judge": "gpt-4o-mini-2024-07-18",
+  "grounding_no_obj_token": 2,
+  "grounding": {
+   "overall": 61.9,
+   "class": 61.9,
+   "appearance": 60.74,
+   "geometry": 52.97,
+   "spatial": 57.91,
+   "functionality": 22.22,
+   "chain": 55.5,
+   "object": 43.38,
+   "four types": [
+    55.5,
+    21.73,
+    2.68,
+    20.09
+   ]
+  },
+  "grounding_iou25": {
+   "overall": 59.35,
+   "class": 59.35,
+   "appearance": 58.28,
+   "geometry": 51.14,
+   "spatial": 55.44,
+   "functionality": 22.22,
+   "chain": 52.99,
+   "object": 41.56,
+   "four types": [
+    52.99,
+    20.35,
+    2.77,
+    23.9
+   ]
+  },
+  "qa": {
+   "EM": 49.35,
+   "EM-R": 53.94,
+   "GPT-Score": 54.83,
+   "case": 54.83,
+   "object": 14.29,
+   "class": 38.96,
+   "appearance": 55.71,
+   "geometry": 55.54,
+   "spatial": 51.72,
+   "existence": 64.08,
+   "functionality": 66.67,
+   "R1 (higher better)": 34.21,
+   "R2 (lower better)": 53.01
+  }
+ },
+ "beacon3d_scannet_rebuiltraw": {
+  "pred_dir": "outputs/rebuilt_20261021_141918",
+  "qa_judge": "gpt-4o-mini-2024-07-18",
+  "grounding_no_obj_token": 2,
+  "grounding": {
+   "overall": 62.8,
+   "class": 62.8,
+   "appearance": 63.8,
+   "geometry": 55.71,
+   "spatial": 58.83,
+   "functionality": 11.11,
+   "chain": 56.54,
+   "object": 45.45,
+   "four types": [
+    56.54,
+    20.69,
+    2.6,
+    20.17
+   ]
+  },
+  "grounding_iou25": {
+   "overall": 60.31,
+   "class": 60.31,
+   "appearance": 61.35,
+   "geometry": 52.05,
+   "spatial": 56.67,
+   "functionality": 11.11,
+   "chain": 54.11,
+   "object": 43.38,
+   "four types": [
+    54.11,
+    18.87,
+    2.86,
+    24.16
+   ]
+  },
+  "qa": {
+   "EM": 50.39,
+   "EM-R": 54.98,
+   "GPT-Score": 55.48,
+   "case": 55.48,
+   "object": 13.77,
+   "class": 38.96,
+   "appearance": 56.46,
+   "geometry": 57.59,
+   "spatial": 52.62,
+   "existence": 63.67,
+   "functionality": 66.67,
+   "R1 (higher better)": 37.04,
+   "R2 (lower better)": 52.81
+  }
+ },
+ "beacon3d_3rscan": {
+  "pred_dir": "outputs/rebuilt_20261021_141918",
+  "qa_judge": "gpt-4o-mini-2024-07-18",
+  "grounding_no_obj_token": 1,
+  "grounding": {
+   "overall": 37.04,
+   "class": 37.04,
+   "appearance": 32.1,
+   "geometry": 27.69,
+   "spatial": 30.83,
+   "chain": 28.55,
+   "object": 23.9,
+   "four types": [
+    28.55,
+    21.57,
+    5.02,
+    44.85
+   ]
+  },
+  "grounding_iou25": {
+   "overall": 34.51,
+   "class": 34.51,
+   "appearance": 30.45,
+   "geometry": 25.64,
+   "spatial": 28.28,
+   "chain": 26.47,
+   "object": 22.79,
+   "four types": [
+    26.47,
+    20.71,
+    4.9,
+    47.92
+   ]
+  },
+  "qa": {
+   "EM": 49.75,
+   "EM-R": 53.68,
+   "GPT-Score": 53.52,
+   "case": 53.52,
+   "object": 13.97,
+   "class": 33.15,
+   "appearance": 53.18,
+   "geometry": 50.45,
+   "spatial": 48.47,
+   "existence": 65.4,
+   "R1 (higher better)": 24.39,
+   "R2 (lower better)": 73.84
+  }
+ },
+ "beacon3d_multiscan": {
+  "pred_dir": "outputs/rebuilt_20261021_141918",
+  "qa_judge": "gpt-4o-mini-2024-07-18",
+  "grounding_no_obj_token": 4,
+  "grounding": {
+   "overall": 40.33,
+   "class": 40.33,
+   "appearance": 38.31,
+   "geometry": 40.62,
+   "spatial": 39.37,
+   "chain": 29.56,
+   "object": 26.42,
+   "four types": [
+    29.56,
+    17.4,
+    7.55,
+    45.49
+   ]
+  },
+  "grounding_iou25": {
+   "overall": 35.46,
+   "class": 35.46,
+   "appearance": 33.77,
+   "geometry": 40.62,
+   "spatial": 34.45,
+   "chain": 26.21,
+   "object": 22.64,
+   "four types": [
+    26.21,
+    16.35,
+    6.5,
+    50.94
+   ]
+  },
+  "qa": {
+   "EM": 34.17,
+   "EM-R": 37.53,
+   "GPT-Score": 37.74,
+   "case": 37.74,
+   "object": 5.03,
+   "class": 14.11,
+   "appearance": 39.78,
+   "geometry": 50.0,
+   "spatial": 33.64,
+   "existence": 50.0,
+   "R1 (higher better)": 18.75,
+   "R2 (lower better)": 70.86
+  }
  }
 }

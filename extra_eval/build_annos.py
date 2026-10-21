@@ -11,6 +11,8 @@
 * Beacon3D ScanNet -> ``annotations/beacon3d_scannet_{grounding,qa}.json``. Grounding uses
   the single template of Robin3D's released ``scanrefer_mask3d_val.json``; QA uses the
   ScanQA suffix above. ``qid`` = the item's index in Beacon3D's ``scannet_<task>.json``.
+* With ``--rebuilt_dir``: Beacon3D 3RScan / MultiScan (and two ScanNet controls) on the
+  features rebuilt by ``extra_eval/feats`` (see ``rebuilt_sets``).
 * Writes ``scripts/extra_eval_config.py`` = ``scripts/config.py`` with its data paths
   pointed at the released Google Drive files (``--robin3d_data``) and the Vicuna path,
   plus one ``val_file_dict`` entry per new set and ``check_scanrefer`` (= ``scanrefer``).
@@ -54,21 +56,50 @@ def convert_real3dqa(real3dqa_dir, anno_dir):
     return names
 
 
-def convert_beacon3d(beacon_root, anno_dir):
-    bdir = os.path.join(beacon_root, "data", "scannet")
-    grounding = [{"scene_id": x["scan_id"], "obj_id": 0, "qid": i, "ref_captions": [],
+def convert_beacon3d(beacon_root, anno_dir, domain="scannet", name=None, alias=None):
+    """Beacon3D ``<domain>`` -> ``annotations/beacon3d_<name>_{grounding,qa}.json``.
+
+    ``alias`` maps raw scene ids to the ids of the rebuilt feature files (3RScan/MultiScan)."""
+    name = name or domain
+    alias = alias or {}
+    bdir = os.path.join(beacon_root, "data", domain)
+    grounding = [{"scene_id": alias.get(x["scan_id"], x["scan_id"]), "obj_id": 0, "qid": i, "ref_captions": [],
                   "prompt": GROUNDING_PROMPT.format(x["utterance"].strip())}
-                 for i, x in enumerate(json.load(open(os.path.join(bdir, "scannet_grounding.json"))))]
-    qa = [{"scene_id": x["scene_id"], "obj_id": 0, "qid": i, "ref_captions": x["answers"],
+                 for i, x in enumerate(json.load(open(os.path.join(bdir, f"{domain}_grounding.json"))))]
+    qa = [{"scene_id": alias.get(x["scene_id"], x["scene_id"]), "obj_id": 0, "qid": i, "ref_captions": x["answers"],
            "prompt": x["question"].strip() + QA_SUFFIX}
-          for i, x in enumerate(json.load(open(os.path.join(bdir, "scannet_qa.json"))))]
+          for i, x in enumerate(json.load(open(os.path.join(bdir, f"{domain}_qa.json"))))]
     for task, rows in [("grounding", grounding), ("qa", qa)]:
-        json.dump(rows, open(os.path.join(anno_dir, f"beacon3d_scannet_{task}.json"), "w"), indent=1)
-        print(f"beacon3d_scannet_{task}: {len(rows)}")
-    return ["beacon3d_scannet_grounding", "beacon3d_scannet_qa"]
+        json.dump(rows, open(os.path.join(anno_dir, f"beacon3d_{name}_{task}.json"), "w"), indent=1)
+        print(f"beacon3d_{name}_{task}: {len(rows)}")
+    return [f"beacon3d_{name}_grounding", f"beacon3d_{name}_qa"]
 
 
-def write_config(config_out, robin3d_data, llama, anno_dir, names):
+def rebuilt_sets(rebuilt_dir, packages_dir, beacon_root, anno_dir):
+    """Beacon3D sets on features rebuilt by ``extra_eval/feats`` (``run_feats.sh``):
+    ``3rscan`` / ``multiscan``, and the ScanNet controls ``scannet_rebuilt`` (Mask3D on
+    axis-aligned points, as 3RScan / MultiScan) and ``scannet_rebuiltraw`` (Mask3D on raw
+    ScanNet coordinates, as Robin3D ran it). Returns {set name: 7 val_file_dict files}."""
+    sets = {}
+    for name, prefix, domain in [("3rscan", "3rscan", "3rscan"), ("multiscan", "multiscan", "multiscan"),
+                                 ("scannet_rebuilt", "scannet", "scannet"),
+                                 ("scannet_rebuiltraw", "scannet_rawm3d", "scannet")]:
+        files = [os.path.join(rebuilt_dir, f"{prefix}_{k}.pt") for k in
+                 ["mask3d_feat_pos", "mask3d_feats", "uni3d_feats", "videofeats", "attributes"]]
+        if not all(os.path.exists(f) for f in files):
+            print(f"[{name}] no rebuilt features in {rebuilt_dir}, skipped")
+            continue
+        alias = {}
+        if domain != "scannet":
+            smap = json.load(open(os.path.join(packages_dir, domain, "scene_map.json")))
+            alias = {raw: a for a, raw in smap.items()}
+        for task_name in convert_beacon3d(beacon_root, anno_dir, domain, name, alias):
+            gt = None if domain == "scannet" else os.path.join(rebuilt_dir, f"{prefix}_gt_attributes.pt")
+            sets[task_name] = files + [os.path.abspath(os.path.join(anno_dir, f"{task_name}.json")), gt]
+    return sets
+
+
+def write_config(config_out, robin3d_data, llama, anno_dir, names, rebuilt=None):
     src = open("scripts/config.py").read()
     subs = {
         "scene_val_attr_file": os.path.join(robin3d_data, GT_ATTR),
@@ -85,6 +116,9 @@ def write_config(config_out, robin3d_data, llama, anno_dir, names):
     for name in names:
         anno = os.path.abspath(os.path.join(anno_dir, f"{name}.json"))
         lines.append(f"val_file_dict[{name!r}] = val_file_dict['sqa3d_test'][:5] + [{anno!r}, scene_val_attr_file]")
+    for name, files in (rebuilt or {}).items():  # gt None = ScanNet's official GT boxes
+        files = [repr(f) for f in files[:6]] + [repr(files[6]) if files[6] else "scene_val_attr_file"]
+        lines.append(f"val_file_dict[{name!r}] = [{', '.join(files)}]")
     # Robin3D's own ScanRefer val set under another name, so train.py skips its scorer (which
     # reads files from the authors' machine); extra_eval/score.py scores it and compares it
     # with the authors' released predictions to check the inference setup.
@@ -101,11 +135,14 @@ def main():
     ap.add_argument("--llama", required=True, help="Vicuna-7B v1.5 path or HF id")
     ap.add_argument("--anno_dir", default="annotations")
     ap.add_argument("--config_out", default="scripts/extra_eval_config.py")
+    ap.add_argument("--rebuilt_dir", default="", help="extra_eval/feats output (robin3d_inputs/), optional")
+    ap.add_argument("--packages_dir", default="", help="extra_eval/feats scene packages (for the scene maps)")
     args = ap.parse_args()
     os.makedirs(args.anno_dir, exist_ok=True)
     names = convert_real3dqa(args.real3dqa_dir, args.anno_dir)
     names += convert_beacon3d(args.beacon_root, args.anno_dir)
-    write_config(args.config_out, os.path.abspath(args.robin3d_data), args.llama, args.anno_dir, names)
+    rebuilt = rebuilt_sets(args.rebuilt_dir, args.packages_dir, args.beacon_root, args.anno_dir) if args.rebuilt_dir else {}
+    write_config(args.config_out, os.path.abspath(args.robin3d_data), args.llama, args.anno_dir, names, rebuilt)
 
 
 if __name__ == "__main__":
