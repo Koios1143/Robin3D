@@ -298,6 +298,8 @@ def evaluate(
             val_scores = calc_nr3d_score(save_preds, config)
         elif eval_name == 'sr3d':
             val_scores = calc_sr3d_score(save_preds, config)
+        elif eval_name.startswith(("real3dqa_", "beacon3d_", "check_")):
+            pass  # scored offline by extra_eval/score.py
         else:
             raise NotImplementedError
         print(json.dumps(val_scores, indent=4))

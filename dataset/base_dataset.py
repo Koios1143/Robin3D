@@ -69,7 +69,7 @@ class BaseDataset(Dataset):
         # 修改
         # /home/weitai/3DLLM/vicuna-7b-v1.5/
         # /data/kangweitai/LLM/vicuna-7b-v1.5/
-        self.llama_tokenizer = LlamaTokenizer.from_pretrained("/data/kangweitai/LLM/vicuna-7b-v1.5/", use_fast=False, legacy=False)
+        self.llama_tokenizer = LlamaTokenizer.from_pretrained(os.environ.get("LLAMA", "/data/kangweitai/LLM/vicuna-7b-v1.5/"), use_fast=False, legacy=False)
         objid_tokens = []
         for i in range(150):
             objid_tokens.append(f"<OBJ{i:03}>")

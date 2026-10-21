@@ -61,7 +61,7 @@ def setup_model(
     global_step = 0
 
     if osp.isfile(config.pretrained_path):
-        checkpoint = torch.load(config.pretrained_path, map_location="cpu")
+        checkpoint = torch.load(config.pretrained_path, map_location="cpu", weights_only=False)  # holds the EasyDict config
         state_dict = checkpoint["model"]
 
         # state_dict = {k: v for k, v in state_dict.items() 

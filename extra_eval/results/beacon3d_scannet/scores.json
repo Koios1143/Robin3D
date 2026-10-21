@@ -1,0 +1,52 @@
+{
+ "pred_dir": "outputs/extra_eval_20261021_085721",
+ "qa_judge": "gpt-4o-mini-2024-07-18",
+ "grounding_no_obj_token": 2,
+ "grounding": {
+  "overall": 62.73,
+  "class": 62.73,
+  "appearance": 62.27,
+  "geometry": 53.42,
+  "spatial": 58.11,
+  "functionality": 11.11,
+  "chain": 55.93,
+  "object": 45.97,
+  "four types": [
+   55.93,
+   21.39,
+   2.86,
+   19.83
+  ]
+ },
+ "grounding_iou25": {
+  "overall": 60.5,
+  "class": 60.5,
+  "appearance": 60.12,
+  "geometry": 49.77,
+  "spatial": 56.06,
+  "functionality": 11.11,
+  "chain": 53.94,
+  "object": 43.9,
+  "four types": [
+   53.94,
+   21.3,
+   2.68,
+   22.08
+  ]
+ },
+ "qa": {
+  "EM": 49.44,
+  "EM-R": 54.11,
+  "GPT-Score": 55.0,
+  "case": 55.0,
+  "object": 14.29,
+  "class": 36.94,
+  "appearance": 56.38,
+  "geometry": 57.44,
+  "spatial": 50.66,
+  "existence": 65.0,
+  "functionality": 66.67,
+  "R1 (higher better)": 36.59,
+  "R2 (lower better)": 51.18
+ }
+}

@@ -1,0 +1,9 @@
+# local-only: real paths/keys, Slurm wrappers, logs, run outputs
+env.sh
+*.sbatch
+*.log
+log/
+outputs/
+annotations/
+scripts/extra_eval_config.py
+__pycache__/
