@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 """Score a ``run_extra_eval.sh`` output dir (CPU only; pycocoevalcap needs Java).
 
+* ScanRefer (val), Multi3DRefer (val), Scan2Cap (val), SQA3D (test): Robin3D's own scorers in
+  ``utils/eval.py``, the calls ``tasks/train.py`` makes during evaluation. Their hardcoded
+  paths (GT boxes ``scannet_val_attributes.pt``, the Scan2Cap corpus, ScanRefer's
+  unique/multiple lookup) are pointed at ``config.val_file_dict`` / ``--scan2cap_corpus`` /
+  ``--scanrefer_lookup``. ScanRefer/Multi3DRefer/Scan2Cap run under the val tags
+  ``check_<name>`` (same files), so ``train.py`` skips its online scorer.
 * ScanQA: Robin3D's own ``calc_scanqa_score`` with the scorers ``tasks/train.py`` uses
   for ScanQA (BLEU-1..4, METEOR, ROUGE-L, CIDEr), plus EM@1 / refined EM with
   ``utils/helper.py``'s ``answer_match`` on ``clean_answer``-ed text (the same matching
@@ -22,12 +28,11 @@
   (benches ``beacon3d_3rscan``, ``beacon3d_multiscan``, ``beacon3d_scannet_rebuilt``,
   ``beacon3d_scannet_rebuiltraw``).
 
-* checks: ScanRefer (val; Acc@0.25/0.5 as in Robin3D's ``calc_scanrefer_score``) and
-  SQA3D (test; Robin3D's ``calc_sqa3d_score``), plus, for these two and ScanQA, the share of
-  questions whose generation is identical to the authors' released predictions
-  (``--released_dir``). Robin3D's ``OBJ_lm_head`` (the logits of the ``<OBJxxx>`` tokens) is
-  frozen and not in the checkpoint, so it comes from the seeded random init; identical
-  generations show that this run rebuilt the same model.
+* For the five sets above, ``same_as_released``: the share of questions whose generation is
+  identical to the authors' released predictions of ``ckpt_01`` (``--released_dir``).
+  Robin3D's ``OBJ_lm_head`` (the logits of the ``<OBJxxx>`` tokens) is frozen and not in the
+  checkpoint, so it comes from the seeded random init; identical generations show that this
+  run rebuilt the same model.
 
 Writes ``<result_dir>/<bench>/`` files and ``<result_dir>/summary.json``.
 """
@@ -53,6 +58,9 @@ ROTATIONS = ["rotation_0", "rotation_90", "rotation_180", "rotation_270"]
 EMPTY = "<empty>"
 OBJ = re.compile(r"<OBJ(\d{3})>")
 VARIANTS = {"": 0.0, "_iou25": 0.25}
+# bench -> (val tag of the run, items)
+ROBIN3D_SETS = {"scanrefer": ("check_scanrefer", 9508), "multi3dref": ("check_multi3dref", 11120),
+                "scan2cap": ("check_scan2cap", 2022), "sqa3d_test": ("sqa3d_test", 3519)}
 
 
 def load_preds(pred_dir, name):
@@ -136,42 +144,33 @@ def agreement(preds, released_dir, name, prefix):
     return 100 * sum(ours[k] == rel_pred[k] for k in ours) / len(ours)
 
 
-def scanrefer_acc(preds, config):
-    """``calc_scanrefer_score`` minus the unique/multiple lookup it reads from the authors' disk."""
-    import torch
-    from utils.box_utils import box3d_iou, construct_bbox_corners
-    prop_attrs = torch.load(config.val_file_dict["scanrefer"][4], map_location="cpu")
-    gt_attrs = torch.load(config.val_file_dict["scanrefer"][6], map_location="cpu")
-    hit25 = hit50 = 0
-    for p in preds:
-        locs = prop_attrs[p["scene_id"]]["locs"]
-        pid = next((int(m.group(1)) for m in OBJ.finditer(p["pred"]) if int(m.group(1)) < locs.shape[0]), 0)
-        a, g = locs[pid].tolist(), gt_attrs[p["scene_id"]]["locs"][p["gt_id"]].tolist()
-        iou = box3d_iou(construct_bbox_corners(a[:3], a[3:]), construct_bbox_corners(g[:3], g[3:]))
-        hit25 += iou >= 0.25
-        hit50 += iou >= 0.5
-    return {"Acc@0.25": 100 * hit25 / len(preds), "Acc@0.50": 100 * hit50 / len(preds)}
-
-
-def score_checks(pred_dir, released_dir, config):
+def coco_scorers():
+    from pycocoevalcap.bleu.bleu import Bleu
+    from pycocoevalcap.cider.cider import Cider
+    from pycocoevalcap.meteor.meteor import Meteor
+    from pycocoevalcap.rouge.rouge import Rouge
     from pycocoevalcap.tokenizer.ptbtokenizer import PTBTokenizer
-    from utils.eval import calc_sqa3d_score
-    res = {}
-    preds = load_preds(pred_dir, "check_scanrefer")
-    if preds is not None:
-        assert len(preds) == 9508, len(preds)
-        res["scanrefer"] = scanrefer_acc(preds, config)
-        res["scanrefer"]["same_as_released"] = agreement(preds, released_dir, "scanrefer", "check_scanrefer_")
-    preds = load_preds(pred_dir, "sqa3d_test")
-    if preds is not None:
-        assert len(preds) == 3519, len(preds)
-        s = calc_sqa3d_score(preds, PTBTokenizer(), [], config, "sqa3d_test")
-        res["sqa3d_test"] = {k.split("] ")[1]: 100 * v for k, v in s.items()}
-        res["sqa3d_test"]["same_as_released"] = agreement(preds, released_dir, "sqa3d_test", "sqa3d_test_")
-    preds = load_preds(pred_dir, "scanqa")
-    if preds is not None:
-        res["scanqa"] = {"same_as_released": agreement(preds, released_dir, "scanqa", "scanqa_")}
-    return res or None
+    # = scorers in tasks/train.py
+    return PTBTokenizer(), [(Bleu(4), ["Bleu_1", "Bleu_2", "Bleu_3", "Bleu_4"]), (Meteor(), "METEOR"),
+                            (Rouge(), "ROUGE_L"), (Cider(), "CIDEr")]
+
+
+def score_robin3d(bench, preds, config, scan2cap_corpus, scanrefer_lookup):
+    """Robin3D's own scorer for ScanRefer / Multi3DRefer / Scan2Cap / SQA3D test, with the
+    paths it hardcodes pointed at this machine's files."""
+    from utils import eval as ev
+    ev.scannet_attribute_file = config.val_file_dict["scanrefer"][6]  # GT boxes
+    ev.scan2cap_gt_cap = scan2cap_corpus
+    ev.scanrefer_get_unique_multiple_lookup = lambda: json.load(open(scanrefer_lookup))
+    if bench == "scanrefer":
+        s = ev.calc_scanrefer_score(preds, config)
+    elif bench == "multi3dref":
+        s = ev.calc_multi3dref_score(preds, config)
+    elif bench == "scan2cap":
+        s = ev.calc_scan2cap_score(preds, *coco_scorers(), config)
+    elif bench == "sqa3d_test":
+        s = ev.calc_sqa3d_score(preds, *coco_scorers(), config, "sqa3d_test")
+    return {k.split("] ", 1)[1]: 100 * float(v) for k, v in s.items()}  # fractions -> percent
 
 
 def parse_printout(text):
@@ -271,9 +270,11 @@ def main():
     ap.add_argument("--pred_dir", required=True, help="run_extra_eval.sh output dir")
     ap.add_argument("--result_dir", default="extra_eval/results")
     ap.add_argument("--config", default="scripts/extra_eval_config.py")
-    ap.add_argument("--benches", default="checks,scanqa,real3dqa,beacon3d_scannet")
+    ap.add_argument("--benches", default="scanrefer,multi3dref,scan2cap,scanqa,sqa3d_test,real3dqa,beacon3d_scannet")
     ap.add_argument("--released_dir", default="",
-                    help="authors' released preds (ckpt_for_robin3d_final_performance/) for the checks")
+                    help="authors' released preds (ckpt_for_robin3d_final_performance/), for same_as_released")
+    ap.add_argument("--scan2cap_corpus", default="", help="scan2cap_val_corpus.json (keys <scene>|<object id>)")
+    ap.add_argument("--scanrefer_lookup", default="", help="scanrefer_unique_multiple_lookup.json")
     ap.add_argument("--beacon_root", default="extra_eval/beacon3d/Beacon3D")
     ap.add_argument("--qa_model", default="gpt-4o-mini-2024-07-18",
                     help="Beacon3D QA judge (upstream default gpt-4o-2024-11-20)")
@@ -289,15 +290,23 @@ def main():
     for bench in args.benches.split(","):
         out = result_dir / bench
         out.mkdir(parents=True, exist_ok=True)
+        res = None
         if bench == "real3dqa":
             res = score_real3dqa(args.pred_dir, out, args.name)
         elif bench.startswith("beacon3d_"):
             res = score_beacon3d(args.pred_dir, out, args.beacon_root, args.qa_model, config, bench[len("beacon3d_"):])
-        elif bench == "checks":
-            res = score_checks(args.pred_dir, args.released_dir, config)
+        elif bench in ROBIN3D_SETS:
+            tag, n = ROBIN3D_SETS[bench]
+            preds = load_preds(args.pred_dir, tag)
+            if preds is not None:
+                assert len(preds) == n, f"{bench}: expected {n}, got {len(preds)}"
+                res = score_robin3d(bench, preds, config, args.scan2cap_corpus, args.scanrefer_lookup)
+                res["same_as_released"] = agreement(preds, args.released_dir, bench, f"{tag}_")
         elif bench == "scanqa":
             preds = load_preds(args.pred_dir, "scanqa")
-            res = None if preds is None else score_scanqa(preds, config)
+            if preds is not None:
+                res = score_scanqa(preds, config)
+                res["same_as_released"] = agreement(preds, args.released_dir, "scanqa", "scanqa_")
         else:
             raise SystemExit(f"unknown bench {bench}")
         if res is None:

@@ -1,0 +1,6002 @@
+[
+ {
+  "question_id": 22060200058101,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "monitor"
+  ],
+  "response_pred": "Office chair."
+ },
+ {
+  "question_id": 22060200085601,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Window."
+ },
+ {
+  "question_id": 22060200129301,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "office chair"
+  ],
+  "response_pred": "Trash can."
+ },
+ {
+  "question_id": 22060200149301,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "couch"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060200183801,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "desk"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060200211201,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "monitor"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060200228001,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "couch"
+  ],
+  "response_pred": "File cabinet."
+ },
+ {
+  "question_id": 22060200257601,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "right"
+  ],
+  "response_pred": "Backward."
+ },
+ {
+  "question_id": 22060200264201,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060200304501,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200440801,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "no"
+  ],
+  "response_pred": "Yes."
+ },
+ {
+  "question_id": 22060200967501,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "to my left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201031901,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "right"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201175101,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "couch"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060201194501,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "door"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060201220001,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "behind"
+  ],
+  "response_pred": "Behind."
+ },
+ {
+  "question_id": 22060201296701,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "couch"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060201355301,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "to my left"
+  ],
+  "response_pred": "On desk."
+ },
+ {
+  "question_id": 22060201439201,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "behind"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201840101,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Trash can."
+ },
+ {
+  "question_id": 22060201874201,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "file cabinet"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060201938101,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "file cabinet"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060202001201,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "office chair"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060202030101,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "right"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202188701,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060202282901,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "monitor"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060202333501,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "behind"
+  ],
+  "response_pred": "Forward."
+ },
+ {
+  "question_id": 22060202470401,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "couch"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060202484701,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "a couch and a pillow"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060202831001,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "fan"
+  ],
+  "response_pred": "Pillow."
+ },
+ {
+  "question_id": 22060202952401,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202966301,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "monitor"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060203159401,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "couch"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060203332401,
+  "scene_id": "scene0025_00",
+  "response_gt": [
+   "file cabinet"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060200102101,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "door"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060200123701,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "sink and bathtub"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060200237101,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "suitcase"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060200307301,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "door"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200555701,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060200589801,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060200642201,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "lamp base"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060200758401,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "shoes"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060201010101,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201018601,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "zero"
+  ],
+  "response_pred": "One."
+ },
+ {
+  "question_id": 22060201247401,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "curtains"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060201376601,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "desk"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060201595401,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "lamp base"
+  ],
+  "response_pred": "Curtain."
+ },
+ {
+  "question_id": 22060201729401,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "wardrobe"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060201861201,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "bathtub"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060201872001,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060202389301,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "behind"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202596601,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "forward"
+  ],
+  "response_pred": "In front of me."
+ },
+ {
+  "question_id": 22060202694201,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202778701,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "mat"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202797001,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "door"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060203028401,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "suitcase"
+  ],
+  "response_pred": "Bathroom door."
+ },
+ {
+  "question_id": 22060203190401,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "clothes"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060203334501,
+  "scene_id": "scene0046_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200055801,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "stool"
+  ],
+  "response_pred": "Pillow."
+ },
+ {
+  "question_id": 22060200099801,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "printer"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060200178501,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "backpack"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060200247401,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "roomba"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060200321701,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "piano bench"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060200394701,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "to my right"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060200417901,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "armchair"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060200434101,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "doors"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060200463401,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "roomba"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060200539201,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "armchair"
+  ],
+  "response_pred": "Pillow."
+ },
+ {
+  "question_id": 22060200698201,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "couch"
+  ],
+  "response_pred": "Pillow."
+ },
+ {
+  "question_id": 22060201161901,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "back"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201231701,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060201291401,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "laptop"
+  ],
+  "response_pred": "Backpack."
+ },
+ {
+  "question_id": 22060201308901,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "laptop"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060201365201,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "armchair"
+  ],
+  "response_pred": "Pillow."
+ },
+ {
+  "question_id": 22060201557901,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "stool"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060201639001,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "armchair"
+  ],
+  "response_pred": "Pillow."
+ },
+ {
+  "question_id": 22060201683501,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "armchair"
+  ],
+  "response_pred": "Piano."
+ },
+ {
+  "question_id": 22060202016801,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Left."
+ },
+ {
+  "question_id": 22060202071501,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "none"
+  ],
+  "response_pred": "Two."
+ },
+ {
+  "question_id": 22060202306901,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "two"
+  ],
+  "response_pred": "Two."
+ },
+ {
+  "question_id": 22060202463001,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "behind me"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202501601,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "roomba"
+  ],
+  "response_pred": "Piano."
+ },
+ {
+  "question_id": 22060202847601,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "piano"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060202901201,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "couch"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060203025201,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "doors"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060203238401,
+  "scene_id": "scene0050_00",
+  "response_gt": [
+   "stool"
+  ],
+  "response_pred": "Piano."
+ },
+ {
+  "question_id": 22060200041501,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "back"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060200044901,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "curtains"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060200099501,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Backward."
+ },
+ {
+  "question_id": 22060200225601,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "doors"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060200235201,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "couch"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060200238701,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Directly in front of me."
+ },
+ {
+  "question_id": 22060200255101,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "none"
+  ],
+  "response_pred": "One."
+ },
+ {
+  "question_id": 22060200384001,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "couch"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060200491901,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060200714901,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "shoes"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060200899101,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "curtains"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060200974601,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "bookshelf"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060201056401,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "window"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060201095801,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "back"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201611701,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060201888501,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201995401,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "1"
+  ],
+  "response_pred": "Two."
+ },
+ {
+  "question_id": 22060202055001,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "three"
+  ],
+  "response_pred": "One."
+ },
+ {
+  "question_id": 22060202243201,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "pillow"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060202298801,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "pillow"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060202341701,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "shoes"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060202476701,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "couch"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060202529701,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "shoes"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060202675101,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "bookshelf"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060202693701,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "shoes"
+  ],
+  "response_pred": "Pillow."
+ },
+ {
+  "question_id": 22060202696701,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Backward."
+ },
+ {
+  "question_id": 22060202861901,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "coffee table"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060202944401,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060203043701,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "bookshelf"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060203079501,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "box"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060203316701,
+  "scene_id": "scene0203_00",
+  "response_gt": [
+   "blanket"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060200037101,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "trash can"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060200149801,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060200536701,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "pillows"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060200540801,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "door"
+  ],
+  "response_pred": "Bench."
+ },
+ {
+  "question_id": 22060200834101,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060201251501,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201384801,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060201398501,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "zero"
+  ],
+  "response_pred": "Two."
+ },
+ {
+  "question_id": 22060201579201,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "mirror"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060201686201,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "bathtub"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060201817101,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060201930601,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "desk"
+  ],
+  "response_pred": "Nightstand."
+ },
+ {
+  "question_id": 22060202057301,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060202128001,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202169101,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "bathtub"
+  ],
+  "response_pred": "Vanity."
+ },
+ {
+  "question_id": 22060202187701,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "table"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202227401,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "door"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202282501,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "trash can"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202343201,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "bag"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202419501,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060202430201,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "office chair"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202441401,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202441801,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202589901,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "door"
+  ],
+  "response_pred": "Vanity."
+ },
+ {
+  "question_id": 22060202710901,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202722901,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "mirror"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202795301,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "trash can"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202872301,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060203019501,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "table"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060203156101,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Nightstand."
+ },
+ {
+  "question_id": 22060203218701,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "door"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060203297801,
+  "scene_id": "scene0221_00",
+  "response_gt": [
+   "door"
+  ],
+  "response_pred": "Vanity."
+ },
+ {
+  "question_id": 22060200223501,
+  "scene_id": "scene0222_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060200369001,
+  "scene_id": "scene0222_00",
+  "response_gt": [
+   "backpack"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060200501801,
+  "scene_id": "scene0222_00",
+  "response_gt": [
+   "trash can"
+  ],
+  "response_pred": "Dresser."
+ },
+ {
+  "question_id": 22060200813201,
+  "scene_id": "scene0222_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201042301,
+  "scene_id": "scene0222_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201487201,
+  "scene_id": "scene0222_00",
+  "response_gt": [
+   "shoes"
+  ],
+  "response_pred": "Dresser."
+ },
+ {
+  "question_id": 22060201717101,
+  "scene_id": "scene0222_00",
+  "response_gt": [
+   "mini fridge"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060202250101,
+  "scene_id": "scene0222_00",
+  "response_gt": [
+   "doorframe"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202403901,
+  "scene_id": "scene0222_00",
+  "response_gt": [
+   "one"
+  ],
+  "response_pred": "One."
+ },
+ {
+  "question_id": 22060202572001,
+  "scene_id": "scene0222_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Dresser."
+ },
+ {
+  "question_id": 22060202588001,
+  "scene_id": "scene0222_00",
+  "response_gt": [
+   "cushion"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202839401,
+  "scene_id": "scene0222_00",
+  "response_gt": [
+   "zero"
+  ],
+  "response_pred": "Two."
+ },
+ {
+  "question_id": 22060202856101,
+  "scene_id": "scene0222_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060202895701,
+  "scene_id": "scene0222_00",
+  "response_gt": [
+   "trash can"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202984801,
+  "scene_id": "scene0222_00",
+  "response_gt": [
+   "mini fridge"
+  ],
+  "response_pred": "Dresser."
+ },
+ {
+  "question_id": 22060203285301,
+  "scene_id": "scene0222_00",
+  "response_gt": [
+   "shoes"
+  ],
+  "response_pred": "Dresser."
+ },
+ {
+  "question_id": 22060200050701,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060200092901,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "dishwasher"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200114301,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060200184501,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "book"
+  ],
+  "response_pred": "Kitchen counter."
+ },
+ {
+  "question_id": 22060200223901,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Kitchen counter."
+ },
+ {
+  "question_id": 22060200225801,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Directly in front of me."
+ },
+ {
+  "question_id": 22060200233101,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "right"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060200240401,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "kitchen cabinets"
+  ],
+  "response_pred": "Counter."
+ },
+ {
+  "question_id": 22060200262401,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "stove"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060200554901,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "table"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060200660201,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060200748701,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "refrigerator"
+  ],
+  "response_pred": "Kitchen island."
+ },
+ {
+  "question_id": 22060200816701,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "kitchen cabinet"
+  ],
+  "response_pred": "Breakfast bar."
+ },
+ {
+  "question_id": 22060201071601,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "couch"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060201087401,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "door"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060201157601,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "stool"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060201233001,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "trash can"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060201235401,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "zero"
+  ],
+  "response_pred": "Two."
+ },
+ {
+  "question_id": 22060201245801,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "kitchen cabinet"
+  ],
+  "response_pred": "Kitchen counter."
+ },
+ {
+  "question_id": 22060201421801,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060201491801,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "doorframe"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060201617601,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "armchair"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060201630601,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "jacket"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060201633001,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "table"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060201646101,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "behind me"
+  ],
+  "response_pred": "To my left hand side."
+ },
+ {
+  "question_id": 22060201835301,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "jacket"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060201929501,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Kitchen counter."
+ },
+ {
+  "question_id": 22060202109501,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "table"
+  ],
+  "response_pred": "Kitchen counter."
+ },
+ {
+  "question_id": 22060202212301,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060202258401,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060202389401,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "breakfast bar"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060202495501,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "book"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060202692301,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "bag"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060202705201,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "kitchen cabinets"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060202793501,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "dishwasher"
+  ],
+  "response_pred": "Refrigerator."
+ },
+ {
+  "question_id": 22060202914801,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060203144501,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "door"
+  ],
+  "response_pred": "Refrigerator."
+ },
+ {
+  "question_id": 22060203181701,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "couch"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060203261201,
+  "scene_id": "scene0231_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Kitchen counter."
+ },
+ {
+  "question_id": 22060200277601,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200502501,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "clothes hanger"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060200516801,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "table"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060200579701,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060200589401,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "mirror"
+  ],
+  "response_pred": "Bathroom vanity."
+ },
+ {
+  "question_id": 22060200630501,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "lamp"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060201021101,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "behind me"
+  ],
+  "response_pred": "Left."
+ },
+ {
+  "question_id": 22060201187101,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "stool"
+  ],
+  "response_pred": "Dresser."
+ },
+ {
+  "question_id": 22060201212401,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060201287701,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "mirror"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060201337601,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Wardrobe closet."
+ },
+ {
+  "question_id": 22060201356101,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "curtain"
+  ],
+  "response_pred": "Mirror."
+ },
+ {
+  "question_id": 22060201378301,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201510201,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "cabinet"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060201514201,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "pillow"
+  ],
+  "response_pred": "Dresser."
+ },
+ {
+  "question_id": 22060201664701,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "dresser"
+  ],
+  "response_pred": "Wardrobe closet."
+ },
+ {
+  "question_id": 22060201712201,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060201768701,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Dresser."
+ },
+ {
+  "question_id": 22060202050601,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202149601,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "curtain"
+  ],
+  "response_pred": "Wardrobe."
+ },
+ {
+  "question_id": 22060202160401,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202248801,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Bathroom vanity."
+ },
+ {
+  "question_id": 22060202388101,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "pillow"
+  ],
+  "response_pred": "Dresser."
+ },
+ {
+  "question_id": 22060202416901,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "curtain"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202588801,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "pillow"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202818301,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "pillow"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202825101,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "two"
+  ],
+  "response_pred": "Two."
+ },
+ {
+  "question_id": 22060202932301,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Bathroom vanity."
+ },
+ {
+  "question_id": 22060203159601,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "lamp"
+  ],
+  "response_pred": "Stool."
+ },
+ {
+  "question_id": 22060203256701,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "table"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060203317401,
+  "scene_id": "scene0246_00",
+  "response_gt": [
+   "zero"
+  ],
+  "response_pred": "One."
+ },
+ {
+  "question_id": 22060200009101,
+  "scene_id": "scene0256_00",
+  "response_gt": [
+   "lamp"
+  ],
+  "response_pred": "Curtain."
+ },
+ {
+  "question_id": 22060200116401,
+  "scene_id": "scene0256_00",
+  "response_gt": [
+   "clothing rack"
+  ],
+  "response_pred": "Curtain."
+ },
+ {
+  "question_id": 22060200327601,
+  "scene_id": "scene0256_00",
+  "response_gt": [
+   "stand"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200457301,
+  "scene_id": "scene0256_00",
+  "response_gt": [
+   "nothing"
+  ],
+  "response_pred": "Curtain."
+ },
+ {
+  "question_id": 22060200844401,
+  "scene_id": "scene0256_00",
+  "response_gt": [
+   "tray rack"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060201005401,
+  "scene_id": "scene0256_00",
+  "response_gt": [
+   "tray rack"
+  ],
+  "response_pred": "Clothing rack."
+ },
+ {
+  "question_id": 22060201752401,
+  "scene_id": "scene0256_00",
+  "response_gt": [
+   "lamp"
+  ],
+  "response_pred": "Curtain."
+ },
+ {
+  "question_id": 22060201768301,
+  "scene_id": "scene0256_00",
+  "response_gt": [
+   "tray rack"
+  ],
+  "response_pred": "Curtain."
+ },
+ {
+  "question_id": 22060201855101,
+  "scene_id": "scene0256_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Curtain."
+ },
+ {
+  "question_id": 22060202082401,
+  "scene_id": "scene0256_00",
+  "response_gt": [
+   "lamp"
+  ],
+  "response_pred": "Curtain."
+ },
+ {
+  "question_id": 22060202487401,
+  "scene_id": "scene0256_00",
+  "response_gt": [
+   "clothing rack"
+  ],
+  "response_pred": "Curtain."
+ },
+ {
+  "question_id": 22060202604901,
+  "scene_id": "scene0256_00",
+  "response_gt": [
+   "tray rack"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060202647601,
+  "scene_id": "scene0256_00",
+  "response_gt": [
+   "curtain"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060202662001,
+  "scene_id": "scene0256_00",
+  "response_gt": [
+   "clothing rack"
+  ],
+  "response_pred": "Curtain."
+ },
+ {
+  "question_id": 22060202684101,
+  "scene_id": "scene0256_00",
+  "response_gt": [
+   "clothing rack"
+  ],
+  "response_pred": "Curtain."
+ },
+ {
+  "question_id": 22060202792601,
+  "scene_id": "scene0256_00",
+  "response_gt": [
+   "tray rack"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060203299501,
+  "scene_id": "scene0256_00",
+  "response_gt": [
+   "table"
+  ],
+  "response_pred": "Curtain."
+ },
+ {
+  "question_id": 22060203304801,
+  "scene_id": "scene0256_00",
+  "response_gt": [
+   "curtain"
+  ],
+  "response_pred": "Tray."
+ },
+ {
+  "question_id": 22060203317301,
+  "scene_id": "scene0256_00",
+  "response_gt": [
+   "clothing rack"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200301401,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "counter"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200364201,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "behind"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060200471901,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "copier"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200566501,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "cabinets"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200628101,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Paper cutter."
+ },
+ {
+  "question_id": 22060200639501,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "boxes"
+  ],
+  "response_pred": "Counter."
+ },
+ {
+  "question_id": 22060200679801,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "trash can"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200821501,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "file cabinet"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200940901,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "bulletin board"
+  ],
+  "response_pred": "Copier."
+ },
+ {
+  "question_id": 22060201108101,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "counter"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060201224401,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Trash can."
+ },
+ {
+  "question_id": 22060201264901,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "behind"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201303101,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "bulletin board"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060201375901,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Trash can."
+ },
+ {
+  "question_id": 22060201595601,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "broom"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060201651301,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "forward"
+  ],
+  "response_pred": "Backward."
+ },
+ {
+  "question_id": 22060201684401,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "zero"
+  ],
+  "response_pred": "Two."
+ },
+ {
+  "question_id": 22060201746301,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Counter."
+ },
+ {
+  "question_id": 22060201748701,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201932601,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202137801,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Bulletin board."
+ },
+ {
+  "question_id": 22060202396201,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "trash can"
+  ],
+  "response_pred": "Counter."
+ },
+ {
+  "question_id": 22060202565901,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "counter"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202823201,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "file cabinet"
+  ],
+  "response_pred": "Counter."
+ },
+ {
+  "question_id": 22060202827101,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Counter."
+ },
+ {
+  "question_id": 22060203209301,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Counter."
+ },
+ {
+  "question_id": 22060203314101,
+  "scene_id": "scene0278_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200003501,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200090201,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "trash can"
+  ],
+  "response_pred": "Bookshelf."
+ },
+ {
+  "question_id": 22060200132101,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060200284301,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060200380301,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Monitor."
+ },
+ {
+  "question_id": 22060200472401,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "table"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060200606701,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "behind"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060200750401,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "To my right hand side."
+ },
+ {
+  "question_id": 22060200835601,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "a wall with pictures"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060200945901,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "zero"
+  ],
+  "response_pred": "Two."
+ },
+ {
+  "question_id": 22060201226401,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060201672901,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Bookshelf."
+ },
+ {
+  "question_id": 22060201700601,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "window"
+  ],
+  "response_pred": "Monitor."
+ },
+ {
+  "question_id": 22060201848101,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060202061001,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "one"
+  ],
+  "response_pred": "Two."
+ },
+ {
+  "question_id": 22060202245001,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "bookshelf"
+  ],
+  "response_pred": "Bookshelf."
+ },
+ {
+  "question_id": 22060202488001,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "backpack"
+  ],
+  "response_pred": "Bookshelf."
+ },
+ {
+  "question_id": 22060202743001,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "window"
+  ],
+  "response_pred": "Bookshelf."
+ },
+ {
+  "question_id": 22060202776101,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "right"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060203030401,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "backpack"
+  ],
+  "response_pred": "Window."
+ },
+ {
+  "question_id": 22060203272401,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Bookshelf."
+ },
+ {
+  "question_id": 22060203313401,
+  "scene_id": "scene0300_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060200222201,
+  "scene_id": "scene0351_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060200875701,
+  "scene_id": "scene0351_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060201082401,
+  "scene_id": "scene0351_00",
+  "response_gt": [
+   "chairs"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060201285601,
+  "scene_id": "scene0351_00",
+  "response_gt": [
+   "telephone"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060201463401,
+  "scene_id": "scene0351_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "To my right hand side."
+ },
+ {
+  "question_id": 22060201742201,
+  "scene_id": "scene0351_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060201934901,
+  "scene_id": "scene0351_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202271201,
+  "scene_id": "scene0351_00",
+  "response_gt": [
+   "behind"
+  ],
+  "response_pred": "To my right hand side."
+ },
+ {
+  "question_id": 22060202737801,
+  "scene_id": "scene0351_00",
+  "response_gt": [
+   "whiteboard"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060202778501,
+  "scene_id": "scene0351_00",
+  "response_gt": [
+   "desk"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202999601,
+  "scene_id": "scene0351_00",
+  "response_gt": [
+   "desk"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060203108501,
+  "scene_id": "scene0351_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "To my right hand side."
+ },
+ {
+  "question_id": 22060203147201,
+  "scene_id": "scene0351_00",
+  "response_gt": [
+   "whiteboard"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060203329601,
+  "scene_id": "scene0351_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060200158601,
+  "scene_id": "scene0353_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060200524401,
+  "scene_id": "scene0353_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060200602701,
+  "scene_id": "scene0353_00",
+  "response_gt": [
+   "chairs"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060200859001,
+  "scene_id": "scene0353_00",
+  "response_gt": [
+   "bottle"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060200863101,
+  "scene_id": "scene0353_00",
+  "response_gt": [
+   "pillow"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060201062801,
+  "scene_id": "scene0353_00",
+  "response_gt": [
+   "right"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201928501,
+  "scene_id": "scene0353_00",
+  "response_gt": [
+   "shoes"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202013201,
+  "scene_id": "scene0353_00",
+  "response_gt": [
+   "dresser"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202068501,
+  "scene_id": "scene0353_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202117601,
+  "scene_id": "scene0353_00",
+  "response_gt": [
+   "wardrobe cabinet"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202129901,
+  "scene_id": "scene0353_00",
+  "response_gt": [
+   "dresser"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060202185501,
+  "scene_id": "scene0353_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202334801,
+  "scene_id": "scene0353_00",
+  "response_gt": [
+   "bookshelf"
+  ],
+  "response_pred": "Bookshelf."
+ },
+ {
+  "question_id": 22060202372401,
+  "scene_id": "scene0353_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202485301,
+  "scene_id": "scene0353_00",
+  "response_gt": [
+   "shoes"
+  ],
+  "response_pred": "Bookshelf."
+ },
+ {
+  "question_id": 22060200195401,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Bucket."
+ },
+ {
+  "question_id": 22060200373401,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060200473101,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "fuse box"
+  ],
+  "response_pred": "Trash can."
+ },
+ {
+  "question_id": 22060200509901,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "a pair of buckets"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200523601,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Trash can."
+ },
+ {
+  "question_id": 22060200807301,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "rack"
+  ],
+  "response_pred": "Trash can."
+ },
+ {
+  "question_id": 22060200809101,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "behind"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201324201,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "the buckets"
+  ],
+  "response_pred": "Trash can."
+ },
+ {
+  "question_id": 22060201515401,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "bucket"
+  ],
+  "response_pred": "Bucket."
+ },
+ {
+  "question_id": 22060201523901,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "behind"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201531401,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "furnace"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060201680201,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201821901,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "board"
+  ],
+  "response_pred": "Trash can."
+ },
+ {
+  "question_id": 22060201824501,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "furnace"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060201836501,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Trash can."
+ },
+ {
+  "question_id": 22060201849601,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Trash can."
+ },
+ {
+  "question_id": 22060201868001,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "no"
+  ],
+  "response_pred": "Yes."
+ },
+ {
+  "question_id": 22060201960901,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "towel"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202126001,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "furnace"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202514101,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202572601,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Trash can."
+ },
+ {
+  "question_id": 22060202574901,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "crate"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202764601,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "furnace"
+  ],
+  "response_pred": "Trash can."
+ },
+ {
+  "question_id": 22060202978401,
+  "scene_id": "scene0377_00",
+  "response_gt": [
+   "fuse box"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200145101,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "blackboard"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200193401,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "desk"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200314701,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "monitor"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200576301,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "To my right hand side."
+ },
+ {
+  "question_id": 22060200816301,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060201188301,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "shoes"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060201214901,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "blackboard"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060201218001,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "office chair"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060201341201,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "blackboard"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060201350501,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060201398401,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "office chair"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060201442801,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "bookshelf"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060201458801,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201560701,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "blackboard"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060201577301,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "office chair"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060201632501,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "blackboard"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060201643701,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "to my right"
+  ],
+  "response_pred": "Behind."
+ },
+ {
+  "question_id": 22060201644301,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "blackboard"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060201665501,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "office chair"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060201894501,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202125301,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "a bookshelf"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202360301,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "desk"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202361601,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202482101,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "a desk and an office chair"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202713101,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "bookshelf"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060202763001,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "yes"
+  ],
+  "response_pred": "Yes."
+ },
+ {
+  "question_id": 22060202872601,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "bookshelf"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060203050601,
+  "scene_id": "scene0378_00",
+  "response_gt": [
+   "desk"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200430101,
+  "scene_id": "scene0389_00",
+  "response_gt": [
+   "right"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060200460301,
+  "scene_id": "scene0389_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060200569701,
+  "scene_id": "scene0389_00",
+  "response_gt": [
+   "backpack"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060200604601,
+  "scene_id": "scene0389_00",
+  "response_gt": [
+   "cabinet"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060200664501,
+  "scene_id": "scene0389_00",
+  "response_gt": [
+   "cabinet"
+  ],
+  "response_pred": "Mini fridge."
+ },
+ {
+  "question_id": 22060200717101,
+  "scene_id": "scene0389_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060200943401,
+  "scene_id": "scene0389_00",
+  "response_gt": [
+   "to my right"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201725701,
+  "scene_id": "scene0389_00",
+  "response_gt": [
+   "nightstand"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202007501,
+  "scene_id": "scene0389_00",
+  "response_gt": [
+   "backpack"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202094001,
+  "scene_id": "scene0389_00",
+  "response_gt": [
+   "no"
+  ],
+  "response_pred": "Yes."
+ },
+ {
+  "question_id": 22060202094701,
+  "scene_id": "scene0389_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202116001,
+  "scene_id": "scene0389_00",
+  "response_gt": [
+   "behind me"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202133301,
+  "scene_id": "scene0389_00",
+  "response_gt": [
+   "even"
+  ],
+  "response_pred": "Even."
+ },
+ {
+  "question_id": 22060202219001,
+  "scene_id": "scene0389_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202585801,
+  "scene_id": "scene0389_00",
+  "response_gt": [
+   "cabinet"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060202730601,
+  "scene_id": "scene0389_00",
+  "response_gt": [
+   "backpack"
+  ],
+  "response_pred": "Trash can."
+ },
+ {
+  "question_id": 22060202976701,
+  "scene_id": "scene0389_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060203142801,
+  "scene_id": "scene0389_00",
+  "response_gt": [
+   "no"
+  ],
+  "response_pred": "Yes."
+ },
+ {
+  "question_id": 22060200066301,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "instrument case"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200268801,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "box"
+  ],
+  "response_pred": "Closet."
+ },
+ {
+  "question_id": 22060200297701,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "closet doors"
+  ],
+  "response_pred": "Closet."
+ },
+ {
+  "question_id": 22060200433701,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Clothes."
+ },
+ {
+  "question_id": 22060200604501,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Clothes."
+ },
+ {
+  "question_id": 22060200616201,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "dresser"
+  ],
+  "response_pred": "Dresser."
+ },
+ {
+  "question_id": 22060200737101,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "instrument case"
+  ],
+  "response_pred": "Closet doors."
+ },
+ {
+  "question_id": 22060200836501,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Closet."
+ },
+ {
+  "question_id": 22060200944001,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "door"
+  ],
+  "response_pred": "Closet doors."
+ },
+ {
+  "question_id": 22060201013701,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Closet."
+ },
+ {
+  "question_id": 22060201038701,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "even"
+  ],
+  "response_pred": "Even."
+ },
+ {
+  "question_id": 22060201171001,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "dresser"
+  ],
+  "response_pred": "Closet doors."
+ },
+ {
+  "question_id": 22060201272601,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "door"
+  ],
+  "response_pred": "Suitcase."
+ },
+ {
+  "question_id": 22060201289301,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060201293901,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Dresser."
+ },
+ {
+  "question_id": 22060201473001,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "jacket"
+  ],
+  "response_pred": "Closet."
+ },
+ {
+  "question_id": 22060201648701,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "behind and to my left"
+  ],
+  "response_pred": "Left."
+ },
+ {
+  "question_id": 22060201903901,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Closet."
+ },
+ {
+  "question_id": 22060201921001,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "keyboard piano"
+  ],
+  "response_pred": "Closet."
+ },
+ {
+  "question_id": 22060201939201,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "case of water bottles"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202675901,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "television"
+  ],
+  "response_pred": "Clothes."
+ },
+ {
+  "question_id": 22060202907201,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "behind"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060203088301,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "desk"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060203221201,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "instrument case"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060203230501,
+  "scene_id": "scene0426_00",
+  "response_gt": [
+   "jacket"
+  ],
+  "response_pred": "Closet."
+ },
+ {
+  "question_id": 22060200043201,
+  "scene_id": "scene0435_00",
+  "response_gt": [
+   "curtain"
+  ],
+  "response_pred": "Suitcase."
+ },
+ {
+  "question_id": 22060200048701,
+  "scene_id": "scene0435_00",
+  "response_gt": [
+   "door"
+  ],
+  "response_pred": "Mini fridge."
+ },
+ {
+  "question_id": 22060200133201,
+  "scene_id": "scene0435_00",
+  "response_gt": [
+   "toilet"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060200164601,
+  "scene_id": "scene0435_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060200357501,
+  "scene_id": "scene0435_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060200403801,
+  "scene_id": "scene0435_00",
+  "response_gt": [
+   "backward"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060200506701,
+  "scene_id": "scene0435_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060200837401,
+  "scene_id": "scene0435_00",
+  "response_gt": [
+   "door"
+  ],
+  "response_pred": "Bathtub."
+ },
+ {
+  "question_id": 22060201057401,
+  "scene_id": "scene0435_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060201057701,
+  "scene_id": "scene0435_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060201122901,
+  "scene_id": "scene0435_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060201587001,
+  "scene_id": "scene0435_00",
+  "response_gt": [
+   "bathroom vanity"
+  ],
+  "response_pred": "Bathroom vanity."
+ },
+ {
+  "question_id": 22060201939801,
+  "scene_id": "scene0435_00",
+  "response_gt": [
+   "bathroom door"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202090601,
+  "scene_id": "scene0435_00",
+  "response_gt": [
+   "no"
+  ],
+  "response_pred": "Yes."
+ },
+ {
+  "question_id": 22060202355401,
+  "scene_id": "scene0435_00",
+  "response_gt": [
+   "curtains"
+  ],
+  "response_pred": "Suitcase."
+ },
+ {
+  "question_id": 22060202369401,
+  "scene_id": "scene0435_00",
+  "response_gt": [
+   "straight ahead"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202520001,
+  "scene_id": "scene0435_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Suitcase."
+ },
+ {
+  "question_id": 22060202570301,
+  "scene_id": "scene0435_00",
+  "response_gt": [
+   "no"
+  ],
+  "response_pred": "Yes."
+ },
+ {
+  "question_id": 22060202664601,
+  "scene_id": "scene0435_00",
+  "response_gt": [
+   "suitcase"
+  ],
+  "response_pred": "Suitcase."
+ },
+ {
+  "question_id": 22060202909101,
+  "scene_id": "scene0435_00",
+  "response_gt": [
+   "office chair"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060203118501,
+  "scene_id": "scene0435_00",
+  "response_gt": [
+   "backpack"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060200044201,
+  "scene_id": "scene0535_00",
+  "response_gt": [
+   "mat"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060200055101,
+  "scene_id": "scene0535_00",
+  "response_gt": [
+   "bookshelf"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200627301,
+  "scene_id": "scene0535_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Bookshelf."
+ },
+ {
+  "question_id": 22060200756701,
+  "scene_id": "scene0535_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200809801,
+  "scene_id": "scene0535_00",
+  "response_gt": [
+   "mat"
+  ],
+  "response_pred": "Bookshelf."
+ },
+ {
+  "question_id": 22060201216601,
+  "scene_id": "scene0535_00",
+  "response_gt": [
+   "desk"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060201498701,
+  "scene_id": "scene0535_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060201607701,
+  "scene_id": "scene0535_00",
+  "response_gt": [
+   "behind me"
+  ],
+  "response_pred": "Left."
+ },
+ {
+  "question_id": 22060201800401,
+  "scene_id": "scene0535_00",
+  "response_gt": [
+   "cabinet"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060201907101,
+  "scene_id": "scene0535_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Bookshelf."
+ },
+ {
+  "question_id": 22060202133001,
+  "scene_id": "scene0535_00",
+  "response_gt": [
+   "desk"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202378901,
+  "scene_id": "scene0535_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060202469001,
+  "scene_id": "scene0535_00",
+  "response_gt": [
+   "desk"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202517201,
+  "scene_id": "scene0535_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202976901,
+  "scene_id": "scene0535_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060202979801,
+  "scene_id": "scene0535_00",
+  "response_gt": [
+   "mat"
+  ],
+  "response_pred": "Bookshelf."
+ },
+ {
+  "question_id": 22060203259701,
+  "scene_id": "scene0535_00",
+  "response_gt": [
+   "desk"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060203290701,
+  "scene_id": "scene0535_00",
+  "response_gt": [
+   "odd"
+  ],
+  "response_pred": "Even."
+ },
+ {
+  "question_id": 22060200054901,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "printer"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200318001,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "one"
+  ],
+  "response_pred": "One."
+ },
+ {
+  "question_id": 22060200683601,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "no"
+  ],
+  "response_pred": "No."
+ },
+ {
+  "question_id": 22060200871501,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "printer"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200894601,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "box"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060200924901,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "box"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060200966201,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "carts"
+  ],
+  "response_pred": "Recycling bin."
+ },
+ {
+  "question_id": 22060200981101,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "to my left"
+  ],
+  "response_pred": "Behind."
+ },
+ {
+  "question_id": 22060201085301,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Scanner."
+ },
+ {
+  "question_id": 22060201152701,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "statue"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060201155201,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201535801,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "door"
+  ],
+  "response_pred": "Printer."
+ },
+ {
+  "question_id": 22060201681801,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "window"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060201728401,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "doorframe"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060201902201,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "door"
+  ],
+  "response_pred": "Printer."
+ },
+ {
+  "question_id": 22060202285001,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "statue"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202463901,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Box."
+ },
+ {
+  "question_id": 22060202750501,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "zero"
+  ],
+  "response_pred": "Two."
+ },
+ {
+  "question_id": 22060202869301,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "zero"
+  ],
+  "response_pred": "Two."
+ },
+ {
+  "question_id": 22060203113501,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "cart"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060203138501,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "zero"
+  ],
+  "response_pred": "Two."
+ },
+ {
+  "question_id": 22060203160901,
+  "scene_id": "scene0565_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Statue."
+ },
+ {
+  "question_id": 22060200337101,
+  "scene_id": "scene0578_00",
+  "response_gt": [
+   "right"
+  ],
+  "response_pred": "To my left hand side."
+ },
+ {
+  "question_id": 22060200386801,
+  "scene_id": "scene0578_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060200766301,
+  "scene_id": "scene0578_00",
+  "response_gt": [
+   "whiteboard"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060201195801,
+  "scene_id": "scene0578_00",
+  "response_gt": [
+   "whiteboard"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060201378901,
+  "scene_id": "scene0578_00",
+  "response_gt": [
+   "trash can"
+  ],
+  "response_pred": "Trash can."
+ },
+ {
+  "question_id": 22060201787601,
+  "scene_id": "scene0578_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060202438001,
+  "scene_id": "scene0578_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060202575801,
+  "scene_id": "scene0578_00",
+  "response_gt": [
+   "one"
+  ],
+  "response_pred": "One."
+ },
+ {
+  "question_id": 22060202827801,
+  "scene_id": "scene0578_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Whiteboard."
+ },
+ {
+  "question_id": 22060203015401,
+  "scene_id": "scene0578_00",
+  "response_gt": [
+   "whiteboard"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060203098901,
+  "scene_id": "scene0578_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060203328801,
+  "scene_id": "scene0578_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060200092201,
+  "scene_id": "scene0591_00",
+  "response_gt": [
+   "door"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060200383301,
+  "scene_id": "scene0591_00",
+  "response_gt": [
+   "desk"
+  ],
+  "response_pred": "Bookshelf."
+ },
+ {
+  "question_id": 22060200474201,
+  "scene_id": "scene0591_00",
+  "response_gt": [
+   "cabinet"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060200476001,
+  "scene_id": "scene0591_00",
+  "response_gt": [
+   "behind"
+  ],
+  "response_pred": "Behind."
+ },
+ {
+  "question_id": 22060200528601,
+  "scene_id": "scene0591_00",
+  "response_gt": [
+   "desks and monitors"
+  ],
+  "response_pred": "Bookshelf."
+ },
+ {
+  "question_id": 22060200662201,
+  "scene_id": "scene0591_00",
+  "response_gt": [
+   "couch"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060201188101,
+  "scene_id": "scene0591_00",
+  "response_gt": [
+   "trash can"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060201335101,
+  "scene_id": "scene0591_00",
+  "response_gt": [
+   "monitor"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060201674801,
+  "scene_id": "scene0591_00",
+  "response_gt": [
+   "couch"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060201779601,
+  "scene_id": "scene0591_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060201956201,
+  "scene_id": "scene0591_00",
+  "response_gt": [
+   "cabinet"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060202083301,
+  "scene_id": "scene0591_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060202421901,
+  "scene_id": "scene0591_00",
+  "response_gt": [
+   "trash can"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060202485601,
+  "scene_id": "scene0591_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060202668301,
+  "scene_id": "scene0591_00",
+  "response_gt": [
+   "behind"
+  ],
+  "response_pred": "Behind."
+ },
+ {
+  "question_id": 22060203137601,
+  "scene_id": "scene0591_00",
+  "response_gt": [
+   "trash can"
+  ],
+  "response_pred": "Bookshelf."
+ },
+ {
+  "question_id": 22060203315801,
+  "scene_id": "scene0591_00",
+  "response_gt": [
+   "right"
+  ],
+  "response_pred": "Behind."
+ },
+ {
+  "question_id": 22060200204701,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "cabinet"
+  ],
+  "response_pred": "Mailbox."
+ },
+ {
+  "question_id": 22060200217301,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "mailboxes"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060200219601,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "back"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060200344801,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "window"
+  ],
+  "response_pred": "Box."
+ },
+ {
+  "question_id": 22060200433501,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060200656801,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "copier"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060200697701,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "cabinet"
+  ],
+  "response_pred": "Bulletin board."
+ },
+ {
+  "question_id": 22060201247201,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "trash can"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060201265301,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "cabinet"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060201438801,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "electric fan"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060201487101,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201493301,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "backpack"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060201646401,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Left."
+ },
+ {
+  "question_id": 22060201910501,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "box"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060202020901,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "mailbox"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060202061701,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "cabinet"
+  ],
+  "response_pred": "Printer."
+ },
+ {
+  "question_id": 22060202239801,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "cabinet"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060202265001,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202422201,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "backward"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202525601,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060202756101,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "table"
+  ],
+  "response_pred": "Trash can."
+ },
+ {
+  "question_id": 22060202774101,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "window"
+  ],
+  "response_pred": "Box."
+ },
+ {
+  "question_id": 22060202804801,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202886001,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "copier"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060202907501,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "right"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060203212101,
+  "scene_id": "scene0593_00",
+  "response_gt": [
+   "cabinet"
+  ],
+  "response_pred": "Mailbox."
+ },
+ {
+  "question_id": 22060200179501,
+  "scene_id": "scene0606_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060200201301,
+  "scene_id": "scene0606_00",
+  "response_gt": [
+   "behind"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060200257401,
+  "scene_id": "scene0606_00",
+  "response_gt": [
+   "cabinets"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060201269001,
+  "scene_id": "scene0606_00",
+  "response_gt": [
+   "sofa chair"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060201270801,
+  "scene_id": "scene0606_00",
+  "response_gt": [
+   "cabinets"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060201384301,
+  "scene_id": "scene0606_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Dining table."
+ },
+ {
+  "question_id": 22060201422901,
+  "scene_id": "scene0606_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060201714201,
+  "scene_id": "scene0606_00",
+  "response_gt": [
+   "picture and cabinets"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060201853901,
+  "scene_id": "scene0606_00",
+  "response_gt": [
+   "back"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201883101,
+  "scene_id": "scene0606_00",
+  "response_gt": [
+   "no"
+  ],
+  "response_pred": "No."
+ },
+ {
+  "question_id": 22060201945301,
+  "scene_id": "scene0606_00",
+  "response_gt": [
+   "case of water bottles"
+  ],
+  "response_pred": "Bin."
+ },
+ {
+  "question_id": 22060201958901,
+  "scene_id": "scene0606_00",
+  "response_gt": [
+   "counter"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060202267801,
+  "scene_id": "scene0606_00",
+  "response_gt": [
+   "case of water bottles"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060202269201,
+  "scene_id": "scene0606_00",
+  "response_gt": [
+   "sofa chair"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202284901,
+  "scene_id": "scene0606_00",
+  "response_gt": [
+   "glass doors"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060202713001,
+  "scene_id": "scene0606_00",
+  "response_gt": [
+   "right"
+  ],
+  "response_pred": "In front of me."
+ },
+ {
+  "question_id": 22060202777601,
+  "scene_id": "scene0606_00",
+  "response_gt": [
+   "storage bin"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060202846201,
+  "scene_id": "scene0606_00",
+  "response_gt": [
+   "case of water bottles"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060202869701,
+  "scene_id": "scene0606_00",
+  "response_gt": [
+   "kitchen counter"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060203226701,
+  "scene_id": "scene0606_00",
+  "response_gt": [
+   "bin"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060203328101,
+  "scene_id": "scene0606_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Forward."
+ },
+ {
+  "question_id": 22060200018201,
+  "scene_id": "scene0607_00",
+  "response_gt": [
+   "dining table"
+  ],
+  "response_pred": "Refrigerator."
+ },
+ {
+  "question_id": 22060200261301,
+  "scene_id": "scene0607_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Kitchen counter."
+ },
+ {
+  "question_id": 22060200286901,
+  "scene_id": "scene0607_00",
+  "response_gt": [
+   "refrigerator"
+  ],
+  "response_pred": "Dining table."
+ },
+ {
+  "question_id": 22060200399101,
+  "scene_id": "scene0607_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Dining table."
+ },
+ {
+  "question_id": 22060200438301,
+  "scene_id": "scene0607_00",
+  "response_gt": [
+   "no"
+  ],
+  "response_pred": "Yes."
+ },
+ {
+  "question_id": 22060200933001,
+  "scene_id": "scene0607_00",
+  "response_gt": [
+   "dining table"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060201710401,
+  "scene_id": "scene0607_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Dining table."
+ },
+ {
+  "question_id": 22060201785001,
+  "scene_id": "scene0607_00",
+  "response_gt": [
+   "table"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060201983801,
+  "scene_id": "scene0607_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Dining table."
+ },
+ {
+  "question_id": 22060202072201,
+  "scene_id": "scene0607_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Kitchen counter."
+ },
+ {
+  "question_id": 22060202111201,
+  "scene_id": "scene0607_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Left."
+ },
+ {
+  "question_id": 22060202181301,
+  "scene_id": "scene0607_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060202259301,
+  "scene_id": "scene0607_00",
+  "response_gt": [
+   "sink"
+  ],
+  "response_pred": "Dining table."
+ },
+ {
+  "question_id": 22060202428501,
+  "scene_id": "scene0607_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060202613501,
+  "scene_id": "scene0607_00",
+  "response_gt": [
+   "sink"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060202651501,
+  "scene_id": "scene0607_00",
+  "response_gt": [
+   "dining table"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060202683101,
+  "scene_id": "scene0607_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Kitchen counter."
+ },
+ {
+  "question_id": 22060202900201,
+  "scene_id": "scene0607_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Dining table."
+ },
+ {
+  "question_id": 22060203127201,
+  "scene_id": "scene0607_00",
+  "response_gt": [
+   "yes"
+  ],
+  "response_pred": "No."
+ },
+ {
+  "question_id": 22060203136401,
+  "scene_id": "scene0607_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060200008201,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060200072401,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "trash can"
+  ],
+  "response_pred": "Vacuum cleaner."
+ },
+ {
+  "question_id": 22060200564801,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060200704901,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Directly in front of me."
+ },
+ {
+  "question_id": 22060200967201,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "trash can"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060201063701,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "armchair"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060201166401,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060201260101,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "table with a lamp"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060201261901,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "picture"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060201394701,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "armchair"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060201448801,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201734001,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "trash can"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060201908301,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202312801,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "trash can"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060202315401,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "zero"
+  ],
+  "response_pred": "Two."
+ },
+ {
+  "question_id": 22060202326701,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Forward."
+ },
+ {
+  "question_id": 22060202474401,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060202491201,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "armchair"
+  ],
+  "response_pred": "Trash can."
+ },
+ {
+  "question_id": 22060202806401,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "armchair"
+  ],
+  "response_pred": "Picture."
+ },
+ {
+  "question_id": 22060202833401,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060202909401,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "yes"
+  ],
+  "response_pred": "Yes."
+ },
+ {
+  "question_id": 22060203121501,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "door"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060203149701,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Fireplace."
+ },
+ {
+  "question_id": 22060203162901,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "trash can"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060203185701,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060203252801,
+  "scene_id": "scene0616_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060200012101,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "lamp"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060200351401,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "table"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060201198401,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "ball"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060201423801,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060201694901,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201735401,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "behind"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201780201,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "ball"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060201827301,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "armchair"
+  ],
+  "response_pred": "Picture."
+ },
+ {
+  "question_id": 22060201863401,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060201885501,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "crib"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060201890701,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060201908601,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060201951001,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "crib"
+  ],
+  "response_pred": "Ball."
+ },
+ {
+  "question_id": 22060201968501,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "armchair"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060202015401,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "armchair"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060202154001,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "right"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202471001,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "crib"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060202663001,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "armchair"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060202699201,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "crib"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202801201,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "armchair"
+  ],
+  "response_pred": "Crib."
+ },
+ {
+  "question_id": 22060203006701,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "behind me"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060203209101,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "lamp"
+  ],
+  "response_pred": "Ball."
+ },
+ {
+  "question_id": 22060203210901,
+  "scene_id": "scene0633_00",
+  "response_gt": [
+   "zero"
+  ],
+  "response_pred": "One."
+ },
+ {
+  "question_id": 22060200448501,
+  "scene_id": "scene0644_00",
+  "response_gt": [
+   "right"
+  ],
+  "response_pred": "To my right hand side."
+ },
+ {
+  "question_id": 22060201041801,
+  "scene_id": "scene0644_00",
+  "response_gt": [
+   "monitor"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060201279701,
+  "scene_id": "scene0644_00",
+  "response_gt": [
+   "a desk and a door"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060201425001,
+  "scene_id": "scene0644_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "To my right hand side."
+ },
+ {
+  "question_id": 22060201739101,
+  "scene_id": "scene0644_00",
+  "response_gt": [
+   "monitors and table"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060201969601,
+  "scene_id": "scene0644_00",
+  "response_gt": [
+   "monitors"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060202121301,
+  "scene_id": "scene0644_00",
+  "response_gt": [
+   "whiteboard"
+  ],
+  "response_pred": "Shelf."
+ },
+ {
+  "question_id": 22060202373401,
+  "scene_id": "scene0644_00",
+  "response_gt": [
+   "table"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060202385901,
+  "scene_id": "scene0644_00",
+  "response_gt": [
+   "whiteboard"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060202476901,
+  "scene_id": "scene0644_00",
+  "response_gt": [
+   "to the left"
+  ],
+  "response_pred": "To my right hand side."
+ },
+ {
+  "question_id": 22060202787501,
+  "scene_id": "scene0644_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060200045801,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Armchair."
+ },
+ {
+  "question_id": 22060200088601,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "shoes"
+  ],
+  "response_pred": "Backpack."
+ },
+ {
+  "question_id": 22060200129801,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "curtain"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060200146401,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "pillow"
+  ],
+  "response_pred": "Ottoman."
+ },
+ {
+  "question_id": 22060200205801,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "couch"
+  ],
+  "response_pred": "Ottoman."
+ },
+ {
+  "question_id": 22060200266501,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060200276501,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "bed"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060200294701,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "ottoman"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060200427701,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "window"
+  ],
+  "response_pred": "Ottoman."
+ },
+ {
+  "question_id": 22060200535901,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "cabinet"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060200714301,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Ottoman."
+ },
+ {
+  "question_id": 22060200727001,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "cabinet"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060200736601,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "cabinet"
+  ],
+  "response_pred": "Bathroom vanity."
+ },
+ {
+  "question_id": 22060200877701,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060200939201,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "one"
+  ],
+  "response_pred": "Two."
+ },
+ {
+  "question_id": 22060201005201,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "cabinet"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060201008201,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "shoes"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060201090501,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "zero"
+  ],
+  "response_pred": "Two."
+ },
+ {
+  "question_id": 22060201319801,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "lamp"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060201582001,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "bathroom vanity"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060201664601,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "suitcase and door"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060201781801,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "pillow"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202224101,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "lamp"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202245601,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "desk"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060202310001,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "ottoman"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202386701,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "cabinet"
+  ],
+  "response_pred": "Bathroom vanity."
+ },
+ {
+  "question_id": 22060202387301,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060202391501,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "suitcase"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060202540801,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "pillow"
+  ],
+  "response_pred": "Suitcase."
+ },
+ {
+  "question_id": 22060202566301,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "cabinet"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060202611901,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "shower curtain"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060202777501,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "pillow"
+  ],
+  "response_pred": "Ottoman."
+ },
+ {
+  "question_id": 22060202859501,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Cabinet."
+ },
+ {
+  "question_id": 22060203007801,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "pillow"
+  ],
+  "response_pred": "Bathroom vanity."
+ },
+ {
+  "question_id": 22060203027701,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060203037501,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "pillow"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060203094501,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "armchair"
+  ],
+  "response_pred": "Ottoman."
+ },
+ {
+  "question_id": 22060203099701,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "coffee table"
+  ],
+  "response_pred": "Bed."
+ },
+ {
+  "question_id": 22060203129501,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "shower curtain"
+  ],
+  "response_pred": "Bathroom vanity."
+ },
+ {
+  "question_id": 22060203253901,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Ottoman."
+ },
+ {
+  "question_id": 22060203279201,
+  "scene_id": "scene0645_00",
+  "response_gt": [
+   "window"
+  ],
+  "response_pred": "Ottoman."
+ },
+ {
+  "question_id": 22060200138301,
+  "scene_id": "scene0651_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Table."
+ },
+ {
+  "question_id": 22060200390301,
+  "scene_id": "scene0651_00",
+  "response_gt": [
+   "refrigerator"
+  ],
+  "response_pred": "Kitchen counter."
+ },
+ {
+  "question_id": 22060200588901,
+  "scene_id": "scene0651_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060200967801,
+  "scene_id": "scene0651_00",
+  "response_gt": [
+   "none"
+  ],
+  "response_pred": "One."
+ },
+ {
+  "question_id": 22060201225101,
+  "scene_id": "scene0651_00",
+  "response_gt": [
+   "recycling bin"
+  ],
+  "response_pred": "Recycling bin."
+ },
+ {
+  "question_id": 22060201236701,
+  "scene_id": "scene0651_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Kitchen counter."
+ },
+ {
+  "question_id": 22060201347801,
+  "scene_id": "scene0651_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Kitchen counter."
+ },
+ {
+  "question_id": 22060201400001,
+  "scene_id": "scene0651_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Kitchen counter."
+ },
+ {
+  "question_id": 22060201954001,
+  "scene_id": "scene0651_00",
+  "response_gt": [
+   "refrigerator"
+  ],
+  "response_pred": "Kitchen counter."
+ },
+ {
+  "question_id": 22060202145701,
+  "scene_id": "scene0651_00",
+  "response_gt": [
+   "kitchen cabinets"
+  ],
+  "response_pred": "Recycling bin."
+ },
+ {
+  "question_id": 22060202198701,
+  "scene_id": "scene0651_00",
+  "response_gt": [
+   "kitchen cabinets"
+  ],
+  "response_pred": "Kitchen counter."
+ },
+ {
+  "question_id": 22060202448501,
+  "scene_id": "scene0651_00",
+  "response_gt": [
+   "refrigerator"
+  ],
+  "response_pred": "Recycling bin."
+ },
+ {
+  "question_id": 22060202577901,
+  "scene_id": "scene0651_00",
+  "response_gt": [
+   "recycling bin"
+  ],
+  "response_pred": "Stove."
+ },
+ {
+  "question_id": 22060203222601,
+  "scene_id": "scene0651_00",
+  "response_gt": [
+   "front"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060200360901,
+  "scene_id": "scene0653_00",
+  "response_gt": [
+   "box"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060200367901,
+  "scene_id": "scene0653_00",
+  "response_gt": [
+   "zero"
+  ],
+  "response_pred": "Two."
+ },
+ {
+  "question_id": 22060200593601,
+  "scene_id": "scene0653_00",
+  "response_gt": [
+   "office chair"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060200628901,
+  "scene_id": "scene0653_00",
+  "response_gt": [
+   "file cabinet"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060200689701,
+  "scene_id": "scene0653_00",
+  "response_gt": [
+   "no"
+  ],
+  "response_pred": "Yes."
+ },
+ {
+  "question_id": 22060200934901,
+  "scene_id": "scene0653_00",
+  "response_gt": [
+   "office chairs"
+  ],
+  "response_pred": "Door."
+ },
+ {
+  "question_id": 22060201074001,
+  "scene_id": "scene0653_00",
+  "response_gt": [
+   "file cabinet"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060201293101,
+  "scene_id": "scene0653_00",
+  "response_gt": [
+   "box"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060201806301,
+  "scene_id": "scene0653_00",
+  "response_gt": [
+   "file cabinet"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060201904901,
+  "scene_id": "scene0653_00",
+  "response_gt": [
+   "backward"
+  ],
+  "response_pred": "Three o'clock."
+ },
+ {
+  "question_id": 22060202044501,
+  "scene_id": "scene0653_00",
+  "response_gt": [
+   "file cabinet"
+  ],
+  "response_pred": "File cabinet."
+ },
+ {
+  "question_id": 22060202399201,
+  "scene_id": "scene0653_00",
+  "response_gt": [
+   "a desk with monitors"
+  ],
+  "response_pred": "Office chair."
+ },
+ {
+  "question_id": 22060202442301,
+  "scene_id": "scene0653_00",
+  "response_gt": [
+   "windows"
+  ],
+  "response_pred": "File cabinet."
+ },
+ {
+  "question_id": 22060202505901,
+  "scene_id": "scene0653_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202767101,
+  "scene_id": "scene0653_00",
+  "response_gt": [
+   "office chair"
+  ],
+  "response_pred": "Office chair."
+ },
+ {
+  "question_id": 22060202902101,
+  "scene_id": "scene0653_00",
+  "response_gt": [
+   "file cabinet"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060203171601,
+  "scene_id": "scene0653_00",
+  "response_gt": [
+   "file cabinet"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060200034501,
+  "scene_id": "scene0690_00",
+  "response_gt": [
+   "coffee table"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060200123901,
+  "scene_id": "scene0690_00",
+  "response_gt": [
+   "zero"
+  ],
+  "response_pred": "Two."
+ },
+ {
+  "question_id": 22060200966001,
+  "scene_id": "scene0690_00",
+  "response_gt": [
+   "shelf"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060201278101,
+  "scene_id": "scene0690_00",
+  "response_gt": [
+   "armchair"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060201390301,
+  "scene_id": "scene0690_00",
+  "response_gt": [
+   "book"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060201574501,
+  "scene_id": "scene0690_00",
+  "response_gt": [
+   "to my left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060201606501,
+  "scene_id": "scene0690_00",
+  "response_gt": [
+   "armchairs"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060201639701,
+  "scene_id": "scene0690_00",
+  "response_gt": [
+   "armchair"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060201665101,
+  "scene_id": "scene0690_00",
+  "response_gt": [
+   "forward"
+  ],
+  "response_pred": "In front of me."
+ },
+ {
+  "question_id": 22060201786601,
+  "scene_id": "scene0690_00",
+  "response_gt": [
+   "book"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060201889801,
+  "scene_id": "scene0690_00",
+  "response_gt": [
+   "book"
+  ],
+  "response_pred": "Couch."
+ },
+ {
+  "question_id": 22060201998601,
+  "scene_id": "scene0690_00",
+  "response_gt": [
+   "coffee table"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060202075401,
+  "scene_id": "scene0690_00",
+  "response_gt": [
+   "armchairs"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060202154901,
+  "scene_id": "scene0690_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060202644901,
+  "scene_id": "scene0690_00",
+  "response_gt": [
+   "cabinet"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060203097001,
+  "scene_id": "scene0690_00",
+  "response_gt": [
+   "armchair"
+  ],
+  "response_pred": "Coffee table."
+ },
+ {
+  "question_id": 22060200150401,
+  "scene_id": "scene0700_00",
+  "response_gt": [
+   "right"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060200410201,
+  "scene_id": "scene0700_00",
+  "response_gt": [
+   "desk"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060200450801,
+  "scene_id": "scene0700_00",
+  "response_gt": [
+   "backward"
+  ],
+  "response_pred": "Backward."
+ },
+ {
+  "question_id": 22060200487001,
+  "scene_id": "scene0700_00",
+  "response_gt": [
+   "radiator"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060200715401,
+  "scene_id": "scene0700_00",
+  "response_gt": [
+   "radiator"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060201223501,
+  "scene_id": "scene0700_00",
+  "response_gt": [
+   "behind"
+  ],
+  "response_pred": "To my right hand side."
+ },
+ {
+  "question_id": 22060201241901,
+  "scene_id": "scene0700_00",
+  "response_gt": [
+   "trash can"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060201420201,
+  "scene_id": "scene0700_00",
+  "response_gt": [
+   "clothing"
+  ],
+  "response_pred": "Whiteboard."
+ },
+ {
+  "question_id": 22060201641801,
+  "scene_id": "scene0700_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060201679701,
+  "scene_id": "scene0700_00",
+  "response_gt": [
+   "cabinet"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060201860901,
+  "scene_id": "scene0700_00",
+  "response_gt": [
+   "chair"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202210901,
+  "scene_id": "scene0700_00",
+  "response_gt": [
+   "clothing"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202351901,
+  "scene_id": "scene0700_00",
+  "response_gt": [
+   "window"
+  ],
+  "response_pred": "Desk."
+ },
+ {
+  "question_id": 22060202355801,
+  "scene_id": "scene0700_00",
+  "response_gt": [
+   "window"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202389701,
+  "scene_id": "scene0700_00",
+  "response_gt": [
+   "left"
+  ],
+  "response_pred": "Right."
+ },
+ {
+  "question_id": 22060202811401,
+  "scene_id": "scene0700_00",
+  "response_gt": [
+   "radiator"
+  ],
+  "response_pred": "Chair."
+ },
+ {
+  "question_id": 22060202825601,
+  "scene_id": "scene0700_00",
+  "response_gt": [
+   "wall"
+  ],
+  "response_pred": "Trash can."
+ },
+ {
+  "question_id": 22060203155401,
+  "scene_id": "scene0700_00",
+  "response_gt": [
+   "door"
+  ],
+  "response_pred": "Chair."
+ }
+]

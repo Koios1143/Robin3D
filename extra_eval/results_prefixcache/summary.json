@@ -1,0 +1,150 @@
+{
+ "scanrefer": {
+  "pred_dir": "outputs/extra_eval_prefixcache_20261027_230803",
+  "Acc@0.25": 60.780395456457725,
+  "Acc@0.50": 55.0588977702987,
+  "Unique Acc@0.25": 88.68675383740762,
+  "Unique Acc@0.50": 82.3763501989767,
+  "Multiple Acc@0.25": 54.44573493353981,
+  "Multiple Acc@0.50": 48.85791715060008,
+  "same_as_released": 99.55826672275978
+ },
+ "multi3dref": {
+  "pred_dir": "outputs/extra_eval_prefixcache_20261027_230803",
+  "all F1@0.25": 64.9155452103568,
+  "all F1@0.50": 59.73670418914841,
+  "st_w_d F1@0.25": 56.702197723891224,
+  "st_w_d F1@0.50": 51.56764753474976,
+  "zt_w_d F1@0.25": 67.46031746031747,
+  "zt_w_d F1@0.50": 67.46031746031747,
+  "zt_wo_d F1@0.25": 93.75,
+  "zt_wo_d F1@0.50": 93.75,
+  "mt F1@0.25": 60.62767041514636,
+  "mt F1@0.50": 54.892768138849426,
+  "st_wo_d F1@0.25": 83.80181038589805,
+  "st_wo_d F1@0.50": 77.00492297919645,
+  "same_as_released": 98.25539568345324
+ },
+ "scan2cap": {
+  "pred_dir": "outputs/extra_eval_prefixcache_20261027_230803",
+  "Bleu_4@0.25": 40.09828592371456,
+  "CIDEr@0.25": 91.14806135060718,
+  "Bleu_4@0.50": 38.08469685051444,
+  "CIDEr@0.50": 85.92288541720694,
+  "same_as_released": 85.90504451038575
+ },
+ "scanqa": {
+  "pred_dir": "outputs/extra_eval_prefixcache_20261027_230803",
+  "[scanqa] Bleu_1": 42.835890283585044,
+  "[scanqa] Bleu_2": 27.838668000670857,
+  "[scanqa] Bleu_3": 19.239849124192883,
+  "[scanqa] Bleu_4": 12.749585339308295,
+  "[scanqa] METEOR": 19.111086651081486,
+  "[scanqa] ROUGE_L": 43.981653453864936,
+  "[scanqa] CIDEr": 94.50999704011743,
+  "[scanqa] EM1": 22.93048128342246,
+  "[scanqa] EM1_refined": 41.62566844919786,
+  "same_as_released": 95.97860962566845
+ },
+ "sqa3d_test": {
+  "pred_dir": "outputs/extra_eval_prefixcache_20261027_230803",
+  "EM1": 56.46490480250071,
+  "EM1_refined": 59.363455527138385,
+  "same_as_released": 98.29497016197783
+ },
+ "real3dqa": {
+  "pred_dir": "outputs/extra_eval_prefixcache_20261027_230803",
+  "empty_preds": {
+   "debiased_test": 0,
+   "rotation_0": 0,
+   "rotation_90": 0,
+   "rotation_180": 0,
+   "rotation_270": 0
+  },
+  "debiased_test": {
+   "total": 1485,
+   "em": 26.801346801346803,
+   "em_refined": 31.784511784511782
+  },
+  "rotation_0": {
+   "total": 750,
+   "em": 12.266666666666666,
+   "em_refined": 17.2
+  },
+  "rotation_90": {
+   "total": 750,
+   "em": 9.6,
+   "em_refined": 12.933333333333334
+  },
+  "rotation_180": {
+   "total": 750,
+   "em": 11.466666666666667,
+   "em_refined": 15.733333333333333
+  },
+  "rotation_270": {
+   "total": 750,
+   "em": 11.200000000000001,
+   "em_refined": 15.2
+  },
+  "rotation": {
+   "total_questions": 750,
+   "one": 48.66666666666667,
+   "two": 9.2,
+   "three": 2.2666666666666666,
+   "four": 0.9333333333333335,
+   "VRS": 15.266666666666667
+  }
+ },
+ "beacon3d_scannet": {
+  "pred_dir": "outputs/extra_eval_prefixcache_20261027_230803",
+  "qa_judge": "gpt-4o-mini-2024-07-18",
+  "grounding_no_obj_token": 2,
+  "grounding": {
+   "overall": 62.67,
+   "class": 62.67,
+   "appearance": 62.27,
+   "geometry": 52.97,
+   "spatial": 58.01,
+   "functionality": 11.11,
+   "chain": 55.84,
+   "object": 45.97,
+   "four types": [
+    55.84,
+    21.47,
+    2.86,
+    19.83
+   ]
+  },
+  "grounding_iou25": {
+   "overall": 60.43,
+   "class": 60.43,
+   "appearance": 60.12,
+   "geometry": 49.32,
+   "spatial": 55.95,
+   "functionality": 11.11,
+   "chain": 53.85,
+   "object": 43.9,
+   "four types": [
+    53.85,
+    21.39,
+    2.68,
+    22.08
+   ]
+  },
+  "qa": {
+   "EM": 49.44,
+   "EM-R": 53.94,
+   "GPT-Score": 54.76,
+   "case": 54.76,
+   "object": 14.03,
+   "class": 37.16,
+   "appearance": 56.46,
+   "geometry": 56.65,
+   "spatial": 50.41,
+   "existence": 64.49,
+   "functionality": 66.67,
+   "R1 (higher better)": 36.93,
+   "R2 (lower better)": 51.03
+  }
+ }
+}

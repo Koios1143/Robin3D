@@ -1,0 +1,13 @@
+{
+ "pred_dir": "outputs/extra_eval_prefixcache_20261027_230803",
+ "[scanqa] Bleu_1": 42.835890283585044,
+ "[scanqa] Bleu_2": 27.838668000670857,
+ "[scanqa] Bleu_3": 19.239849124192883,
+ "[scanqa] Bleu_4": 12.749585339308295,
+ "[scanqa] METEOR": 19.111086651081486,
+ "[scanqa] ROUGE_L": 43.981653453864936,
+ "[scanqa] CIDEr": 94.50999704011743,
+ "[scanqa] EM1": 22.93048128342246,
+ "[scanqa] EM1_refined": 41.62566844919786,
+ "same_as_released": 95.97860962566845
+}

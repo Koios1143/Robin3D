@@ -9,7 +9,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       0,
@@ -25,7 +25,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       0,
@@ -87,7 +87,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       0,
@@ -103,7 +103,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -165,7 +165,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -226,7 +226,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -241,7 +241,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -256,7 +256,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -331,7 +331,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -346,7 +346,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -361,7 +361,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -376,7 +376,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -406,7 +406,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -425,7 +425,7 @@
       "class",
       "class",
       "class-spatial",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -446,7 +446,7 @@
       "class",
       "class",
       "class-spatial",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -464,8 +464,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -496,7 +496,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -541,7 +541,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -601,7 +601,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -617,8 +617,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-geometry-spatial"
+      "class-appearance",
+      "geometry-class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -635,8 +635,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial",
-      "appearance-class-geometry-spatial"
+      "geometry-class-spatial",
+      "geometry-class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -653,8 +653,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial",
-      "appearance-class-geometry-spatial"
+      "geometry-class-spatial",
+      "geometry-class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -670,7 +670,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -685,7 +685,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -715,7 +715,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -745,7 +745,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -760,7 +760,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -775,7 +775,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -804,8 +804,8 @@
       "white paper towel roll"
     ],
     "tag": [
-      "class-geometry",
-      "appearance-class-geometry"
+      "geometry-class",
+      "geometry-appearance-class"
     ],
     "correct": [
       0,
@@ -819,8 +819,8 @@
       "paper towel roll next to the black shelf"
     ],
     "tag": [
-      "class-geometry",
-      "appearance-class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-appearance-spatial"
     ],
     "correct": [
       0,
@@ -834,8 +834,8 @@
       "paper towel roll next to the windowsill"
     ],
     "tag": [
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       0,
@@ -850,7 +850,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -880,7 +880,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -925,7 +925,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -971,8 +971,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "appearance-class-geometry"
+      "geometry-class",
+      "geometry-appearance-class"
     ],
     "correct": [
       1,
@@ -1004,8 +1004,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "appearance-class-geometry"
+      "geometry-class",
+      "geometry-class-appearance"
     ],
     "correct": [
       1,
@@ -1036,7 +1036,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -1051,7 +1051,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -1066,7 +1066,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -1083,7 +1083,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -1100,8 +1100,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -1117,7 +1117,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -1132,7 +1132,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -1147,7 +1147,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-geometry"
+      "geometry-class-appearance"
     ],
     "correct": [
       1,
@@ -1177,7 +1177,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       0,
@@ -1192,7 +1192,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       0,
@@ -1222,7 +1222,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -1252,7 +1252,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -1267,7 +1267,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -1282,7 +1282,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -1312,7 +1312,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -1387,7 +1387,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -1402,7 +1402,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -1477,7 +1477,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -1507,7 +1507,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       0,
@@ -1552,7 +1552,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -1612,7 +1612,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       0,
@@ -1642,7 +1642,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -1657,7 +1657,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -1704,7 +1704,7 @@
     "tag": [
       "class",
       "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       0,
@@ -1720,7 +1720,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -1780,7 +1780,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -1810,7 +1810,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -1825,7 +1825,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -1915,7 +1915,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -1930,7 +1930,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -2020,7 +2020,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -2140,7 +2140,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -2200,7 +2200,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -2275,7 +2275,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -2290,7 +2290,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -2305,7 +2305,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -2320,7 +2320,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -2365,7 +2365,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -2455,7 +2455,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -2515,7 +2515,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "appearance-spatial-class"
     ],
     "correct": [
       0,
@@ -2560,7 +2560,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -2575,7 +2575,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       0,
@@ -2650,7 +2650,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -2680,7 +2680,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -2695,7 +2695,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -2773,7 +2773,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -2818,7 +2818,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       0,
@@ -2833,7 +2833,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       0,
@@ -2878,7 +2878,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       0,
@@ -2893,7 +2893,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class-geometry"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -2908,7 +2908,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -2969,8 +2969,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -3021,7 +3021,7 @@
     "tag": [
       "class",
       "appearance-class",
-      "appearance-spatial-class"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -3038,8 +3038,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -3056,8 +3056,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -3074,8 +3074,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-geometry"
+      "class-appearance",
+      "geometry-class-appearance"
     ],
     "correct": [
       1,
@@ -3121,7 +3121,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       0,
@@ -3137,7 +3137,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class",
+      "class-spatial",
       "appearance-spatial-class"
     ],
     "correct": [
@@ -3170,8 +3170,8 @@
     ],
     "tag": [
       "class",
-      "spatial-class",
-      "spatial-class"
+      "class-spatial",
+      "class-spatial"
     ],
     "correct": [
       0,
@@ -3187,7 +3187,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -3233,8 +3233,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -3265,7 +3265,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -3280,7 +3280,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -3310,7 +3310,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class-geometry"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -3355,7 +3355,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -3370,7 +3370,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -3400,7 +3400,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -3445,7 +3445,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -3475,7 +3475,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -3505,7 +3505,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -3520,7 +3520,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -3626,8 +3626,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -3643,7 +3643,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       0,
@@ -3689,8 +3689,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -3708,7 +3708,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -3755,8 +3755,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -3817,7 +3817,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -3832,7 +3832,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -3847,7 +3847,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -3892,7 +3892,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -3922,7 +3922,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -3967,7 +3967,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -3997,7 +3997,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -4104,7 +4104,7 @@
     "tag": [
       "class",
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -4152,7 +4152,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -4198,7 +4198,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       0,
@@ -4213,7 +4213,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       0,
@@ -4273,7 +4273,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -4348,7 +4348,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -4393,7 +4393,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -4498,7 +4498,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -4528,7 +4528,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -4543,7 +4543,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -4573,7 +4573,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -4588,7 +4588,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -4603,7 +4603,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       0,
@@ -4618,7 +4618,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "appearance-spatial-class"
     ],
     "correct": [
       0,
@@ -4678,7 +4678,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -4738,7 +4738,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       0,
@@ -4770,7 +4770,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       0,
@@ -4786,7 +4786,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       0,
@@ -4801,7 +4801,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       0,
@@ -4817,8 +4817,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-geometry"
+      "class-appearance",
+      "geometry-class-appearance"
     ],
     "correct": [
       0,
@@ -4849,7 +4849,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       0,
@@ -4865,8 +4865,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-geometry"
+      "class-appearance",
+      "geometry-class-appearance"
     ],
     "correct": [
       1,
@@ -4882,7 +4882,7 @@
     ],
     "tag": [
       "class-functionality",
-      "class-functionality-spatial"
+      "class-spatial-functionality"
     ],
     "correct": [
       0,
@@ -4897,7 +4897,7 @@
     ],
     "tag": [
       "class-functionality",
-      "class-functionality-spatial"
+      "class-spatial-functionality"
     ],
     "correct": [
       0,
@@ -4912,7 +4912,7 @@
     ],
     "tag": [
       "class-functionality",
-      "appearance-class-functionality"
+      "class-appearance-functionality"
     ],
     "correct": [
       0,
@@ -4927,7 +4927,7 @@
     ],
     "tag": [
       "class-functionality",
-      "class-functionality-geometry"
+      "geometry-class-functionality"
     ],
     "correct": [
       0,
@@ -4942,7 +4942,7 @@
     ],
     "tag": [
       "class-functionality",
-      "class-functionality-geometry"
+      "geometry-class-functionality"
     ],
     "correct": [
       0,
@@ -4991,8 +4991,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-spatial-class"
+      "class-appearance",
+      "class-appearance-spatial"
     ],
     "correct": [
       0,
@@ -5009,8 +5009,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       0,
@@ -5104,7 +5104,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -5134,7 +5134,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -5149,7 +5149,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -5209,7 +5209,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -5302,7 +5302,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       0,
@@ -5317,7 +5317,7 @@
     ],
     "tag": [
       "class",
-      "appearance-spatial-class"
+      "class-appearance-spatial"
     ],
     "correct": [
       0,
@@ -5332,7 +5332,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       0,
@@ -5347,7 +5347,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -5362,7 +5362,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -5427,7 +5427,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -5458,7 +5458,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -5489,8 +5489,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -5522,8 +5522,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -5539,7 +5539,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -5555,8 +5555,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -5573,8 +5573,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -5665,7 +5665,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -5830,7 +5830,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -5845,7 +5845,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -5859,8 +5859,8 @@
       "white paper roll"
     ],
     "tag": [
-      "class-geometry",
-      "appearance-class-geometry"
+      "geometry-class",
+      "geometry-class-appearance"
     ],
     "correct": [
       0,
@@ -5889,8 +5889,8 @@
       "paper roll near the soda stream"
     ],
     "tag": [
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       0,
@@ -5905,7 +5905,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -5920,7 +5920,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -5962,7 +5962,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       0,
@@ -6037,7 +6037,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -6052,7 +6052,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -6067,7 +6067,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -6097,7 +6097,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -6262,7 +6262,7 @@
     ],
     "tag": [
       "class",
-      "appearance-spatial-class"
+      "class-appearance-spatial"
     ],
     "correct": [
       0,
@@ -6277,7 +6277,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       0,
@@ -6322,7 +6322,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -6352,7 +6352,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -6367,7 +6367,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -6397,7 +6397,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -6427,7 +6427,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -6442,7 +6442,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -6472,7 +6472,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -6487,7 +6487,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       0,
@@ -6502,7 +6502,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       0,
@@ -6517,7 +6517,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       0,
@@ -6532,7 +6532,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       0,
@@ -6562,7 +6562,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       0,
@@ -6622,7 +6622,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -6667,7 +6667,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       0,
@@ -6712,7 +6712,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       0,
@@ -6727,7 +6727,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       0,
@@ -6757,7 +6757,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -6788,8 +6788,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -6850,7 +6850,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -6880,7 +6880,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -6895,7 +6895,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -6970,7 +6970,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -7000,7 +7000,7 @@
     ],
     "tag": [
       "class",
-      "appearance-spatial-class"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -7015,7 +7015,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -7045,7 +7045,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       0,
@@ -7060,7 +7060,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       0,
@@ -7075,7 +7075,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -7092,7 +7092,7 @@
     "tag": [
       "class",
       "appearance-class",
-      "appearance-spatial-class"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -7108,7 +7108,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -7201,7 +7201,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -7216,7 +7216,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -7261,7 +7261,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -7291,7 +7291,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -7306,7 +7306,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -7336,7 +7336,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -7351,7 +7351,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -7366,7 +7366,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -7396,7 +7396,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -7426,7 +7426,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -7456,7 +7456,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -7501,7 +7501,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -7516,7 +7516,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -7561,7 +7561,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -7636,7 +7636,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -7696,7 +7696,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       0,
@@ -7742,8 +7742,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       0,
@@ -7760,8 +7760,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -7778,8 +7778,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -7945,7 +7945,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       0,
@@ -7960,7 +7960,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       0,
@@ -7975,7 +7975,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       0,
@@ -7992,7 +7992,7 @@
     "tag": [
       "class",
       "appearance-class",
-      "appearance-class-spatial"
+      "appearance-spatial-class"
     ],
     "correct": [
       1,
@@ -8040,7 +8040,7 @@
     "tag": [
       "class",
       "appearance-class",
-      "appearance-class-spatial"
+      "appearance-spatial-class"
     ],
     "correct": [
       1,
@@ -8116,7 +8116,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -8131,7 +8131,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       0,
@@ -8161,7 +8161,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       0,
@@ -8177,8 +8177,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-appearance-spatial"
     ],
     "correct": [
       0,
@@ -8210,8 +8210,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       0,
@@ -8227,7 +8227,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       0,
@@ -8242,7 +8242,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       0,
@@ -8273,8 +8273,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-appearance-spatial"
     ],
     "correct": [
       0,
@@ -8291,8 +8291,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-appearance-spatial"
     ],
     "correct": [
       0,
@@ -8338,7 +8338,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-geometry"
+      "geometry-class-appearance"
     ],
     "correct": [
       1,
@@ -8400,7 +8400,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -8436,7 +8436,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -8454,7 +8454,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -8488,7 +8488,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -8518,7 +8518,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -8563,7 +8563,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -8593,7 +8593,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -8653,7 +8653,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -8743,7 +8743,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -8758,7 +8758,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -8773,7 +8773,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -8835,7 +8835,7 @@
     "tag": [
       "class",
       "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -8852,8 +8852,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-spatial-class"
+      "class-appearance",
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -8869,7 +8869,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -8900,8 +8900,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -8962,7 +8962,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -9024,7 +9024,7 @@
     "tag": [
       "class",
       "appearance-class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -9135,7 +9135,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -9319,7 +9319,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -9364,7 +9364,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -9381,7 +9381,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -9397,7 +9397,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -9428,8 +9428,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-geometry"
+      "class-appearance",
+      "geometry-class-appearance"
     ],
     "correct": [
       1,
@@ -9462,7 +9462,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -9479,8 +9479,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-geometry"
+      "class-appearance",
+      "geometry-class-appearance"
     ],
     "correct": [
       1,
@@ -9571,7 +9571,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -9631,7 +9631,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -9721,7 +9721,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       0,
@@ -9796,7 +9796,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -9841,7 +9841,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -9886,7 +9886,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       0,
@@ -9976,7 +9976,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -10006,7 +10006,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -10051,7 +10051,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -10082,8 +10082,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -10100,8 +10100,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -10117,7 +10117,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -10133,8 +10133,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -10213,7 +10213,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -10363,7 +10363,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -10410,7 +10410,7 @@
     "tag": [
       "class",
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -10442,8 +10442,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -10474,7 +10474,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       0,
@@ -10534,7 +10534,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -10669,7 +10669,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -10684,7 +10684,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -10759,7 +10759,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -10789,7 +10789,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -10850,8 +10850,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -10898,8 +10898,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial",
-      "appearance-class-geometry-spatial"
+      "class-spatial-appearance",
+      "geometry-class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -10915,7 +10915,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -10931,8 +10931,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial",
-      "appearance-class-geometry-spatial"
+      "class-spatial-appearance",
+      "geometry-class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -11068,7 +11068,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -11083,7 +11083,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -11176,7 +11176,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -11206,7 +11206,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -11221,7 +11221,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-geometry"
+      "geometry-class-appearance"
     ],
     "correct": [
       1,
@@ -11311,7 +11311,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -11356,7 +11356,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -11431,7 +11431,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       0,
@@ -11491,7 +11491,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       0,
@@ -11506,7 +11506,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -11522,8 +11522,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "spatial-class-geometry"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -11539,7 +11539,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -11584,7 +11584,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -11599,7 +11599,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class-geometry"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -11689,7 +11689,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -11825,8 +11825,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -11844,7 +11844,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -11875,7 +11875,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -11890,7 +11890,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -11907,7 +11907,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -11924,8 +11924,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-spatial-class"
     ],
     "correct": [
       1,
@@ -11942,8 +11942,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "appearance-spatial-class"
     ],
     "correct": [
       1,
@@ -11959,7 +11959,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -11974,7 +11974,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -12021,7 +12021,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -12054,7 +12054,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -12071,8 +12071,8 @@
     ],
     "tag": [
       "class",
-      "spatial-class",
-      "spatial-class"
+      "class-spatial",
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -12089,7 +12089,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class",
+      "class-spatial",
       "class-spatial"
     ],
     "correct": [
@@ -12106,7 +12106,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -12122,8 +12122,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -12140,8 +12140,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -12158,8 +12158,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "appearance-class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -12190,7 +12190,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -12265,7 +12265,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -12282,7 +12282,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -12300,7 +12300,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -12331,7 +12331,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -12346,7 +12346,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -12376,7 +12376,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -12406,7 +12406,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -12421,7 +12421,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -12620,8 +12620,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-spatial-appearance"
     ],
     "correct": [
       0,
@@ -12668,8 +12668,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -12835,7 +12835,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -12850,7 +12850,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -12880,7 +12880,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -12895,7 +12895,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -12910,7 +12910,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -12955,7 +12955,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class-geometry"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -12970,7 +12970,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class-geometry"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -12985,7 +12985,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -13045,7 +13045,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -13060,7 +13060,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -13075,7 +13075,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -13090,7 +13090,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -13105,7 +13105,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -13120,7 +13120,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -13150,7 +13150,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -13210,7 +13210,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -13225,7 +13225,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -13240,7 +13240,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -13255,7 +13255,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -13270,7 +13270,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -13330,7 +13330,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -13345,7 +13345,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -13376,8 +13376,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial",
-      "appearance-class-geometry-spatial"
+      "geometry-class-spatial",
+      "geometry-class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -13394,8 +13394,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -13428,7 +13428,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -13492,7 +13492,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -13509,7 +13509,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -13525,7 +13525,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -13555,7 +13555,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -13585,7 +13585,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -13630,7 +13630,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -13660,7 +13660,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -13675,7 +13675,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -13692,9 +13692,9 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "appearance-class-geometry",
-      "appearance-class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-appearance",
+      "geometry-class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -13713,7 +13713,7 @@
     "tag": [
       "class",
       "appearance-class",
-      "appearance-spatial-class"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -13731,9 +13731,9 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "appearance-class-geometry",
-      "appearance-class-geometry-spatial"
+      "geometry-class",
+      "geometry-appearance-class",
+      "geometry-appearance-spatial-class"
     ],
     "correct": [
       1,
@@ -13786,7 +13786,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -13817,8 +13817,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "appearance-class-geometry"
+      "geometry-class",
+      "geometry-class-appearance"
     ],
     "correct": [
       1,
@@ -13835,8 +13835,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -13852,7 +13852,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -13868,8 +13868,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-spatial-class"
+      "class-appearance",
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -13930,7 +13930,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -13990,7 +13990,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       0,
@@ -14005,7 +14005,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       0,
@@ -14081,8 +14081,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -14099,8 +14099,8 @@
     ],
     "tag": [
       "class",
-      "spatial-class",
-      "appearance-class-spatial"
+      "class-spatial",
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -14132,8 +14132,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -14179,7 +14179,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class-geometry"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -14194,7 +14194,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -14209,7 +14209,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -14257,7 +14257,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -14290,7 +14290,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -14306,8 +14306,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "spatial-class-geometry"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -14323,7 +14323,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -14354,8 +14354,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -14402,8 +14402,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -14420,8 +14420,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -14438,8 +14438,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-geometry"
+      "class-appearance",
+      "geometry-class-appearance"
     ],
     "correct": [
       1,
@@ -14456,8 +14456,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -14493,7 +14493,7 @@
     "tag": [
       "class",
       "appearance-class",
-      "appearance-spatial-class"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -14510,8 +14510,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "spatial-class-geometry"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -14572,7 +14572,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -14602,7 +14602,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -14632,7 +14632,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -14647,7 +14647,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -14677,7 +14677,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -14692,7 +14692,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -14737,7 +14737,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -14798,8 +14798,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -14834,8 +14834,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -14851,7 +14851,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -14866,7 +14866,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -14926,7 +14926,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -15016,7 +15016,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -15181,7 +15181,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -15286,7 +15286,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -15496,7 +15496,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -15527,8 +15527,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -15544,7 +15544,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -15560,8 +15560,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -15577,7 +15577,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -15593,8 +15593,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -15611,8 +15611,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -15630,7 +15630,7 @@
     "tag": [
       "class",
       "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -15781,7 +15781,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -15811,7 +15811,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -15826,7 +15826,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -15841,7 +15841,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -15872,8 +15872,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -15890,8 +15890,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "appearance-class-geometry-spatial"
+      "geometry-class",
+      "geometry-appearance-spatial-class"
     ],
     "correct": [
       1,
@@ -15922,7 +15922,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -15938,8 +15938,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-geometry"
+      "class-appearance",
+      "geometry-class-appearance"
     ],
     "correct": [
       1,
@@ -15957,7 +15957,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -15974,8 +15974,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -15992,8 +15992,8 @@
     ],
     "tag": [
       "class",
-      "class-geometry",
-      "class-geometry-spatial"
+      "geometry-class",
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -16009,7 +16009,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       0,
@@ -16054,7 +16054,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -16069,7 +16069,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -16144,7 +16144,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-spatial-appearance"
     ],
     "correct": [
       1,
@@ -16174,7 +16174,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-geometry"
+      "geometry-class-appearance"
     ],
     "correct": [
       1,
@@ -16219,7 +16219,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       0,
@@ -16235,8 +16235,8 @@
     ],
     "tag": [
       "class",
-      "appearance-class",
-      "appearance-class-spatial"
+      "class-appearance",
+      "class-spatial-appearance"
     ],
     "correct": [
       0,
@@ -16282,7 +16282,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -16342,7 +16342,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -16372,7 +16372,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -16387,7 +16387,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -16417,7 +16417,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       0,
@@ -16447,7 +16447,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       0,
@@ -16477,7 +16477,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -16492,7 +16492,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -16522,7 +16522,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       1,
@@ -16597,7 +16597,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       0,
@@ -16672,7 +16672,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       0,
@@ -16702,7 +16702,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       0,
@@ -16717,7 +16717,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       0,
@@ -16792,7 +16792,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -16897,7 +16897,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -16912,7 +16912,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -16927,7 +16927,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -16987,7 +16987,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -17002,7 +17002,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       0,
@@ -17017,7 +17017,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-spatial"
+      "class-appearance-spatial"
     ],
     "correct": [
       0,
@@ -17032,7 +17032,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class-geometry"
+      "geometry-class-appearance"
     ],
     "correct": [
       0,
@@ -17062,7 +17062,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -17077,7 +17077,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -17212,7 +17212,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -17242,7 +17242,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,
@@ -17398,7 +17398,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -17535,7 +17535,7 @@
     "tag": [
       "class",
       "class-spatial",
-      "class-geometry-spatial"
+      "geometry-class-spatial"
     ],
     "correct": [
       1,
@@ -17551,7 +17551,7 @@
     ],
     "tag": [
       "class",
-      "appearance-class"
+      "class-appearance"
     ],
     "correct": [
       1,
@@ -17611,7 +17611,7 @@
     ],
     "tag": [
       "class",
-      "spatial-class"
+      "class-spatial"
     ],
     "correct": [
       1,
@@ -17656,7 +17656,7 @@
     ],
     "tag": [
       "class",
-      "class-geometry"
+      "geometry-class"
     ],
     "correct": [
       1,

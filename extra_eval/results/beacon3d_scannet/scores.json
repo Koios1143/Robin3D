@@ -1,5 +1,5 @@
 {
- "pred_dir": "outputs/extra_eval_20261021_085721",
+ "pred_dir": "outputs/extra_eval_upstream_20261027_230803",
  "qa_judge": "gpt-4o-mini-2024-07-18",
  "grounding_no_obj_token": 2,
  "grounding": {
@@ -40,13 +40,13 @@
   "GPT-Score": 55.0,
   "case": 55.0,
   "object": 14.29,
-  "class": 36.94,
-  "appearance": 56.38,
-  "geometry": 57.44,
-  "spatial": 50.66,
-  "existence": 65.0,
+  "class": 37.16,
+  "appearance": 56.23,
+  "geometry": 57.28,
+  "spatial": 50.74,
+  "existence": 65.1,
   "functionality": 66.67,
-  "R1 (higher better)": 36.59,
-  "R2 (lower better)": 51.18
+  "R1 (higher better)": 36.36,
+  "R2 (lower better)": 50.95
  }
 }

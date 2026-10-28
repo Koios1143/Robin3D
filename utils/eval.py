@@ -121,10 +121,10 @@ def calc_scanrefer_score(preds, config=None):
     val_scores = {
         '[scanrefer] Acc@0.25': float(iou25_acc) / len(preds),
         '[scanrefer] Acc@0.50': float(iou50_acc) / len(preds),
-        # '[scanrefer] Unique Acc@0.25': float(unique_iou25_acc) / unique_all,
-        # '[scanrefer] Unique Acc@0.50': float(unique_iou50_acc) / unique_all,
-        # '[scanrefer] Multiple Acc@0.25': float(multiple_iou25_acc) / multiple_all,
-        # '[scanrefer] Multiple Acc@0.50': float(multiple_iou50_acc) / multiple_all
+        '[scanrefer] Unique Acc@0.25': float(unique_iou25_acc) / unique_all,
+        '[scanrefer] Unique Acc@0.50': float(unique_iou50_acc) / unique_all,
+        '[scanrefer] Multiple Acc@0.25': float(multiple_iou25_acc) / multiple_all,
+        '[scanrefer] Multiple Acc@0.50': float(multiple_iou50_acc) / multiple_all
     }
 
     return val_scores

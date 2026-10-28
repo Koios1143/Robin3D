@@ -15,7 +15,8 @@
   features rebuilt by ``extra_eval/feats`` (see ``rebuilt_sets``).
 * Writes ``scripts/extra_eval_config.py`` = ``scripts/config.py`` with its data paths
   pointed at the released Google Drive files (``--robin3d_data``) and the Vicuna path,
-  plus one ``val_file_dict`` entry per new set and ``check_scanrefer`` (= ``scanrefer``).
+  plus one ``val_file_dict`` entry per new set and ``check_scanrefer`` / ``check_multi3dref`` /
+  ``check_scan2cap`` (= Robin3D's ``scanrefer`` / ``multi3dref`` / ``scan2cap``).
   Every entry uses the same Mask3D / Uni3D / DINOv2 ScanNet val features as Robin3D's own ``scanqa`` and ``sqa3d_test`` entries.
 """
 
@@ -119,10 +120,11 @@ def write_config(config_out, robin3d_data, llama, anno_dir, names, rebuilt=None)
     for name, files in (rebuilt or {}).items():  # gt None = ScanNet's official GT boxes
         files = [repr(f) for f in files[:6]] + [repr(files[6]) if files[6] else "scene_val_attr_file"]
         lines.append(f"val_file_dict[{name!r}] = [{', '.join(files)}]")
-    # Robin3D's own ScanRefer val set under another name, so train.py skips its scorer (which
-    # reads files from the authors' machine); extra_eval/score.py scores it and compares it
-    # with the authors' released predictions to check the inference setup.
-    lines.append("val_file_dict['check_scanrefer'] = val_file_dict['scanrefer']")
+    # Robin3D's own val sets under other names, so train.py skips their scorers (which read
+    # files from the authors' machine); extra_eval/score.py scores them with the same
+    # functions and compares them with the authors' released predictions.
+    for name in ["scanrefer", "multi3dref", "scan2cap"]:
+        lines.append(f"val_file_dict['check_{name}'] = val_file_dict[{name!r}]")
     open(config_out, "w").write(src + "\n".join(lines) + "\n")
     print(f"config -> {config_out}")
 

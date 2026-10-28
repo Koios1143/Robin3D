@@ -466,6 +466,11 @@ debug = False
 log_freq = 100
 # eval_freq = 500
 seed = 42
+# Evaluation only. eval_prompt_cache: encode each prompt once and let its beams share that KV
+# (Chat3D.generate_with_prompt_cache) instead of generate() copying it per beam;
+# eval_gen_batch: questions per batched beam search (both need flash_attention_2)
+eval_prompt_cache = False
+eval_gen_batch = 1
 
 save_latest = True # False
 do_save = True

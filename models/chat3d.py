@@ -7,7 +7,7 @@ from torch.cuda.amp import autocast as autocast
 import torch.nn as nn
 import torch.nn.functional as F
 
-from .modeling_llama import LlamaForCausalLM
+from .modeling_llama import LlamaFlashAttention2, LlamaForCausalLM
 from transformers import LlamaTokenizer, LlamaConfig
 # from models.position_embedding import PositionEmbeddingCoordsSine
 from peft import LoraConfig, get_peft_model
@@ -247,6 +247,14 @@ class Chat3D(nn.Module):
                 objid_norm=objid_embeds.norm(dim=-1).mean().detach().cpu(),
             )
         else:
+            if self.config.get("eval_prompt_cache", False):
+                # up to eval_gen_batch questions per batched beam search
+                group = max(1, int(self.config.get("eval_gen_batch", 1)))
+                output_texts = []
+                for start in range(0, batch_size, group):
+                    output_texts += self.generate_with_prompt_cache(input_embed[start:start + group],
+                                                                    all_token_mask[start:start + group])
+                return output_texts
             output_texts = []
             for i in range(batch_size):
                 with self.maybe_autocast():
@@ -265,6 +273,57 @@ class Chat3D(nn.Module):
                 output_text = output_text.replace('  ', ' ').replace(' .', '.').strip()
                 output_texts.append(output_text)
             return output_texts
+
+    def generate_with_prompt_cache(self, input_embed, all_token_mask):
+        """Same beam search as the per-question loop in `forward`, for several questions at
+        once. generate() would copy each prompt to its 5 beams, encode every copy and reorder
+        the copies' KV at each step; here each prompt except its last token is encoded once
+        (right padding, masked) and all of its beams read that KV in place
+        (LlamaFlashAttention2.shared_prefix_kv). generate() starts at the last prompt token
+        and caches only what follows it."""
+        num_beams = 5
+        lens = all_token_mask.sum(1).long()
+        n = len(lens)
+        rows = torch.arange(n, device=lens.device)
+        max_len = int(lens.max())
+        prefix_mask = all_token_mask[:, :max_len].clone()
+        prefix_mask[rows, lens - 1] = 0
+        llama = self.llama_model.get_base_model() if self.config.model.use_lora else self.llama_model
+        with self.maybe_autocast():
+            past = llama.model(inputs_embeds=input_embed[:, :max_len], attention_mask=prefix_mask,
+                               use_cache=True, return_dict=True).past_key_values
+        attn_layers = [m for m in llama.modules() if isinstance(m, LlamaFlashAttention2)]
+        assert len(attn_layers) == len(past), "eval_prompt_cache needs flash_attention_2"
+        beam_rows = rows.repeat_interleave(num_beams).to(torch.int32)  # beams of a question stay together
+        prefix_lens = (lens - 1)[beam_rows.long()].to(torch.int32)
+        for m in attn_layers:
+            k, v = past[m.layer_idx]
+            m.shared_prefix_kv = (k.transpose(1, 2), v.transpose(1, 2), prefix_lens, beam_rows)
+        llama.shared_prefix_len = prefix_lens.long().unsqueeze(1)
+        del past
+        try:
+            with self.maybe_autocast():
+                outputs = self.llama_model.generate(
+                    inputs_embeds=input_embed[rows, lens - 1].unsqueeze(1),
+                    attention_mask=torch.ones((n, 1), dtype=torch.long, device=input_embed.device),
+                    max_new_tokens=self.max_txt_len,
+                    num_beams=num_beams,
+                    min_length=1,
+                    repetition_penalty=3.0,
+                    length_penalty=1,
+                    temperature=1.0,
+                )
+        finally:
+            for m in attn_layers:
+                m.shared_prefix_kv = None
+            llama.shared_prefix_len = 0
+        output_texts = []
+        for output_token in outputs:
+            output_text = self.llama_tokenizer.decode(output_token)
+            output_text = output_text.split(self.end_sym)[0]
+            output_text = output_text.replace('  ', ' ').replace(' .', '.').strip()
+            output_texts.append(output_text)
+        return output_texts
 
     def _get_text_len(self, text):
         return self.llama_tokenizer(text, return_tensors="pt").input_ids.shape[1]

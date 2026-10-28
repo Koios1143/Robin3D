@@ -5,15 +5,15 @@ Scores:
 case: 55.00
 object: 14.29
 
-class: 36.94
-appearance: 56.38
-geometry: 57.44
-spatial: 50.66
-existence: 65.00
+class: 37.16
+appearance: 56.23
+geometry: 57.28
+spatial: 50.74
+existence: 65.10
 functionality: 66.67
 
 Chain analysis:
-[w/o extra] four types: 30.28, 16.30, 25.16, 28.26
-[overall] four types: 26.75, 19.22, 28.05, 25.97
-R1 (higher better): 36.59
-R2 (lower better): 51.18
+[w/o extra] four types: 30.43, 16.15, 25.16, 28.26
+[overall] four types: 26.93, 19.05, 27.97, 26.06
+R1 (higher better): 36.36
+R2 (lower better): 50.95

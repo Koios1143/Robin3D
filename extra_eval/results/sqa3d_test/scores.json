@@ -1,0 +1,6 @@
+{
+ "pred_dir": "outputs/extra_eval_upstream_20261027_230803",
+ "EM1": 56.86274509803921,
+ "EM1_refined": 59.732878658709865,
+ "same_as_released": 98.83489627735152
+}

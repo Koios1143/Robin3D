@@ -1,8 +1,8 @@
 #!/bin/bash
-# Robin3D inference on ScanQA (val), Real-3DQA (debiased_test + 4 rotations) and Beacon3D
-# ScanNet (grounding + QA) with the released checkpoint, evaluate-only (torchrun over all
-# visible GPUs). ScanRefer (val) and SQA3D (test) also run, as checks against the authors'
-# released predictions. Then score with extra_eval/score.sh (CPU only).
+# Robin3D inference with the released checkpoint, evaluate-only (torchrun over all visible
+# GPUs): ScanRefer, Multi3DRefer, Scan2Cap, ScanQA (val), SQA3D (test), Real-3DQA
+# (debiased_test + 4 rotations) and Beacon3D ScanNet (grounding + QA). Then score with
+# extra_eval/score.sh (CPU only).
 #   bash extra_eval/run_extra_eval.sh
 #   VAL_TAG="scanqa#beacon3d_scannet_qa" bash extra_eval/run_extra_eval.sh   # a subset
 # Paths come from env.sh (see env.sh.example); relative ones are under the repo root:
@@ -15,7 +15,11 @@
 #                  are registered too (VAL_TAG="beacon3d_3rscan_grounding#..." to run them)
 #   OUT            output dir                                         (default outputs/extra_eval_<timestamp>)
 #   NGPU           GPUs for torchrun                                  (default: all visible)
-#   BATCH_SIZE     per-GPU batch size                                 (default 8)
+#   BATCH_SIZE     per-GPU batch size                     (default 8; 32 with PREFIX_CACHE=1)
+#   PREFIX_CACHE   1: each prompt encoded once, its KV read in place by its 5 beams, questions
+#                  batched (config eval_prompt_cache)                  (default 0)
+#   GEN_BATCH      with PREFIX_CACHE=1: questions per batched beam search
+#                  (config eval_gen_batch)                             (default 32)
 set -uo pipefail
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
 [ -f env.sh ] && source env.sh
@@ -29,7 +33,10 @@ DATA="${ROBIN3D_DATA:?set ROBIN3D_DATA}"
 CKPT="${CKPT:-$DATA/ckpt_for_robin3d_final_performance/ckpt_01.pth}"
 [ -f "$CKPT" ] || { echo "no checkpoint at $CKPT"; exit 1; }   # train.py would silently use random weights
 REAL3DQA="real3dqa_debiased_test#real3dqa_rotation_0#real3dqa_rotation_90#real3dqa_rotation_180#real3dqa_rotation_270"
-VAL_TAG="${VAL_TAG:-check_scanrefer#scanqa#sqa3d_test#$REAL3DQA#beacon3d_scannet_grounding#beacon3d_scannet_qa}"
+VAL_TAG="${VAL_TAG:-check_scanrefer#check_multi3dref#check_scan2cap#scanqa#sqa3d_test#$REAL3DQA#beacon3d_scannet_grounding#beacon3d_scannet_qa}"
+CACHE_ARGS=()
+[ "${PREFIX_CACHE:-0}" = 1 ] && CACHE_ARGS=(eval_prompt_cache True eval_gen_batch "${GEN_BATCH:-32}")
+BATCH_SIZE="${BATCH_SIZE:-$([ "${PREFIX_CACHE:-0}" = 1 ] && echo 32 || echo 8)}"
 REBUILT_ARGS=()
 if [ -n "${FEATS_WORK:-}" ]; then  # Beacon3D on features rebuilt by extra_eval/feats
   REBUILT_ARGS=(--rebuilt_dir "$FEATS_WORK/robin3d_inputs" --packages_dir "$FEATS_WORK/packages")
@@ -38,17 +45,17 @@ OUT="${OUT:-outputs/extra_eval_$(date +%Y%m%d_%H%M%S)}"
 mkdir -p "$OUT"
 $ENV/bin/python extra_eval/build_annos.py --robin3d_data "$DATA" --llama "$LLAMA" \
     --real3dqa_dir "${REAL3DQA_DIR:?set REAL3DQA_DIR}" "${REBUILT_ARGS[@]}" || exit 1
-echo "output_dir=$OUT val_tag=$VAL_TAG ckpt=$CKPT ngpu=$NGPU"
+echo "output_dir=$OUT val_tag=$VAL_TAG ckpt=$CKPT ngpu=$NGPU batch_size=$BATCH_SIZE prefix_cache=${PREFIX_CACHE:-0} ${CACHE_ARGS[*]}"
 # Model options = scripts/eval.sh (the released checkpoint's stage-2 run).
 $ENV/bin/torchrun --nproc_per_node="$NGPU" --master_port=$MASTER_PORT tasks/train.py scripts/extra_eval_config.py \
     output_dir "$OUT" evaluate True pretrained_path "$CKPT" val_tag "$VAL_TAG" train_tag "" \
-    wandb.enable False gpu_num "$NGPU" do_save False batch_size "${BATCH_SIZE:-8}" num_workers 4 \
+    wandb.enable False gpu_num "$NGPU" do_save False batch_size "$BATCH_SIZE" num_workers 4 \
     scheduler.epochs 3 optimizer.lr 1e-5 seed 42 resume False do_eval_during_train False \
     model.input_dim 1024 model.img_input_dim 1536 model.input_mask3d_dim 128 model.max_obj_num 150 \
     lora.lora_r 16 lora.lora_alpha 16 optimizer.max_grad_norm 0.01 model.max_txt_len 64 \
     model.add_scene_token False model.add_pos_emb False model.add_box_emb False \
     model.add_sid_eid False model.add_objlabel False model.add_layer_norm False \
-    model.add_mask_token False model.add_mask3d_token True
+    model.add_mask_token False model.add_mask3d_token True "${CACHE_ARGS[@]}"
 echo "ROBIN3D_EXIT=$?"
 ls "$OUT"
 echo ROBIN3D_DONE

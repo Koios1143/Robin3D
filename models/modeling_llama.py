@@ -52,7 +52,7 @@ from .configuration_llama import LlamaConfig
 # from transformers.models.llama import LlamaConfig
 
 if is_flash_attn_2_available():
-    from flash_attn import flash_attn_func, flash_attn_varlen_func
+    from flash_attn import flash_attn_func, flash_attn_varlen_func, flash_attn_with_kvcache
     from flash_attn.bert_padding import index_first_axis, pad_input, unpad_input  # noqa
 
 
@@ -416,6 +416,10 @@ class LlamaFlashAttention2(LlamaAttention):
         # flash_attn<2.1 generates top-left aligned causal mask, while what is needed here is bottom-right alignement, that was made default for flash_attn>=2.1. This attribute is used to handle this difference. Reference: https://github.com/Dao-AILab/flash-attention/releases/tag/v2.1.0.
         # Beware that with flash_attn<2.1, using q_seqlen != k_seqlen (except for the case q_seqlen == 1) produces a wrong mask (top-left).
         self._flash_attn_uses_top_left_mask = not is_flash_attn_greater_or_equal_2_10()
+        # KV of each row's prompt, kept outside the KV cache and read by all of its beams; set by
+        # Chat3D.generate_with_prompt_cache: (k, v) of shape (prompts, len, heads, head_dim), the
+        # prompt length of each row and the prompt each row reads (both (rows,), int32)
+        self.shared_prefix_kv = None
 
     def forward(
         self,
@@ -487,9 +491,12 @@ class LlamaFlashAttention2(LlamaAttention):
             key_states = key_states.to(target_dtype)
             value_states = value_states.to(target_dtype)
 
-        attn_output = self._flash_attention_forward(
-            query_states, key_states, value_states, attention_mask, q_len, dropout=dropout_rate
-        )
+        if self.shared_prefix_kv is not None:
+            attn_output = self._shared_prefix_attention(query_states, key_states, value_states, attention_mask)
+        else:
+            attn_output = self._flash_attention_forward(
+                query_states, key_states, value_states, attention_mask, q_len, dropout=dropout_rate
+            )
 
         attn_output = attn_output.reshape(bsz, q_len, self.hidden_size).contiguous()
         attn_output = self.o_proj(attn_output)
@@ -498,6 +505,34 @@ class LlamaFlashAttention2(LlamaAttention):
             attn_weights = None
 
         return attn_output, attn_weights, past_key_value
+
+    def _shared_prefix_attention(self, query_states, key_states, value_states, attention_mask):
+        """Attention over [row's prompt][own keys] without a per-row copy of the prompt: the
+        prompt part (row r reads prompt cache_batch_idx[r], its first cache_seqlens[r] keys, no
+        mask) and the causal part over the row's own keys (left padding from `attention_mask`,
+        which covers the own keys only) are merged by their log-sum-exp."""
+        bsz = query_states.shape[0]
+        prefix_k, prefix_v, prefix_lens, prefix_rows = self.shared_prefix_kv
+        own_len = key_states.shape[1]
+        device = query_states.device
+        out_p, lse_p = flash_attn_with_kvcache(
+            query_states, prefix_k, prefix_v, cache_seqlens=prefix_lens, cache_batch_idx=prefix_rows,
+            causal=False, return_softmax_lse=True,
+        )
+        leftpad = None
+        if attention_mask is not None:
+            leftpad = (attention_mask[:, -own_len:] == 0).sum(-1).to(torch.int32)
+        out_s, lse_s = flash_attn_with_kvcache(
+            query_states, key_states.contiguous(), value_states.contiguous(),
+            cache_seqlens=torch.full((bsz,), own_len, dtype=torch.int32, device=device),
+            cache_leftpad=leftpad, causal=True, return_softmax_lse=True,
+        )
+        # a padding query sees none of its own keys: flash-attn reports +inf there
+        lse_s = lse_s.masked_fill(lse_s == float("inf"), float("-inf"))
+        lse = torch.logaddexp(lse_p, lse_s)
+        w_p = torch.exp(lse_p - lse).transpose(1, 2).unsqueeze(-1)
+        w_s = torch.exp(lse_s - lse).transpose(1, 2).unsqueeze(-1)
+        return (out_p.float() * w_p + out_s.float() * w_s).to(query_states.dtype)
 
     def _flash_attention_forward(
         self, query_states, key_states, value_states, attention_mask, query_length, dropout=0.0, softmax_scale=None
@@ -585,7 +620,8 @@ class LlamaFlashAttention2(LlamaAttention):
         else:
             # The -q_len: slice assumes left padding.
             attention_mask = attention_mask[:, -query_length:]
-            query_layer, indices_q, cu_seqlens_q, max_seqlen_in_batch_q = unpad_input(query_layer, attention_mask)
+            # flash-attn >= 2.7 also returns seqused; keep the first four
+            query_layer, indices_q, cu_seqlens_q, max_seqlen_in_batch_q = unpad_input(query_layer, attention_mask)[:4]
 
         return (
             query_layer,
@@ -1128,6 +1164,9 @@ class LlamaForCausalLM(LlamaPreTrainedModel):
         self.model = LlamaModel(config)
         self.vocab_size = config.vocab_size
         self.lm_head = nn.Linear(config.hidden_size, config.vocab_size, bias=False)
+        # prompt length of each row when the prompt is kept outside the KV cache (see
+        # LlamaFlashAttention2.shared_prefix_kv): (rows, 1), positions continue after it
+        self.shared_prefix_len = 0
         # 修改
         self.OBJ_lm_head = nn.Sequential(    
                 nn.Linear(config.hidden_size, config.hidden_size),
@@ -1312,6 +1351,7 @@ class LlamaForCausalLM(LlamaPreTrainedModel):
             position_ids.masked_fill_(attention_mask == 0, 1)
             if past_key_values:
                 position_ids = position_ids[:, -input_ids.shape[1] :]
+            position_ids = position_ids + self.shared_prefix_len
 
         # if `inputs_embeds` are passed, we only want to use them in the 1st generation step
         if inputs_embeds is not None and past_key_values is None:

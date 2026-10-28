@@ -1,22 +1,6 @@
 {
- "checks": {
-  "pred_dir": "outputs/extra_eval_20261021_085721",
-  "scanrefer": {
-   "Acc@0.25": 60.7593605384939,
-   "Acc@0.50": 55.00631047538915,
-   "same_as_released": 99.49516196886832
-  },
-  "sqa3d_test": {
-   "EM1": 56.86274509803921,
-   "EM1_refined": 59.732878658709865,
-   "same_as_released": 98.83489627735152
-  },
-  "scanqa": {
-   "same_as_released": 96.38502673796792
-  }
- },
  "scanqa": {
-  "pred_dir": "outputs/extra_eval_20261021_085721",
+  "pred_dir": "outputs/extra_eval_upstream_20261027_230803",
   "[scanqa] Bleu_1": 42.863771343722824,
   "[scanqa] Bleu_2": 27.900665183227524,
   "[scanqa] Bleu_3": 19.314079126178747,
@@ -25,10 +9,11 @@
   "[scanqa] ROUGE_L": 44.10037627961714,
   "[scanqa] CIDEr": 94.76395925195324,
   "[scanqa] EM1": 23.058823529411764,
-  "[scanqa] EM1_refined": 41.518716577540104
+  "[scanqa] EM1_refined": 41.518716577540104,
+  "same_as_released": 96.38502673796792
  },
  "real3dqa": {
-  "pred_dir": "outputs/extra_eval_20261021_085721",
+  "pred_dir": "outputs/extra_eval_upstream_20261027_230803",
   "empty_preds": {
    "debiased_test": 0,
    "rotation_0": 0,
@@ -71,7 +56,7 @@
   }
  },
  "beacon3d_scannet": {
-  "pred_dir": "outputs/extra_eval_20261021_085721",
+  "pred_dir": "outputs/extra_eval_upstream_20261027_230803",
   "qa_judge": "gpt-4o-mini-2024-07-18",
   "grounding_no_obj_token": 2,
   "grounding": {
@@ -112,14 +97,14 @@
    "GPT-Score": 55.0,
    "case": 55.0,
    "object": 14.29,
-   "class": 36.94,
-   "appearance": 56.38,
-   "geometry": 57.44,
-   "spatial": 50.66,
-   "existence": 65.0,
+   "class": 37.16,
+   "appearance": 56.23,
+   "geometry": 57.28,
+   "spatial": 50.74,
+   "existence": 65.1,
    "functionality": 66.67,
-   "R1 (higher better)": 36.59,
-   "R2 (lower better)": 51.18
+   "R1 (higher better)": 36.36,
+   "R2 (lower better)": 50.95
   }
  },
  "beacon3d_scannet_rebuilt": {
@@ -323,5 +308,45 @@
    "R1 (higher better)": 18.75,
    "R2 (lower better)": 70.86
   }
+ },
+ "scanrefer": {
+  "pred_dir": "outputs/extra_eval_upstream_20261027_230803",
+  "Acc@0.25": 60.7593605384939,
+  "Acc@0.50": 55.00631047538914,
+  "Unique Acc@0.25": 88.74360432063672,
+  "Unique Acc@0.50": 82.4332006822058,
+  "Multiple Acc@0.25": 54.4070202606788,
+  "Multiple Acc@0.50": 48.78048780487805,
+  "same_as_released": 99.49516196886832
+ },
+ "multi3dref": {
+  "pred_dir": "outputs/extra_eval_upstream_20261027_230803",
+  "all F1@0.25": 64.90142499050387,
+  "all F1@0.50": 59.74640229855751,
+  "st_w_d F1@0.25": 56.713456824060806,
+  "st_w_d F1@0.50": 51.62245522270086,
+  "zt_w_d F1@0.25": 67.46031746031747,
+  "zt_w_d F1@0.50": 67.46031746031747,
+  "zt_wo_d F1@0.25": 93.75,
+  "zt_wo_d F1@0.50": 93.75,
+  "mt F1@0.25": 60.51256591624414,
+  "mt F1@0.50": 54.825370019367035,
+  "st_wo_d F1@0.25": 83.84945212005717,
+  "st_wo_d F1@0.50": 77.00492297919645,
+  "same_as_released": 98.09352517985612
+ },
+ "scan2cap": {
+  "pred_dir": "outputs/extra_eval_upstream_20261027_230803",
+  "Bleu_4@0.25": 40.31523346537482,
+  "CIDEr@0.25": 91.8861681082426,
+  "Bleu_4@0.50": 38.32689876365848,
+  "CIDEr@0.50": 86.60339757438948,
+  "same_as_released": 88.0811078140455
+ },
+ "sqa3d_test": {
+  "pred_dir": "outputs/extra_eval_upstream_20261027_230803",
+  "EM1": 56.86274509803921,
+  "EM1_refined": 59.732878658709865,
+  "same_as_released": 98.83489627735152
  }
 }
