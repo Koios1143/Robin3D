@@ -6,6 +6,7 @@ log/
 outputs/
 annotations/
 scripts/extra_eval_config.py
+scripts/xr_config.py
 __pycache__/
 # local copies (hard links / symlinks) of every external dependency, see extra_eval/README.md
 deps/

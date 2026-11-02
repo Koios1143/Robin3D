@@ -40,11 +40,12 @@ class ValDataset(BaseDataset):
             if sample_ratio < 1:
                 self.anno = random.sample(self.anno, int(sample_ratio * len(self.anno)))
 
-        if feat_file in ValDataset.cached_feats and img_feat_file in ValDataset.cached_feats:
-            self.scene_feats = ValDataset.cached_feats[feat_file]
-            self.scene_img_feats = ValDataset.cached_feats[img_feat_file]
-            self.scene_mask3d_feats = ValDataset.cached_feats[mask3d_feat_file]
-            self.scene_mask3d_feat_poses = ValDataset.cached_feats[mask3d_feat_pos_file]
+        # keyed by every feature file + the attributes (upstream: uni3d + 2D file only, so two
+        # sets differing only in positions / 2D / attributes would share the first one's features)
+        cache_key = (mask3d_feat_pos_file, mask3d_feat_file, feat_file, img_feat_file, attribute_file)
+        if cache_key in ValDataset.cached_feats:
+            (self.scene_mask3d_feat_poses, self.scene_mask3d_feats,
+             self.scene_feats, self.scene_img_feats) = ValDataset.cached_feats[cache_key]
         else:
             if mask3d_feat_pos_file is not None and os.path.exists(mask3d_feat_pos_file):
                 self.mask3d_feat_pos = torch.load(mask3d_feat_pos_file, map_location='cpu')
@@ -67,10 +68,8 @@ class ValDataset(BaseDataset):
                 self.scene_img_feats = self.scene_masks = None
             else:
                 self.scene_mask3d_feat_poses, self.scene_mask3d_feats, self.scene_feats, self.scene_img_feats = self.prepare_scene_features()
-            ValDataset.cached_feats[feat_file] = self.scene_feats
-            ValDataset.cached_feats[img_feat_file] = self.scene_img_feats
-            ValDataset.cached_feats[mask3d_feat_file] = self.scene_mask3d_feats
-            ValDataset.cached_feats[mask3d_feat_pos_file] = self.scene_mask3d_feat_poses
+            ValDataset.cached_feats[cache_key] = (self.scene_mask3d_feat_poses, self.scene_mask3d_feats,
+                                                  self.scene_feats, self.scene_img_feats)
 
     def __len__(self):
         return len(self.anno)

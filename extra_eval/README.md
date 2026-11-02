@@ -214,3 +214,62 @@ Robin3D on Beacon3D ScanNet with these rebuilt features stays close to the relea
 
 `<OBJxxx>` was missing in 1 / 4 grounding answers (counted wrong). 2D coverage is lower on
 3RScan (100-144 of 150 proposals seen in a frame; short Tango sequences) than on ScanNet / MultiScan (~145).
+
+## XR-QA / XR-SceneCaption (LSceneLLM, `extra_eval/xr/`)
+
+LSceneLLM's (arXiv 2412.01292) large-scene benchmarks: XR-QA (val 2994 questions, 2981 unique
+keys) and XR-SceneCaption (val 283), on scenes made of several SceneVerse HM3D regions.
+Zero-shot = the released checkpoint; finetune = that checkpoint trained on the XR train splits
+only. Objects are **Mask3D proposals** (no ground truth; the GT object count is used only for
+the <=100 / >100 split of the scores).
+
+**Inputs.** Robin3D's three per-object features are rebuilt for every region as for 3RScan /
+MultiScan (*Beacon3D 3RScan / MultiScan* above): Mask3D `scannet200_val.ckpt` query feature +
+positional embedding (`mask3d_xr.py infer`), Uni3D-g (`uni3d_xr.py`), and DINOv2-giant
+multi-view features from views rendered from the HM3D v0.2 glb (`videofeats_xr.py`; SceneVerse
+HM3D has no images; region -> glb offsets in `data/region_offsets.json`). An XR scene pools its
+regions' proposals by score and keeps the 150 best (Robin3D's 150 object identifiers);
+`mask3d_xr.py scenes` recomputes each query's positional embedding in the scene frame (the
+range of all its regions), what Mask3D would give if the scene were one scan (`_rpos` sets keep
+the per-region ones: 64.79 vs 64.64 QA CIDEr, no difference). Every scene got 150 proposals.
+
+**Prompts.** XR-QA `short` = question + Robin3D's ScanQA suffix " Answer the question using a
+word or a phrase." (`raw` = bare question); XR-SceneCaption = the XR question without its
+`### human:` / `### assistant:` wrapper. Train items: one per reference answer (17,881 QA +
+1,559 caption = 19,440).
+
+**Finetune.** Robin3D's stage-2 recipe (`scripts/run_stage2.sh`: LoRA r16, lr 1e-5, cosine,
+warmup 0.1, max_grad_norm 0.01, batch 8 per GPU, seed 42) for 3 epochs, 1215 steps per epoch on
+2 GPUs; val after every epoch. Resumable after a Slurm requeue (it was preempted twice and
+continued from `ckpt_<k>.pth`).
+
+**Scoring** (`score.py`): LSceneLLM's capeval (CIDEr / BLEU-4 / METEOR / ROUGE-L x100) on
+`raw` text, and on Robin3D's own ScanQA normalisation (`robin3d`: cut at the first `<OBJxxx>`,
+strip the trailing '.', lower-case the first letter, PTB tokenizer; no `clean_answer`).
+
+| Setting | Task | norm | CIDEr | BLEU-4 | METEOR | ROUGE-L | <=100 obj C | >100 obj C | words |
+|---|---|---|---|---|---|---|---|---|---|
+| zero-shot | XR-QA short | robin3d | **64.64** | 0.00 | 8.73 | 26.53 | 65.92 | 62.32 | 2.4 |
+| zero-shot | XR-QA raw | robin3d | 61.34 | 1.29 | 8.60 | 25.24 | 62.23 | 59.83 | 3.0 |
+| zero-shot | XR-SceneCaption | robin3d | **0.03** | 0.01 | 2.02 | 8.85 | 0.01 | 0.05 | 14.0 |
+| finetune ep 3 | XR-QA short | robin3d | **159.26** | 20.02 | 19.55 | 47.85 | 160.31 | 156.97 | 4.0 |
+| finetune ep 3 | XR-QA short | raw | 128.33 | 17.57 | 20.52 | 40.05 | 128.33 | 127.80 | 4.0 |
+| finetune ep 3 | XR-SceneCaption | robin3d | **4.33** | 4.13 | 12.49 | 19.21 | 3.99 | 4.68 | 80.6 |
+| finetune ep 3 | XR-SceneCaption | raw | 3.53 | 3.63 | 13.68 | 17.84 | 3.41 | 3.72 | 80.6 |
+
+Per epoch (robin3d norm, QA / caption CIDEr): 156.62 / 5.67, 159.51 / 4.54, 159.26 / 4.33.
+Zero-shot raw-text QA CIDEr is only 17.35 (answers like "white" vs references like "The
+cabinet is white."); after finetuning the answers take the references' phrasing. One val
+caption scene (of 283 items: 1) also appears in XR-SceneCaption train; that is LSceneLLM's split.
+
+```bash
+bash extra_eval/xr/run_xr_feats.sh       # GPU: Mask3D + Uni3D + DINOv2 for all XR regions (56 min on 2 GPUs)
+bash extra_eval/xr/run_xr_eval.sh        # zero-shot + score (40 min)
+bash extra_eval/xr/run_xr_finetune.sh    # 3 epochs + val each epoch + score (~1 h per epoch)
+```
+
+Results: `results/xr/{zeroshot,finetune}/` (predictions, `*_scores.json`, `scores.json`,
+`config.json`; no checkpoints). Upstream changes for XR: `dataset/dataset_val.py` keys its
+feature cache by all feature files (upstream: Uni3D + 2D file only, so the `_rpos` / `_no2d`
+sets silently reused the first set's features); `tasks/train.py` leaves `xrqa_*` / `xrcap_*`
+to `score.py`.

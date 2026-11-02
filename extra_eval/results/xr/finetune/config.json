@@ -1,0 +1,579 @@
+{
+  "scene_val_attr_file": "/data/kangweitai/3D/chat3d-anno/scannet/scannet_val_attributes.pt",
+  "scene_train_attr_file": "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt",
+  "file_dir": "mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt",
+  "anno_root": "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt/",
+  "pred_root": "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G/",
+  "pc_encoder": "uni3d",
+  "segmentor": "mask3d",
+  "version": "",
+  "seg_train_attr_file": "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+  "seg_mask3d_feat_pos_file": "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+  "seg_mask3d_feat_file": "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+  "seg_feat_file": "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+  "seg_img_feat_file": "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+  "seg_val_attr_file": "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_val_attributes.pt",
+  "train_tag": "xrqa_train_short#xrcap_train",
+  "val_tag": "xrqa_val_short#xrcap_val",
+  "train_file_dict": {
+    "scanrefer": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//scanrefer_mask3d_train.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "scan2cap": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//scan2cap_mask3d_train.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "nr3d_caption": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//nr3d_caption_mask3d_train.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "obj_align": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//obj_align_mask3d_train.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "multi3dref": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//multi3dref_mask3d_train.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "scanqa": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//scanqa_train.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "sqa3d": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//sqa3d_train.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "scannet_caption": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//scannet_caption_mask3d_train.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "scannet_region_caption": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//scannet_region_caption_mask3d_train.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "partialref": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//partialref_mask3d_train.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "groundedqa": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//groundedqa_mask3d_train.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "pointedcap": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//pointedcap_mask3d_train.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "partial_objalign": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//partial_obj_align_mask3d_train.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "partial_od": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//partial_od_mask3d_train.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "nr3d": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//nr3d_mask3d_train.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "sr3d+": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//sr3d+_mask3d_train.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "partialrefv2": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//partialref_train_rephrase_merged.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "pointedcapv2": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//pointedcap_mask3d_train_rephrase.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "groundedqav2": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//groundedqa_mask3d_train_rephrase.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "scanreferv2": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//scanrefer_mask3d_train_rephrase.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "multi3drefv2": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//multi3dref_mask3d_train_rephrase.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "nr3dv2": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//nr3d_mask3d_train_rephrase.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "sr3d+v2": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//sr3d+_mask3d_train_rephrase.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "nr3d_captionv2": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//nr3d_caption_mask3d_train_rephrase.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "scanqav2": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//scanqa_train_rephrase.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "sqa3dv2": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//sqa3d_train_rephrase.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "pointedcapv3": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//pointedcap_mask3d_train2.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "partialref_scale": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//partialref_mask3d_train_scale.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "partial_objalign_scale": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//partial_obj_align_mask3d_train_scale.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "partial_od_scale": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_train_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//partial_od_mask3d_train_scale.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_train_attributes.pt"
+    ],
+    "xrqa_train_raw": [
+      "annotations/xr/xrqa_train_mask3d_feat_pos.pt",
+      "annotations/xr/xrqa_train_mask3d_feats.pt",
+      "annotations/xr/xrqa_train_uni3d_feats.pt",
+      "annotations/xr/xrqa_train_videofeats.pt",
+      "annotations/xr/xrqa_train_attributes.pt",
+      "annotations/xr/xrqa_train_raw.json",
+      "annotations/xr/xrqa_train_attributes.pt"
+    ],
+    "xrqa_train_short": [
+      "annotations/xr/xrqa_train_mask3d_feat_pos.pt",
+      "annotations/xr/xrqa_train_mask3d_feats.pt",
+      "annotations/xr/xrqa_train_uni3d_feats.pt",
+      "annotations/xr/xrqa_train_videofeats.pt",
+      "annotations/xr/xrqa_train_attributes.pt",
+      "annotations/xr/xrqa_train_short.json",
+      "annotations/xr/xrqa_train_attributes.pt"
+    ],
+    "xrcap_train": [
+      "annotations/xr/xrcap_train_mask3d_feat_pos.pt",
+      "annotations/xr/xrcap_train_mask3d_feats.pt",
+      "annotations/xr/xrcap_train_uni3d_feats.pt",
+      "annotations/xr/xrcap_train_videofeats.pt",
+      "annotations/xr/xrcap_train_attributes.pt",
+      "annotations/xr/xrcap_train.json",
+      "annotations/xr/xrcap_train_attributes.pt"
+    ]
+  },
+  "val_file_dict": {
+    "scanqa": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_val_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//scanqa_val.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_val_attributes.pt"
+    ],
+    "scanrefer": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_val_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//scanrefer_mask3d_val.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_val_attributes.pt"
+    ],
+    "scan2cap": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_val_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//scan2cap_mask3d_val.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_val_attributes.pt"
+    ],
+    "sqa3d": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_val_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//sqa3d_val.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_val_attributes.pt"
+    ],
+    "sqa3d_test": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_val_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//sqa3d_test.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_val_attributes.pt"
+    ],
+    "multi3dref": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_val_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//multi3dref_mask3d_val.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_val_attributes.pt"
+    ],
+    "nr3d": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_val_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//nr3d_mask3d_val.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_val_attributes.pt"
+    ],
+    "sr3d": [
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feat_pos.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_mask3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_uni3d_feats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_videofeats.pt",
+      "/data/kangweitai/3D/mask3d_uni3d_dinov2/mask3d150sort_uni3d_dinov2G//scannet_mask3d_val_attributes.pt",
+      "/data/kangweitai/3D/chat3d-anno/mask3d150sort-uni3d-dinov2Giant-iou50-oneprompt//sr3d_mask3d_val.json",
+      "/data/kangweitai/3D/chat3d-anno/scannet/scannet_val_attributes.pt"
+    ],
+    "xrqa_val_raw": [
+      "annotations/xr/xrqa_val_mask3d_feat_pos.pt",
+      "annotations/xr/xrqa_val_mask3d_feats.pt",
+      "annotations/xr/xrqa_val_uni3d_feats.pt",
+      "annotations/xr/xrqa_val_videofeats.pt",
+      "annotations/xr/xrqa_val_attributes.pt",
+      "annotations/xr/xrqa_val_raw.json",
+      "annotations/xr/xrqa_val_attributes.pt"
+    ],
+    "xrqa_val_raw_rpos": [
+      "annotations/xr/xrqa_val_mask3d_feat_pos_rpos.pt",
+      "annotations/xr/xrqa_val_mask3d_feats.pt",
+      "annotations/xr/xrqa_val_uni3d_feats.pt",
+      "annotations/xr/xrqa_val_videofeats.pt",
+      "annotations/xr/xrqa_val_attributes.pt",
+      "annotations/xr/xrqa_val_raw.json",
+      "annotations/xr/xrqa_val_attributes.pt"
+    ],
+    "xrqa_val_raw_no2d": [
+      "annotations/xr/xrqa_val_mask3d_feat_pos.pt",
+      "annotations/xr/xrqa_val_mask3d_feats.pt",
+      "annotations/xr/xrqa_val_uni3d_feats.pt",
+      null,
+      "annotations/xr/xrqa_val_attributes.pt",
+      "annotations/xr/xrqa_val_raw.json",
+      "annotations/xr/xrqa_val_attributes.pt"
+    ],
+    "xrqa_val_short": [
+      "annotations/xr/xrqa_val_mask3d_feat_pos.pt",
+      "annotations/xr/xrqa_val_mask3d_feats.pt",
+      "annotations/xr/xrqa_val_uni3d_feats.pt",
+      "annotations/xr/xrqa_val_videofeats.pt",
+      "annotations/xr/xrqa_val_attributes.pt",
+      "annotations/xr/xrqa_val_short.json",
+      "annotations/xr/xrqa_val_attributes.pt"
+    ],
+    "xrqa_val_short_rpos": [
+      "annotations/xr/xrqa_val_mask3d_feat_pos_rpos.pt",
+      "annotations/xr/xrqa_val_mask3d_feats.pt",
+      "annotations/xr/xrqa_val_uni3d_feats.pt",
+      "annotations/xr/xrqa_val_videofeats.pt",
+      "annotations/xr/xrqa_val_attributes.pt",
+      "annotations/xr/xrqa_val_short.json",
+      "annotations/xr/xrqa_val_attributes.pt"
+    ],
+    "xrqa_val_short_no2d": [
+      "annotations/xr/xrqa_val_mask3d_feat_pos.pt",
+      "annotations/xr/xrqa_val_mask3d_feats.pt",
+      "annotations/xr/xrqa_val_uni3d_feats.pt",
+      null,
+      "annotations/xr/xrqa_val_attributes.pt",
+      "annotations/xr/xrqa_val_short.json",
+      "annotations/xr/xrqa_val_attributes.pt"
+    ],
+    "xrcap_val": [
+      "annotations/xr/xrcap_val_mask3d_feat_pos.pt",
+      "annotations/xr/xrcap_val_mask3d_feats.pt",
+      "annotations/xr/xrcap_val_uni3d_feats.pt",
+      "annotations/xr/xrcap_val_videofeats.pt",
+      "annotations/xr/xrcap_val_attributes.pt",
+      "annotations/xr/xrcap_val.json",
+      "annotations/xr/xrcap_val_attributes.pt"
+    ],
+    "xrcap_val_rpos": [
+      "annotations/xr/xrcap_val_mask3d_feat_pos_rpos.pt",
+      "annotations/xr/xrcap_val_mask3d_feats.pt",
+      "annotations/xr/xrcap_val_uni3d_feats.pt",
+      "annotations/xr/xrcap_val_videofeats.pt",
+      "annotations/xr/xrcap_val_attributes.pt",
+      "annotations/xr/xrcap_val.json",
+      "annotations/xr/xrcap_val_attributes.pt"
+    ],
+    "xrcap_val_no2d": [
+      "annotations/xr/xrcap_val_mask3d_feat_pos.pt",
+      "annotations/xr/xrcap_val_mask3d_feats.pt",
+      "annotations/xr/xrcap_val_uni3d_feats.pt",
+      null,
+      "annotations/xr/xrcap_val_attributes.pt",
+      "annotations/xr/xrcap_val.json",
+      "annotations/xr/xrcap_val_attributes.pt"
+    ]
+  },
+  "num_workers": 4,
+  "batch_size": 8,
+  "model": {
+    "llama_model_path": "deps/vicuna-7b-v1.5",
+    "input_mask3d_dim": 128,
+    "input_dim": 1024,
+    "img_input_dim": 1536,
+    "attr_dim": 512,
+    "scene_dim": 256,
+    "pos_dim": 128,
+    "encoder_num_layers": 3,
+    "low_resource": false,
+    "system_path": "prompts/system.txt",
+    "instruction_path": "prompts/instruction.txt",
+    "max_txt_len": 256,
+    "end_sym": "</s>",
+    "role": [
+      "USER",
+      "ASSISTANT"
+    ],
+    "add_scene_token": false,
+    "add_img_token": true,
+    "use_lora": true,
+    "train_emb": true,
+    "train_img_proj": true,
+    "no_obj": false,
+    "max_obj_num": 150,
+    "bidirection": false,
+    "add_pos_emb": false,
+    "feat_fusion": false,
+    "add_box_emb": false,
+    "add_sid_eid": false,
+    "add_objlabel": false,
+    "add_layer_norm": false,
+    "add_mask_token": false,
+    "add_mask3d_token": true
+  },
+  "lora": {
+    "lora_target_modules": [
+      "q_proj",
+      "v_proj",
+      "k_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ],
+    "lora_r": 16,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05
+  },
+  "optimizer": {
+    "opt": "adamW",
+    "lr": 1e-05,
+    "opt_betas": [
+      0.9,
+      0.999
+    ],
+    "weight_decay": 0.02,
+    "scaler_enable": false,
+    "max_grad_norm": 0.01,
+    "different_lr": {
+      "enable": false,
+      "module_names": [
+        "model.embed_tokens"
+      ],
+      "lr": [
+        0.0005
+      ],
+      "wd": [
+        0.02
+      ]
+    }
+  },
+  "scheduler": {
+    "sched": "cosine",
+    "epochs": 3,
+    "min_lr_multi": 0.01,
+    "warmup_epochs": 0.1
+  },
+  "evaluate": false,
+  "wandb": {
+    "enable": false,
+    "entity": "tmp",
+    "project": "geep"
+  },
+  "dist_url": "env://",
+  "device": "cuda",
+  "output_dir": "outputs/xr_ft_42942",
+  "resume": true,
+  "debug": false,
+  "log_freq": 100,
+  "seed": 42,
+  "eval_prompt_cache": false,
+  "eval_gen_batch": 1,
+  "save_latest": true,
+  "do_save": true,
+  "auto_resume": false,
+  "pretrained_path": "outputs/xr_ft_42942/ckpt_01.pth",
+  "img_projector_path": "",
+  "gpu_num": 2,
+  "do_eval_during_train": true,
+  "rank": 0,
+  "world_size": 2,
+  "gpu": 0,
+  "distributed": true,
+  "dist_backend": "nccl"
+}
