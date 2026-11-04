@@ -99,6 +99,17 @@
     "BLEU-4": 4.287190880540522,
     "METEOR": 15.590633110654947,
     "ROUGE-L": 18.693221029242945
+   },
+   "spice": {
+    "SPICE": 14.314976969524473,
+    "n": 283,
+    "n_empty_pred": 0,
+    "SPICE_Object": 29.72143403786674,
+    "SPICE_Attribute": 6.1893689856042045,
+    "SPICE_Relation": 2.429986224087984,
+    "SPICE_Color": 5.882352941176471,
+    "SPICE_Size": 0.0,
+    "SPICE_Cardinality": 4.4117456617456625
    }
   }
  },
@@ -124,6 +135,17 @@
     "BLEU-4": 3.752474917700568,
     "METEOR": 14.830913839662502,
     "ROUGE-L": 18.28066890860773
+   },
+   "spice": {
+    "SPICE": 14.451509987147027,
+    "n": 283,
+    "n_empty_pred": 0,
+    "SPICE_Object": 30.281999951823302,
+    "SPICE_Attribute": 5.688434249780648,
+    "SPICE_Relation": 1.683807842467532,
+    "SPICE_Color": 2.9411764705882355,
+    "SPICE_Size": 0.0,
+    "SPICE_Cardinality": 4.657501889644747
    }
   }
  },
@@ -149,6 +171,17 @@
     "BLEU-4": 3.6293934630151474,
     "METEOR": 14.283605083309226,
     "ROUGE-L": 17.842722311514596
+   },
+   "spice": {
+    "SPICE": 14.324283259008574,
+    "n": 283,
+    "n_empty_pred": 0,
+    "SPICE_Object": 29.649866817144343,
+    "SPICE_Attribute": 6.1630904874518295,
+    "SPICE_Relation": 1.7677328551661677,
+    "SPICE_Color": 6.5359477124183005,
+    "SPICE_Size": 0.0,
+    "SPICE_Cardinality": 4.521919879062737
    }
   }
  },
@@ -174,6 +207,17 @@
     "BLEU-4": 0.00631238564878214,
     "METEOR": 2.4996545411845914,
     "ROUGE-L": 7.391932822679631
+   },
+   "spice": {
+    "SPICE": 2.6057895801317086,
+    "n": 283,
+    "n_empty_pred": 0,
+    "SPICE_Object": 6.214626654050119,
+    "SPICE_Attribute": 0.1819595737180439,
+    "SPICE_Relation": 0.0,
+    "SPICE_Color": 0.0,
+    "SPICE_Size": 0.0,
+    "SPICE_Cardinality": 0.0
    }
   }
  },

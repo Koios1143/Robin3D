@@ -297,6 +297,13 @@ scorer). The scores above (paper / each benchmark's own protocol) stay as they a
   episode dedup.
 - Real-3DQA and Beacon3D QA: unchanged (not re-scored).
 
+**SPICE (XR-SceneCaption)**, computed as in just3d: SPICE 1.0 (CoreNLP 3.6.0 + nashorn) on JDK 17;
+captions are split into sentences of at most 40 words (whitespace-free or initial-like run-ons over
+120 tokens are re-chunked so CoreNLP's parser does not run out of memory); score = mean per-item
+All-F x100, an empty prediction scores 0. Needs `deps/spice/` (`spice-1.0.jar` + `lib/`) and
+`deps/jdk17/` (gitignored); without them the script warns and skips SPICE. Headline: zero-shot 2.61,
+finetune 14.32 (the `"spice"` block in each XR-SceneCaption JSON; parse cache in `deps/spice_cache/`).
+
 ```bash
 bash extra_eval/aligned/run_score_aligned.sh                  # all; --only scan2cap,scanqa,sqa3d,xrcap,xrqa
 ```
