@@ -71,6 +71,13 @@ This is an official repo for paper "Robin3D: Improving 3D Large Language Model v
   We provide our checkpoint in [Google Drive](https://drive.google.com/drive/folders/14Si8bdWI3N5NEeVDLhmAlxilWPl0f_Wp?usp=sharing).
   
 
+## 📊 Extra benchmarks (this reproduction)
+
+Evaluation of the released checkpoint on ScanRefer, Multi3DRefer, Scan2Cap, ScanQA, SQA3D,
+Real-3DQA, Beacon3D and XR-QA / XR-SceneCaption, plus cross-baseline aligned scoring: see
+[extra_eval/README.md](./extra_eval/README.md).
+
+
 ## 📄 Citation
 
 If you find this project useful in your research, please consider cite:

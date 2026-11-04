@@ -1,0 +1,29 @@
+{
+ "bench": "xrqa",
+ "variant": "zeroshot_xrqa_val_short_rpos",
+ "source": "extra_eval/results/xr/zeroshot/preds_epoch-1_step0_xrqa_val_short_rpos.json",
+ "n": 2994,
+ "n_unique_episodes": 2981,
+ "n_predictions": 2994,
+ "headline": false,
+ "metrics": {
+  "clean_ptb": {
+   "CIDEr": 79.37422124193864,
+   "BLEU-1": 20.822421655317445,
+   "BLEU-4": 4.808452399718729,
+   "METEOR": 10.328515455575719,
+   "ROUGE-L": 28.941592573946423,
+   "EM": 15.297261189044756,
+   "EM-R": 22.44488977955912
+  },
+  "raw": {
+   "CIDEr": 17.467115847974217,
+   "BLEU-1": 7.9029664792462135,
+   "BLEU-4": 0.7305892511428854,
+   "METEOR": 10.190497797382616,
+   "ROUGE-L": 7.975473499548993,
+   "EM": 15.297261189044756,
+   "EM-R": 22.44488977955912
+  }
+ }
+}

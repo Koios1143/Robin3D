@@ -1,0 +1,25 @@
+{
+ "bench": "xrcap",
+ "variant": "finetune_epoch0_xrcap_val",
+ "source": "extra_eval/results/xr/finetune/preds_epoch0_step1215_xrcap_val.json",
+ "n": 283,
+ "n_unique_episodes": 283,
+ "n_predictions": 283,
+ "headline": false,
+ "metrics": {
+  "ptb": {
+   "CIDEr": 5.668831545766366,
+   "BLEU-1": 34.689753796465254,
+   "BLEU-4": 4.906109432747821,
+   "METEOR": 14.152833559535877,
+   "ROUGE-L": 20.319873488627405
+  },
+  "raw": {
+   "CIDEr": 4.733536133152949,
+   "BLEU-1": 30.91180769263659,
+   "BLEU-4": 4.287190880540522,
+   "METEOR": 15.590633110654947,
+   "ROUGE-L": 18.693221029242945
+  }
+ }
+}

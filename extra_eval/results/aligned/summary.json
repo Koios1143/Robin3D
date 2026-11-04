@@ -1,0 +1,364 @@
+{
+ "scan2cap__iou25": {
+  "bench": "scan2cap",
+  "variant": "iou25",
+  "source": "outputs/extra_eval_upstream_20261027_230803/preds_epoch-1_step0_check_scan2cap.json",
+  "n": 2068,
+  "n_predictions": 2022,
+  "n_matched": 1935,
+  "n_corpus_without_prediction": 46,
+  "metrics": {
+   "s2c": {
+    "CIDEr": 91.8861681082426,
+    "BLEU-1": 76.30024050905313,
+    "BLEU-4": 40.31523346537482,
+    "METEOR": 29.42853044626961,
+    "ROUGE-L": 61.08035803566361
+   }
+  }
+ },
+ "scan2cap__iou50": {
+  "bench": "scan2cap",
+  "variant": "iou50",
+  "source": "outputs/extra_eval_upstream_20261027_230803/preds_epoch-1_step0_check_scan2cap.json",
+  "n": 2068,
+  "n_predictions": 2022,
+  "n_matched": 1801,
+  "n_corpus_without_prediction": 46,
+  "metrics": {
+   "s2c": {
+    "CIDEr": 86.60339757438948,
+    "BLEU-1": 72.17338728656256,
+    "BLEU-4": 38.32689876365848,
+    "METEOR": 28.464525468971352,
+    "ROUGE-L": 58.67073913676175
+   }
+  }
+ },
+ "scanqa__val": {
+  "bench": "scanqa",
+  "variant": "val",
+  "source": "outputs/extra_eval_upstream_20261027_230803/preds_epoch-1_step0_scanqa.json",
+  "n": 4675,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 94.76501155752757,
+    "BLEU-1": 42.86774941994961,
+    "BLEU-4": 12.924102788301361,
+    "METEOR": 19.176583859705453,
+    "ROUGE-L": 44.10094307696311,
+    "EM": 23.058823529411764,
+    "EM-R": 41.518716577540104
+   },
+   "raw": {
+    "CIDEr": 5.118670320211019,
+    "BLEU-1": 11.74995355749473,
+    "BLEU-4": 1.7385431728052367,
+    "METEOR": 17.05038302506211,
+    "ROUGE-L": 6.859372754584523,
+    "EM": 23.058823529411764,
+    "EM-R": 41.518716577540104
+   }
+  }
+ },
+ "sqa3d__test": {
+  "bench": "sqa3d",
+  "variant": "test",
+  "source": "outputs/extra_eval_upstream_20261027_230803/preds_epoch-1_step0_sqa3d_test.json",
+  "n": 3519,
+  "metrics": {
+   "em": {
+    "EM": 56.86274509803921,
+    "EM-R": 59.73287865870986
+   }
+  },
+  "existing": {
+   "EM": 56.86274509803921,
+   "EM-R": 59.732878658709865
+  }
+ },
+ "xrcap__finetune_epoch0_xrcap_val": {
+  "bench": "xrcap",
+  "variant": "finetune_epoch0_xrcap_val",
+  "source": "extra_eval/results/xr/finetune/preds_epoch0_step1215_xrcap_val.json",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "n_predictions": 283,
+  "headline": false,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 5.668831545766366,
+    "BLEU-1": 34.689753796465254,
+    "BLEU-4": 4.906109432747821,
+    "METEOR": 14.152833559535877,
+    "ROUGE-L": 20.319873488627405
+   },
+   "raw": {
+    "CIDEr": 4.733536133152949,
+    "BLEU-1": 30.91180769263659,
+    "BLEU-4": 4.287190880540522,
+    "METEOR": 15.590633110654947,
+    "ROUGE-L": 18.693221029242945
+   }
+  }
+ },
+ "xrcap__finetune_epoch1_xrcap_val": {
+  "bench": "xrcap",
+  "variant": "finetune_epoch1_xrcap_val",
+  "source": "extra_eval/results/xr/finetune/preds_epoch1_step2430_xrcap_val.json",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "n_predictions": 283,
+  "headline": false,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 4.544057985757487,
+    "BLEU-1": 32.30933859292956,
+    "BLEU-4": 4.209294485085973,
+    "METEOR": 13.484060580993148,
+    "ROUGE-L": 19.696747193898855
+   },
+   "raw": {
+    "CIDEr": 3.73147669999154,
+    "BLEU-1": 28.631161716605654,
+    "BLEU-4": 3.752474917700568,
+    "METEOR": 14.830913839662502,
+    "ROUGE-L": 18.28066890860773
+   }
+  }
+ },
+ "xrcap__finetune_epoch2_xrcap_val": {
+  "bench": "xrcap",
+  "variant": "finetune_epoch2_xrcap_val",
+  "source": "extra_eval/results/xr/finetune/preds_epoch2_step3645_xrcap_val.json",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "n_predictions": 283,
+  "headline": true,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 4.330102083176865,
+    "BLEU-1": 31.07053420800206,
+    "BLEU-4": 4.127863131649848,
+    "METEOR": 13.099384575902132,
+    "ROUGE-L": 19.209204248880337
+   },
+   "raw": {
+    "CIDEr": 3.5348343898049075,
+    "BLEU-1": 27.607129209494673,
+    "BLEU-4": 3.6293934630151474,
+    "METEOR": 14.283605083309226,
+    "ROUGE-L": 17.842722311514596
+   }
+  }
+ },
+ "xrcap__zeroshot_xrcap_val": {
+  "bench": "xrcap",
+  "variant": "zeroshot_xrcap_val",
+  "source": "extra_eval/results/xr/zeroshot/preds_epoch-1_step0_xrcap_val.json",
+  "n": 283,
+  "n_unique_episodes": 283,
+  "n_predictions": 283,
+  "headline": true,
+  "metrics": {
+   "ptb": {
+    "CIDEr": 0.028238795966229146,
+    "BLEU-1": 0.19229640975729229,
+    "BLEU-4": 0.008731499008538906,
+    "METEOR": 2.2292690034405216,
+    "ROUGE-L": 8.853092681975562
+   },
+   "raw": {
+    "CIDEr": 0.024116219701966056,
+    "BLEU-1": 0.15265958203794644,
+    "BLEU-4": 0.00631238564878214,
+    "METEOR": 2.4996545411845914,
+    "ROUGE-L": 7.391932822679631
+   }
+  }
+ },
+ "xrqa__finetune_epoch0_xrqa_val_short": {
+  "bench": "xrqa",
+  "variant": "finetune_epoch0_xrqa_val_short",
+  "source": "extra_eval/results/xr/finetune/preds_epoch0_step1215_xrqa_val_short.json",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "n_predictions": 2994,
+  "headline": false,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 138.68955290624228,
+    "BLEU-1": 36.73868348848532,
+    "BLEU-4": 13.786933234341186,
+    "METEOR": 17.282338572402576,
+    "ROUGE-L": 41.7934946020597,
+    "EM": 24.315297261189045,
+    "EM-R": 29.458917835671343
+   },
+   "raw": {
+    "CIDEr": 126.26234292197782,
+    "BLEU-1": 41.10003363388249,
+    "BLEU-4": 17.89709800858487,
+    "METEOR": 20.947896635924362,
+    "ROUGE-L": 39.89128681800827,
+    "EM": 24.315297261189045,
+    "EM-R": 29.458917835671343
+   }
+  }
+ },
+ "xrqa__finetune_epoch1_xrqa_val_short": {
+  "bench": "xrqa",
+  "variant": "finetune_epoch1_xrqa_val_short",
+  "source": "extra_eval/results/xr/finetune/preds_epoch1_step2430_xrqa_val_short.json",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "n_predictions": 2994,
+  "headline": false,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 141.50921489519664,
+    "BLEU-1": 36.19719294336542,
+    "BLEU-4": 13.603153191490241,
+    "METEOR": 17.384263001420184,
+    "ROUGE-L": 42.221356071302615,
+    "EM": 25.551102204408817,
+    "EM-R": 30.928523714094858
+   },
+   "raw": {
+    "CIDEr": 127.98370391286393,
+    "BLEU-1": 40.30897832744374,
+    "BLEU-4": 17.422814556585102,
+    "METEOR": 20.93247902680692,
+    "ROUGE-L": 39.92163067452456,
+    "EM": 25.551102204408817,
+    "EM-R": 30.928523714094858
+   }
+  }
+ },
+ "xrqa__finetune_epoch2_xrqa_val_short": {
+  "bench": "xrqa",
+  "variant": "finetune_epoch2_xrqa_val_short",
+  "source": "extra_eval/results/xr/finetune/preds_epoch2_step3645_xrqa_val_short.json",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "n_predictions": 2994,
+  "headline": true,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 141.42772872128913,
+    "BLEU-1": 36.659821631296275,
+    "BLEU-4": 13.689146027551763,
+    "METEOR": 17.467610208681183,
+    "ROUGE-L": 42.22093698694973,
+    "EM": 25.41750167000668,
+    "EM-R": 30.79492317969272
+   },
+   "raw": {
+    "CIDEr": 128.3292236106325,
+    "BLEU-1": 40.84117827069438,
+    "BLEU-4": 17.572324461603646,
+    "METEOR": 21.001728055165348,
+    "ROUGE-L": 40.08686897168268,
+    "EM": 25.41750167000668,
+    "EM-R": 30.79492317969272
+   }
+  }
+ },
+ "xrqa__zeroshot_xrqa_val_raw": {
+  "bench": "xrqa",
+  "variant": "zeroshot_xrqa_val_raw",
+  "source": "extra_eval/results/xr/zeroshot/preds_epoch-1_step0_xrqa_val_raw.json",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "n_predictions": 2994,
+  "headline": false,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 74.79175278176798,
+    "BLEU-1": 21.91313849023179,
+    "BLEU-4": 3.5728570807941966,
+    "METEOR": 9.953297198023234,
+    "ROUGE-L": 27.32092528315444,
+    "EM": 14.094856379425517,
+    "EM-R": 19.97327989311957
+   },
+   "raw": {
+    "CIDEr": 18.184931514076403,
+    "BLEU-1": 10.163659935983139,
+    "BLEU-4": 0.8242149967168902,
+    "METEOR": 10.072208160769026,
+    "ROUGE-L": 8.588896633208606,
+    "EM": 14.094856379425517,
+    "EM-R": 19.97327989311957
+   }
+  }
+ },
+ "xrqa__zeroshot_xrqa_val_short": {
+  "bench": "xrqa",
+  "variant": "zeroshot_xrqa_val_short",
+  "source": "extra_eval/results/xr/zeroshot/preds_epoch-1_step0_xrqa_val_short.json",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "n_predictions": 2994,
+  "headline": true,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 78.6473127827147,
+    "BLEU-1": 20.889594324040097,
+    "BLEU-4": 4.397376864480993,
+    "METEOR": 10.268795298835174,
+    "ROUGE-L": 28.849907091708506,
+    "EM": 15.16366065464262,
+    "EM-R": 22.24448897795591
+   },
+   "raw": {
+    "CIDEr": 17.355386402677368,
+    "BLEU-1": 8.042441998646591,
+    "BLEU-4": 0.00012322815691053786,
+    "METEOR": 10.163157150383613,
+    "ROUGE-L": 8.029543644586767,
+    "EM": 15.16366065464262,
+    "EM-R": 22.24448897795591
+   }
+  }
+ },
+ "xrqa__zeroshot_xrqa_val_short_rpos": {
+  "bench": "xrqa",
+  "variant": "zeroshot_xrqa_val_short_rpos",
+  "source": "extra_eval/results/xr/zeroshot/preds_epoch-1_step0_xrqa_val_short_rpos.json",
+  "n": 2994,
+  "n_unique_episodes": 2981,
+  "n_predictions": 2994,
+  "headline": false,
+  "metrics": {
+   "clean_ptb": {
+    "CIDEr": 79.37422124193864,
+    "BLEU-1": 20.822421655317445,
+    "BLEU-4": 4.808452399718729,
+    "METEOR": 10.328515455575719,
+    "ROUGE-L": 28.941592573946423,
+    "EM": 15.297261189044756,
+    "EM-R": 22.44488977955912
+   },
+   "raw": {
+    "CIDEr": 17.467115847974217,
+    "BLEU-1": 7.9029664792462135,
+    "BLEU-4": 0.7305892511428854,
+    "METEOR": 10.190497797382616,
+    "ROUGE-L": 7.975473499548993,
+    "EM": 15.297261189044756,
+    "EM-R": 22.44488977955912
+   }
+  }
+ },
+ "_notes": {
+  "xr_headline": {
+   "zeroshot": {
+    "xrqa": "xrqa_val_short",
+    "xrcap": "xrcap_val"
+   },
+   "finetune": "epoch2 (last epoch, stage-2 recipe; xrqa prompt = short)"
+  },
+  "prediction_cleanup": "removed <OBJxxx>, <s>, </s>, <unk>; whitespace collapsed"
+ }
+}

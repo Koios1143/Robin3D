@@ -1,0 +1,16 @@
+{
+ "bench": "sqa3d",
+ "variant": "test",
+ "source": "outputs/extra_eval_upstream_20261027_230803/preds_epoch-1_step0_sqa3d_test.json",
+ "n": 3519,
+ "metrics": {
+  "em": {
+   "EM": 56.86274509803921,
+   "EM-R": 59.73287865870986
+  }
+ },
+ "existing": {
+  "EM": 56.86274509803921,
+  "EM-R": 59.732878658709865
+ }
+}

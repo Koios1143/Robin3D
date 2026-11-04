@@ -1,0 +1,18 @@
+{
+ "bench": "scan2cap",
+ "variant": "iou50",
+ "source": "outputs/extra_eval_upstream_20261027_230803/preds_epoch-1_step0_check_scan2cap.json",
+ "n": 2068,
+ "n_predictions": 2022,
+ "n_matched": 1801,
+ "n_corpus_without_prediction": 46,
+ "metrics": {
+  "s2c": {
+   "CIDEr": 86.60339757438948,
+   "BLEU-1": 72.17338728656256,
+   "BLEU-4": 38.32689876365848,
+   "METEOR": 28.464525468971352,
+   "ROUGE-L": 58.67073913676175
+  }
+ }
+}

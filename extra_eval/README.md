@@ -15,7 +15,10 @@ bash extra_eval/build_env_cu128.sh             # venv: py3.10, torch 2.7.1+cu128
 bash extra_eval/download.sh                    # ckpt + ScanNet Mask3D/Uni3D/DINOv2 features + val annos
 PREFIX_CACHE=1 bash extra_eval/run_extra_eval.sh   # inference, all visible GPUs (37 min on 2 RTX PRO 6000)
 PREDS_DIR=outputs/extra_eval_<ts> bash extra_eval/score.sh   # CPU; Java for pycocoevalcap
+bash extra_eval/aligned/run_score_aligned.sh   # CPU; cross-baseline re-scoring, see *Aligned scoring*
 ```
+
+Beacon3D 3RScan / MultiScan and XR-QA / XR-SceneCaption have their own steps (sections below).
 
 Without `PREFIX_CACHE=1` the run is the upstream code path (2 h 38 min); see *Faster
 evaluation*. Google Drive sometimes refuses a file for a while ("too many accesses");
@@ -266,6 +269,7 @@ caption scene (of 283 items: 1) also appears in XR-SceneCaption train; that is L
 bash extra_eval/xr/run_xr_feats.sh       # GPU: Mask3D + Uni3D + DINOv2 for all XR regions (56 min on 2 GPUs)
 bash extra_eval/xr/run_xr_eval.sh        # zero-shot + score (40 min)
 bash extra_eval/xr/run_xr_finetune.sh    # 3 epochs + val each epoch + score (~1 h per epoch)
+OUT=outputs/xr_eval_<ts> bash extra_eval/xr/score.sh   # re-score an output dir only (CPU)
 ```
 
 Results: `results/xr/{zeroshot,finetune}/` (predictions, `*_scores.json`, `scores.json`,
@@ -273,3 +277,45 @@ Results: `results/xr/{zeroshot,finetune}/` (predictions, `*_scores.json`, `score
 feature cache by all feature files (upstream: Uni3D + 2D file only, so the `_rpos` / `_no2d`
 sets silently reused the first set's features); `tasks/train.py` leaves `xrqa_*` / `xrcap_*`
 to `score.py`.
+
+## Aligned scoring (`extra_eval/aligned/`)
+
+A second scoring of the saved predictions with one text normalisation shared by all baselines
+of this project, so the numbers are comparable across baselines (`aligned_eval.py` is the shared
+scorer). The scores above (paper / each benchmark's own protocol) stay as they are; these are extra.
+
+- Prediction cleanup: only the model's special tokens are removed (`<OBJxxx>`, `<s>`, `</s>`,
+  `<unk>`); no truncation.
+- Scan2Cap: PTB tokenizer + `sos ... eos` on both sides, untruncated references
+  (`deps/aligned/scan2cap_val_corpus.json`, the `SCAN2CAP_CORPUS` file), Robin3D's own
+  proposal matching (box IoU >= 0.25 / 0.5).
+- ScanQA, XR-QA: `clean_answer` on both sides, then PTB, for CIDEr / BLEU / METEOR / ROUGE-L;
+  EM / EM-R = `clean_answer` on both sides, exact match over all references before the
+  substring (refined) match. SQA3D: EM / EM-R the same way.
+- XR-SceneCaption: PTB on both sides (no `clean_answer`, no sos/eos). XR also keeps a `raw` block
+  (LSceneLLM protocol, no PTB) and is scored per item (2994 XR-QA / 283 XR-SceneCaption), with no
+  episode dedup.
+- Real-3DQA and Beacon3D QA: unchanged (not re-scored).
+
+```bash
+bash extra_eval/aligned/run_score_aligned.sh                  # all; --only scan2cap,scanqa,sqa3d,xrcap,xrqa
+```
+
+CPU only; needs Java (`deps/jre11` unless `JAVA_HOME` is set) and `ROBIN3D_DATA` (Scan2Cap boxes).
+Scan2Cap / ScanQA / SQA3D read the prediction dir recorded in `results/summary.json`
+(`pred_dir`, i.e. a local `run_extra_eval.sh` output scored by `score.sh`); XR reads the
+committed `results/xr/` predictions. Output: `results/aligned/<bench>__<variant>.json` and
+`results/aligned/summary.json` (XR headline = `short` prompt zero-shot, last finetune epoch).
+
+| | aligned | own protocol (above) |
+|---|---|---|
+| Scan2Cap CIDEr@0.5 | 86.60 | 86.60 (authors' log 87.22) |
+| ScanQA CIDEr / EM / EM-R | 94.77 / 23.06 / 41.52 | 94.76 / 23.06 / 41.52 |
+| SQA3D test EM / EM-R | 56.86 / 59.73 | 56.86 / 59.73 |
+| XR-QA zero-shot CIDEr (clean_ptb) / EM / EM-R | 78.65 / 15.16 / 22.24 | 64.64 (robin3d norm) / – / – |
+| XR-QA finetune ep 3 CIDEr (clean_ptb) / EM / EM-R | 141.43 / 25.42 / 30.79 | 159.26 (robin3d norm) / – / – |
+| XR-SceneCaption zero-shot / finetune ep 3 CIDEr (ptb) | 0.03 / 4.33 | 0.03 / 4.33 |
+
+Robin3D's own scorers already match the aligned protocol on Scan2Cap, ScanQA and SQA3D. On
+XR-QA the robin3d norm has no `clean_answer` and dedups by episode (2981 keys), hence the gap.
+

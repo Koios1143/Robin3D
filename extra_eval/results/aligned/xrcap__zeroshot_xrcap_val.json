@@ -1,0 +1,25 @@
+{
+ "bench": "xrcap",
+ "variant": "zeroshot_xrcap_val",
+ "source": "extra_eval/results/xr/zeroshot/preds_epoch-1_step0_xrcap_val.json",
+ "n": 283,
+ "n_unique_episodes": 283,
+ "n_predictions": 283,
+ "headline": true,
+ "metrics": {
+  "ptb": {
+   "CIDEr": 0.028238795966229146,
+   "BLEU-1": 0.19229640975729229,
+   "BLEU-4": 0.008731499008538906,
+   "METEOR": 2.2292690034405216,
+   "ROUGE-L": 8.853092681975562
+  },
+  "raw": {
+   "CIDEr": 0.024116219701966056,
+   "BLEU-1": 0.15265958203794644,
+   "BLEU-4": 0.00631238564878214,
+   "METEOR": 2.4996545411845914,
+   "ROUGE-L": 7.391932822679631
+  }
+ }
+}
