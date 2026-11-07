@@ -10,4 +10,4 @@ PY="${ROBIN3D_ENV:-.venv-cu128}/bin/python"
 $PY extra_eval/score.py --pred_dir "${PREDS_DIR:?set PREDS_DIR}" --result_dir "${RESULT_DIR:-extra_eval/results}" \
     --benches "${BENCHES:-scanrefer,multi3dref,scan2cap,scanqa,sqa3d_test,real3dqa,beacon3d_scannet}" \
     --released_dir "${ROBIN3D_DATA:?set ROBIN3D_DATA}/ckpt_for_robin3d_final_performance" --qa_model "${QA_MODEL:-gpt-4o-mini-2024-07-18}" \
-    --scan2cap_corpus "${SCAN2CAP_CORPUS:?set SCAN2CAP_CORPUS}" --scanrefer_lookup "${SCANREFER_LOOKUP:?set SCANREFER_LOOKUP}"
+    --scan2cap_corpus "${SCAN2CAP_CORPUS:?set SCAN2CAP_CORPUS}" --scanrefer_lookup "${SCANREFER_LOOKUP:-deps/scanrefer_official/scanrefer_unique_multiple_lookup.json}"

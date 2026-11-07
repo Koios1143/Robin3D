@@ -55,6 +55,8 @@ the authors' `train.log` (column 2), so the scorer is the same; columns 1 and 3 
 | SQA3D test EM / EM-R | 56.86 / 59.73 | 56.89 / 59.76 | 56.46 / 59.36 | 98.8 / 98.3 % |
 | ScanQA CIDEr / B-4 | 94.76 / 12.92 | 94.80 / 12.67 | 94.51 / 12.75 | 96.4 / 96.0 % |
 
+The Unique / Multiple rows use the upstream lookup, as the authors' log does. ScanRefer Unique / Multiple in `results/scanrefer/scores.json` use ScanRefer's own split (`extra_eval/build_scanrefer_lookup.py` → `deps/scanrefer_official/`: ScanRefer's label table, as its `lib/dataset.py`; 1,845 / 7,663 val sentences): Unique 88.40 / 81.90, Multiple 54.10 / 48.53 (@0.25 / @0.5). The upstream lookup (Chat-Scene's `scanrefer_unique_multiple_lookup.json`, `SCANREFER_LOOKUP` before) was built from ScanNet's own label table, which spells the NYU40 class "refridgerator", and labels 86 val sentences (refrigerators, mini fridges) multiple: Unique 88.74 / 82.43, Multiple 54.41 / 48.78 (`scores.upstream_lookup.json`). Overall is unchanged.
+
 The remaining differences are bf16 near-ties in the beam search (other GPU, torch and
 flash-attn versions than the authors'), which compound over long outputs, hence Scan2Cap.
 Scan2Cap is scored like upstream: 2022 val (scene, object) pairs against the 2068-object

@@ -274,7 +274,10 @@ def main():
     ap.add_argument("--released_dir", default="",
                     help="authors' released preds (ckpt_for_robin3d_final_performance/), for same_as_released")
     ap.add_argument("--scan2cap_corpus", default="", help="scan2cap_val_corpus.json (keys <scene>|<object id>)")
-    ap.add_argument("--scanrefer_lookup", default="", help="scanrefer_unique_multiple_lookup.json")
+    ap.add_argument("--scanrefer_lookup", default="deps/scanrefer_official/scanrefer_unique_multiple_lookup.json",
+                    help="unique / multiple lookup; the default is ScanRefer's own split "
+                         "(extra_eval/build_scanrefer_lookup.py), not the upstream file built from "
+                         "ScanNet's \"refridgerator\" table")
     ap.add_argument("--beacon_root", default="extra_eval/beacon3d/Beacon3D")
     ap.add_argument("--qa_model", default="gpt-4o-mini-2024-07-18",
                     help="Beacon3D QA judge (upstream default gpt-4o-2024-11-20)")
@@ -313,6 +316,8 @@ def main():
             print(f"[{bench}] no predictions in {args.pred_dir}, skipped")
             continue
         res = {"pred_dir": os.path.relpath(args.pred_dir, REPO), **res}
+        if bench == "scanrefer":
+            res["unique_multiple_lookup"] = os.path.relpath(os.path.abspath(args.scanrefer_lookup), REPO)
         json.dump(res, open(out / "scores.json", "w"), indent=1)
         summary[bench] = res
         print(f"[{bench}]", json.dumps(res, indent=1))

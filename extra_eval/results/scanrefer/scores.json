@@ -2,9 +2,10 @@
  "pred_dir": "outputs/extra_eval_upstream_20261027_230803",
  "Acc@0.25": 60.7593605384939,
  "Acc@0.50": 55.00631047538914,
- "Unique Acc@0.25": 88.74360432063672,
- "Unique Acc@0.50": 82.4332006822058,
- "Multiple Acc@0.25": 54.4070202606788,
- "Multiple Acc@0.50": 48.78048780487805,
- "same_as_released": 99.49516196886832
+ "Unique Acc@0.25": 88.40108401084011,
+ "Unique Acc@0.50": 81.8970189701897,
+ "Multiple Acc@0.25": 54.10413676105964,
+ "Multiple Acc@0.50": 48.53190656400888,
+ "same_as_released": 99.49516196886832,
+ "unique_multiple_lookup": "deps/scanrefer_official/scanrefer_unique_multiple_lookup.json"
 }
